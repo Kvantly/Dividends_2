@@ -16,7 +16,7 @@ st.set_page_config(
 st.title("📈 Oslo Stock Exchange Dashboard")
 
 # Create tabs
-tab1, tab2 = st.tabs(["📋 Stock List", "📊 Historical Data"])
+tab1, tab2 = st.tabs(["📋 Stock List", "📊 Historical Data & Charts"])
 
 # Load stock list
 @st.cache_data
@@ -61,10 +61,14 @@ with tab1:
             st.success(f"📅 Last updated: {last_update}")
         
         # Sidebar filters
-        st.sidebar.header("🔍 Filters")
-        search_term = st.sidebar.text_input("Search by name or ticker", "")
+        st.sidebar.header("🔍 Stock List Filters")
+        
+        # Search box
+        search_term = st.sidebar.text_input("Search by name or ticker:", "")
+        
+        # Market filter
         markets = ['All'] + sorted(stock_list['market'].unique().tolist())
-        selected_market = st.sidebar.selectbox("Filter by market", markets)
+        selected_market = st.sidebar.selectbox("Filter by market:", markets)
         
         # Apply filters
         filtered_df = stock_list.copy()
@@ -135,8 +139,7 @@ with tab1:
 
 # TAB 2: Historical Data
 with tab2:
-    st.markdown("### Historical Stock Data")
-    st.markdown("10 years of historical price and volume data")
+    st.markdown("### Historical Stock Data & Charts")
     
     if historical_data is None:
         st.warning("📊 No historical data available yet.")
@@ -144,10 +147,12 @@ with tab2:
         **To fetch historical data:**
         1. Go to your GitHub repository
         2. Click on the "Actions" tab
-        3. Select "Fetch Historical Stock Data"
+        3. Select "Weekly Stock Data Update"
         4. Click "Run workflow"
-        5. Wait 5-10 minutes for completion
+        5. Wait 5-10 minutes for initial fetch
         6. Refresh this page
+        
+        After the first run, data updates automatically every Monday!
         """)
         
         # Check if summary exists
@@ -155,7 +160,7 @@ with tab2:
             try:
                 with open('historical_data_summary.json', 'r') as f:
                     summary = json.load(f)
-                st.success("✅ Historical data files found locally!")
+                st.success("✅ Historical data files found!")
                 st.json(summary)
             except:
                 pass
@@ -169,6 +174,7 @@ with tab2:
             except:
                 pass
         
+        # Display summary metrics
         if summary:
             col1, col2, col3, col4 = st.columns(4)
             with col1:
@@ -176,117 +182,205 @@ with tab2:
             with col2:
                 st.metric("Data Points", f"{summary.get('total_data_points', 0):,}")
             with col3:
-                st.metric("Start Date", summary.get('date_range', {}).get('start', 'N/A'))
+                st.metric("From", summary.get('date_range', {}).get('start', 'N/A'))
             with col4:
-                st.metric("End Date", summary.get('date_range', {}).get('end', 'N/A'))
+                st.metric("To", summary.get('date_range', {}).get('end', 'N/A'))
             
-            st.success(f"📅 Last fetched: {summary.get('fetch_date', 'Unknown')}")
+            st.success(f"📅 Last updated: {summary.get('fetch_date', 'Unknown')}")
         
         st.markdown("---")
         
-        # Stock selector
-        available_tickers = sorted(historical_data['Ticker'].unique())
+        # Prepare stock selection options
+        stock_options = historical_data[['Ticker', 'Name']].drop_duplicates().sort_values('Name')
         
-        col1, col2 = st.columns([2, 1])
+        # Create display format: "Stock Name (TICKER)"
+        stock_choices = [f"{row['Name']} ({row['Ticker']})" for _, row in stock_options.iterrows()]
+        stock_dict = {f"{row['Name']} ({row['Ticker']})": row['Ticker'] 
+                      for _, row in stock_options.iterrows()}
+        
+        # MAIN AREA: Stock selector with search
+        st.markdown("### 🔍 Select Stock")
+        
+        col1, col2 = st.columns([3, 1])
+        
         with col1:
-            selected_ticker = st.selectbox(
-                "Select a stock to view historical data",
-                available_tickers,
-                index=0 if available_tickers else None
+            # Searchable combobox for stock selection by name
+            selected_display = st.selectbox(
+                "Search or select a stock by name:",
+                options=stock_choices,
+                index=0,
+                help="Type to search, or scroll to browse all stocks"
             )
         
         with col2:
-            date_range = st.selectbox(
-                "Date range",
-                ["10 Years", "5 Years", "3 Years", "1 Year", "6 Months", "3 Months"],
-                index=2
-            )
+            # Quick jump to random stock (fun feature)
+            if st.button("🎲 Random Stock"):
+                import random
+                selected_display = random.choice(stock_choices)
+                st.rerun()
         
-        if selected_ticker:
-            # Filter data for selected stock
-            stock_data = historical_data[historical_data['Ticker'] == selected_ticker].copy()
-            stock_data = stock_data.sort_values('Date')
+        # Get the ticker from selection
+        selected_ticker = stock_dict[selected_display]
+        selected_name = selected_display.split(' (')[0]
+        
+        # SIDEBAR: Chart settings
+        st.sidebar.markdown("---")
+        st.sidebar.header("📊 Chart Settings")
+        
+        # Date range selector
+        date_range = st.sidebar.selectbox(
+            "Time Period:",
+            ["10 Years", "5 Years", "3 Years", "1 Year", "6 Months", "3 Months", "1 Month"],
+            index=2
+        )
+        
+        # Chart type selector
+        st.sidebar.markdown("### Chart Options")
+        show_volume = st.sidebar.checkbox("Show Volume Chart", value=True)
+        show_high_low = st.sidebar.checkbox("Show High/Low Lines", value=False)
+        
+        st.markdown("---")
+        
+        # Filter data for selected stock
+        stock_data = historical_data[historical_data['Ticker'] == selected_ticker].copy()
+        stock_data = stock_data.sort_values('Date')
+        
+        # Apply date range filter
+        end_date = stock_data['Date'].max()
+        if date_range == "1 Month":
+            start_date = end_date - pd.DateOffset(months=1)
+        elif date_range == "3 Months":
+            start_date = end_date - pd.DateOffset(months=3)
+        elif date_range == "6 Months":
+            start_date = end_date - pd.DateOffset(months=6)
+        elif date_range == "1 Year":
+            start_date = end_date - pd.DateOffset(years=1)
+        elif date_range == "3 Years":
+            start_date = end_date - pd.DateOffset(years=3)
+        elif date_range == "5 Years":
+            start_date = end_date - pd.DateOffset(years=5)
+        else:  # 10 Years
+            start_date = stock_data['Date'].min()
+        
+        stock_data = stock_data[stock_data['Date'] >= start_date]
+        
+        # Display stock header
+        st.subheader(f"📈 {selected_name} ({selected_ticker})")
+        
+        # Summary statistics
+        if len(stock_data) > 0:
+            col1, col2, col3, col4, col5, col6 = st.columns(6)
             
-            # Apply date range filter
-            end_date = stock_data['Date'].max()
-            if date_range == "6 Months":
-                start_date = end_date - pd.DateOffset(months=6)
-            elif date_range == "3 Months":
-                start_date = end_date - pd.DateOffset(months=3)
-            elif date_range == "1 Year":
-                start_date = end_date - pd.DateOffset(years=1)
-            elif date_range == "3 Years":
-                start_date = end_date - pd.DateOffset(years=3)
-            elif date_range == "5 Years":
-                start_date = end_date - pd.DateOffset(years=5)
-            else:  # 10 Years
-                start_date = stock_data['Date'].min()
+            latest_close = stock_data['Close'].iloc[-1]
+            earliest_close = stock_data['Close'].iloc[0]
+            total_return = ((latest_close - earliest_close) / earliest_close) * 100
             
-            stock_data = stock_data[stock_data['Date'] >= start_date]
+            with col1:
+                st.metric("Latest Price", f"{latest_close:.2f} NOK")
+            with col2:
+                st.metric("Period Return", f"{total_return:+.2f}%", 
+                         delta=f"{total_return:+.2f}%")
+            with col3:
+                st.metric("High", f"{stock_data['High'].max():.2f} NOK")
+            with col4:
+                st.metric("Low", f"{stock_data['Low'].min():.2f} NOK")
+            with col5:
+                avg_volume = stock_data['Volume'].mean()
+                st.metric("Avg Volume", f"{avg_volume:,.0f}")
+            with col6:
+                st.metric("Trading Days", len(stock_data))
             
-            # Display stock info
-            stock_name = stock_data['Name'].iloc[0] if len(stock_data) > 0 else "Unknown"
-            st.subheader(f"{stock_name} ({selected_ticker})")
+            st.markdown("---")
             
-            # Summary statistics
-            if len(stock_data) > 0:
-                col1, col2, col3, col4, col5 = st.columns(5)
-                
-                latest_close = stock_data['Close'].iloc[-1]
-                earliest_close = stock_data['Close'].iloc[0]
-                total_return = ((latest_close - earliest_close) / earliest_close) * 100
-                
-                with col1:
-                    st.metric("Current Price", f"{latest_close:.2f} NOK")
-                with col2:
-                    st.metric("Period Return", f"{total_return:+.2f}%")
-                with col3:
-                    st.metric("High", f"{stock_data['High'].max():.2f} NOK")
-                with col4:
-                    st.metric("Low", f"{stock_data['Low'].min():.2f} NOK")
-                with col5:
-                    avg_volume = stock_data['Volume'].mean()
-                    st.metric("Avg Volume", f"{avg_volume:,.0f}")
-                
-                st.markdown("---")
-                
-                # Price chart
-                st.markdown("#### 📈 Price Chart")
+            # Price chart
+            st.markdown("#### 💹 Price Chart")
+            
+            # Prepare chart data
+            if show_high_low:
                 chart_data = stock_data.set_index('Date')[['Close', 'High', 'Low']]
-                st.line_chart(chart_data, height=400)
-                
-                # Volume chart
+            else:
+                chart_data = stock_data.set_index('Date')[['Close']]
+            
+            st.line_chart(chart_data, height=400)
+            
+            # Volume chart
+            if show_volume:
                 st.markdown("#### 📊 Volume Chart")
                 volume_data = stock_data.set_index('Date')[['Volume']]
                 st.bar_chart(volume_data, height=200)
-                
-                # Data table
-                st.markdown("#### 📋 Raw Data")
-                st.dataframe(
-                    stock_data[['Date', 'Open', 'High', 'Low', 'Close', 'Volume']],
-                    hide_index=True,
-                    use_container_width=True,
-                    height=300
-                )
-                
-                # Download individual stock data
-                st.markdown("---")
-                csv = stock_data.to_csv(index=False).encode('utf-8')
-                st.download_button(
-                    label=f"📥 Download {selected_ticker} Historical Data (CSV)",
-                    data=csv,
-                    file_name=f'{selected_ticker}_historical_{datetime.now().strftime("%Y%m%d")}.csv',
-                    mime='text/csv',
-                )
+            
+            # Statistics table
+            st.markdown("#### 📋 Statistics")
+            
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("**Price Statistics**")
+                price_stats = pd.DataFrame({
+                    'Metric': ['Current', 'Mean', 'Median', 'Std Dev', 'Min', 'Max'],
+                    'Value': [
+                        f"{latest_close:.2f} NOK",
+                        f"{stock_data['Close'].mean():.2f} NOK",
+                        f"{stock_data['Close'].median():.2f} NOK",
+                        f"{stock_data['Close'].std():.2f} NOK",
+                        f"{stock_data['Close'].min():.2f} NOK",
+                        f"{stock_data['Close'].max():.2f} NOK"
+                    ]
+                })
+                st.dataframe(price_stats, hide_index=True, use_container_width=True)
+            
+            with col2:
+                st.markdown("**Volume Statistics**")
+                volume_stats = pd.DataFrame({
+                    'Metric': ['Today', 'Mean', 'Median', 'Min', 'Max'],
+                    'Value': [
+                        f"{stock_data['Volume'].iloc[-1]:,.0f}",
+                        f"{stock_data['Volume'].mean():,.0f}",
+                        f"{stock_data['Volume'].median():,.0f}",
+                        f"{stock_data['Volume'].min():,.0f}",
+                        f"{stock_data['Volume'].max():,.0f}"
+                    ]
+                })
+                st.dataframe(volume_stats, hide_index=True, use_container_width=True)
+            
+            # Raw data table
+            st.markdown("---")
+            st.markdown("#### 📋 Raw Data")
+            
+            # Show last 100 rows by default
+            show_all = st.checkbox("Show all data", value=False)
+            
+            if show_all:
+                display_data = stock_data[['Date', 'Open', 'High', 'Low', 'Close', 'Volume']]
             else:
-                st.warning("No data available for selected date range")
+                display_data = stock_data[['Date', 'Open', 'High', 'Low', 'Close', 'Volume']].tail(100)
+                st.caption(f"Showing last 100 rows of {len(stock_data)} total rows")
+            
+            st.dataframe(
+                display_data,
+                hide_index=True,
+                use_container_width=True,
+                height=300
+            )
+            
+            # Download button
+            st.markdown("---")
+            csv = stock_data.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label=f"📥 Download {selected_ticker} Historical Data (CSV)",
+                data=csv,
+                file_name=f'{selected_ticker}_historical_{datetime.now().strftime("%Y%m%d")}.csv',
+                mime='text/csv',
+            )
+        else:
+            st.warning("No data available for selected date range")
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: gray;'>
-    <p>Data sourced from <a href='https://live.euronext.com/nb/markets/oslo/equities/list' target='_blank'>Euronext Oslo</a> 
+    <p>Data from <a href='https://live.euronext.com/nb/markets/oslo/equities/list' target='_blank'>Euronext Oslo</a> 
     and <a href='https://finance.yahoo.com' target='_blank'>Yahoo Finance</a></p>
-    <p>Stock list updates monthly • Historical data updates on demand</p>
+    <p>Stock list updates monthly • Historical data updates weekly</p>
 </div>
 """, unsafe_allow_html=True)
