@@ -11,6 +11,10 @@ from selenium.webdriver.support import expected_conditions as EC
 def scrape_euronext_oslo():
     """Scrape stock names and tickers from Euronext Oslo"""
     
+    print("="*60)
+    print("Starting Euronext Oslo Stock Scraper")
+    print("="*60)
+    
     # Set up Chrome options for headless browsing
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -18,91 +22,192 @@ def scrape_euronext_oslo():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--window-size=1920,1080')
+    chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+    chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
     
     # Initialize the driver
     driver = webdriver.Chrome(options=chrome_options)
     
     try:
-        print("Loading page...")
-        driver.get('https://live.euronext.com/nb/markets/oslo/equities/list')
+        url = 'https://live.euronext.com/nb/markets/oslo/equities/list'
+        print(f"\n📡 Loading page: {url}")
+        driver.get(url)
         
-        # Wait for the table to load (adjust selector as needed)
-        wait = WebDriverWait(driver, 20)
+        # Wait for page to load
+        print("⏳ Waiting for page to load...")
+        wait = WebDriverWait(driver, 30)
         
-        # Wait for the table body to be present
-        wait.until(EC.presence_of_element_located((By.TAG_NAME, 'tbody')))
+        # Wait for body to be present
+        wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
         
-        # Give extra time for dynamic content to load
-        time.sleep(5)
+        # Give extra time for JavaScript to execute
+        time.sleep(8)
         
-        # Try to find all rows in the table
-        rows = driver.find_elements(By.CSS_SELECTOR, 'table tbody tr')
+        print("📄 Page loaded, searching for table...")
+        
+        # Try to find the table - try multiple selectors
+        table = None
+        selectors = [
+            'table',
+            'table.table',
+            'div.table-responsive table',
+            'div[role="table"]'
+        ]
+        
+        for selector in selectors:
+            try:
+                tables = driver.find_elements(By.CSS_SELECTOR, selector)
+                if tables:
+                    print(f"✅ Found {len(tables)} table(s) using selector: {selector}")
+                    table = tables[0]
+                    break
+            except:
+                continue
+        
+        if not table:
+            print("❌ ERROR: Could not find any table on the page")
+            print("\n🔍 Debugging info:")
+            print(f"Page title: {driver.title}")
+            print(f"Current URL: {driver.current_url}")
+            print(f"Page source length: {len(driver.page_source)} characters")
+            
+            # Save screenshot for debugging
+            try:
+                driver.save_screenshot('debug_screenshot.png')
+                print("📸 Screenshot saved as debug_screenshot.png")
+            except:
+                pass
+            
+            return []
+        
+        # Try to find table rows
+        print("🔍 Searching for table rows...")
+        rows = table.find_elements(By.TAG_NAME, 'tr')
+        print(f"📊 Found {len(rows)} total rows (including header)")
+        
+        if len(rows) <= 1:
+            print("❌ ERROR: No data rows found (only header or empty table)")
+            return []
         
         stocks = []
+        skipped = 0
         
-        print(f"Found {len(rows)} rows")
-        
-        for row in rows:
+        print("\n🔄 Processing rows...")
+        for i, row in enumerate(rows[1:], 1):  # Skip header row
             try:
                 cells = row.find_elements(By.TAG_NAME, 'td')
-                if len(cells) >= 3:  # Make sure we have enough columns
-                    # Typically: Name, ISIN, Ticker, Market, Last, %, Date/Time
-                    name = cells[0].text.strip()
-                    isin = cells[1].text.strip()
-                    ticker = cells[2].text.strip()
-                    market = cells[3].text.strip() if len(cells) > 3 else ''
+                
+                if len(cells) < 3:
+                    skipped += 1
+                    continue
+                
+                # Extract data from cells
+                name = cells[0].text.strip()
+                isin = cells[1].text.strip()
+                ticker = cells[2].text.strip()
+                market = cells[3].text.strip() if len(cells) > 3 else ''
+                
+                # Only add if we have name and ticker
+                if name and ticker:
+                    stock = {
+                        'name': name,
+                        'ticker': ticker,
+                        'isin': isin,
+                        'market': market,
+                        'scraped_date': datetime.now().strftime('%Y-%m-%d')
+                    }
+                    stocks.append(stock)
                     
-                    if name and ticker:  # Only add if we have both name and ticker
-                        stocks.append({
-                            'name': name,
-                            'ticker': ticker,
-                            'isin': isin,
-                            'market': market,
-                            'scraped_date': datetime.now().strftime('%Y-%m-%d')
-                        })
+                    # Print first few entries for verification
+                    if i <= 5:
+                        print(f"  ✓ Row {i}: {name} ({ticker})")
+                else:
+                    skipped += 1
+                    
             except Exception as e:
-                print(f"Error processing row: {e}")
+                print(f"  ⚠️  Error processing row {i}: {e}")
+                skipped += 1
                 continue
+        
+        print(f"\n📈 Summary:")
+        print(f"  • Successfully scraped: {len(stocks)} stocks")
+        print(f"  • Skipped rows: {skipped}")
         
         return stocks
         
+    except Exception as e:
+        print(f"\n❌ CRITICAL ERROR: {e}")
+        import traceback
+        print(traceback.format_exc())
+        return []
+        
     finally:
+        print("\n🔒 Closing browser...")
         driver.quit()
 
 def save_to_json(stocks, filename='oslo_stocks.json'):
     """Save stocks to JSON file"""
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(stocks, f, indent=2, ensure_ascii=False)
-    print(f"Saved {len(stocks)} stocks to {filename}")
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(stocks, f, indent=2, ensure_ascii=False)
+        print(f"✅ Saved {len(stocks)} stocks to {filename}")
+        return True
+    except Exception as e:
+        print(f"❌ Error saving JSON: {e}")
+        return False
 
 def save_to_csv(stocks, filename='oslo_stocks.csv'):
     """Save stocks to CSV file"""
     if not stocks:
-        print("No stocks to save")
-        return
+        print("⚠️  No stocks to save to CSV")
+        return False
     
-    with open(filename, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = ['name', 'ticker', 'isin', 'market', 'scraped_date']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(stocks)
-    print(f"Saved {len(stocks)} stocks to {filename}")
+    try:
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['name', 'ticker', 'isin', 'market', 'scraped_date']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(stocks)
+        print(f"✅ Saved {len(stocks)} stocks to {filename}")
+        return True
+    except Exception as e:
+        print(f"❌ Error saving CSV: {e}")
+        return False
 
 if __name__ == '__main__':
-    print("Starting Euronext Oslo stock scraper...")
+    print("\n" + "="*60)
+    print("EURONEXT OSLO STOCK SCRAPER")
+    print("="*60 + "\n")
     
     stocks = scrape_euronext_oslo()
     
+    print("\n" + "="*60)
     if stocks:
-        print(f"\nSuccessfully scraped {len(stocks)} stocks!")
+        print(f"✅ SUCCESS: Scraped {len(stocks)} stocks!")
+        print("="*60)
         
         # Save in both formats
-        save_to_json(stocks)
-        save_to_csv(stocks)
+        json_success = save_to_json(stocks)
+        csv_success = save_to_csv(stocks)
         
-        # Print first few entries as sample
-        print("\nSample of scraped data:")
-        for stock in stocks[:5]:
-            print(f"  {stock['name']} ({stock['ticker']})")
+        if json_success and csv_success:
+            print("\n🎉 All files created successfully!")
+            print("\n📋 Sample of scraped data (first 5 stocks):")
+            for stock in stocks[:5]:
+                print(f"  • {stock['name']} ({stock['ticker']}) - {stock['market']}")
+        else:
+            print("\n⚠️  Some files could not be saved")
+            exit(1)
     else:
-        print("No stocks were scraped. Please check the page structure.")
+        print("❌ FAILURE: No stocks were scraped")
+        print("="*60)
+        print("\n💡 Possible issues:")
+        print("  • Website structure may have changed")
+        print("  • Page took too long to load")
+        print("  • JavaScript content didn't render")
+        print("  • Connection issues")
+        exit(1)
+    
+    print("\n" + "="*60)
+    print("Scraping completed")
+    print("="*60 + "\n")
