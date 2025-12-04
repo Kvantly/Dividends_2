@@ -40,18 +40,18 @@ def scrape_euronext_oslo():
         # Wait for body to be present
         wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
         
-        # Give extra time for JavaScript to execute
-        time.sleep(8)
+        # Give extra time for JavaScript to execute and load data
+        print("⏳ Waiting for JavaScript to load data...")
+        time.sleep(10)
         
         print("📄 Page loaded, searching for table...")
         
-        # Try to find the table - try multiple selectors
+        # Try to find the table
         table = None
         selectors = [
             'table',
             'table.table',
             'div.table-responsive table',
-            'div[role="table"]'
         ]
         
         for selector in selectors:
@@ -66,46 +66,81 @@ def scrape_euronext_oslo():
         
         if not table:
             print("❌ ERROR: Could not find any table on the page")
-            print("\n🔍 Debugging info:")
-            print(f"Page title: {driver.title}")
-            print(f"Current URL: {driver.current_url}")
-            print(f"Page source length: {len(driver.page_source)} characters")
-            
-            # Save screenshot for debugging
-            try:
-                driver.save_screenshot('debug_screenshot.png')
-                print("📸 Screenshot saved as debug_screenshot.png")
-            except:
-                pass
-            
             return []
         
-        # Try to find table rows
+        # Find all rows
         print("🔍 Searching for table rows...")
         rows = table.find_elements(By.TAG_NAME, 'tr')
         print(f"📊 Found {len(rows)} total rows (including header)")
         
         if len(rows) <= 1:
-            print("❌ ERROR: No data rows found (only header or empty table)")
+            print("❌ ERROR: No data rows found")
             return []
         
         stocks = []
         skipped = 0
         
         print("\n🔄 Processing rows...")
-        for i, row in enumerate(rows[1:], 1):  # Skip header row
+        
+        # Process each row (skip header)
+        for i, row in enumerate(rows[1:], 1):
             try:
+                # Get all cells in the row
                 cells = row.find_elements(By.TAG_NAME, 'td')
                 
                 if len(cells) < 3:
                     skipped += 1
                     continue
                 
+                # Try multiple methods to extract text from cells
+                def get_cell_text(cell):
+                    """Get text from a cell, trying multiple methods"""
+                    # Method 1: Direct text
+                    text = cell.text.strip()
+                    if text:
+                        return text
+                    
+                    # Method 2: Look for links (stock names are often links)
+                    try:
+                        link = cell.find_element(By.TAG_NAME, 'a')
+                        text = link.text.strip()
+                        if text:
+                            return text
+                    except:
+                        pass
+                    
+                    # Method 3: Look for spans
+                    try:
+                        span = cell.find_element(By.TAG_NAME, 'span')
+                        text = span.text.strip()
+                        if text:
+                            return text
+                    except:
+                        pass
+                    
+                    # Method 4: Get all text content
+                    try:
+                        text = cell.get_attribute('textContent').strip()
+                        if text:
+                            return text
+                    except:
+                        pass
+                    
+                    return ""
+                
                 # Extract data from cells
-                name = cells[0].text.strip()
-                isin = cells[1].text.strip()
-                ticker = cells[2].text.strip()
-                market = cells[3].text.strip() if len(cells) > 3 else ''
+                name = get_cell_text(cells[0])
+                isin = get_cell_text(cells[1])
+                ticker = get_cell_text(cells[2])
+                market = get_cell_text(cells[3]) if len(cells) > 3 else ''
+                
+                # Debug: Print first few rows to see what we're getting
+                if i <= 3:
+                    print(f"  🔍 Row {i} debug:")
+                    print(f"     Name: '{name}'")
+                    print(f"     ISIN: '{isin}'")
+                    print(f"     Ticker: '{ticker}'")
+                    print(f"     Market: '{market}'")
                 
                 # Only add if we have name and ticker
                 if name and ticker:
@@ -118,14 +153,16 @@ def scrape_euronext_oslo():
                     }
                     stocks.append(stock)
                     
-                    # Print first few entries for verification
                     if i <= 5:
                         print(f"  ✓ Row {i}: {name} ({ticker})")
                 else:
+                    if i <= 3:
+                        print(f"  ⚠️  Row {i}: Skipped (name='{name}', ticker='{ticker}')")
                     skipped += 1
                     
             except Exception as e:
-                print(f"  ⚠️  Error processing row {i}: {e}")
+                if i <= 3:
+                    print(f"  ⚠️  Error processing row {i}: {e}")
                 skipped += 1
                 continue
         
@@ -192,8 +229,8 @@ if __name__ == '__main__':
         
         if json_success and csv_success:
             print("\n🎉 All files created successfully!")
-            print("\n📋 Sample of scraped data (first 5 stocks):")
-            for stock in stocks[:5]:
+            print("\n📋 Sample of scraped data (first 10 stocks):")
+            for stock in stocks[:10]:
                 print(f"  • {stock['name']} ({stock['ticker']}) - {stock['market']}")
         else:
             print("\n⚠️  Some files could not be saved")
@@ -203,9 +240,9 @@ if __name__ == '__main__':
         print("="*60)
         print("\n💡 Possible issues:")
         print("  • Website structure may have changed")
-        print("  • Page took too long to load")
-        print("  • JavaScript content didn't render")
-        print("  • Connection issues")
+        print("  • Data is loaded via AJAX after initial page load")
+        print("  • JavaScript content didn't render properly")
+        print("  • Table uses a non-standard structure")
         exit(1)
     
     print("\n" + "="*60)
