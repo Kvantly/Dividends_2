@@ -1,0 +1,702 @@
+[
+  {
+    "name": "2020 BULKERS",
+    "ticker": "2020",
+    "isin": "BMG9156K1018",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "5TH PLANET GAMES",
+    "ticker": "5PG",
+    "isin": "DK0060945467",
+    "market": "XOAS",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AASEN SPAREBANK",
+    "ticker": "AASB",
+    "isin": "NO0010672181",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ABG SUNDAL COLLIER",
+    "ticker": "ABG",
+    "isin": "NO0003021909",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ABL GROUP",
+    "ticker": "ABL",
+    "isin": "NO0010715394",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ACE DIGITAL",
+    "ticker": "ACED",
+    "isin": "NO0013531616",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ADS MARITIME HOLD",
+    "ticker": "ADS",
+    "isin": "CY0108052115",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AF GRUPPEN",
+    "ticker": "AFG",
+    "isin": "NO0003078107",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AGILYX",
+    "ticker": "AGLX",
+    "isin": "NO0010872468",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AIRTHINGS",
+    "ticker": "AIRX",
+    "isin": "NO0010895568",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKASTOR",
+    "ticker": "AKAST",
+    "isin": "NO0010215684",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKER",
+    "ticker": "AKER",
+    "isin": "NO0010234552",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKER BIOMARINE",
+    "ticker": "AKBM",
+    "isin": "NO0010886625",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKER BP",
+    "ticker": "AKRBP",
+    "isin": "NO0010345853",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKER HORIZONS",
+    "ticker": "AKH",
+    "isin": "NO0010921232",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKER SOLUTIONS",
+    "ticker": "AKSO",
+    "isin": "NO0010716582",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKOBO MINERALS",
+    "ticker": "AKOBO",
+    "isin": "SE0015193412",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AKVA GROUP",
+    "ticker": "AKVA",
+    "isin": "NO0003097503",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ANDFJORD SALMON GR",
+    "ticker": "ANDF",
+    "isin": "NO0010829765",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "APPEAR",
+    "ticker": "APR",
+    "isin": "NO0013683821",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AQUA BIO TECHNO",
+    "ticker": "ABTEC",
+    "isin": "NO0010307135",
+    "market": "XOAS",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARCHER",
+    "ticker": "ARCH",
+    "isin": "BMG0451H2087",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARCTIC BIOSCIENCE",
+    "ticker": "ABS",
+    "isin": "NO0010859580",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARCTIC FISH HOLDIN",
+    "ticker": "AFISH",
+    "isin": "NO0010917719",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARCTICZYMES TECHNO",
+    "ticker": "AZT",
+    "isin": "NO0010014632",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARENDALS FOSSEKOMP",
+    "ticker": "AFK",
+    "isin": "NO0003572802",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ARRIBATEC GROUP",
+    "ticker": "ARR",
+    "isin": "NO0013682948",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ATEA",
+    "ticker": "ATEA",
+    "isin": "NO0004822503",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ATLANTIC SAPPHI TR",
+    "ticker": "ASAS",
+    "isin": "NO0013340802",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ATLANTIC SAPPHIRE",
+    "ticker": "ASA",
+    "isin": "NO0013464750",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AURSKOG SPAREBANK",
+    "ticker": "AURG",
+    "isin": "NO0006001601",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AUSTEVOLL SEAFOOD",
+    "ticker": "AUSS",
+    "isin": "NO0010073489",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AUTOSTORE HOLDINGS",
+    "ticker": "AUTO",
+    "isin": "BMG0670A1099",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AWILCO LNG",
+    "ticker": "ALNG",
+    "isin": "NO0010607971",
+    "market": "XOAS",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AXACTOR",
+    "ticker": "ACR",
+    "isin": "NO0010840515",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "AYFIE INTERNATIONA",
+    "ticker": "AIX",
+    "isin": "NO0012861683",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "B2 Impact",
+    "ticker": "B2I",
+    "isin": "NO0010633951",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BAKKAFROST",
+    "ticker": "BAKKA",
+    "isin": "FO0000000179",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BALTIC SEA PROP",
+    "ticker": "BALT",
+    "isin": "NO0010810476",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BARRAMUNDI GROUP",
+    "ticker": "BARRA",
+    "isin": "SGXZ33675836",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BERGEN CARBON SOL",
+    "ticker": "BCS",
+    "isin": "NO0010950249",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BEWI",
+    "ticker": "BEWI",
+    "isin": "NO0010890965",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BIEN SPAREBANK",
+    "ticker": "BIEN",
+    "isin": "NO0012706763",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BLACK SEA PROPERTY",
+    "ticker": "BSP",
+    "isin": "NO0013685750",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BLUENORD",
+    "ticker": "BNOR",
+    "isin": "NO0010379266",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BONHEUR",
+    "ticker": "BONHR",
+    "isin": "NO0003110603",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BORGESTAD",
+    "ticker": "BOR",
+    "isin": "NO0013256180",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BORREGAARD",
+    "ticker": "BRG",
+    "isin": "NO0010657505",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BOUVET",
+    "ticker": "BOUV",
+    "isin": "NO0010360266",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BRUTON",
+    "ticker": "BRUT",
+    "isin": "NO0013036814",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BW ENERGY LIMITED",
+    "ticker": "BWE",
+    "isin": "BMG0702P1086",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BW LPG",
+    "ticker": "BWLPG",
+    "isin": "SGXZ69436764",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BW OFFSHORE LTD",
+    "ticker": "BWO",
+    "isin": "BMG1738J1247",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "BYGGMA",
+    "ticker": "BMA",
+    "isin": "NO0003087603",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CADELER",
+    "ticker": "CADLR",
+    "isin": "DK0061412772",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CAMBI",
+    "ticker": "CAMBI",
+    "isin": "NO0010078850",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CAPSOL TECHNOLOGI",
+    "ticker": "CAPSL",
+    "isin": "NO0010923121",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CAVENDISH HYDROGEN",
+    "ticker": "CAVEN",
+    "isin": "NO0013219535",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CIRCIO HOLDING",
+    "ticker": "CRNA",
+    "isin": "NO0013033795",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CLOUDBERRY CLEAN",
+    "ticker": "CLOUD",
+    "isin": "NO0010876642",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CMB.TECH",
+    "ticker": "CMBTO",
+    "isin": "BE0003816338",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CODELAB CAPITAL",
+    "ticker": "CODE",
+    "isin": "NO0013483503",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CONSTELLATION OIL",
+    "ticker": "COSH",
+    "isin": "NO0013597419",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CONTEXTVISION",
+    "ticker": "CONTX",
+    "isin": "SE0014731154",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "COOL COMPANY",
+    "ticker": "CLCO",
+    "isin": "BMG2415A1137",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "CYVIZ",
+    "ticker": "CYVIZ",
+    "isin": "NO0010015175",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DEEP VALUE DRILLER",
+    "ticker": "DVD",
+    "isin": "NO0010955917",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DELLIA GROUP",
+    "ticker": "DELIA",
+    "isin": "NO0012697095",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DESERT CONTROL",
+    "ticker": "DSRT",
+    "isin": "NO0010963275",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DNB BANK",
+    "ticker": "DNB",
+    "isin": "NO0010161896",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DNO",
+    "ticker": "DNO",
+    "isin": "NO0003921009",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DOF GROUP",
+    "ticker": "DOFG",
+    "isin": "NO0012851874",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "DOLPHIN DRILLING",
+    "ticker": "DDRIL",
+    "isin": "NO0012595950",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EAM SOLAR",
+    "ticker": "EAM",
+    "isin": "NO0013601245",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EIDESVIK OFFSHORE",
+    "ticker": "EIOF",
+    "isin": "NO0010263023",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELECTROMAGNET GEO",
+    "ticker": "EMGS",
+    "isin": "NO0010358484",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELEKTROIMPORTØREN",
+    "ticker": "ELIMP",
+    "isin": "NO0010911902",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELKEM",
+    "ticker": "ELK",
+    "isin": "NO0010816093",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELLIPTIC LABORATOR",
+    "ticker": "ELABS",
+    "isin": "NO0010722283",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELMERA GROUP",
+    "ticker": "ELMRA",
+    "isin": "NO0010815673",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ELOPAK",
+    "ticker": "ELO",
+    "isin": "NO0011002586",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ENDÚR",
+    "ticker": "ENDUR",
+    "isin": "NO0012555459",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ENERGEIA",
+    "ticker": "ENERG",
+    "isin": "NO0013698431",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ENSURGE MICROPOWER",
+    "ticker": "ENSU",
+    "isin": "NO0013186460",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ENTRA",
+    "ticker": "ENTRA",
+    "isin": "NO0010716418",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "ENVIPCO HOLDING",
+    "ticker": "ENVIP",
+    "isin": "NL0015000GX8",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EQUINOR",
+    "ticker": "EQNR",
+    "isin": "NO0010096985",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EQVA",
+    "ticker": "EQVA",
+    "isin": "NO0010708605",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EUROPRIS",
+    "ticker": "EPR",
+    "isin": "NO0010735343",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "EXACT THERAPEUTICS",
+    "ticker": "EXTX",
+    "isin": "NO0010852213",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "FJORD DEFENCE GR",
+    "ticker": "DFENS",
+    "isin": "NO0013647693",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "FLEKKEFJORD SPAREB",
+    "ticker": "FFSB",
+    "isin": "NO0013209858",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "FRONTLINE",
+    "ticker": "FRO",
+    "isin": "CY0200352116",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GENTIAN DIAGNOSTIC",
+    "ticker": "GENT",
+    "isin": "NO0010748866",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GIGANTE SALMON",
+    "ticker": "GIGA",
+    "isin": "NO0011013765",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GJENSIDIGE FORSIKR",
+    "ticker": "GJF",
+    "isin": "NO0010582521",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GOLDEN ENERGY OFF",
+    "ticker": "GEOS",
+    "isin": "NO0013228585",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GOODTECH",
+    "ticker": "GOD",
+    "isin": "NO0004913609",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GREEN MINERALS",
+    "ticker": "GEM",
+    "isin": "NO0010907744",
+    "market": "MERK",
+    "scraped_date": "2025-12-04"
+  },
+  {
+    "name": "GRIEG SEAFOOD",
+    "ticker": "GSF",
+    "isin": "NO0010365521",
+    "market": "XOSL",
+    "scraped_date": "2025-12-04"
+  }
+]
