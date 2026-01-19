@@ -1,12 +1,12 @@
 {
   "mode": "INCREMENTAL UPDATE",
-  "fetch_date": "2026-01-12 03:47:09",
+  "fetch_date": "2026-01-19 03:48:35",
   "total_stocks": 281,
   "successful": 281,
   "failed": 0,
-  "total_data_points": 487381,
+  "total_data_points": 488770,
   "date_range": {
     "start": "2015-12-04",
-    "end": "2026-01-09"
+    "end": "2026-01-16"
   }
 }
