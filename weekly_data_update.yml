@@ -103,6 +103,14 @@ jobs:
           cat historical_data_summary.json
         fi
     
+    - name: Sync CSV into dashboard folder
+      if: steps.verify.outputs.data_ok == 'true'
+      run: |
+        mkdir -p dividends-app/public
+        cp all_stocks_historical_data.csv dividends-app/public/all_stocks_historical_data.csv
+        cp oslo_stocks.json dividends-app/public/oslo_stocks.json
+        echo "✅ Copied CSV and stock list into dividends-app/public/"
+    
     - name: Commit and push data
       if: steps.verify.outputs.data_ok == 'true'
       run: |
@@ -113,6 +121,8 @@ jobs:
         git add all_stocks_historical_data.csv
         git add historical_data_summary.json
         git add stock_data/*.csv
+        git add dividends-app/public/all_stocks_historical_data.csv
+        git add dividends-app/public/oslo_stocks.json
         
         # Check if there are changes
         if git diff --staged --quiet; then
