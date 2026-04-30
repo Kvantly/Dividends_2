@@ -27,7 +27,7 @@ def check_existing_data():
     if os.path.exists('all_stocks_historical_data.csv'):
         print("\n📁 Existing historical data found!")
         df = pd.read_csv('all_stocks_historical_data.csv')
-        df['Date'] = pd.to_datetime(df['Date'] utc=True)
+        df['Date'] = pd.to_datetime(df['Date'], utc=True)
         
         latest_date = df['Date'].max()
         earliest_date = df['Date'].min()
