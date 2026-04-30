@@ -124,54 +124,6 @@ jobs:
         git add all_stocks_historical_data.csv
         git add historical_data_summary.json
         git add stock_data/*.csv
-        git add dividends-app/public/all_stocks_historical_data.csv
         git add dividends-app/public/oslo_stocks.json
-        
-        # Check if there are changes
-        if git diff --staged --quiet; then
-          echo "ℹ️  No changes to commit (data is already up to date)"
-        else
-          # Create commit message based on mode
-          if [ "${{ steps.check_mode.outputs.mode }}" = "full" ]; then
-            COMMIT_MSG="Initial historical data fetch (10 years) - $(date +'%Y-%m-%d')"
-          else
-            COMMIT_MSG="Weekly data update - $(date +'%Y-%m-%d')"
-          fi
-          
-          git commit -m "$COMMIT_MSG"
-          git push
-          echo "✅ Data committed and pushed to repository"
-        fi
-    
-    - name: Create summary comment
-      if: always()
-      run: |
-        echo "## Weekly Stock Data Update - $(date +'%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        
-        if [ -f "historical_data_summary.json" ]; then
-          MODE=$(cat historical_data_summary.json | grep -o '"mode": "[^"]*' | cut -d'"' -f4)
-          SUCCESSFUL=$(cat historical_data_summary.json | grep -o '"successful": [0-9]*' | grep -o '[0-9]*')
-          FAILED=$(cat historical_data_summary.json | grep -o '"failed": [0-9]*' | grep -o '[0-9]*')
-          TOTAL_POINTS=$(cat historical_data_summary.json | grep -o '"total_data_points": [0-9]*' | grep -o '[0-9]*')
-          
-          echo "- **Mode**: $MODE" >> $GITHUB_STEP_SUMMARY
-          echo "- **Stocks Updated**: $SUCCESSFUL" >> $GITHUB_STEP_SUMMARY
-          echo "- **Failed**: $FAILED" >> $GITHUB_STEP_SUMMARY
-          echo "- **Total Data Points**: $TOTAL_POINTS" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Data successfully updated!" >> $GITHUB_STEP_SUMMARY
-        else
-          echo "❌ Update failed - check logs above" >> $GITHUB_STEP_SUMMARY
-        fi
-    
-    - name: Upload logs as artifact (on failure)
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: error-logs-${{ github.run_number }}
-        path: |
-          *.log
-          historical_data_summary.json
-        retention-days: 7
-        if-no-files-found: ignore
+        git add -A dividends-app/public/data
+        # Make sure th
