@@ -1,0 +1,100 @@
+name: Weekly Stock Data Update
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install yfinance pandas
+
+    - name: Check for stock list
+      run: |
+        if [ ! -f "oslo_stocks.json" ]; then
+          echo "Error: oslo_stocks.json not found!"
+          exit 1
+        fi
+        echo "Stock list found"
+
+    - name: Check if first run or update
+      id: check_mode
+      run: |
+        if [ -f "all_stocks_historical_data.csv" ]; then
+          echo "mode=update" >> $GITHUB_OUTPUT
+          echo "Existing data found"
+        else
+          echo "mode=full" >> $GITHUB_OUTPUT
+          echo "No existing data - full fetch"
+        fi
+
+    - name: Fetch/Update historical stock data
+      run: |
+        echo "Starting data fetch..."
+        python fetch_historical_data_weekly.py
+
+    - name: Verify data quality
+      id: verify
+      run: |
+        if [ ! -f "all_stocks_historical_data.csv" ]; then
+          echo "Data file not created"
+          echo "data_ok=false" >> $GITHUB_OUTPUT
+          exit 1
+        fi
+        ROWS=$(wc -l < all_stocks_historical_data.csv)
+        echo "Rows: $ROWS"
+        if [ $ROWS -lt 100 ]; then
+          echo "Too few rows"
+          echo "data_ok=false" >> $GITHUB_OUTPUT
+          exit 1
+        fi
+        echo "data_ok=true" >> $GITHUB_OUTPUT
+
+    - name: Split CSV into per-stock JSON files
+      if: steps.verify.outputs.data_ok == 'true'
+      run: |
+        mkdir -p dividends-app/public
+        cp oslo_stocks.json dividends-app/public/oslo_stocks.json
+        python split_data_for_dashboard.py
+        rm -f dividends-app/public/all_stocks_historical_data.csv
+        echo ""
+        echo "Verifying output:"
+        ls dividends-app/public/data/ | head -5
+        echo "..."
+        echo "Total JSON files: $(ls dividends-app/public/data/ | wc -l)"
+
+    - name: Commit and push everything
+      if: steps.verify.outputs.data_ok == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        echo ""
+        echo "Files staged for commit:"
+        git status --short | head -20
+        echo "..."
+        echo "Total changed: $(git status --short | wc -l)"
+        echo ""
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          COMMIT_MSG="Weekly data update - $(date +'%Y-%m-%d')"
+          git commit -m "$COMMIT_MSG"
+          git push
+          echo "Pushed successfully"
+        fi
