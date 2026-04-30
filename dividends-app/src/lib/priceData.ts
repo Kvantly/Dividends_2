@@ -1,119 +1,43 @@
-import Papa from 'papaparse';
 import type { OHLCV, Interval } from '../types';
 
-const CSV_PATH = '/all_stocks_historical_data.csv';
+/**
+ * Per-stock data is at /data/{TICKER}.json. Each file is a small array of
+ * OHLCV bars produced by split_data_for_dashboard.py during the weekly workflow.
+ */
 
-/** Cache of full CSV rows grouped by ticker (built lazily on first request). */
-let tickerIndex: Map<string, OHLCV[]> | null = null;
-let inflight: Promise<Map<string, OHLCV[]>> | null = null;
+const cache = new Map<string, OHLCV[]>();
+const inflight = new Map<string, Promise<OHLCV[]>>();
 
-interface RawRow {
-  Date: string;
-  Ticker: string;
-  Name?: string;
-  Open: string;
-  High: string;
-  Low: string;
-  Close: string;
-  Volume: string;
-}
+/** Fetch all bars for a single ticker. Caches results in memory. */
+export async function getBars(ticker: string): Promise<OHLCV[]> {
+  const key = ticker.toUpperCase();
 
-function parseRow(row: RawRow): { ticker: string; bar: OHLCV } | null {
-  const ticker = (row.Ticker ?? '').trim();
-  if (!ticker) return null;
+  const cached = cache.get(key);
+  if (cached) return cached;
 
-  const open = parseFloat(row.Open);
-  const high = parseFloat(row.High);
-  const low = parseFloat(row.Low);
-  const close = parseFloat(row.Close);
-  const volume = parseFloat(row.Volume);
-  const t = new Date(row.Date).getTime();
+  const pending = inflight.get(key);
+  if (pending) return pending;
 
-  if (
-    !Number.isFinite(open) ||
-    !Number.isFinite(high) ||
-    !Number.isFinite(low) ||
-    !Number.isFinite(close) ||
-    !Number.isFinite(t)
-  ) {
-    return null;
-  }
-
-  return {
-    ticker,
-    bar: {
-      time: Math.floor(t / 1000),
-      open,
-      high,
-      low,
-      close,
-      volume: Number.isFinite(volume) ? volume : 0,
-    },
-  };
-}
-
-async function loadAndIndex(): Promise<Map<string, OHLCV[]>> {
-  if (tickerIndex) return tickerIndex;
-  if (inflight) return inflight;
-
-  inflight = (async () => {
-    const res = await fetch(CSV_PATH);
-    if (!res.ok) {
-      throw new Error(`Could not load price data (${res.status})`);
-    }
-    const text = await res.text();
-
-    const index = new Map<string, OHLCV[]>();
-
-    await new Promise<void>((resolve, reject) => {
-      Papa.parse<RawRow>(text, {
-        header: true,
-        skipEmptyLines: true,
-        worker: false,
-        chunk: (results: Papa.ParseResult<RawRow>) => {
-          for (const row of results.data) {
-            const parsed = parseRow(row);
-            if (!parsed) continue;
-            let arr = index.get(parsed.ticker);
-            if (!arr) {
-              arr = [];
-              index.set(parsed.ticker, arr);
-            }
-            arr.push(parsed.bar);
-          }
-        },
-        complete: () => resolve(),
-        error: (err: Error) => reject(err),
-      });
-    });
-
-    // Sort each ticker chronologically
-    for (const arr of index.values()) {
-      arr.sort((a, b) => a.time - b.time);
-    }
-
-    tickerIndex = index;
-    return index;
+  const promise = (async () => {
+    const res = await fetch(`/data/${encodeURIComponent(key)}.json`);
+    if (res.status === 404) return [] as OHLCV[];
+    if (!res.ok) throw new Error(`Could not load price data (${res.status})`);
+    const bars: OHLCV[] = await res.json();
+    cache.set(key, bars);
+    return bars;
   })();
 
+  inflight.set(key, promise);
   try {
-    return await inflight;
+    return await promise;
   } finally {
-    inflight = null;
+    inflight.delete(key);
   }
 }
 
-/** Get all bars for a ticker (sorted oldest -> newest). */
-export async function getBars(ticker: string): Promise<OHLCV[]> {
-  const idx = await loadAndIndex();
-  return idx.get(ticker.toUpperCase()) ?? idx.get(ticker) ?? [];
-}
-
-/** Pre-warm the data so the first stock click doesn't have to wait the full parse. */
+/** No-op kept for API compatibility — data now loads on demand per stock. */
 export function preloadBars(): void {
-  loadAndIndex().catch(() => {
-    /* ignore — error surfaces on real fetch */
-  });
+  /* intentionally empty */
 }
 
 /** Filter bars to a given interval relative to the most recent bar. */
@@ -132,7 +56,7 @@ export function filterByInterval(bars: OHLCV[], interval: Interval): OHLCV[] {
   return bars.filter((b) => b.time >= cutoff[interval]);
 }
 
-/** Simple Moving Average — returns array of {time, value} aligned to bars. */
+/** Simple Moving Average aligned to the closing prices in `bars`. */
 export function sma(
   bars: OHLCV[],
   period: number
