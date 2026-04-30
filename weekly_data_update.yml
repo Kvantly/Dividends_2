@@ -103,13 +103,16 @@ jobs:
           cat historical_data_summary.json
         fi
     
-    - name: Sync CSV into dashboard folder
+    - name: Split CSV into per-stock JSON files
       if: steps.verify.outputs.data_ok == 'true'
       run: |
         mkdir -p dividends-app/public
-        cp all_stocks_historical_data.csv dividends-app/public/all_stocks_historical_data.csv
         cp oslo_stocks.json dividends-app/public/oslo_stocks.json
-        echo "✅ Copied CSV and stock list into dividends-app/public/"
+        python split_data_for_dashboard.py
+        # Remove the giant CSV from public if it's left over from a previous run
+        # (it's too big for Cloudflare Pages anyway)
+        rm -f dividends-app/public/all_stocks_historical_data.csv
+        echo "✅ Generated per-stock JSON files for the dashboard"
     
     - name: Commit and push data
       if: steps.verify.outputs.data_ok == 'true'
