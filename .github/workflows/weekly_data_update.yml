@@ -1,164 +1,100 @@
 name: Weekly Stock Data Update
 
 on:
-  # Runs every Monday at 02:00 UTC (after markets close for the week)
   schedule:
     - cron: '0 2 * * 1'
-  
-  # Manual trigger - useful for testing or immediate updates
   workflow_dispatch:
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-    
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install yfinance pandas
-    
+
     - name: Check for stock list
       run: |
         if [ ! -f "oslo_stocks.json" ]; then
-          echo "❌ Error: oslo_stocks.json not found!"
-          echo "Please run the Monthly Oslo Stock Scraper first."
+          echo "Error: oslo_stocks.json not found!"
           exit 1
         fi
-        echo "✅ Stock list found"
-    
+        echo "Stock list found"
+
     - name: Check if first run or update
       id: check_mode
       run: |
         if [ -f "all_stocks_historical_data.csv" ]; then
           echo "mode=update" >> $GITHUB_OUTPUT
-          echo "📊 Existing data found - will perform incremental update (last 4 weeks)"
-          
-          # Show current data stats
-          LINES=$(wc -l < all_stocks_historical_data.csv)
-          SIZE=$(du -h all_stocks_historical_data.csv | cut -f1)
-          echo "   Current file: $LINES rows, $SIZE"
+          echo "Existing data found"
         else
           echo "mode=full" >> $GITHUB_OUTPUT
-          echo "🆕 No existing data - will perform full 10-year fetch"
+          echo "No existing data - full fetch"
         fi
-    
-    - name: Fetch/Update historical stock data
+
+    - name: Fetch historical stock data
       run: |
-        echo "🚀 Starting data fetch..."
-        if [ "${{ steps.check_mode.outputs.mode }}" = "full" ]; then
-          echo "Mode: FULL FETCH (10 years) - This will take ~5-10 minutes"
-        else
-          echo "Mode: INCREMENTAL UPDATE (4 weeks) - This will take ~2-3 minutes"
-        fi
+        echo "Starting data fetch..."
         python fetch_historical_data_weekly.py
-    
+
     - name: Verify data quality
       id: verify
       run: |
         if [ ! -f "all_stocks_historical_data.csv" ]; then
-          echo "❌ Data file not created"
+          echo "Data file not created"
           echo "data_ok=false" >> $GITHUB_OUTPUT
           exit 1
         fi
-        
-        # Check file size
-        FILE_SIZE_BYTES=$(stat -c%s all_stocks_historical_data.csv 2>/dev/null || stat -f%z all_stocks_historical_data.csv)
-        FILE_SIZE_MB=$((FILE_SIZE_BYTES / 1024 / 1024))
-        
-        echo "✅ Data file created successfully"
-        echo "   Size: ${FILE_SIZE_MB}MB"
-        
-        # Warn if file is getting large (approaching GitHub's 100MB limit)
-        if [ $FILE_SIZE_BYTES -gt 83886080 ]; then  # 80MB
-          echo "⚠️  Warning: File is getting large (${FILE_SIZE_MB}MB)"
-          echo "   Consider implementing data archiving when it approaches 100MB"
-        fi
-        
-        # Check row count
         ROWS=$(wc -l < all_stocks_historical_data.csv)
-        echo "   Rows: $ROWS"
-        
+        echo "Rows: $ROWS"
         if [ $ROWS -lt 100 ]; then
-          echo "❌ Too few rows - something went wrong"
+          echo "Too few rows"
           echo "data_ok=false" >> $GITHUB_OUTPUT
           exit 1
         fi
-        
         echo "data_ok=true" >> $GITHUB_OUTPUT
-        
-        # Show summary if it exists
-        if [ -f "historical_data_summary.json" ]; then
-          echo ""
-          echo "📊 Summary:"
-          cat historical_data_summary.json
-        fi
-    
-    - name: Commit and push data
+
+    - name: Split CSV into per-stock JSON files
+      if: steps.verify.outputs.data_ok == 'true'
+      run: |
+        mkdir -p dividends-app/public
+        cp oslo_stocks.json dividends-app/public/oslo_stocks.json
+        python split_data_for_dashboard.py
+        rm -f dividends-app/public/all_stocks_historical_data.csv
+        echo ""
+        echo "Verifying output:"
+        ls dividends-app/public/data/ | head -5
+        echo "..."
+        echo "Total JSON files: $(ls dividends-app/public/data/ | wc -l)"
+
+    - name: Commit and push everything
       if: steps.verify.outputs.data_ok == 'true'
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        
-        # Add the files
-        git add all_stocks_historical_data.csv
-        git add historical_data_summary.json
-        git add stock_data/*.csv
-        
-        # Check if there are changes
+        git add -A
+        echo ""
+        echo "Files staged for commit:"
+        git status --short | head -20
+        echo "..."
+        echo "Total changed: $(git status --short | wc -l)"
+        echo ""
         if git diff --staged --quiet; then
-          echo "ℹ️  No changes to commit (data is already up to date)"
+          echo "No changes to commit"
         else
-          # Create commit message based on mode
-          if [ "${{ steps.check_mode.outputs.mode }}" = "full" ]; then
-            COMMIT_MSG="Initial historical data fetch (10 years) - $(date +'%Y-%m-%d')"
-          else
-            COMMIT_MSG="Weekly data update - $(date +'%Y-%m-%d')"
-          fi
-          
+          COMMIT_MSG="Weekly data update - $(date +'%Y-%m-%d')"
           git commit -m "$COMMIT_MSG"
           git push
-          echo "✅ Data committed and pushed to repository"
+          echo "Pushed successfully"
         fi
-    
-    - name: Create summary comment
-      if: always()
-      run: |
-        echo "## Weekly Stock Data Update - $(date +'%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        
-        if [ -f "historical_data_summary.json" ]; then
-          MODE=$(cat historical_data_summary.json | grep -o '"mode": "[^"]*' | cut -d'"' -f4)
-          SUCCESSFUL=$(cat historical_data_summary.json | grep -o '"successful": [0-9]*' | grep -o '[0-9]*')
-          FAILED=$(cat historical_data_summary.json | grep -o '"failed": [0-9]*' | grep -o '[0-9]*')
-          TOTAL_POINTS=$(cat historical_data_summary.json | grep -o '"total_data_points": [0-9]*' | grep -o '[0-9]*')
-          
-          echo "- **Mode**: $MODE" >> $GITHUB_STEP_SUMMARY
-          echo "- **Stocks Updated**: $SUCCESSFUL" >> $GITHUB_STEP_SUMMARY
-          echo "- **Failed**: $FAILED" >> $GITHUB_STEP_SUMMARY
-          echo "- **Total Data Points**: $TOTAL_POINTS" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Data successfully updated!" >> $GITHUB_STEP_SUMMARY
-        else
-          echo "❌ Update failed - check logs above" >> $GITHUB_STEP_SUMMARY
-        fi
-    
-    - name: Upload logs as artifact (on failure)
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: error-logs-${{ github.run_number }}
-        path: |
-          *.log
-          historical_data_summary.json
-        retention-days: 7
-        if-no-files-found: ignore
