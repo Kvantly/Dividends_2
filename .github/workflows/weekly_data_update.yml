@@ -8,7 +8,9 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -77,6 +79,13 @@ jobs:
         ls dividends-app/public/data/ | head -5
         echo "..."
         echo "Total JSON files: $(ls dividends-app/public/data/ | wc -l)"
+
+    - name: Fetch dividend data
+      if: steps.verify.outputs.data_ok == 'true'
+      run: |
+        echo "Fetching dividend history for all stocks..."
+        python fetch_dividend_data.py
+        echo "Dividend files: $(ls dividends-app/public/dividends/ | wc -l)"
 
     - name: Commit and push everything
       if: steps.verify.outputs.data_ok == 'true'

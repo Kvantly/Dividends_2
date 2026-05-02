@@ -1,14 +1,11 @@
 import json
 import os
 import time
-from datetime import datetime, timedelta
 
-import pandas as pd
 import yfinance as yf
 
 STOCKS_FILE = 'oslo_stocks.json'
 OUTPUT_DIR = 'dividends-app/public/dividends'
-YEARS_BACK = 10
 
 
 def load_stocks():
@@ -22,19 +19,23 @@ def load_stocks():
 
 
 def fetch_dividends(ticker: str) -> list[dict]:
-    yf_ticker = f'{ticker}.OL'
-    t = yf.Ticker(yf_ticker)
-    divs: pd.Series = t.dividends
+    """
+    Use history(actions=True) — the same reliable endpoint used for price data.
+    Rows where the Dividends column is non-zero are ex-dividend dates.
+    """
+    t = yf.Ticker(f'{ticker}.OL')
+    hist = t.history(period='10y', actions=True)
 
-    if divs.empty:
+    if hist.empty or 'Dividends' not in hist.columns:
         return []
 
-    cutoff = datetime.now(tz=divs.index.tz) - timedelta(days=365 * YEARS_BACK)
-    divs = divs[divs.index >= cutoff]
+    div_rows = hist[hist['Dividends'] > 0]['Dividends']
+    if div_rows.empty:
+        return []
 
     return [
         {'date': idx.strftime('%Y-%m-%d'), 'amount': round(float(val), 6)}
-        for idx, val in divs.items()
+        for idx, val in div_rows.items()
     ]
 
 
@@ -65,7 +66,6 @@ def main():
             print(f'[{i}/{len(stocks)}] {ticker}: FAILED - {e}')
             failed += 1
 
-        # Polite rate-limiting
         if i < len(stocks):
             time.sleep(0.4)
 
@@ -79,7 +79,7 @@ def main():
     print(f'  Successful: {success}')
     print(f'  Failed:     {failed}')
     print(f'  With data:  {has_data}')
-    print(f'  Output dir: {OUTPUT_DIR}/')
+    print(f'  Output:     {OUTPUT_DIR}/')
     print('=' * 60)
 
 
