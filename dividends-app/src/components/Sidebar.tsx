@@ -5,9 +5,11 @@ interface Props {
   stocks: Stock[];
   selectedTicker: string | null;
   onSelect: (s: Stock) => void;
+  activeNav: string;
+  onNavChange: (id: string) => void;
 }
 
-const NAV_ITEMS = [
+export const NAV_ITEMS = [
   { id: 'dividends', label: 'Dividends', icon: '₿' },
   { id: 'nav2', label: '—', icon: '·' },
   { id: 'nav3', label: '—', icon: '·' },
@@ -15,10 +17,9 @@ const NAV_ITEMS = [
   { id: 'nav5', label: '—', icon: '·' },
 ];
 
-export function Sidebar({ stocks, selectedTicker, onSelect }: Props) {
+export function Sidebar({ stocks, selectedTicker, onSelect, activeNav, onNavChange }: Props) {
   const [query, setQuery] = useState('');
   const [collapsed, setCollapsed] = useState(false);
-  const [activeNav, setActiveNav] = useState('dividends');
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -45,9 +46,7 @@ export function Sidebar({ stocks, selectedTicker, onSelect }: Props) {
               <line x1="3" y1="12" x2="13" y2="12" />
             </>
           ) : (
-            <>
-              <polyline points="10,4 6,8 10,12" />
-            </>
+            <polyline points="10,4 6,8 10,12" />
           )}
         </svg>
       </button>
@@ -57,7 +56,7 @@ export function Sidebar({ stocks, selectedTicker, onSelect }: Props) {
           <button
             key={item.id}
             className={`nav-btn${activeNav === item.id ? ' active' : ''}`}
-            onClick={() => setActiveNav(item.id)}
+            onClick={() => onNavChange(item.id)}
             title={collapsed ? item.label : undefined}
           >
             <span className="nav-btn-icon">{item.icon}</span>

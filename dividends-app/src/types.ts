@@ -29,3 +29,8 @@ export type Theme = 'light' | 'dark';
 export type Interval = '1W' | '1M' | '3M' | '6M' | '1Y' | '5Y' | 'ALL';
 
 export type ChartStyle = 'candle' | 'line';
+
+export interface DividendBar {
+  date: string;   // 'YYYY-MM-DD'
+  amount: number; // NOK
+}
