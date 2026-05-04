@@ -21,7 +21,16 @@ interface Props {
 
 const INTERVALS: Interval[] = ['1W', '1M', '3M', '6M', '1Y', '5Y', 'ALL'];
 const MA_OPTIONS = [20, 50, 200];
-type PaneTab = 'chart' | 'dividends';
+type PaneTab = 'chart' | 'dividends' | 'overview' | 'financials' | 'news' | 'about';
+
+const TABS: { id: PaneTab; label: string }[] = [
+  { id: 'chart',      label: 'Chart' },
+  { id: 'dividends',  label: 'Dividends' },
+  { id: 'overview',   label: 'Overview' },
+  { id: 'financials', label: 'Financials' },
+  { id: 'news',       label: 'News' },
+  { id: 'about',      label: 'About' },
+];
 
 export function StockPane({ stock, theme }: Props) {
   const [allBars, setAllBars] = useState<OHLCV[]>([]);
@@ -116,18 +125,15 @@ export function StockPane({ stock, theme }: Props) {
 
       {/* ── Tab switcher ── */}
       <div className="pane-tabs">
-        <button
-          className={`pane-tab${activeTab === 'chart' ? ' active' : ''}`}
-          onClick={() => setActiveTab('chart')}
-        >
-          Chart
-        </button>
-        <button
-          className={`pane-tab${activeTab === 'dividends' ? ' active' : ''}`}
-          onClick={() => setActiveTab('dividends')}
-        >
-          Dividends
-        </button>
+        {TABS.map((t) => (
+          <button
+            key={t.id}
+            className={`pane-tab${activeTab === t.id ? ' active' : ''}`}
+            onClick={() => setActiveTab(t.id)}
+          >
+            {t.label}
+          </button>
+        ))}
       </div>
 
       {/* ── Chart tab ── */}
@@ -230,6 +236,17 @@ export function StockPane({ stock, theme }: Props) {
       {activeTab === 'dividends' && (
         <div className="div-tab-wrap">
           <DividendTab ticker={stock.ticker} />
+        </div>
+      )}
+
+      {/* ── Empty placeholder tabs ── */}
+      {(activeTab === 'overview' || activeTab === 'financials' || activeTab === 'news' || activeTab === 'about') && (
+        <div className="tab-empty">
+          <div className="tab-empty-icon">🚧</div>
+          <div className="tab-empty-title">
+            {TABS.find((t) => t.id === activeTab)?.label} — Coming Soon
+          </div>
+          <div className="tab-empty-sub">This section is under construction.</div>
         </div>
       )}
     </div>
