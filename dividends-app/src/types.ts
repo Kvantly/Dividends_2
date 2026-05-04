@@ -29,3 +29,22 @@ export type Theme = 'light' | 'dark';
 export type Interval = '1W' | '1M' | '3M' | '6M' | '1Y' | '5Y' | 'ALL';
 
 export type ChartStyle = 'candle' | 'line';
+
+export interface DividendPayment {
+  date: string;   // "YYYY-MM-DD"
+  amount: number; // local currency
+}
+
+export interface DividendData {
+  ticker: string;
+  name: string;
+  last_updated: string;
+  dividends: DividendPayment[];
+}
+
+export interface YearlyDividend {
+  year: string;
+  total: number;
+  payments: number;
+  growthPct: number | null;
+}
