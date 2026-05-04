@@ -1,0 +1,91 @@
+name: Weekly Dividend Data Update
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Every Monday at 03:00 UTC (after price-data job at 02:00)
+  workflow_dispatch:
+
+jobs:
+  update-dividends:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install yfinance pandas
+
+    - name: Verify stock list exists
+      run: |
+        if [ ! -f "oslo_stocks.json" ]; then
+          echo "❌ oslo_stocks.json not found — run the monthly scraper first"
+          exit 1
+        fi
+        echo "✅ Stock list found ($(cat oslo_stocks.json | python3 -c 'import sys,json; print(len(json.load(sys.stdin)))') stocks)"
+
+    - name: Detect run mode
+      id: mode
+      run: |
+        if [ -f "dividend_data_summary.json" ]; then
+          echo "mode=incremental" >> $GITHUB_OUTPUT
+          echo "🔄 Incremental update — merging last 6 months"
+        else
+          echo "mode=full" >> $GITHUB_OUTPUT
+          echo "🚀 First run — fetching 10 years of history"
+        fi
+
+    - name: Fetch dividend data
+      run: |
+        echo "Starting dividend fetch (mode: ${{ steps.mode.outputs.mode }})..."
+        python fetch_dividend_data.py
+
+    - name: Verify output
+      id: verify
+      run: |
+        OUTPUT_DIR="dividends-app/public/dividends"
+        if [ ! -d "$OUTPUT_DIR" ]; then
+          echo "❌ Output directory not created"
+          exit 1
+        fi
+        COUNT=$(ls "$OUTPUT_DIR"/*.json 2>/dev/null | wc -l)
+        echo "✅ Generated $COUNT dividend JSON files"
+        if [ "$COUNT" -lt 1 ]; then
+          echo "❌ No JSON files were created"
+          exit 1
+        fi
+        echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+    - name: Copy stock list to public folder
+      run: |
+        mkdir -p dividends-app/public
+        cp oslo_stocks.json dividends-app/public/oslo_stocks.json
+        echo "✅ Copied oslo_stocks.json to public folder"
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        echo ""
+        echo "Files staged:"
+        git status --short | head -20
+        echo "..."
+        echo "Total changed: $(git status --short | wc -l)"
+        echo ""
+        if git diff --staged --quiet; then
+          echo "No changes to commit — dividend data is up to date"
+        else
+          COMMIT_MSG="Weekly dividend update - $(date +'%Y-%m-%d') (${{ steps.verify.outputs.count }} stocks)"
+          git commit -m "$COMMIT_MSG"
+          git push
+          echo "✅ Pushed successfully"
+        fi
