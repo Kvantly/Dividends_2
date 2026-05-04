@@ -11,6 +11,7 @@ export default function App() {
   const [theme, toggleTheme] = useTheme();
   const { stocks, loading, error } = useStockList();
   const [selected, setSelected] = useState<Stock | null>(null);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   // Once the stock list is ready, kick off the (slow) CSV parse in the background
   useEffect(() => {
@@ -32,6 +33,8 @@ export default function App() {
           stocks={stocks}
           selectedTicker={selected?.ticker ?? null}
           onSelect={setSelected}
+          collapsed={sidebarCollapsed}
+          onToggleCollapse={() => setSidebarCollapsed((c) => !c)}
         />
         {loading && (
           <div className="pane">
