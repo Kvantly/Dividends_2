@@ -1,0 +1,11 @@
+{
+  "ticker": "DELIA",
+  "name": "DELLIA GROUP",
+  "dividends": [
+    {
+      "date": "2026-03-16",
+      "amount": 4.6
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

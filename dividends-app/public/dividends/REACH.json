@@ -1,0 +1,31 @@
+{
+  "ticker": "REACH",
+  "name": "REACH SUBSEA",
+  "dividends": [
+    {
+      "date": "2019-05-28",
+      "amount": 0.069687
+    },
+    {
+      "date": "2021-06-14",
+      "amount": 0.14933
+    },
+    {
+      "date": "2022-05-31",
+      "amount": 0.179196
+    },
+    {
+      "date": "2023-06-01",
+      "amount": 0.18
+    },
+    {
+      "date": "2024-06-03",
+      "amount": 0.36
+    },
+    {
+      "date": "2025-05-30",
+      "amount": 0.42
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

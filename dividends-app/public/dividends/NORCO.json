@@ -1,0 +1,15 @@
+{
+  "ticker": "NORCO",
+  "name": "NORCONSULT",
+  "dividends": [
+    {
+      "date": "2024-05-14",
+      "amount": 1.2
+    },
+    {
+      "date": "2025-05-06",
+      "amount": 1.7
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

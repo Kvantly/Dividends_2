@@ -1,0 +1,27 @@
+{
+  "ticker": "AKSO",
+  "name": "AKER SOLUTIONS",
+  "dividends": [
+    {
+      "date": "2022-04-08",
+      "amount": 0.2
+    },
+    {
+      "date": "2023-04-14",
+      "amount": 1.0
+    },
+    {
+      "date": "2024-04-12",
+      "amount": 2.0
+    },
+    {
+      "date": "2025-04-29",
+      "amount": 3.3
+    },
+    {
+      "date": "2026-04-17",
+      "amount": 8.6
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

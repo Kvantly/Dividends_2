@@ -1,0 +1,15 @@
+{
+  "ticker": "OMDA",
+  "name": "OMDA",
+  "dividends": [
+    {
+      "date": "2024-04-29",
+      "amount": 0.47693
+    },
+    {
+      "date": "2026-04-29",
+      "amount": 0.468991
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

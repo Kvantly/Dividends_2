@@ -1,0 +1,19 @@
+{
+  "ticker": "AKAST",
+  "name": "AKASTOR",
+  "dividends": [
+    {
+      "date": "2025-07-14",
+      "amount": 0.35
+    },
+    {
+      "date": "2025-10-31",
+      "amount": 0.4
+    },
+    {
+      "date": "2026-02-16",
+      "amount": 0.4
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

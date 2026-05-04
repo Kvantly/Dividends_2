@@ -1,0 +1,39 @@
+{
+  "ticker": "POL",
+  "name": "POLARIS MEDIA",
+  "dividends": [
+    {
+      "date": "2016-05-20",
+      "amount": 1.25
+    },
+    {
+      "date": "2017-05-11",
+      "amount": 1.0
+    },
+    {
+      "date": "2018-05-24",
+      "amount": 1.5
+    },
+    {
+      "date": "2019-05-07",
+      "amount": 1.75
+    },
+    {
+      "date": "2022-05-03",
+      "amount": 3.0
+    },
+    {
+      "date": "2023-05-05",
+      "amount": 1.5
+    },
+    {
+      "date": "2024-05-08",
+      "amount": 1.0
+    },
+    {
+      "date": "2025-05-14",
+      "amount": 22.4
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

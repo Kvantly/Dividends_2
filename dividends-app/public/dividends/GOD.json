@@ -1,0 +1,11 @@
+{
+  "ticker": "GOD",
+  "name": "GOODTECH",
+  "dividends": [
+    {
+      "date": "2026-05-04",
+      "amount": 0.5
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

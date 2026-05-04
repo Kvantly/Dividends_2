@@ -1,0 +1,19 @@
+{
+  "ticker": "MAS",
+  "name": "M\u00c5S\u00d8VAL",
+  "dividends": [
+    {
+      "date": "2022-09-06",
+      "amount": 1.0
+    },
+    {
+      "date": "2023-06-15",
+      "amount": 0.5
+    },
+    {
+      "date": "2024-06-05",
+      "amount": 0.5
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

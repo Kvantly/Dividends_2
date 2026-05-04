@@ -1,0 +1,35 @@
+{
+  "ticker": "SNOR",
+  "name": "SPBK 1 NORDM\u00d8RE",
+  "dividends": [
+    {
+      "date": "2018-02-28",
+      "amount": 5.5
+    },
+    {
+      "date": "2019-04-04",
+      "amount": 6.0
+    },
+    {
+      "date": "2020-04-02",
+      "amount": 6.5
+    },
+    {
+      "date": "2022-04-06",
+      "amount": 5.0
+    },
+    {
+      "date": "2024-04-04",
+      "amount": 7.0
+    },
+    {
+      "date": "2025-04-09",
+      "amount": 8.5
+    },
+    {
+      "date": "2026-04-16",
+      "amount": 11.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

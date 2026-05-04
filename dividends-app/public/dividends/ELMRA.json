@@ -1,0 +1,39 @@
+{
+  "ticker": "ELMRA",
+  "name": "ELMERA GROUP",
+  "dividends": [
+    {
+      "date": "2019-05-15",
+      "amount": 2.2
+    },
+    {
+      "date": "2020-04-23",
+      "amount": 3.0
+    },
+    {
+      "date": "2021-04-22",
+      "amount": 3.5
+    },
+    {
+      "date": "2022-04-27",
+      "amount": 3.5
+    },
+    {
+      "date": "2023-04-27",
+      "amount": 1.5
+    },
+    {
+      "date": "2024-04-25",
+      "amount": 2.3
+    },
+    {
+      "date": "2025-05-02",
+      "amount": 3.0
+    },
+    {
+      "date": "2026-05-04",
+      "amount": 2.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "INSTA",
+  "name": "INSTABANK",
+  "dividends": [
+    {
+      "date": "2025-04-11",
+      "amount": 0.079923
+    },
+    {
+      "date": "2026-04-10",
+      "amount": 0.09
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

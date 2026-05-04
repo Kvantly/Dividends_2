@@ -1,0 +1,11 @@
+{
+  "ticker": "JACK",
+  "name": "JACKTEL",
+  "dividends": [
+    {
+      "date": "2026-04-22",
+      "amount": 0.1864
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

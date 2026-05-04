@@ -1,0 +1,15 @@
+{
+  "ticker": "BEWI",
+  "name": "BEWI",
+  "dividends": [
+    {
+      "date": "2021-06-04",
+      "amount": 0.42
+    },
+    {
+      "date": "2022-11-10",
+      "amount": 1.1
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

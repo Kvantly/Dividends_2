@@ -1,0 +1,39 @@
+{
+  "ticker": "STRO",
+  "name": "STRONGPOINT",
+  "dividends": [
+    {
+      "date": "2017-01-06",
+      "amount": 1.0
+    },
+    {
+      "date": "2017-04-21",
+      "amount": 0.5
+    },
+    {
+      "date": "2018-04-25",
+      "amount": 0.5
+    },
+    {
+      "date": "2019-04-29",
+      "amount": 0.55
+    },
+    {
+      "date": "2020-10-23",
+      "amount": 0.6
+    },
+    {
+      "date": "2021-04-29",
+      "amount": 0.7
+    },
+    {
+      "date": "2022-04-29",
+      "amount": 0.8
+    },
+    {
+      "date": "2023-04-28",
+      "amount": 0.9
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

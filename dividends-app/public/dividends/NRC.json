@@ -1,0 +1,15 @@
+{
+  "ticker": "NRC",
+  "name": "NRC GROUP",
+  "dividends": [
+    {
+      "date": "2017-05-04",
+      "amount": 0.699243
+    },
+    {
+      "date": "2018-04-20",
+      "amount": 1.529594
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

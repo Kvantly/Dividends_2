@@ -1,0 +1,23 @@
+{
+  "ticker": "SOMA",
+  "name": "SOLSTAD MARITIME",
+  "dividends": [
+    {
+      "date": "2025-05-20",
+      "amount": 0.771871
+    },
+    {
+      "date": "2025-07-16",
+      "amount": 0.75725
+    },
+    {
+      "date": "2025-11-10",
+      "amount": 0.32537
+    },
+    {
+      "date": "2026-02-23",
+      "amount": 0.30639
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

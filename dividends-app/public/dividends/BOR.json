@@ -1,0 +1,15 @@
+{
+  "ticker": "BOR",
+  "name": "BORGESTAD",
+  "dividends": [
+    {
+      "date": "2025-05-30",
+      "amount": 0.8
+    },
+    {
+      "date": "2026-03-02",
+      "amount": 0.5
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

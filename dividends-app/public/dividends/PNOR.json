@@ -1,0 +1,15 @@
+{
+  "ticker": "PNOR",
+  "name": "PETRONOR E&P",
+  "dividends": [
+    {
+      "date": "2025-01-27",
+      "amount": 2.0
+    },
+    {
+      "date": "2025-05-23",
+      "amount": 2.2
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

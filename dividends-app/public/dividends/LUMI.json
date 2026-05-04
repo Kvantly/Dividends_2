@@ -1,0 +1,11 @@
+{
+  "ticker": "LUMI",
+  "name": "LUMI GRUPPEN",
+  "dividends": [
+    {
+      "date": "2022-04-27",
+      "amount": 0.975806
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

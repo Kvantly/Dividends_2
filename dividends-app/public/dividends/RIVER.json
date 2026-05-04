@@ -1,0 +1,19 @@
+{
+  "ticker": "RIVER",
+  "name": "RIVER TECH",
+  "dividends": [
+    {
+      "date": "2024-04-11",
+      "amount": 2.34785
+    },
+    {
+      "date": "2024-09-02",
+      "amount": 2.323576
+    },
+    {
+      "date": "2025-04-28",
+      "amount": 2.721325
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

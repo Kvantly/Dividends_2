@@ -1,0 +1,11 @@
+{
+  "ticker": "SCANA",
+  "name": "SCANA",
+  "dividends": [
+    {
+      "date": "2024-03-21",
+      "amount": 0.05
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

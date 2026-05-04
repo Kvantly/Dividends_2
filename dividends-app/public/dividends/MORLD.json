@@ -1,0 +1,23 @@
+{
+  "ticker": "MORLD",
+  "name": "MORELD",
+  "dividends": [
+    {
+      "date": "2025-05-21",
+      "amount": 0.42
+    },
+    {
+      "date": "2025-08-18",
+      "amount": 0.42
+    },
+    {
+      "date": "2025-11-18",
+      "amount": 0.42
+    },
+    {
+      "date": "2026-02-16",
+      "amount": 0.42
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

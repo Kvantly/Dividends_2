@@ -1,0 +1,15 @@
+{
+  "ticker": "OTEC",
+  "name": "OTELLO CORPORATION",
+  "dividends": [
+    {
+      "date": "2016-12-16",
+      "amount": 15.0
+    },
+    {
+      "date": "2022-08-09",
+      "amount": 21.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

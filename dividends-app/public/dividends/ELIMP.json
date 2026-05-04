@@ -1,0 +1,23 @@
+{
+  "ticker": "ELIMP",
+  "name": "ELEKTROIMPORT\u00d8REN",
+  "dividends": [
+    {
+      "date": "2021-06-11",
+      "amount": 2.368663
+    },
+    {
+      "date": "2022-05-04",
+      "amount": 2.732316
+    },
+    {
+      "date": "2023-05-03",
+      "amount": 0.491424
+    },
+    {
+      "date": "2026-04-30",
+      "amount": 0.4
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

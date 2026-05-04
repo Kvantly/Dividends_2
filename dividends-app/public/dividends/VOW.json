@@ -1,0 +1,11 @@
+{
+  "ticker": "VOW",
+  "name": "VOW",
+  "dividends": [
+    {
+      "date": "2019-05-24",
+      "amount": 0.071001
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

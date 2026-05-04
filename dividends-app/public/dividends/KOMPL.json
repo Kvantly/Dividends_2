@@ -1,0 +1,11 @@
+{
+  "ticker": "KOMPL",
+  "name": "KOMPLETT",
+  "dividends": [
+    {
+      "date": "2022-06-03",
+      "amount": 2.9
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "SKAND",
+  "name": "SKANDIA GREENPOWER",
+  "dividends": [
+    {
+      "date": "2025-10-24",
+      "amount": 0.02
+    },
+    {
+      "date": "2026-02-27",
+      "amount": 0.045
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

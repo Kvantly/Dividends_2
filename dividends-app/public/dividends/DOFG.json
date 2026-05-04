@@ -1,0 +1,23 @@
+{
+  "ticker": "DOFG",
+  "name": "DOF GROUP",
+  "dividends": [
+    {
+      "date": "2025-05-21",
+      "amount": 3.09447
+    },
+    {
+      "date": "2025-08-27",
+      "amount": 3.04311
+    },
+    {
+      "date": "2025-11-19",
+      "amount": 3.53759
+    },
+    {
+      "date": "2026-02-25",
+      "amount": 3.344635
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

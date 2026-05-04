@@ -1,0 +1,11 @@
+{
+  "ticker": "EQVA",
+  "name": "EQVA",
+  "dividends": [
+    {
+      "date": "2024-04-16",
+      "amount": 0.2
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "PUBLI",
+  "name": "PUBLIC PROPERTY IN",
+  "dividends": [
+    {
+      "date": "2025-07-01",
+      "amount": 0.1
+    },
+    {
+      "date": "2025-10-01",
+      "amount": 0.1
+    },
+    {
+      "date": "2026-01-02",
+      "amount": 0.15
+    },
+    {
+      "date": "2026-04-01",
+      "amount": 0.15
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

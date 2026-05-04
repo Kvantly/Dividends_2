@@ -1,0 +1,19 @@
+{
+  "ticker": "NSKOG",
+  "name": "NORSKE SKOG",
+  "dividends": [
+    {
+      "date": "2020-04-17",
+      "amount": 3.25
+    },
+    {
+      "date": "2020-08-31",
+      "amount": 3.0
+    },
+    {
+      "date": "2023-11-20",
+      "amount": 0.67
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

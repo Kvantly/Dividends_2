@@ -1,0 +1,19 @@
+{
+  "ticker": "EIOF",
+  "name": "EIDESVIK OFFSHORE",
+  "dividends": [
+    {
+      "date": "2024-05-31",
+      "amount": 0.25
+    },
+    {
+      "date": "2025-08-28",
+      "amount": 0.3
+    },
+    {
+      "date": "2026-04-24",
+      "amount": 0.2
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

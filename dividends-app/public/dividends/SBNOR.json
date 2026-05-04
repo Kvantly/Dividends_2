@@ -1,0 +1,11 @@
+{
+  "ticker": "SBNOR",
+  "name": "SPAREBANKEN NORGE",
+  "dividends": [
+    {
+      "date": "2026-03-27",
+      "amount": 12.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

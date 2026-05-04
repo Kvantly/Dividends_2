@@ -1,0 +1,11 @@
+{
+  "ticker": "TINDE",
+  "name": "TINDE SPAREBANK",
+  "dividends": [
+    {
+      "date": "2026-03-27",
+      "amount": 4.9
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "NKR",
+  "name": "NEKKAR",
+  "dividends": [
+    {
+      "date": "2019-09-20",
+      "amount": 4.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

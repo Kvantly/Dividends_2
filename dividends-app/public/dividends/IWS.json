@@ -1,0 +1,11 @@
+{
+  "ticker": "IWS",
+  "name": "INTEGRATED WIND SO",
+  "dividends": [
+    {
+      "date": "2026-03-02",
+      "amount": 3.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

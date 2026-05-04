@@ -1,0 +1,11 @@
+{
+  "ticker": "GENT",
+  "name": "GENTIAN DIAGNOSTIC",
+  "dividends": [
+    {
+      "date": "2025-05-07",
+      "amount": 0.4
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

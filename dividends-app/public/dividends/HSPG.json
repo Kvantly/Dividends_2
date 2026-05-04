@@ -1,0 +1,43 @@
+{
+  "ticker": "HSPG",
+  "name": "H\u00d8LAND OG SETSKOG",
+  "dividends": [
+    {
+      "date": "2017-02-28",
+      "amount": 5.0
+    },
+    {
+      "date": "2018-02-28",
+      "amount": 5.0
+    },
+    {
+      "date": "2019-02-28",
+      "amount": 7.5
+    },
+    {
+      "date": "2020-02-28",
+      "amount": 8.0
+    },
+    {
+      "date": "2022-03-11",
+      "amount": 7.0
+    },
+    {
+      "date": "2023-03-10",
+      "amount": 7.0
+    },
+    {
+      "date": "2024-03-15",
+      "amount": 7.0
+    },
+    {
+      "date": "2025-03-20",
+      "amount": 9.0
+    },
+    {
+      "date": "2026-03-20",
+      "amount": 5.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "ARR",
+  "name": "ARRIBATEC GROUP",
+  "dividends": [
+    {
+      "date": "2016-05-23",
+      "amount": 6668.7188
+    },
+    {
+      "date": "2016-09-20",
+      "amount": 9301.107
+    },
+    {
+      "date": "2016-10-18",
+      "amount": 3099.1992
+    },
+    {
+      "date": "2020-11-24",
+      "amount": 13.920045
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

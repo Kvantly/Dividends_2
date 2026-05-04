@@ -1,0 +1,19 @@
+{
+  "ticker": "SEA1",
+  "name": "Sea1 Offshore",
+  "dividends": [
+    {
+      "date": "2024-08-23",
+      "amount": 5.0
+    },
+    {
+      "date": "2025-01-14",
+      "amount": 7.0
+    },
+    {
+      "date": "2026-04-07",
+      "amount": 4.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

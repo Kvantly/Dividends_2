@@ -1,0 +1,15 @@
+{
+  "ticker": "FFSB",
+  "name": "FLEKKEFJORD SPAREB",
+  "dividends": [
+    {
+      "date": "2025-04-01",
+      "amount": 4.6
+    },
+    {
+      "date": "2026-03-27",
+      "amount": 6.4
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,19 @@
+{
+  "ticker": "SMOP",
+  "name": "SMARTOPTICS GROUP",
+  "dividends": [
+    {
+      "date": "2023-05-12",
+      "amount": 0.5
+    },
+    {
+      "date": "2024-05-10",
+      "amount": 0.5
+    },
+    {
+      "date": "2025-05-09",
+      "amount": 0.6
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

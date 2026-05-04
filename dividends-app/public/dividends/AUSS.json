@@ -1,0 +1,47 @@
+{
+  "ticker": "AUSS",
+  "name": "AUSTEVOLL SEAFOOD",
+  "dividends": [
+    {
+      "date": "2016-05-26",
+      "amount": 7.0
+    },
+    {
+      "date": "2017-05-26",
+      "amount": 2.5
+    },
+    {
+      "date": "2018-05-25",
+      "amount": 2.8
+    },
+    {
+      "date": "2019-05-27",
+      "amount": 3.5
+    },
+    {
+      "date": "2020-05-29",
+      "amount": 2.5
+    },
+    {
+      "date": "2021-05-28",
+      "amount": 3.5
+    },
+    {
+      "date": "2022-05-25",
+      "amount": 4.5
+    },
+    {
+      "date": "2023-05-26",
+      "amount": 5.5
+    },
+    {
+      "date": "2024-05-30",
+      "amount": 4.5
+    },
+    {
+      "date": "2025-05-30",
+      "amount": 6.5
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

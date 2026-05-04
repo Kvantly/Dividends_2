@@ -1,0 +1,15 @@
+{
+  "ticker": "CONTX",
+  "name": "CONTEXTVISION",
+  "dividends": [
+    {
+      "date": "2023-05-08",
+      "amount": 0.150585
+    },
+    {
+      "date": "2023-11-02",
+      "amount": 0.150585
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

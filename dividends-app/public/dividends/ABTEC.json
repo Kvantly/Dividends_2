@@ -1,0 +1,19 @@
+{
+  "ticker": "ABTEC",
+  "name": "AQUA BIO TECHNO",
+  "dividends": [
+    {
+      "date": "2016-06-09",
+      "amount": 74.53259
+    },
+    {
+      "date": "2016-11-18",
+      "amount": 49.688396
+    },
+    {
+      "date": "2017-06-08",
+      "amount": 49.688396
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

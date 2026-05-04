@@ -1,0 +1,15 @@
+{
+  "ticker": "ROGS",
+  "name": "ROGALAND SPAREBANK",
+  "dividends": [
+    {
+      "date": "2025-04-01",
+      "amount": 9.5
+    },
+    {
+      "date": "2026-03-26",
+      "amount": 11.7
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

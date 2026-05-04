@@ -1,0 +1,19 @@
+{
+  "ticker": "PEXIP",
+  "name": "PEXIP HOLDING",
+  "dividends": [
+    {
+      "date": "2024-04-15",
+      "amount": 1.1
+    },
+    {
+      "date": "2025-04-28",
+      "amount": 2.5
+    },
+    {
+      "date": "2026-04-20",
+      "amount": 4.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

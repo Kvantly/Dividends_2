@@ -1,0 +1,11 @@
+{
+  "ticker": "SOFF",
+  "name": "SOLSTAD OFFSHORE",
+  "dividends": [
+    {
+      "date": "2025-11-25",
+      "amount": 0.51189
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

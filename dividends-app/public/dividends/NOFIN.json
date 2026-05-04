@@ -1,0 +1,31 @@
+{
+  "ticker": "NOFIN",
+  "name": "NORDIC FINANCIALS",
+  "dividends": [
+    {
+      "date": "2016-05-23",
+      "amount": 0.98946
+    },
+    {
+      "date": "2016-08-23",
+      "amount": 0.98946
+    },
+    {
+      "date": "2016-12-19",
+      "amount": 0.395784
+    },
+    {
+      "date": "2019-08-23",
+      "amount": 2.63856
+    },
+    {
+      "date": "2020-06-03",
+      "amount": 0.527712
+    },
+    {
+      "date": "2024-09-12",
+      "amount": 12.233803
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "NAS",
+  "name": "NORWEGIAN AIR SHUT",
+  "dividends": [
+    {
+      "date": "2025-08-12",
+      "amount": 0.9
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

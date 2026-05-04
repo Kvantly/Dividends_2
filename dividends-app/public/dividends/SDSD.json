@@ -1,0 +1,11 @@
+{
+  "ticker": "SDSD",
+  "name": "S.D. STANDARD ETC",
+  "dividends": [
+    {
+      "date": "2024-11-15",
+      "amount": 0.2
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "ARCH",
+  "name": "ARCHER",
+  "dividends": [
+    {
+      "date": "2025-05-19",
+      "amount": 0.63
+    },
+    {
+      "date": "2025-08-18",
+      "amount": 0.62
+    },
+    {
+      "date": "2025-11-06",
+      "amount": 0.62
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 0.62
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "KMCP",
+  "name": "KMC PROPERTIES",
+  "dividends": [
+    {
+      "date": "2016-05-27",
+      "amount": 6958.027
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

@@ -1,0 +1,19 @@
+{
+  "ticker": "BIEN",
+  "name": "BIEN SPAREBANK",
+  "dividends": [
+    {
+      "date": "2024-03-22",
+      "amount": 4.92
+    },
+    {
+      "date": "2025-03-28",
+      "amount": 5.349
+    },
+    {
+      "date": "2026-04-09",
+      "amount": 5.738
+    }
+  ],
+  "last_updated": "2026-05-04"
+}

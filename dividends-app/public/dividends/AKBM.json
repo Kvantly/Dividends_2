@@ -1,0 +1,11 @@
+{
+  "ticker": "AKBM",
+  "name": "AKER BIOMARINE",
+  "dividends": [
+    {
+      "date": "2024-09-09",
+      "amount": 45.0
+    }
+  ],
+  "last_updated": "2026-05-04"
+}
