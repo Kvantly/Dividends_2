@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
-import type { DividendData, YearlyDividend } from '../types';
+import type { DividendData, YearlyDividend, YearlyYield } from '../types';
 import {
   getDividends,
   buildYearlyTotals,
+  buildYearlyYields,
   trailingTwelveMonths,
   consecutivePositiveYears,
 } from '../lib/dividendData';
+import { getBars } from '../lib/priceData';
 
 interface Props {
   ticker: string;
@@ -205,10 +207,126 @@ function PaymentBars({ payments }: PaymentChartProps) {
   );
 }
 
+// ─── Yield % line + bar chart ─────────────────────────────────────────────────
+
+interface YieldChartProps {
+  data: YearlyYield[];
+}
+
+function YieldChart({ data }: YieldChartProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [width, setWidth] = useState(600);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const ro = new ResizeObserver((entries) => {
+      setWidth(entries[0].contentRect.width);
+    });
+    ro.observe(containerRef.current);
+    setWidth(containerRef.current.clientWidth);
+    return () => ro.disconnect();
+  }, []);
+
+  if (data.length === 0) return (
+    <div className="div-barchart-wrap" style={{ height: 60, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <span style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>Price data not available to calculate yield</span>
+    </div>
+  );
+
+  const height = 220;
+  const padTop = 20;
+  const padBottom = 48;
+  const padLeft = 52;
+  const padRight = 16;
+  const chartW = Math.max(width - padLeft - padRight, 10);
+  const chartH = height - padTop - padBottom;
+
+  const maxYield = Math.max(...data.map((d) => d.yieldPct), 0.001);
+  const avgYield = data.reduce((s, d) => s + d.yieldPct, 0) / data.length;
+  const barW = Math.max((chartW / data.length) * 0.6, 4);
+  const gap = chartW / data.length;
+
+  const ticks = [0, 0.25, 0.5, 0.75, 1].map((t) => ({
+    y: padTop + chartH * (1 - t),
+    label: (maxYield * t).toFixed(1) + '%',
+  }));
+
+  // Points for trend line
+  const points = data.map((d, i) => {
+    const cx = padLeft + i * gap + gap / 2;
+    const cy = padTop + chartH * (1 - d.yieldPct / maxYield);
+    return { cx, cy };
+  });
+  const polyline = points.map((p) => `${p.cx},${p.cy}`).join(' ');
+
+  // Average line Y
+  const avgY = padTop + chartH * (1 - avgYield / maxYield);
+
+  return (
+    <div ref={containerRef} className="div-barchart-wrap">
+      <svg width={width} height={height} style={{ display: 'block' }}>
+        {/* Y gridlines */}
+        {ticks.map((t) => (
+          <g key={t.label}>
+            <line x1={padLeft} y1={t.y} x2={padLeft + chartW} y2={t.y} stroke="var(--border)" strokeWidth={1} />
+            <text x={padLeft - 6} y={t.y + 4} textAnchor="end" fontSize={10} fill="var(--text-tertiary)">
+              {t.label}
+            </text>
+          </g>
+        ))}
+
+        {/* Average line */}
+        <line
+          x1={padLeft} y1={avgY} x2={padLeft + chartW} y2={avgY}
+          stroke="var(--text-tertiary)" strokeWidth={1} strokeDasharray="4 3"
+        />
+        <text x={padLeft + chartW + 4} y={avgY + 4} fontSize={9} fill="var(--text-tertiary)">avg</text>
+
+        {/* Bars */}
+        {data.map((d, i) => {
+          const barH = (d.yieldPct / maxYield) * chartH;
+          const x = padLeft + i * gap + gap / 2 - barW / 2;
+          const y = padTop + chartH - barH;
+          // Colour: above average = green, below = orange
+          const fill = d.yieldPct >= avgYield ? 'var(--green)' : '#f59e0b';
+          return (
+            <g key={d.year}>
+              <rect x={x} y={y} width={barW} height={barH} fill={fill} rx={2} opacity={0.7} />
+              <text x={x + barW / 2} y={y - 4} textAnchor="middle" fontSize={9} fill="var(--text-secondary)">
+                {d.yieldPct.toFixed(1)}%
+              </text>
+              <text x={x + barW / 2} y={height - 6} textAnchor="middle" fontSize={10} fill="var(--text-tertiary)">
+                {d.year}
+              </text>
+            </g>
+          );
+        })}
+
+        {/* Trend polyline */}
+        {points.length > 1 && (
+          <polyline
+            points={polyline}
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth={2}
+            strokeLinejoin="round"
+          />
+        )}
+
+        {/* Dots on trend line */}
+        {points.map((p, i) => (
+          <circle key={i} cx={p.cx} cy={p.cy} r={3} fill="var(--accent)" />
+        ))}
+      </svg>
+    </div>
+  );
+}
+
 // ─── Main component ───────────────────────────────────────────────────────────
 
 export function DividendTab({ ticker }: Props) {
   const [data, setData] = useState<DividendData | null>(null);
+  const [yields, setYields] = useState<YearlyYield[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -217,11 +335,16 @@ export function DividendTab({ ticker }: Props) {
     setLoading(true);
     setError(null);
     setData(null);
+    setYields([]);
 
-    getDividends(ticker)
-      .then((d) => {
+    Promise.all([getDividends(ticker), getBars(ticker)])
+      .then(([d, bars]) => {
         if (cancelled) return;
         setData(d);
+        if (d && d.dividends.length > 0) {
+          const yearly = buildYearlyTotals(d.dividends);
+          setYields(buildYearlyYields(yearly, bars));
+        }
       })
       .catch((err) => {
         if (cancelled) return;
@@ -303,6 +426,19 @@ export function DividendTab({ ticker }: Props) {
           <div className="div-metric-value">{yearsWithDividends}</div>
           <div className="div-metric-sub">{totalPayments} total payments</div>
         </div>
+        {yields.length > 0 && (() => {
+          const latest = yields[yields.length - 1];
+          const avg = yields.reduce((s, y) => s + y.yieldPct, 0) / yields.length;
+          return (
+            <div className="div-metric">
+              <div className="div-metric-label">Current Yield</div>
+              <div className={`div-metric-value ${latest.yieldPct >= avg ? 'up' : 'down'}`}>
+                {latest.yieldPct.toFixed(2)}%
+              </div>
+              <div className="div-metric-sub">avg {avg.toFixed(2)}% / yr</div>
+            </div>
+          );
+        })()}
       </div>
 
       {/* ── Annual bar chart ── */}
@@ -316,6 +452,19 @@ export function DividendTab({ ticker }: Props) {
           </span>
         </div>
         <YearlyBarChart data={yearly} />
+      </div>
+
+      {/* ── Dividend yield % chart ── */}
+      <div className="div-section">
+        <div className="div-section-title">
+          Dividend Yield % per Year
+          <span className="div-legend">
+            <span className="div-legend-dot" style={{ background: 'var(--green)' }} /> Above avg
+            <span className="div-legend-dot" style={{ background: '#f59e0b' }} /> Below avg
+            <span className="div-legend-dot" style={{ background: 'var(--accent)', borderRadius: '50%' }} /> Trend line
+          </span>
+        </div>
+        <YieldChart data={yields} />
       </div>
 
       {/* ── Individual payments chart ── */}
@@ -335,19 +484,26 @@ export function DividendTab({ ticker }: Props) {
                 <th className="num">Total</th>
                 <th className="num">Payments</th>
                 <th className="num">YoY Growth</th>
+                <th className="num">Yield %</th>
               </tr>
             </thead>
             <tbody>
-              {[...yearly].reverse().map((row) => (
-                <tr key={row.year}>
-                  <td className="bold">{row.year}</td>
-                  <td className="num">{fmt(row.total)}</td>
-                  <td className="num">{row.payments}</td>
-                  <td className={`num ${row.growthPct === null ? '' : row.growthPct >= 0 ? 'up' : 'down'}`}>
-                    {fmtGrowth(row.growthPct)}
-                  </td>
-                </tr>
-              ))}
+              {[...yearly].reverse().map((row) => {
+                const yieldRow = yields.find((y) => y.year === row.year);
+                return (
+                  <tr key={row.year}>
+                    <td className="bold">{row.year}</td>
+                    <td className="num">{fmt(row.total)}</td>
+                    <td className="num">{row.payments}</td>
+                    <td className={`num ${row.growthPct === null ? '' : row.growthPct >= 0 ? 'up' : 'down'}`}>
+                      {fmtGrowth(row.growthPct)}
+                    </td>
+                    <td className="num">
+                      {yieldRow ? `${yieldRow.yieldPct.toFixed(2)}%` : '—'}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
