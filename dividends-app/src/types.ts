@@ -42,6 +42,13 @@ export interface DividendData {
   dividends: DividendPayment[];
 }
 
+export interface YearlyYield {
+  year: string;
+  yieldPct: number;
+  dividend: number;
+  price: number;
+}
+
 export interface YearlyDividend {
   year: string;
   total: number;

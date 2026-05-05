@@ -1,4 +1,5 @@
-import type { DividendData, DividendPayment, YearlyDividend } from '../types';
+import type { DividendData, DividendPayment, YearlyDividend, YearlyYield } from '../types';
+import type { OHLCV } from '../types';
 
 const cache = new Map<string, DividendData | null>();
 const inflight = new Map<string, Promise<DividendData | null>>();
@@ -65,6 +66,34 @@ export function trailingTwelveMonths(dividends: DividendPayment[]): number {
   return dividends
     .filter((d) => d.date >= cutoffStr)
     .reduce((sum, d) => sum + d.amount, 0);
+}
+
+/**
+ * For each year that has dividend data, look up the year-end closing price
+ * from the OHLCV bars and compute yield % = (annual_dividend / year_end_price) * 100.
+ */
+export function buildYearlyYields(yearly: YearlyDividend[], bars: OHLCV[]): YearlyYield[] {
+  if (bars.length === 0 || yearly.length === 0) return [];
+
+  // Build a map: year -> last closing price of that year (bars are sorted asc)
+  const lastClose = new Map<string, number>();
+  for (const bar of bars) {
+    const year = new Date(bar.time * 1000).getUTCFullYear().toString();
+    lastClose.set(year, bar.close);
+  }
+
+  return yearly
+    .map((row) => {
+      const price = lastClose.get(row.year);
+      if (!price || price <= 0) return null;
+      return {
+        year: row.year,
+        yieldPct: (row.total / price) * 100,
+        dividend: row.total,
+        price,
+      };
+    })
+    .filter((r): r is YearlyYield => r !== null);
 }
 
 /** Number of consecutive years (ending with the most recent) with positive dividends. */
