@@ -13,6 +13,7 @@ import {
 } from '../lib/format';
 import { PriceChart } from './PriceChart';
 import { DividendTab } from './DividendTab';
+import { FinancialsTab } from './FinancialsTab';
 
 interface Props {
   stock: Stock | null;
@@ -239,8 +240,15 @@ export function StockPane({ stock, theme }: Props) {
         </div>
       )}
 
+      {/* ── Financials tab ── */}
+      {activeTab === 'financials' && (
+        <div className="div-tab-wrap">
+          <FinancialsTab ticker={stock.ticker} />
+        </div>
+      )}
+
       {/* ── Empty placeholder tabs ── */}
-      {(activeTab === 'overview' || activeTab === 'financials' || activeTab === 'news' || activeTab === 'about') && (
+      {(activeTab === 'overview' || activeTab === 'news' || activeTab === 'about') && (
         <div className="tab-empty">
           <div className="tab-empty-icon">🚧</div>
           <div className="tab-empty-title">

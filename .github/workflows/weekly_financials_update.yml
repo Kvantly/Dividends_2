@@ -1,0 +1,68 @@
+name: Weekly Financials Update
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # Every Monday at 04:00 UTC (after dividend job at 03:00)
+  workflow_dispatch:
+
+jobs:
+  update-financials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install yfinance pandas
+
+    - name: Verify stock list exists
+      run: |
+        if [ ! -f "oslo_stocks.json" ]; then
+          echo "❌ oslo_stocks.json not found"
+          exit 1
+        fi
+        COUNT=$(python3 -c 'import json; print(len(json.load(open("oslo_stocks.json"))))')
+        echo "✅ Stock list found ($COUNT stocks)"
+
+    - name: Fetch financial data
+      run: |
+        echo "Fetching financials from yfinance..."
+        python fetch_financials.py
+
+    - name: Verify output
+      id: verify
+      run: |
+        OUTPUT_DIR="dividends-app/public/financials"
+        if [ ! -d "$OUTPUT_DIR" ]; then
+          echo "❌ Output directory not created"
+          exit 1
+        fi
+        COUNT=$(ls "$OUTPUT_DIR"/*.json 2>/dev/null | wc -l)
+        echo "✅ Generated $COUNT financial JSON files"
+        if [ "$COUNT" -lt 1 ]; then
+          echo "❌ No files created"
+          exit 1
+        fi
+        echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Weekly financials update - $(date +'%Y-%m-%d') (${{ steps.verify.outputs.count }} stocks)"
+          git push
+          echo "✅ Pushed successfully"
+        fi
