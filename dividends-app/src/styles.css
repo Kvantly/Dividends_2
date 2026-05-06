@@ -136,10 +136,6 @@ body {
 }
 
 .sidebar-toggle {
-  position: absolute;
-  top: 8px;
-  right: 6px;
-  z-index: 10;
   width: 24px;
   height: 24px;
   border-radius: 4px;
@@ -161,8 +157,13 @@ body {
   color: var(--text);
 }
 
+/* When collapsed, the nav is not rendered — show just the toggle */
+.sidebar-collapsed .sidebar-nav {
+  justify-content: center;
+}
+
 .search-wrap {
-  padding: 12px 40px 12px 12px;
+  padding: 12px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -689,6 +690,350 @@ body {
   color: var(--text-tertiary);
   border-top: 1px solid var(--border);
   margin: 16px 0 0;
+}
+
+/* ── Sidebar nav tabs ────────────────────────────────────────────────────── */
+
+.sidebar-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 6px 6px 8px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  flex-shrink: 0;
+}
+
+.sidebar-nav-tab {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.sidebar-nav-tab:hover {
+  background: var(--bg-tertiary);
+  color: var(--text);
+}
+
+.sidebar-nav-tab.active {
+  background: var(--bg-tertiary);
+  color: var(--accent);
+  border-color: var(--border);
+}
+
+.sidebar-nav-icon { font-size: 13px; }
+.sidebar-nav-label { font-size: 11px; }
+
+/* Move toggle into nav row */
+.sidebar-nav .sidebar-toggle {
+  position: static;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.sidebar-rank-hint {
+  padding: 20px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* ── Ranking views ────────────────────────────────────────────────────────── */
+
+.rank-pane {
+  overflow-y: auto;
+}
+
+.rank-view {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rank-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.rank-title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.rank-subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  max-width: 480px;
+}
+
+.rank-meta-pills {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.rank-pill {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  min-width: 90px;
+  text-align: center;
+}
+
+.rank-pill-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+.rank-pill-value {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.rank-section {
+  padding: 16px 24px 8px;
+}
+
+.rank-section-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ── Ranking table ── */
+
+.rank-table-wrap {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: auto;
+  max-height: 560px;
+}
+
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.rank-th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-secondary);
+  padding: 8px 12px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  z-index: 1;
+}
+
+.rank-th.left { text-align: left; }
+.rank-th.num  { text-align: right; }
+
+.rank-row {
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+
+.rank-row:hover td { background: var(--bg-secondary); }
+.rank-row-open td  { background: var(--bg-tertiary); }
+
+.rank-row-detail td { background: var(--bg-secondary); border-bottom: 1px solid var(--border); }
+
+.rank-td {
+  padding: 8px 12px;
+  color: var(--text);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.rank-td.num   { text-align: right; }
+.rank-td.bold  { font-weight: 700; }
+.rank-td.muted { color: var(--text-tertiary); }
+.rank-td.accent { color: var(--accent); }
+.rank-td.name-cell {
+  text-align: left;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-secondary);
+}
+
+.up.strong { color: var(--green); font-weight: 700; }
+
+/* ── Company rank score bar ── */
+
+.co-score-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.co-score-bar-track {
+  flex: 1;
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 60px;
+}
+
+.co-score-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.co-score-num {
+  font-size: 12px;
+  font-weight: 700;
+  width: 28px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Company rank score detail (expanded row) ── */
+
+.co-detail-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary);
+  margin-bottom: 10px;
+  padding-top: 8px;
+}
+
+.co-score-detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 6px 24px;
+}
+
+.co-score-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.co-score-detail-label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  width: 130px;
+  flex-shrink: 0;
+}
+
+.co-score-detail-bar-wrap {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.co-score-detail-bar {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.co-score-detail-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ── Scoring criteria legend ── */
+
+.co-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 6px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+
+.co-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.co-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+/* ── No data state ── */
+
+.rank-no-data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.rank-no-data-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.rank-no-data-sub {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  line-height: 1.6;
 }
 
 /* Mobile */
