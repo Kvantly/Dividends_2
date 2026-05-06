@@ -1,0 +1,62 @@
+{
+  "ticker": "TEKNA",
+  "name": "TEKNA HOLDING",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 818864064.0,
+    "enterprise_value": 806707392.0,
+    "trailing_pe": null,
+    "forward_pe": -36.0,
+    "peg_ratio": null,
+    "price_to_sales": 23.017317,
+    "price_to_book": 1.427103,
+    "ev_to_revenue": 22.676,
+    "ev_to_ebitda": -210.354
+  },
+  "per_share": {
+    "current_price": 3.6,
+    "eps_trailing": -0.55,
+    "eps_forward": -0.1,
+    "book_value": 2.522594,
+    "revenue_per_share": 0.264,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.31055,
+    "operating_margin": -0.06487,
+    "gross_margin": 0.53303,
+    "ebitda_margin": -0.1078,
+    "roe": -0.26802,
+    "roa": -0.06832
+  },
+  "income": {
+    "total_revenue": 35576000.0,
+    "revenue_growth": 0.022,
+    "gross_profits": 18963000.0,
+    "ebitda": -3835000.0,
+    "net_income": -11048000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 17424000.0,
+    "cash_per_share": 0.077,
+    "total_debt": 7542000.0,
+    "debt_to_equity": 13.491,
+    "current_ratio": 3.595,
+    "quick_ratio": 2.238
+  },
+  "trading": {
+    "beta": 1.17,
+    "week52_high": 6.48,
+    "week52_low": 2.91,
+    "avg50d": 3.5664,
+    "avg200d": 3.878411,
+    "avg_volume": 43871.0,
+    "avg_volume_10d": 19232.0,
+    "shares_outstanding": 227462233.0,
+    "float_shares": 60664178.0,
+    "insider_ownership": 0.83966,
+    "institutional_ownership": 0.04715,
+    "short_ratio": null
+  }
+}

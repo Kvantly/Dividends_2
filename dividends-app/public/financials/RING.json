@@ -1,0 +1,63 @@
+{
+  "ticker": "RING",
+  "name": "SPBK1 RINGERIKE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 6884093952.0,
+    "enterprise_value": 6991178240.0,
+    "trailing_pe": 9.363694,
+    "forward_pe": 10.857495,
+    "peg_ratio": 5.65,
+    "price_to_sales": 4.750928,
+    "price_to_book": 1.328354,
+    "ev_to_revenue": 4.825,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 440.0,
+    "eps_trailing": 46.99,
+    "eps_forward": 40.525,
+    "book_value": 331.237,
+    "revenue_per_share": 92.643,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.50656,
+    "operating_margin": 0.62465,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.13572,
+    "roa": 0.02284
+  },
+  "income": {
+    "total_revenue": 1448999936.0,
+    "revenue_growth": 0.194,
+    "gross_profits": 1448999936.0,
+    "ebitda": null,
+    "net_income": 714000000.0,
+    "earnings_growth": 0.133
+  },
+  "balance_sheet": {
+    "total_cash": 4386999808.0,
+    "cash_per_share": 280.312,
+    "total_debt": 4492000256.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.151,
+    "week52_high": 488.95,
+    "week52_low": 360.05,
+    "avg50d": 455.772,
+    "avg200d": 412.107,
+    "avg_volume": 1876.0,
+    "avg_volume_10d": 751.0,
+    "shares_outstanding": 15645668.0,
+    "float_shares": 7466026.0,
+    "insider_ownership": 0.70184,
+    "institutional_ownership": 0.09021,
+    "short_ratio": null
+  },
+  "_pe_label": "9.36x"
+}

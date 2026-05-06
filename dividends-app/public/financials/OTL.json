@@ -1,0 +1,63 @@
+{
+  "ticker": "OTL",
+  "name": "ODFJELL TECHNOLOGY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2734846208.0,
+    "enterprise_value": 3681395456.0,
+    "trailing_pe": 8.482252,
+    "forward_pe": 5.304248,
+    "peg_ratio": null,
+    "price_to_sales": 0.494243,
+    "price_to_book": 2.1611,
+    "ev_to_revenue": 0.665,
+    "ev_to_ebitda": 5.34
+  },
+  "per_share": {
+    "current_price": 69.3,
+    "eps_trailing": 8.17,
+    "eps_forward": 13.065,
+    "book_value": 32.067,
+    "revenue_per_share": 140.214,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.05928,
+    "operating_margin": 0.0619,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.12459,
+    "roe": 0.24843,
+    "roa": 0.06865
+  },
+  "income": {
+    "total_revenue": 5533400064.0,
+    "revenue_growth": -0.038,
+    "gross_profits": 5533400064.0,
+    "ebitda": 689400000.0,
+    "net_income": 328000000.0,
+    "earnings_growth": -0.116
+  },
+  "balance_sheet": {
+    "total_cash": 697600000.0,
+    "cash_per_share": 17.677,
+    "total_debt": 1588899968.0,
+    "debt_to_equity": 125.555,
+    "current_ratio": 1.788,
+    "quick_ratio": 1.644
+  },
+  "trading": {
+    "beta": 0.767,
+    "week52_high": 75.4,
+    "week52_low": 41.0,
+    "avg50d": 69.724,
+    "avg200d": 59.961,
+    "avg_volume": 76606.0,
+    "avg_volume_10d": 46662.0,
+    "shares_outstanding": 39463867.0,
+    "float_shares": 13528608.0,
+    "insider_ownership": 0.67207,
+    "institutional_ownership": 0.07143,
+    "short_ratio": null
+  },
+  "_pe_label": "8.48x"
+}

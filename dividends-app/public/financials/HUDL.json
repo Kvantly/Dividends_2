@@ -1,0 +1,62 @@
+{
+  "ticker": "HUDL",
+  "name": "HUDDLESTOCK FINTEC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 157007424.0,
+    "enterprise_value": 174431232.0,
+    "trailing_pe": null,
+    "forward_pe": -11.04,
+    "peg_ratio": null,
+    "price_to_sales": 2.998156,
+    "price_to_book": 4.088889,
+    "ev_to_revenue": 3.331,
+    "ev_to_ebitda": -4.267
+  },
+  "per_share": {
+    "current_price": 0.552,
+    "eps_trailing": -0.4,
+    "eps_forward": -0.05,
+    "book_value": 0.135,
+    "revenue_per_share": 0.184,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -2.16476,
+    "operating_margin": -1.41696,
+    "gross_margin": 0.17717,
+    "ebitda_margin": -0.78061,
+    "roe": -1.40077,
+    "roa": -0.27497
+  },
+  "income": {
+    "total_revenue": 52368000.0,
+    "revenue_growth": -0.428,
+    "gross_profits": 9278000.0,
+    "ebitda": -40879000.0,
+    "net_income": -113364000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3204000.0,
+    "cash_per_share": 0.011,
+    "total_debt": 15508000.0,
+    "debt_to_equity": 40.512,
+    "current_ratio": 0.471,
+    "quick_ratio": 0.422
+  },
+  "trading": {
+    "beta": 0.678,
+    "week52_high": 1.01,
+    "week52_low": 0.483,
+    "avg50d": 0.57004,
+    "avg200d": 0.646781,
+    "avg_volume": 285346.0,
+    "avg_volume_10d": 260573.0,
+    "shares_outstanding": 284433748.0,
+    "float_shares": 165219031.0,
+    "insider_ownership": 0.30404,
+    "institutional_ownership": 0.05349,
+    "short_ratio": null
+  }
+}

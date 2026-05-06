@@ -1,0 +1,63 @@
+{
+  "ticker": "KRAB",
+  "name": "KRAFT BANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 585176512.0,
+    "enterprise_value": 541737984.0,
+    "trailing_pe": 9.689655,
+    "forward_pe": 7.805556,
+    "peg_ratio": null,
+    "price_to_sales": 3.09027,
+    "price_to_book": 1.16414,
+    "ev_to_revenue": 2.861,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 14.05,
+    "eps_trailing": 1.45,
+    "eps_forward": 1.8,
+    "book_value": 12.069,
+    "revenue_per_share": 4.509,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.34347,
+    "operating_margin": 0.49887,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.1349,
+    "roa": 0.01478
+  },
+  "income": {
+    "total_revenue": 189360992.0,
+    "revenue_growth": 0.346,
+    "gross_profits": 189360992.0,
+    "ebitda": null,
+    "net_income": 65040000.0,
+    "earnings_growth": 0.884
+  },
+  "balance_sheet": {
+    "total_cash": 102345000.0,
+    "cash_per_share": 2.437,
+    "total_debt": 47683000.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.447,
+    "week52_high": 15.0,
+    "week52_low": 8.1,
+    "avg50d": 14.198,
+    "avg200d": 12.515,
+    "avg_volume": 31680.0,
+    "avg_volume_10d": 18201.0,
+    "shares_outstanding": 41649571.0,
+    "float_shares": 40875660.0,
+    "insider_ownership": 0.61258,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  },
+  "_pe_label": "9.69x"
+}

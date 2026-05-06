@@ -1,0 +1,62 @@
+{
+  "ticker": "NYKD",
+  "name": "NYKODE THERAPEUTIC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1053112192.0,
+    "enterprise_value": 974147776.0,
+    "trailing_pe": null,
+    "forward_pe": -4.542254,
+    "peg_ratio": null,
+    "price_to_sales": 2324.751,
+    "price_to_book": 1.23582,
+    "ev_to_revenue": 2150.437,
+    "ev_to_ebitda": -34.971
+  },
+  "per_share": {
+    "current_price": 3.225,
+    "eps_trailing": -0.37,
+    "eps_forward": -0.71,
+    "book_value": 2.609603,
+    "revenue_per_share": 0.001,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -63.10817,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.10749,
+    "roa": -0.141
+  },
+  "income": {
+    "total_revenue": 453000.0,
+    "revenue_growth": -1.0,
+    "gross_profits": 453000.0,
+    "ebitda": -27856000.0,
+    "net_income": -12240000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 60289000.0,
+    "cash_per_share": 0.185,
+    "total_debt": 2550000.0,
+    "debt_to_equity": 2.786,
+    "current_ratio": 9.995,
+    "quick_ratio": 9.883
+  },
+  "trading": {
+    "beta": 0.863,
+    "week52_high": 4.1,
+    "week52_low": 1.44,
+    "avg50d": 3.17666,
+    "avg200d": 2.4619,
+    "avg_volume": 1242937.0,
+    "avg_volume_10d": 702810.0,
+    "shares_outstanding": 326546444.0,
+    "float_shares": 169578834.0,
+    "insider_ownership": 0.43599,
+    "institutional_ownership": 0.17794,
+    "short_ratio": null
+  }
+}

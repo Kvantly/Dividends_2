@@ -1,0 +1,63 @@
+{
+  "ticker": "NRC",
+  "name": "NRC GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1439461120.0,
+    "enterprise_value": 2369999872.0,
+    "trailing_pe": 59.57143,
+    "forward_pe": 9.400573,
+    "peg_ratio": null,
+    "price_to_sales": 0.219664,
+    "price_to_book": 0.936027,
+    "ev_to_revenue": 0.362,
+    "ev_to_ebitda": 6.991
+  },
+  "per_share": {
+    "current_price": 8.34,
+    "eps_trailing": 0.14,
+    "eps_forward": 0.88718,
+    "book_value": 8.91,
+    "revenue_per_share": 36.697,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.00382,
+    "operating_margin": 0.02518,
+    "gross_margin": 0.05433,
+    "ebitda_margin": 0.05173,
+    "roe": 0.01432,
+    "roa": 0.01864
+  },
+  "income": {
+    "total_revenue": 6552999936.0,
+    "revenue_growth": -0.016,
+    "gross_profits": 356000000.0,
+    "ebitda": 339000000.0,
+    "net_income": 25000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 180000000.0,
+    "cash_per_share": 0.9,
+    "total_debt": 932000000.0,
+    "debt_to_equity": 52.301,
+    "current_ratio": 1.033,
+    "quick_ratio": 1.013
+  },
+  "trading": {
+    "beta": -0.019,
+    "week52_high": 10.1,
+    "week52_low": 4.67,
+    "avg50d": 8.1418,
+    "avg200d": 8.19815,
+    "avg_volume": 555524.0,
+    "avg_volume_10d": 301968.0,
+    "shares_outstanding": 172597243.0,
+    "float_shares": 115372000.0,
+    "insider_ownership": 0.10916,
+    "institutional_ownership": 0.232,
+    "short_ratio": null
+  },
+  "_pe_label": "59.57x"
+}

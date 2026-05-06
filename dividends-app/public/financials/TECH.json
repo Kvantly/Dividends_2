@@ -1,0 +1,62 @@
+{
+  "ticker": "TECH",
+  "name": "TECHSTEP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 367832928.0,
+    "enterprise_value": 534518432.0,
+    "trailing_pe": null,
+    "forward_pe": 7.535715,
+    "peg_ratio": 2.89,
+    "price_to_sales": 0.367468,
+    "price_to_book": 0.733964,
+    "ev_to_revenue": 0.534,
+    "ev_to_ebitda": 4.741
+  },
+  "per_share": {
+    "current_price": 10.55,
+    "eps_trailing": -2.73,
+    "eps_forward": 1.4,
+    "book_value": 14.374,
+    "revenue_per_share": 29.068,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.09392,
+    "operating_margin": -0.19943,
+    "gross_margin": 0.43527,
+    "ebitda_margin": 0.11264,
+    "roe": -0.17651,
+    "roa": -0.04889
+  },
+  "income": {
+    "total_revenue": 1000993024.0,
+    "revenue_growth": -0.096,
+    "gross_profits": 435707008.0,
+    "ebitda": 112753000.0,
+    "net_income": -94010000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 9310000.0,
+    "cash_per_share": 0.271,
+    "total_debt": 185996000.0,
+    "debt_to_equity": 37.607,
+    "current_ratio": 0.609,
+    "quick_ratio": 0.322
+  },
+  "trading": {
+    "beta": 0.631,
+    "week52_high": 14.0,
+    "week52_low": 9.72,
+    "avg50d": 10.744,
+    "avg200d": 12.041,
+    "avg_volume": 10697.0,
+    "avg_volume_10d": 11382.0,
+    "shares_outstanding": 34865681.0,
+    "float_shares": 8190922.0,
+    "insider_ownership": 0.54104,
+    "institutional_ownership": 0.16988,
+    "short_ratio": null
+  }
+}

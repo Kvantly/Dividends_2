@@ -1,0 +1,62 @@
+{
+  "ticker": "PLT",
+  "name": "POLIGHT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1503208448.0,
+    "enterprise_value": 1021304576.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 73.384514,
+    "price_to_book": 4.557779,
+    "ev_to_revenue": 49.859,
+    "ev_to_ebitda": -8.25
+  },
+  "per_share": {
+    "current_price": 7.06,
+    "eps_trailing": -0.57,
+    "eps_forward": null,
+    "book_value": 1.549,
+    "revenue_per_share": 0.116,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -4.09307,
+    "gross_margin": 0.43776,
+    "ebitda_margin": 0.0,
+    "roe": -0.41416,
+    "roa": -0.24958
+  },
+  "income": {
+    "total_revenue": 20484000.0,
+    "revenue_growth": 6.049,
+    "gross_profits": 8967000.0,
+    "ebitda": -123798000.0,
+    "net_income": -118261000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 283980992.0,
+    "cash_per_share": 1.297,
+    "total_debt": 10838000.0,
+    "debt_to_equity": 3.195,
+    "current_ratio": 14.894,
+    "quick_ratio": 12.475
+  },
+  "trading": {
+    "beta": 1.332,
+    "week52_high": 8.68,
+    "week52_low": 3.355,
+    "avg50d": 5.8666,
+    "avg200d": 6.047275,
+    "avg_volume": 516433.0,
+    "avg_volume_10d": 697996.0,
+    "shares_outstanding": 212919031.0,
+    "float_shares": 206143518.0,
+    "insider_ownership": 0.41634,
+    "institutional_ownership": 0.08748,
+    "short_ratio": null
+  }
+}

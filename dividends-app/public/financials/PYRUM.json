@@ -1,0 +1,62 @@
+{
+  "ticker": "PYRUM",
+  "name": "PYRUM INNOVATIONS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1223409280.0,
+    "enterprise_value": 1250932224.0,
+    "trailing_pe": null,
+    "forward_pe": -17.049534,
+    "peg_ratio": null,
+    "price_to_sales": 119.2396,
+    "price_to_book": 4.971933,
+    "ev_to_revenue": 121.922,
+    "ev_to_ebitda": -155.194
+  },
+  "per_share": {
+    "current_price": 285.0,
+    "eps_trailing": -26.62,
+    "eps_forward": -16.716,
+    "book_value": 57.321774,
+    "revenue_per_share": 2.39,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.02633,
+    "operating_margin": -1.46635,
+    "gross_margin": 0.34717,
+    "ebitda_margin": -0.78561,
+    "roe": -0.50279,
+    "roa": null
+  },
+  "income": {
+    "total_revenue": 10260092.0,
+    "revenue_growth": -0.309,
+    "gross_profits": 3562001.0,
+    "ebitda": -8060436.0,
+    "net_income": -10530214.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5335126.0,
+    "cash_per_share": 1.243,
+    "total_debt": 32858128.0,
+    "debt_to_equity": 167.284,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.023,
+    "week52_high": 414.0,
+    "week52_low": 279.0,
+    "avg50d": 289.72,
+    "avg200d": 324.8451,
+    "avg_volume": 331.0,
+    "avg_volume_10d": 493.0,
+    "shares_outstanding": 4292664.0,
+    "float_shares": 2882138.0,
+    "insider_ownership": 0.40528,
+    "institutional_ownership": 0.00801,
+    "short_ratio": null
+  }
+}

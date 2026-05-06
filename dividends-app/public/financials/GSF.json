@@ -1,0 +1,62 @@
+{
+  "ticker": "GSF",
+  "name": "GRIEG SEAFOOD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3847670784.0,
+    "enterprise_value": 1726692480.0,
+    "trailing_pe": null,
+    "forward_pe": 9.192936,
+    "peg_ratio": 1.09,
+    "price_to_sales": 1.039434,
+    "price_to_book": 0.854671,
+    "ev_to_revenue": 0.466,
+    "ev_to_ebitda": 3.092
+  },
+  "per_share": {
+    "current_price": 34.28,
+    "eps_trailing": -1.1,
+    "eps_forward": 3.72895,
+    "book_value": 40.109,
+    "revenue_per_share": 32.979,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.2998,
+    "operating_margin": 0.17016,
+    "gross_margin": 0.39711,
+    "ebitda_margin": 0.15085,
+    "roe": 0.02197,
+    "roa": 0.01373
+  },
+  "income": {
+    "total_revenue": 3701698048.0,
+    "revenue_growth": -0.531,
+    "gross_profits": 1469986048.0,
+    "ebitda": 558384000.0,
+    "net_income": -124186000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5011759104.0,
+    "cash_per_share": 44.651,
+    "total_debt": 2841393920.0,
+    "debt_to_equity": 63.115,
+    "current_ratio": 2.106,
+    "quick_ratio": 1.582
+  },
+  "trading": {
+    "beta": 0.09,
+    "week52_high": 81.35,
+    "week52_low": 33.74,
+    "avg50d": 64.4992,
+    "avg200d": 69.30155,
+    "avg_volume": 492603.0,
+    "avg_volume_10d": 793773.0,
+    "shares_outstanding": 112242439.0,
+    "float_shares": 30498516.0,
+    "insider_ownership": 0.66668,
+    "institutional_ownership": 0.09699,
+    "short_ratio": null
+  }
+}

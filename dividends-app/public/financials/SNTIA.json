@@ -1,0 +1,63 @@
+{
+  "ticker": "SNTIA",
+  "name": "SENTIA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 8194871296.0,
+    "enterprise_value": 3908187392.0,
+    "trailing_pe": 14.315789,
+    "forward_pe": 14.282389,
+    "peg_ratio": null,
+    "price_to_sales": 0.694598,
+    "price_to_book": 4.831833,
+    "ev_to_revenue": 0.331,
+    "ev_to_ebitda": 6.591
+  },
+  "per_share": {
+    "current_price": 81.6,
+    "eps_trailing": 5.7,
+    "eps_forward": 5.71333,
+    "book_value": 16.888,
+    "revenue_per_share": 119.936,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04764,
+    "operating_margin": 0.0591,
+    "gross_margin": 0.21927,
+    "ebitda_margin": 0.05026,
+    "roe": 0.32647,
+    "roa": 0.05257
+  },
+  "income": {
+    "total_revenue": 11797999616.0,
+    "revenue_growth": 0.214,
+    "gross_profits": 2587000064.0,
+    "ebitda": 593000000.0,
+    "net_income": 562000000.0,
+    "earnings_growth": 1.174
+  },
+  "balance_sheet": {
+    "total_cash": 4322999808.0,
+    "cash_per_share": 43.046,
+    "total_debt": 197000000.0,
+    "debt_to_equity": 11.616,
+    "current_ratio": 1.076,
+    "quick_ratio": 1.015
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 81.9,
+    "week52_low": 55.24,
+    "avg50d": 73.9088,
+    "avg200d": 66.1574,
+    "avg_volume": 120901.0,
+    "avg_volume_10d": 95934.0,
+    "shares_outstanding": 100427343.0,
+    "float_shares": 35329335.0,
+    "insider_ownership": 0.16721,
+    "institutional_ownership": 0.60779,
+    "short_ratio": null
+  },
+  "_pe_label": "14.32x"
+}

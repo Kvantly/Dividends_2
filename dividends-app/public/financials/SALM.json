@@ -1,0 +1,63 @@
+{
+  "ticker": "SALM",
+  "name": "SALMAR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 73461686272.0,
+    "enterprise_value": 98696847360.0,
+    "trailing_pe": 66.01705,
+    "forward_pe": 13.074507,
+    "peg_ratio": 1.3,
+    "price_to_sales": 2.686672,
+    "price_to_book": 4.13346,
+    "ev_to_revenue": 3.61,
+    "ev_to_ebitda": 20.258
+  },
+  "per_share": {
+    "current_price": 542.0,
+    "eps_trailing": 8.21,
+    "eps_forward": 41.45472,
+    "book_value": 131.125,
+    "revenue_per_share": 204.135,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04041,
+    "operating_margin": 0.23016,
+    "gross_margin": 0.44673,
+    "ebitda_margin": 0.17818,
+    "roe": 0.05551,
+    "roa": 0.03791
+  },
+  "income": {
+    "total_revenue": 27342999552.0,
+    "revenue_growth": 0.052,
+    "gross_profits": 12215000064.0,
+    "ebitda": 4872000000.0,
+    "net_income": 1104999936.0,
+    "earnings_growth": -0.067
+  },
+  "balance_sheet": {
+    "total_cash": 765000000.0,
+    "cash_per_share": 5.653,
+    "total_debt": 23439998976.0,
+    "debt_to_equity": 116.339,
+    "current_ratio": 2.047,
+    "quick_ratio": 0.271
+  },
+  "trading": {
+    "beta": 0.645,
+    "week52_high": 627.0,
+    "week52_low": 407.2,
+    "avg50d": 561.01,
+    "avg200d": 555.402,
+    "avg_volume": 213218.0,
+    "avg_volume_10d": 150757.0,
+    "shares_outstanding": 135538162.0,
+    "float_shares": 68978422.0,
+    "insider_ownership": 0.04841,
+    "institutional_ownership": 0.74474,
+    "short_ratio": null
+  },
+  "_pe_label": "66.02x"
+}

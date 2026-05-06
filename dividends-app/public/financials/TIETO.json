@@ -1,0 +1,63 @@
+{
+  "ticker": "TIETO",
+  "name": "TIETOEVRY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 24648392704.0,
+    "enterprise_value": 25245274112.0,
+    "trailing_pe": 31.185946,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 13.47054,
+    "price_to_book": 2.074974,
+    "ev_to_revenue": 13.797,
+    "ev_to_ebitda": 97.472
+  },
+  "per_share": {
+    "current_price": 213.0,
+    "eps_trailing": 6.83,
+    "eps_forward": null,
+    "book_value": 102.651886,
+    "revenue_per_share": 15.464,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.17934,
+    "gross_margin": 0.21833,
+    "ebitda_margin": 0.14155,
+    "roe": 0.06853,
+    "roa": 0.04871
+  },
+  "income": {
+    "total_revenue": 1829799936.0,
+    "revenue_growth": -0.048,
+    "gross_profits": 399500000.0,
+    "ebitda": 259000000.0,
+    "net_income": 74400000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 334400000.0,
+    "cash_per_share": 2.869,
+    "total_debt": 709299968.0,
+    "debt_to_equity": 66.439,
+    "current_ratio": 1.179,
+    "quick_ratio": 1.108
+  },
+  "trading": {
+    "beta": 0.66,
+    "week52_high": 225.6,
+    "week52_low": 170.0,
+    "avg50d": 206.17,
+    "avg200d": 201.4095,
+    "avg_volume": 6323.0,
+    "avg_volume_10d": 1526.0,
+    "shares_outstanding": 115720150.0,
+    "float_shares": 78938380.0,
+    "insider_ownership": 0.13201,
+    "institutional_ownership": 0.58135,
+    "short_ratio": null
+  },
+  "_pe_label": "31.19x"
+}

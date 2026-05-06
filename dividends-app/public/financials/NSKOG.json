@@ -1,0 +1,63 @@
+{
+  "ticker": "NSKOG",
+  "name": "NORSKE SKOG",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3834688256.0,
+    "enterprise_value": 8285785088.0,
+    "trailing_pe": 11.243781,
+    "forward_pe": 15.613127,
+    "peg_ratio": null,
+    "price_to_sales": 0.408206,
+    "price_to_book": 0.64699,
+    "ev_to_revenue": 0.882,
+    "ev_to_ebitda": 1657.157
+  },
+  "per_share": {
+    "current_price": 45.2,
+    "eps_trailing": 4.02,
+    "eps_forward": 2.895,
+    "book_value": 69.862,
+    "revenue_per_share": 110.826,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.03598,
+    "operating_margin": 0.1198,
+    "gross_margin": 0.29774,
+    "ebitda_margin": 0.00053,
+    "roe": 0.05876,
+    "roa": -0.02456
+  },
+  "income": {
+    "total_revenue": 9393999872.0,
+    "revenue_growth": -0.021,
+    "gross_profits": 2796999936.0,
+    "ebitda": 5000000.0,
+    "net_income": 340000000.0,
+    "earnings_growth": -0.163
+  },
+  "balance_sheet": {
+    "total_cash": 653000000.0,
+    "cash_per_share": 7.697,
+    "total_debt": 5154999808.0,
+    "debt_to_equity": 86.975,
+    "current_ratio": 1.213,
+    "quick_ratio": 0.755
+  },
+  "trading": {
+    "beta": 0.325,
+    "week52_high": 49.95,
+    "week52_low": 14.12,
+    "avg50d": 36.087,
+    "avg200d": 23.3823,
+    "avg_volume": 427942.0,
+    "avg_volume_10d": 490318.0,
+    "shares_outstanding": 84838235.0,
+    "float_shares": 60020506.0,
+    "insider_ownership": 0.49897,
+    "institutional_ownership": 0.11903,
+    "short_ratio": null
+  },
+  "_pe_label": "11.24x"
+}

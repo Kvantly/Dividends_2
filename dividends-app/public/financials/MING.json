@@ -1,0 +1,63 @@
+{
+  "ticker": "MING",
+  "name": "SPAREBANK 1 SMN",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 29204062208.0,
+    "enterprise_value": 75616477184.0,
+    "trailing_pe": 10.574113,
+    "forward_pe": 10.079602,
+    "peg_ratio": 2.71,
+    "price_to_sales": 3.274732,
+    "price_to_book": 1.001468,
+    "ev_to_revenue": 8.479,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 202.6,
+    "eps_trailing": 19.16,
+    "eps_forward": 20.1,
+    "book_value": 202.303,
+    "revenue_per_share": 61.848,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.47982,
+    "operating_margin": 0.60355,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.13999,
+    "roa": 0.0178
+  },
+  "income": {
+    "total_revenue": 8917999616.0,
+    "revenue_growth": -0.004,
+    "gross_profits": 8917999616.0,
+    "ebitda": null,
+    "net_income": 2751000064.0,
+    "earnings_growth": 0.012
+  },
+  "balance_sheet": {
+    "total_cash": 6911000064.0,
+    "cash_per_share": 47.93,
+    "total_debt": 52629000192.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.401,
+    "week52_high": 215.3,
+    "week52_low": 181.72,
+    "avg50d": 208.57,
+    "avg200d": 197.56555,
+    "avg_volume": 151258.0,
+    "avg_volume_10d": 94871.0,
+    "shares_outstanding": 144146405.0,
+    "float_shares": 133468032.0,
+    "insider_ownership": 0.13981,
+    "institutional_ownership": 0.32628,
+    "short_ratio": null
+  },
+  "_pe_label": "10.57x"
+}

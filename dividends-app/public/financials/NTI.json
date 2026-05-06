@@ -1,0 +1,62 @@
+{
+  "ticker": "NTI",
+  "name": "NORSK TITANIUM",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 998586368.0,
+    "enterprise_value": 935923392.0,
+    "trailing_pe": null,
+    "forward_pe": -10.43817,
+    "peg_ratio": null,
+    "price_to_sales": 288.6922,
+    "price_to_book": 6.088405,
+    "ev_to_revenue": 270.576,
+    "ev_to_ebitda": -30.343
+  },
+  "per_share": {
+    "current_price": 0.97,
+    "eps_trailing": -0.56,
+    "eps_forward": -0.092928,
+    "book_value": 0.159319,
+    "revenue_per_share": 0.004,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -10.318211,
+    "gross_margin": -1.48771,
+    "ebitda_margin": 0.0,
+    "roe": -2.08039,
+    "roa": -0.51253
+  },
+  "income": {
+    "total_revenue": 3459000.0,
+    "revenue_growth": -0.541,
+    "gross_profits": -5146000.0,
+    "ebitda": -30845000.0,
+    "net_income": -55924000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 19804000.0,
+    "cash_per_share": 0.019,
+    "total_debt": 6364000.0,
+    "debt_to_equity": 27.718,
+    "current_ratio": 5.402,
+    "quick_ratio": 3.762
+  },
+  "trading": {
+    "beta": -0.7,
+    "week52_high": 2.215,
+    "week52_low": 0.751,
+    "avg50d": 0.89594,
+    "avg200d": 1.159725,
+    "avg_volume": 2160498.0,
+    "avg_volume_10d": 1060515.0,
+    "shares_outstanding": 1029470472.0,
+    "float_shares": 685853382.0,
+    "insider_ownership": 0.40439,
+    "institutional_ownership": 0.12842,
+    "short_ratio": null
+  }
+}

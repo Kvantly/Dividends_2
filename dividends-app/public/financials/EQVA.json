@@ -1,0 +1,63 @@
+{
+  "ticker": "EQVA",
+  "name": "EQVA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 276351104.0,
+    "enterprise_value": 482500000.0,
+    "trailing_pe": 8.121951,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 0.214442,
+    "price_to_book": 0.675456,
+    "ev_to_revenue": 0.374,
+    "ev_to_ebitda": 7.665
+  },
+  "per_share": {
+    "current_price": 3.33,
+    "eps_trailing": 0.41,
+    "eps_forward": null,
+    "book_value": 4.93,
+    "revenue_per_share": 15.362,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.03515,
+    "operating_margin": 0.02931,
+    "gross_margin": 0.62769,
+    "ebitda_margin": 0.04884,
+    "roe": 0.04388,
+    "roa": 0.03337
+  },
+  "income": {
+    "total_revenue": 1288700032.0,
+    "revenue_growth": 0.031,
+    "gross_profits": 808899968.0,
+    "ebitda": 62945000.0,
+    "net_income": 15700000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 149000000.0,
+    "cash_per_share": 1.863,
+    "total_debt": 354300000.0,
+    "debt_to_equity": 87.785,
+    "current_ratio": 1.089,
+    "quick_ratio": 1.053
+  },
+  "trading": {
+    "beta": 0.516,
+    "week52_high": 5.36,
+    "week52_low": 2.74,
+    "avg50d": 3.2454,
+    "avg200d": 3.9254,
+    "avg_volume": 167729.0,
+    "avg_volume_10d": 81682.0,
+    "shares_outstanding": 82988320.0,
+    "float_shares": 42580800.0,
+    "insider_ownership": 0.81573,
+    "institutional_ownership": 0.01696,
+    "short_ratio": null
+  },
+  "_pe_label": "8.12x"
+}

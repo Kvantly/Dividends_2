@@ -1,0 +1,63 @@
+{
+  "ticker": "SBO",
+  "name": "SELVAAG BOLIG",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3148124416.0,
+    "enterprise_value": 5975431168.0,
+    "trailing_pe": 23.661972,
+    "forward_pe": 10.243902,
+    "peg_ratio": null,
+    "price_to_sales": 1.513829,
+    "price_to_book": 1.311117,
+    "ev_to_revenue": 2.873,
+    "ev_to_ebitda": 99.853
+  },
+  "per_share": {
+    "current_price": 33.6,
+    "eps_trailing": 1.42,
+    "eps_forward": 3.28,
+    "book_value": 25.627,
+    "revenue_per_share": 22.183,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.06393,
+    "operating_margin": 0.06555,
+    "gross_margin": 0.15015,
+    "ebitda_margin": 0.02878,
+    "roe": 0.05539,
+    "roa": 0.00598
+  },
+  "income": {
+    "total_revenue": 2079576960.0,
+    "revenue_growth": 1.201,
+    "gross_profits": 312243008.0,
+    "ebitda": 59842000.0,
+    "net_income": 132955000.0,
+    "earnings_growth": 1.74
+  },
+  "balance_sheet": {
+    "total_cash": 254838000.0,
+    "cash_per_share": 2.72,
+    "total_debt": 3064852992.0,
+    "debt_to_equity": 127.222,
+    "current_ratio": 1.991,
+    "quick_ratio": 0.144
+  },
+  "trading": {
+    "beta": 0.823,
+    "week52_high": 38.0,
+    "week52_low": 32.5,
+    "avg50d": 34.538,
+    "avg200d": 34.97975,
+    "avg_volume": 45282.0,
+    "avg_volume_10d": 19269.0,
+    "shares_outstanding": 93694184.0,
+    "float_shares": 34932940.0,
+    "insider_ownership": 0.73388,
+    "institutional_ownership": 0.18109,
+    "short_ratio": null
+  },
+  "_pe_label": "23.66x"
+}

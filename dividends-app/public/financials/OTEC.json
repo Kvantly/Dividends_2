@@ -1,0 +1,63 @@
+{
+  "ticker": "OTEC",
+  "name": "OTELLO CORPORATION",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1355624832.0,
+    "enterprise_value": 1354242304.0,
+    "trailing_pe": 3.251656,
+    "forward_pe": null,
+    "peg_ratio": 4.8,
+    "price_to_sales": null,
+    "price_to_book": 1.178122,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 19.64,
+    "eps_trailing": 6.04,
+    "eps_forward": null,
+    "book_value": 16.670603,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.49138,
+    "roa": -0.03962
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": -5666000.0,
+    "ebitda": null,
+    "net_income": 50376000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 15881000.0,
+    "cash_per_share": 0.222,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 38.45,
+    "quick_ratio": 38.45
+  },
+  "trading": {
+    "beta": 0.822,
+    "week52_high": 20.25,
+    "week52_low": 9.82,
+    "avg50d": 18.3236,
+    "avg200d": 16.4629,
+    "avg_volume": 78836.0,
+    "avg_volume_10d": 76078.0,
+    "shares_outstanding": 69023672.0,
+    "float_shares": 51381767.0,
+    "insider_ownership": 0.24876,
+    "institutional_ownership": 0.25505,
+    "short_ratio": null
+  },
+  "_pe_label": "3.25x"
+}

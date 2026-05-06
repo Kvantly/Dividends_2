@@ -1,0 +1,62 @@
+{
+  "ticker": "MGN",
+  "name": "MAGNORA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1966500352.0,
+    "enterprise_value": 1833600256.0,
+    "trailing_pe": null,
+    "forward_pe": 19.255505,
+    "peg_ratio": 0.11,
+    "price_to_sales": 39.173313,
+    "price_to_book": 5.201627,
+    "ev_to_revenue": 36.526,
+    "ev_to_ebitda": -22.554
+  },
+  "per_share": {
+    "current_price": 30.7,
+    "eps_trailing": -0.96,
+    "eps_forward": 1.594349,
+    "book_value": 5.902,
+    "revenue_per_share": 0.763,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.27291,
+    "operating_margin": -17.59091,
+    "gross_margin": 0.93426,
+    "ebitda_margin": -1.61952,
+    "roe": -0.19799,
+    "roa": -0.10572
+  },
+  "income": {
+    "total_revenue": 50200000.0,
+    "revenue_growth": -0.956,
+    "gross_profits": 46900000.0,
+    "ebitda": -81300000.0,
+    "net_income": -63900000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 128400000.0,
+    "cash_per_share": 2.005,
+    "total_debt": 7300000.0,
+    "debt_to_equity": 2.309,
+    "current_ratio": 2.072,
+    "quick_ratio": 1.92
+  },
+  "trading": {
+    "beta": 0.284,
+    "week52_high": 33.5,
+    "week52_low": 18.42,
+    "avg50d": 24.004,
+    "avg200d": 21.86935,
+    "avg_volume": 277943.0,
+    "avg_volume_10d": 573845.0,
+    "shares_outstanding": 64055384.0,
+    "float_shares": 39230720.0,
+    "insider_ownership": 0.34373,
+    "institutional_ownership": 0.17194,
+    "short_ratio": null
+  }
+}

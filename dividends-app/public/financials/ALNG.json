@@ -1,0 +1,62 @@
+{
+  "ticker": "ALNG",
+  "name": "AWILCO LNG",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 835245248.0,
+    "enterprise_value": 691647488.0,
+    "trailing_pe": null,
+    "forward_pe": -19.60651,
+    "peg_ratio": null,
+    "price_to_sales": 20.09395,
+    "price_to_book": 0.450355,
+    "ev_to_revenue": 16.639,
+    "ev_to_ebitda": 635.122
+  },
+  "per_share": {
+    "current_price": 3.98,
+    "eps_trailing": -0.74,
+    "eps_forward": -0.202994,
+    "book_value": 8.837469,
+    "revenue_per_share": 0.314,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.26882,
+    "operating_margin": -0.15406,
+    "gross_margin": 0.80833,
+    "ebitda_margin": 0.0262,
+    "roe": -0.08487,
+    "roa": 0.00193
+  },
+  "income": {
+    "total_revenue": 41567000.0,
+    "revenue_growth": -0.063,
+    "gross_profits": 33600000.0,
+    "ebitda": 1089000.0,
+    "net_income": -11174000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 14775000.0,
+    "cash_per_share": 0.111,
+    "total_debt": 178879008.0,
+    "debt_to_equity": 141.885,
+    "current_ratio": 1.234,
+    "quick_ratio": 0.783
+  },
+  "trading": {
+    "beta": -0.295,
+    "week52_high": 5.75,
+    "week52_low": 2.3,
+    "avg50d": 3.6662,
+    "avg200d": 3.466375,
+    "avg_volume": 744631.0,
+    "avg_volume_10d": 401400.0,
+    "shares_outstanding": 209860609.0,
+    "float_shares": 69338829.0,
+    "insider_ownership": 0.26396,
+    "institutional_ownership": 0.00469,
+    "short_ratio": null
+  }
+}

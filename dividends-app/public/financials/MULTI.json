@@ -1,0 +1,63 @@
+{
+  "ticker": "MULTI",
+  "name": "MULTICONSULT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 4382418944.0,
+    "enterprise_value": 5848616960.0,
+    "trailing_pe": 17.24512,
+    "forward_pe": 11.01813,
+    "peg_ratio": null,
+    "price_to_sales": 0.774653,
+    "price_to_book": 3.691493,
+    "ev_to_revenue": 1.034,
+    "ev_to_ebitda": 12.598
+  },
+  "per_share": {
+    "current_price": 159.0,
+    "eps_trailing": 9.22,
+    "eps_forward": 14.43076,
+    "book_value": 43.072,
+    "revenue_per_share": 206.246,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04471,
+    "operating_margin": 0.05079,
+    "gross_margin": 0.33472,
+    "ebitda_margin": 0.08206,
+    "roe": 0.20145,
+    "roa": 0.06105
+  },
+  "income": {
+    "total_revenue": 5657269760.0,
+    "revenue_growth": 0.054,
+    "gross_profits": 1893629056.0,
+    "ebitda": 464232000.0,
+    "net_income": 252956000.0,
+    "earnings_growth": -0.548
+  },
+  "balance_sheet": {
+    "total_cash": 113541000.0,
+    "cash_per_share": 4.12,
+    "total_debt": 1538834944.0,
+    "debt_to_equity": 125.227,
+    "current_ratio": 1.113,
+    "quick_ratio": 1.047
+  },
+  "trading": {
+    "beta": 0.114,
+    "week52_high": 221.0,
+    "week52_low": 150.0,
+    "avg50d": 159.788,
+    "avg200d": 172.0345,
+    "avg_volume": 14556.0,
+    "avg_volume_10d": 6663.0,
+    "shares_outstanding": 27562385.0,
+    "float_shares": 17271690.0,
+    "insider_ownership": 0.37697,
+    "institutional_ownership": 0.35785,
+    "short_ratio": null
+  },
+  "_pe_label": "17.25x"
+}

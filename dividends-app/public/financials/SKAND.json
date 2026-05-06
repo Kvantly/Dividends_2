@@ -1,0 +1,63 @@
+{
+  "ticker": "SKAND",
+  "name": "SKANDIA GREENPOWER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 229971056.0,
+    "enterprise_value": 128122440.0,
+    "trailing_pe": 21.388887,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 0.426851,
+    "price_to_book": 2.359069,
+    "ev_to_revenue": 0.238,
+    "ev_to_ebitda": 4.518
+  },
+  "per_share": {
+    "current_price": 1.925,
+    "eps_trailing": 0.09,
+    "eps_forward": null,
+    "book_value": 0.816,
+    "revenue_per_share": 4.51,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01887,
+    "operating_margin": 0.03618,
+    "gross_margin": 0.10487,
+    "ebitda_margin": 0.05264,
+    "roe": 0.10475,
+    "roa": 0.029
+  },
+  "income": {
+    "total_revenue": 538762304.0,
+    "revenue_growth": 0.321,
+    "gross_profits": 56500424.0,
+    "ebitda": 28360544.0,
+    "net_income": 10164560.0,
+    "earnings_growth": -0.465
+  },
+  "balance_sheet": {
+    "total_cash": 97667336.0,
+    "cash_per_share": 0.818,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.979,
+    "quick_ratio": 0.979
+  },
+  "trading": {
+    "beta": 1.37,
+    "week52_high": 2.08,
+    "week52_low": 1.01,
+    "avg50d": 1.7147,
+    "avg200d": 1.705625,
+    "avg_volume": 24064.0,
+    "avg_volume_10d": 21256.0,
+    "shares_outstanding": 119465490.0,
+    "float_shares": 63074195.0,
+    "insider_ownership": 0.91966,
+    "institutional_ownership": 0.03289,
+    "short_ratio": null
+  },
+  "_pe_label": "21.39x"
+}

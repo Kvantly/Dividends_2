@@ -1,0 +1,62 @@
+{
+  "ticker": "BEWI",
+  "name": "BEWI",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3334964224.0,
+    "enterprise_value": 3733099008.0,
+    "trailing_pe": null,
+    "forward_pe": 259.9344,
+    "peg_ratio": null,
+    "price_to_sales": 4.188075,
+    "price_to_book": 0.68512,
+    "ev_to_revenue": 4.688,
+    "ev_to_ebitda": 70.171
+  },
+  "per_share": {
+    "current_price": 14.1,
+    "eps_trailing": -2.29,
+    "eps_forward": 0.054244,
+    "book_value": 20.580349,
+    "revenue_per_share": 3.838,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01959,
+    "operating_margin": 0.01775,
+    "gross_margin": 0.58357,
+    "ebitda_margin": 0.06681,
+    "roe": -0.10089,
+    "roa": 0.00618
+  },
+  "income": {
+    "total_revenue": 796300032.0,
+    "revenue_growth": 0.034,
+    "gross_profits": 464700000.0,
+    "ebitda": 53200000.0,
+    "net_income": -43200000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 64500000.0,
+    "cash_per_share": 0.273,
+    "total_debt": 508100000.0,
+    "debt_to_equity": 110.481,
+    "current_ratio": 1.533,
+    "quick_ratio": 1.011
+  },
+  "trading": {
+    "beta": 0.876,
+    "week52_high": 25.0,
+    "week52_low": 13.3,
+    "avg50d": 14.594,
+    "avg200d": 17.15155,
+    "avg_volume": 216207.0,
+    "avg_volume_10d": 63335.0,
+    "shares_outstanding": 236522290.0,
+    "float_shares": 48212704.0,
+    "insider_ownership": 0.78462,
+    "institutional_ownership": 0.12532,
+    "short_ratio": null
+  }
+}

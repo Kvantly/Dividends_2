@@ -1,0 +1,63 @@
+{
+  "ticker": "NORBT",
+  "name": "NORBIT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 14465265664.0,
+    "enterprise_value": 14832189440.0,
+    "trailing_pe": 35.822784,
+    "forward_pe": 23.055483,
+    "peg_ratio": null,
+    "price_to_sales": 5.780326,
+    "price_to_book": 11.939669,
+    "ev_to_revenue": 5.927,
+    "ev_to_ebitda": 24.07
+  },
+  "per_share": {
+    "current_price": 226.4,
+    "eps_trailing": 6.32,
+    "eps_forward": 9.81979,
+    "book_value": 18.962,
+    "revenue_per_share": 39.257,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.16156,
+    "operating_margin": 0.22541,
+    "gross_margin": 0.55644,
+    "ebitda_margin": 0.24623,
+    "roe": 0.34135,
+    "roa": 0.1444
+  },
+  "income": {
+    "total_revenue": 2502500096.0,
+    "revenue_growth": 0.422,
+    "gross_profits": 1392499968.0,
+    "ebitda": 616200000.0,
+    "net_income": 404300000.0,
+    "earnings_growth": 0.234
+  },
+  "balance_sheet": {
+    "total_cash": 158900000.0,
+    "cash_per_share": 2.487,
+    "total_debt": 717500032.0,
+    "debt_to_equity": 59.224,
+    "current_ratio": 1.563,
+    "quick_ratio": 0.625
+  },
+  "trading": {
+    "beta": 0.466,
+    "week52_high": 244.8,
+    "week52_low": 145.0,
+    "avg50d": 209.772,
+    "avg200d": 195.2185,
+    "avg_volume": 164468.0,
+    "avg_volume_10d": 111318.0,
+    "shares_outstanding": 63892522.0,
+    "float_shares": 57524354.0,
+    "insider_ownership": 0.50419,
+    "institutional_ownership": 0.27464,
+    "short_ratio": null
+  },
+  "_pe_label": "35.82x"
+}

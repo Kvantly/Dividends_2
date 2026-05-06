@@ -1,0 +1,63 @@
+{
+  "ticker": "ITERA",
+  "name": "ITERA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 569675328.0,
+    "enterprise_value": 597121408.0,
+    "trailing_pe": 24.857143,
+    "forward_pe": 8.410266,
+    "peg_ratio": 0.36,
+    "price_to_sales": 0.674744,
+    "price_to_book": 12.450805,
+    "ev_to_revenue": 0.707,
+    "ev_to_ebitda": 8.667
+  },
+  "per_share": {
+    "current_price": 6.96,
+    "eps_trailing": 0.28,
+    "eps_forward": 0.82756,
+    "book_value": 0.559,
+    "revenue_per_share": 10.335,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.02722,
+    "operating_margin": 0.01803,
+    "gross_margin": 0.92604,
+    "ebitda_margin": 0.08161,
+    "roe": 0.49734,
+    "roa": 0.08366
+  },
+  "income": {
+    "total_revenue": 844284032.0,
+    "revenue_growth": 0.007,
+    "gross_profits": 781843968.0,
+    "ebitda": 68899000.0,
+    "net_income": 22978000.0,
+    "earnings_growth": -0.448
+  },
+  "balance_sheet": {
+    "total_cash": 58434000.0,
+    "cash_per_share": 0.715,
+    "total_debt": 59043000.0,
+    "debt_to_equity": 129.225,
+    "current_ratio": 0.958,
+    "quick_ratio": 0.958
+  },
+  "trading": {
+    "beta": 0.163,
+    "week52_high": 10.45,
+    "week52_low": 6.7,
+    "avg50d": 7.1964,
+    "avg200d": 7.9554,
+    "avg_volume": 44075.0,
+    "avg_volume_10d": 31972.0,
+    "shares_outstanding": 81849902.0,
+    "float_shares": 21153310.0,
+    "insider_ownership": 0.72801,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  },
+  "_pe_label": "24.86x"
+}

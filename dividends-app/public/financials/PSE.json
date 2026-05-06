@@ -1,0 +1,63 @@
+{
+  "ticker": "PSE",
+  "name": "PETROLIA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 348299328.0,
+    "enterprise_value": 357880416.0,
+    "trailing_pe": 7.02381,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 5.771323,
+    "price_to_book": 0.763646,
+    "ev_to_revenue": 5.93,
+    "ev_to_ebitda": 41.041
+  },
+  "per_share": {
+    "current_price": 5.9,
+    "eps_trailing": 0.84,
+    "eps_forward": null,
+    "book_value": 7.726092,
+    "revenue_per_share": 1.021,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.08971,
+    "operating_margin": 0.03446,
+    "gross_margin": 0.20542,
+    "ebitda_margin": 0.14449,
+    "roe": 0.11205,
+    "roa": 0.03989
+  },
+  "income": {
+    "total_revenue": 60350000.0,
+    "revenue_growth": 0.173,
+    "gross_profits": 12397000.0,
+    "ebitda": 8720000.0,
+    "net_income": 5414000.0,
+    "earnings_growth": 6.032
+  },
+  "balance_sheet": {
+    "total_cash": 16464000.0,
+    "cash_per_share": 0.279,
+    "total_debt": 15356000.0,
+    "debt_to_equity": 30.623,
+    "current_ratio": 2.567,
+    "quick_ratio": 1.973
+  },
+  "trading": {
+    "beta": -0.389,
+    "week52_high": 6.5,
+    "week52_low": 3.52,
+    "avg50d": 5.67,
+    "avg200d": 4.89155,
+    "avg_volume": 58423.0,
+    "avg_volume_10d": 34333.0,
+    "shares_outstanding": 59033786.0,
+    "float_shares": 8817877.0,
+    "insider_ownership": 0.92533,
+    "institutional_ownership": 0.00254,
+    "short_ratio": null
+  },
+  "_pe_label": "7.02x"
+}

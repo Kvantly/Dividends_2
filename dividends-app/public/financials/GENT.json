@@ -1,0 +1,63 @@
+{
+  "ticker": "GENT",
+  "name": "GENTIAN DIAGNOSTIC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 609069824.0,
+    "enterprise_value": 607981312.0,
+    "trailing_pe": 45.813953,
+    "forward_pe": 10.051021,
+    "peg_ratio": null,
+    "price_to_sales": 3.45084,
+    "price_to_book": 2.964635,
+    "ev_to_revenue": 3.445,
+    "ev_to_ebitda": 21.321
+  },
+  "per_share": {
+    "current_price": 39.4,
+    "eps_trailing": 0.86,
+    "eps_forward": 3.92,
+    "book_value": 13.29,
+    "revenue_per_share": 11.445,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.07511,
+    "operating_margin": 0.1749,
+    "gross_margin": 0.55637,
+    "ebitda_margin": 0.16156,
+    "roe": 0.06644,
+    "roa": 0.06517
+  },
+  "income": {
+    "total_revenue": 176499008.0,
+    "revenue_growth": 0.093,
+    "gross_profits": 98199000.0,
+    "ebitda": 28516000.0,
+    "net_income": 13256000.0,
+    "earnings_growth": -0.892
+  },
+  "balance_sheet": {
+    "total_cash": 105929000.0,
+    "cash_per_share": 6.869,
+    "total_debt": 22989000.0,
+    "debt_to_equity": 11.216,
+    "current_ratio": 5.4,
+    "quick_ratio": 3.814
+  },
+  "trading": {
+    "beta": 0.427,
+    "week52_high": 65.8,
+    "week52_low": 36.1,
+    "avg50d": 40.538,
+    "avg200d": 51.683,
+    "avg_volume": 24240.0,
+    "avg_volume_10d": 6743.0,
+    "shares_outstanding": 15458624.0,
+    "float_shares": 11667162.0,
+    "insider_ownership": 0.44621,
+    "institutional_ownership": 0.39556,
+    "short_ratio": null
+  },
+  "_pe_label": "45.81x"
+}

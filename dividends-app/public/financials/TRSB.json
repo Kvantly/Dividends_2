@@ -1,0 +1,63 @@
+{
+  "ticker": "TRSB",
+  "name": "TR\u00d8NDELAG SPBK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 549896064.0,
+    "enterprise_value": 2108485120.0,
+    "trailing_pe": 7.828455,
+    "forward_pe": 13.053348,
+    "peg_ratio": null,
+    "price_to_sales": 1.750241,
+    "price_to_book": 0.513737,
+    "ev_to_revenue": 6.711,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 115.0,
+    "eps_trailing": 14.69,
+    "eps_forward": 8.81,
+    "book_value": 223.85,
+    "revenue_per_share": 65.705,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.22345,
+    "operating_margin": 0.16214,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.06284,
+    "roa": 0.00736
+  },
+  "income": {
+    "total_revenue": 314183008.0,
+    "revenue_growth": 0.032,
+    "gross_profits": 314183008.0,
+    "ebitda": null,
+    "net_income": 31964000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 1003366976.0,
+    "cash_per_share": 209.835,
+    "total_debt": 2557106944.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 120.0,
+    "week52_low": 105.0,
+    "avg50d": 113.4344,
+    "avg200d": 114.3983,
+    "avg_volume": 1693.0,
+    "avg_volume_10d": 4431.0,
+    "shares_outstanding": 4781705.0,
+    "float_shares": 1816952.0,
+    "insider_ownership": 0.64892,
+    "institutional_ownership": 0.03823,
+    "short_ratio": null
+  },
+  "_pe_label": "7.83x"
+}

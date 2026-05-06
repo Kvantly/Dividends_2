@@ -1,0 +1,62 @@
+{
+  "ticker": "PROXI",
+  "name": "PROXIMAR SEAFOOD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 261686144.0,
+    "enterprise_value": 1216469888.0,
+    "trailing_pe": null,
+    "forward_pe": -8.333334,
+    "peg_ratio": null,
+    "price_to_sales": 2.641853,
+    "price_to_book": 0.609756,
+    "ev_to_revenue": 12.281,
+    "ev_to_ebitda": -12.093
+  },
+  "per_share": {
+    "current_price": 0.5,
+    "eps_trailing": -1.12,
+    "eps_forward": -0.06,
+    "book_value": 0.82,
+    "revenue_per_share": 0.438,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -2.56303,
+    "operating_margin": -1.43629,
+    "gross_margin": 0.47994,
+    "ebitda_margin": -1.0155,
+    "roe": -0.61507,
+    "roa": -0.0687
+  },
+  "income": {
+    "total_revenue": 99054000.0,
+    "revenue_growth": 5.245,
+    "gross_profits": 47540000.0,
+    "ebitda": -100589000.0,
+    "net_income": -253878000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 36583000.0,
+    "cash_per_share": 0.07,
+    "total_debt": 986132992.0,
+    "debt_to_equity": 229.878,
+    "current_ratio": 0.294,
+    "quick_ratio": 0.08
+  },
+  "trading": {
+    "beta": -0.292,
+    "week52_high": 3.48,
+    "week52_low": 0.45,
+    "avg50d": 0.54538,
+    "avg200d": 0.775625,
+    "avg_volume": 773234.0,
+    "avg_volume_10d": 195785.0,
+    "shares_outstanding": 523372273.0,
+    "float_shares": 88784872.0,
+    "insider_ownership": 0.58505,
+    "institutional_ownership": 0.04238,
+    "short_ratio": null
+  }
+}

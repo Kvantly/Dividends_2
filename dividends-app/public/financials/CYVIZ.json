@@ -1,0 +1,62 @@
+{
+  "ticker": "CYVIZ",
+  "name": "CYVIZ",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 417622944.0,
+    "enterprise_value": 473586016.0,
+    "trailing_pe": null,
+    "forward_pe": 11.630434,
+    "peg_ratio": null,
+    "price_to_sales": 0.740545,
+    "price_to_book": 4.137664,
+    "ev_to_revenue": 0.84,
+    "ev_to_ebitda": 42.708
+  },
+  "per_share": {
+    "current_price": 32.1,
+    "eps_trailing": -1.28,
+    "eps_forward": 2.76,
+    "book_value": 7.758,
+    "revenue_per_share": 43.346,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.02953,
+    "operating_margin": 0.07606,
+    "gross_margin": 0.1722,
+    "ebitda_margin": 0.01966,
+    "roe": -0.15163,
+    "roa": 0.00263
+  },
+  "income": {
+    "total_revenue": 563939968.0,
+    "revenue_growth": 0.076,
+    "gross_profits": 97113000.0,
+    "ebitda": 11089000.0,
+    "net_income": -16655000.0,
+    "earnings_growth": -0.567
+  },
+  "balance_sheet": {
+    "total_cash": 17986000.0,
+    "cash_per_share": 1.382,
+    "total_debt": 59638000.0,
+    "debt_to_equity": 59.086,
+    "current_ratio": 1.016,
+    "quick_ratio": 0.853
+  },
+  "trading": {
+    "beta": 0.38,
+    "week52_high": 41.5,
+    "week52_low": 27.0,
+    "avg50d": 34.538,
+    "avg200d": 36.42,
+    "avg_volume": 8254.0,
+    "avg_volume_10d": 14010.0,
+    "shares_outstanding": 13010061.0,
+    "float_shares": 2180096.0,
+    "insider_ownership": 0.32431,
+    "institutional_ownership": 0.53109,
+    "short_ratio": null
+  }
+}

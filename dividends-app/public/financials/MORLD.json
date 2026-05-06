@@ -1,0 +1,63 @@
+{
+  "ticker": "MORLD",
+  "name": "MORELD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3362124288.0,
+    "enterprise_value": 5199694848.0,
+    "trailing_pe": 11.91195,
+    "forward_pe": 7.459718,
+    "peg_ratio": null,
+    "price_to_sales": 0.342072,
+    "price_to_book": 4.298684,
+    "ev_to_revenue": 0.529,
+    "ev_to_ebitda": 5.005
+  },
+  "per_share": {
+    "current_price": 18.94,
+    "eps_trailing": 1.59,
+    "eps_forward": 2.53897,
+    "book_value": 4.406,
+    "revenue_per_share": 54.801,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.02896,
+    "operating_margin": 0.02943,
+    "gross_margin": 0.302,
+    "ebitda_margin": 0.10569,
+    "roe": 0.38249,
+    "roa": 0.0793
+  },
+  "income": {
+    "total_revenue": 9828694016.0,
+    "revenue_growth": -0.103,
+    "gross_profits": 2968251904.0,
+    "ebitda": 1038796992.0,
+    "net_income": 284654016.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 1090859008.0,
+    "cash_per_share": 6.075,
+    "total_debt": 2822170880.0,
+    "debt_to_equity": 357.019,
+    "current_ratio": 0.985,
+    "quick_ratio": 0.936
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 21.1,
+    "week52_low": 11.6,
+    "avg50d": 17.4108,
+    "avg200d": 17.60985,
+    "avg_volume": 212998.0,
+    "avg_volume_10d": 236423.0,
+    "shares_outstanding": 177514476.0,
+    "float_shares": 64591363.0,
+    "insider_ownership": 0.10475,
+    "institutional_ownership": 0.23398,
+    "short_ratio": null
+  },
+  "_pe_label": "11.91x"
+}

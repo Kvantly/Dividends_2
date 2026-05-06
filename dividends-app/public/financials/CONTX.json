@@ -1,0 +1,63 @@
+{
+  "ticker": "CONTX",
+  "name": "CONTEXTVISION",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 257230672.0,
+    "enterprise_value": null,
+    "trailing_pe": 345.0,
+    "forward_pe": 18.157896,
+    "peg_ratio": 4.07,
+    "price_to_sales": null,
+    "price_to_book": 2.89916,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 3.45,
+    "eps_trailing": 0.01,
+    "eps_forward": 0.19,
+    "book_value": 1.19,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.00709,
+    "operating_margin": 0.0,
+    "gross_margin": 0.41855,
+    "ebitda_margin": 0.00487,
+    "roe": 0.00844,
+    "roa": -0.00803
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": 0.085,
+    "gross_profits": null,
+    "ebitda": 540000.0,
+    "net_income": null,
+    "earnings_growth": -0.428
+  },
+  "balance_sheet": {
+    "total_cash": null,
+    "cash_per_share": null,
+    "total_debt": null,
+    "debt_to_equity": 13.66,
+    "current_ratio": 4.277,
+    "quick_ratio": 4.121
+  },
+  "trading": {
+    "beta": 0.225,
+    "week52_high": 5.6,
+    "week52_low": 2.7,
+    "avg50d": 3.3218,
+    "avg200d": 3.96915,
+    "avg_volume": 73357.0,
+    "avg_volume_10d": 34025.0,
+    "shares_outstanding": 74559616.0,
+    "float_shares": 27804735.0,
+    "insider_ownership": 0.6432,
+    "institutional_ownership": 0.06919,
+    "short_ratio": null
+  },
+  "_pe_label": "345.00x"
+}

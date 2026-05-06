@@ -1,0 +1,62 @@
+{
+  "ticker": "MAS",
+  "name": "M\u00c5S\u00d8VAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 4030528512.0,
+    "enterprise_value": 6277963776.0,
+    "trailing_pe": null,
+    "forward_pe": 12.318729,
+    "peg_ratio": null,
+    "price_to_sales": 1.370191,
+    "price_to_book": 2.248804,
+    "ev_to_revenue": 2.134,
+    "ev_to_ebitda": 141.715
+  },
+  "per_share": {
+    "current_price": 32.9,
+    "eps_trailing": -0.6,
+    "eps_forward": 2.67073,
+    "book_value": 14.63,
+    "revenue_per_share": 24.011,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.02483,
+    "operating_margin": -0.07615,
+    "gross_margin": 0.3466,
+    "ebitda_margin": 0.01506,
+    "roe": -0.04197,
+    "roa": -0.00661
+  },
+  "income": {
+    "total_revenue": 2941582080.0,
+    "revenue_growth": 0.32,
+    "gross_profits": 1019561024.0,
+    "ebitda": 44300000.0,
+    "net_income": -73030000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 103388000.0,
+    "cash_per_share": 0.844,
+    "total_debt": 2301613056.0,
+    "debt_to_equity": 126.668,
+    "current_ratio": 1.233,
+    "quick_ratio": 0.286
+  },
+  "trading": {
+    "beta": 0.184,
+    "week52_high": 34.3,
+    "week52_low": 19.75,
+    "avg50d": 27.942,
+    "avg200d": 24.828,
+    "avg_volume": 303197.0,
+    "avg_volume_10d": 29483.0,
+    "shares_outstanding": 122508455.0,
+    "float_shares": 32293229.0,
+    "insider_ownership": 0.84628,
+    "institutional_ownership": 0.13398,
+    "short_ratio": null
+  }
+}

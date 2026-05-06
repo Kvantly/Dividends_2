@@ -1,0 +1,63 @@
+{
+  "ticker": "SNOR",
+  "name": "SPBK 1 NORDM\u00d8RE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1725978752.0,
+    "enterprise_value": 4333934592.0,
+    "trailing_pe": 10.540838,
+    "forward_pe": 9.675785,
+    "peg_ratio": null,
+    "price_to_sales": 1.59665,
+    "price_to_book": 0.414566,
+    "ev_to_revenue": 4.009,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 191.0,
+    "eps_trailing": 18.12,
+    "eps_forward": 19.74,
+    "book_value": 460.723,
+    "revenue_per_share": 107.185,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.46531,
+    "operating_margin": 0.55019,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.1153,
+    "roa": 0.0172
+  },
+  "income": {
+    "total_revenue": 1080999936.0,
+    "revenue_growth": 0.043,
+    "gross_profits": 1080999936.0,
+    "ebitda": null,
+    "net_income": 189000000.0,
+    "earnings_growth": -0.078
+  },
+  "balance_sheet": {
+    "total_cash": 4084000000.0,
+    "cash_per_share": 450.681,
+    "total_debt": 6663000064.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.169,
+    "week52_high": 211.9,
+    "week52_low": 155.04,
+    "avg50d": 191.051,
+    "avg200d": 175.89215,
+    "avg_volume": 2239.0,
+    "avg_volume_10d": 1703.0,
+    "shares_outstanding": 9036538.0,
+    "float_shares": 5256953.0,
+    "insider_ownership": 0.59937,
+    "institutional_ownership": 0.07557,
+    "short_ratio": null
+  },
+  "_pe_label": "10.54x"
+}

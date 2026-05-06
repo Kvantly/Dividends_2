@@ -1,0 +1,63 @@
+{
+  "ticker": "ODFB",
+  "name": "ODFJELL SER. B",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 9169482752.0,
+    "enterprise_value": 9768656896.0,
+    "trailing_pe": 6.359144,
+    "forward_pe": null,
+    "peg_ratio": 2.84,
+    "price_to_sales": 8.220905,
+    "price_to_book": 0.982934,
+    "ev_to_revenue": 8.758,
+    "ev_to_ebitda": 31.264
+  },
+  "per_share": {
+    "current_price": 115.8,
+    "eps_trailing": 18.21,
+    "eps_forward": null,
+    "book_value": 117.810585,
+    "revenue_per_share": 14.098,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.13926,
+    "operating_margin": 0.18807,
+    "gross_margin": 0.40693,
+    "ebitda_margin": 0.28013,
+    "roe": 0.16159,
+    "roa": 0.06308
+  },
+  "income": {
+    "total_revenue": 1115385984.0,
+    "revenue_growth": -0.088,
+    "gross_profits": 453886016.0,
+    "ebitda": 312456992.0,
+    "net_income": 155324000.0,
+    "earnings_growth": -0.247
+  },
+  "balance_sheet": {
+    "total_cash": 148608000.0,
+    "cash_per_share": 1.878,
+    "total_debt": 943238016.0,
+    "debt_to_equity": 95.016,
+    "current_ratio": 1.071,
+    "quick_ratio": 0.87
+  },
+  "trading": {
+    "beta": -0.23,
+    "week52_high": 134.6,
+    "week52_low": 90.5,
+    "avg50d": 116.048,
+    "avg200d": 119.67,
+    "avg_volume": 20869.0,
+    "avg_volume_10d": 8861.0,
+    "shares_outstanding": 18767321.0,
+    "float_shares": 22588592.0,
+    "insider_ownership": 0.70437,
+    "institutional_ownership": 0.02993,
+    "short_ratio": null
+  },
+  "_pe_label": "6.36x"
+}

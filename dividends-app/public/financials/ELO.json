@@ -1,0 +1,63 @@
+{
+  "ticker": "ELO",
+  "name": "ELOPAK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 10306051072.0,
+    "enterprise_value": 10001864704.0,
+    "trailing_pe": 15.278884,
+    "forward_pe": 10.310106,
+    "peg_ratio": null,
+    "price_to_sales": 8.548569,
+    "price_to_book": 2.805494,
+    "ev_to_revenue": 8.296,
+    "ev_to_ebitda": 67.02
+  },
+  "per_share": {
+    "current_price": 38.35,
+    "eps_trailing": 2.51,
+    "eps_forward": 3.719651,
+    "book_value": 13.669604,
+    "revenue_per_share": 4.483,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.05106,
+    "operating_margin": 0.08148,
+    "gross_margin": 0.37963,
+    "ebitda_margin": 0.12379,
+    "roe": 0.17559,
+    "roa": 0.06469
+  },
+  "income": {
+    "total_revenue": 1205587968.0,
+    "revenue_growth": 0.115,
+    "gross_profits": 457676992.0,
+    "ebitda": 149236992.0,
+    "net_income": 61559000.0,
+    "earnings_growth": 1.057
+  },
+  "balance_sheet": {
+    "total_cash": 62168000.0,
+    "cash_per_share": 0.231,
+    "total_debt": 427025984.0,
+    "debt_to_equity": 122.804,
+    "current_ratio": 1.63,
+    "quick_ratio": 0.895
+  },
+  "trading": {
+    "beta": 0.765,
+    "week52_high": 56.0,
+    "week52_low": 34.05,
+    "avg50d": 42.389,
+    "avg200d": 47.02925,
+    "avg_volume": 526222.0,
+    "avg_volume_10d": 379788.0,
+    "shares_outstanding": 268736677.0,
+    "float_shares": 145064651.0,
+    "insider_ownership": 0.06255,
+    "institutional_ownership": 0.83087,
+    "short_ratio": null
+  },
+  "_pe_label": "15.28x"
+}

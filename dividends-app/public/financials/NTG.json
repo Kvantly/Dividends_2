@@ -1,0 +1,62 @@
+{
+  "ticker": "NTG",
+  "name": "NORDIC TECHNOLOGY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 381571392.0,
+    "enterprise_value": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 11.44348,
+    "price_to_book": 1.337838,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 1.98,
+    "eps_trailing": -1.25,
+    "eps_forward": null,
+    "book_value": 1.48,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -6.21203,
+    "gross_margin": 1.22121,
+    "ebitda_margin": -2.95175,
+    "roe": -0.81058,
+    "roa": -0.28268
+  },
+  "income": {
+    "total_revenue": 33344000.0,
+    "revenue_growth": -0.448,
+    "gross_profits": 40720000.0,
+    "ebitda": -98423000.0,
+    "net_income": -181908992.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3769000.0,
+    "cash_per_share": null,
+    "total_debt": 60863000.0,
+    "debt_to_equity": 30.816,
+    "current_ratio": 0.442,
+    "quick_ratio": 0.26
+  },
+  "trading": {
+    "beta": 0.103,
+    "week52_high": 2.34,
+    "week52_low": 0.5,
+    "avg50d": 1.8642,
+    "avg200d": 1.38575,
+    "avg_volume": 17272.0,
+    "avg_volume_10d": 12954.0,
+    "shares_outstanding": 192712818.0,
+    "float_shares": null,
+    "insider_ownership": 0.229,
+    "institutional_ownership": 0.00934,
+    "short_ratio": null
+  }
+}

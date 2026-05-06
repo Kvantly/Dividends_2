@@ -1,0 +1,62 @@
+{
+  "ticker": "LOKO",
+  "name": "LOKOTECH GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 499802176.0,
+    "enterprise_value": 433687520.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 48.48045,
+    "price_to_book": 3.560976,
+    "ev_to_revenue": 42.067,
+    "ev_to_ebitda": -13.566
+  },
+  "per_share": {
+    "current_price": 0.73,
+    "eps_trailing": -0.06,
+    "eps_forward": null,
+    "book_value": 0.205,
+    "revenue_per_share": 0.016,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -3.19302,
+    "gross_margin": -0.66985,
+    "ebitda_margin": 0.0,
+    "roe": -0.42946,
+    "roa": -0.22072
+  },
+  "income": {
+    "total_revenue": 10309355.0,
+    "revenue_growth": 0.37,
+    "gross_profits": -6905712.0,
+    "ebitda": -31969256.0,
+    "net_income": -38436008.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 37901008.0,
+    "cash_per_share": 0.06,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 16.705,
+    "quick_ratio": 16.588
+  },
+  "trading": {
+    "beta": -0.486,
+    "week52_high": 0.996,
+    "week52_low": 0.335,
+    "avg50d": 0.73614,
+    "avg200d": 0.737065,
+    "avg_volume": 6140524.0,
+    "avg_volume_10d": 5024240.0,
+    "shares_outstanding": 684660496.0,
+    "float_shares": 522328114.0,
+    "insider_ownership": 0.11706,
+    "institutional_ownership": 0.01712,
+    "short_ratio": null
+  }
+}

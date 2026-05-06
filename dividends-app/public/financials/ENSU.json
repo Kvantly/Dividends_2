@@ -1,0 +1,62 @@
+{
+  "ticker": "ENSU",
+  "name": "ENSURGE MICROPOWER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 587148224.0,
+    "enterprise_value": 602486976.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 23485.93,
+    "price_to_book": 5.41637,
+    "ev_to_revenue": 24099.479,
+    "ev_to_ebitda": -67.189
+  },
+  "per_share": {
+    "current_price": 0.604,
+    "eps_trailing": -0.09,
+    "eps_forward": null,
+    "book_value": 0.111514,
+    "revenue_per_share": 0.0,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -384.92,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": -2.52395,
+    "roa": -0.34168
+  },
+  "income": {
+    "total_revenue": 25000.0,
+    "revenue_growth": null,
+    "gross_profits": 25000.0,
+    "ebitda": -8967000.0,
+    "net_income": -10800000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 6301000.0,
+    "cash_per_share": 0.006,
+    "total_debt": 9701000.0,
+    "debt_to_equity": 80.647,
+    "current_ratio": 1.334,
+    "quick_ratio": 1.081
+  },
+  "trading": {
+    "beta": 0.93,
+    "week52_high": 1.566,
+    "week52_low": 0.602,
+    "avg50d": 0.68118,
+    "avg200d": 0.93763,
+    "avg_volume": 1893397.0,
+    "avg_volume_10d": 1659060.0,
+    "shares_outstanding": 972099703.0,
+    "float_shares": 762343015.0,
+    "insider_ownership": 0.25067,
+    "institutional_ownership": 0.25409,
+    "short_ratio": null
+  }
+}

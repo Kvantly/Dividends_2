@@ -1,0 +1,63 @@
+{
+  "ticker": "GRONG",
+  "name": "GRONG SPAREBANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 791634816.0,
+    "enterprise_value": 1722438272.0,
+    "trailing_pe": 9.548634,
+    "forward_pe": 10.985667,
+    "peg_ratio": null,
+    "price_to_sales": 1.897786,
+    "price_to_book": 0.560121,
+    "ev_to_revenue": 4.129,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 199.28,
+    "eps_trailing": 20.87,
+    "eps_forward": 18.14,
+    "book_value": 355.78,
+    "revenue_per_share": 105.007,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.47014,
+    "operating_margin": 0.531,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.13711,
+    "roa": 0.01758
+  },
+  "income": {
+    "total_revenue": 417136000.0,
+    "revenue_growth": 0.513,
+    "gross_profits": 417136000.0,
+    "ebitda": null,
+    "net_income": 82893000.0,
+    "earnings_growth": 1.467
+  },
+  "balance_sheet": {
+    "total_cash": 808545024.0,
+    "cash_per_share": 203.537,
+    "total_debt": 1739268992.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.238,
+    "week52_high": 200.0,
+    "week52_low": 142.02,
+    "avg50d": 193.8436,
+    "avg200d": 169.1397,
+    "avg_volume": 539.0,
+    "avg_volume_10d": 134.0,
+    "shares_outstanding": 3972475.0,
+    "float_shares": 2405413.0,
+    "insider_ownership": 0.39619,
+    "institutional_ownership": 0.1096,
+    "short_ratio": null
+  },
+  "_pe_label": "9.55x"
+}

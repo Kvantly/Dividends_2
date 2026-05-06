@@ -1,0 +1,62 @@
+{
+  "ticker": "NEXT",
+  "name": "NEXT BIOMETRICS GP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 45612884.0,
+    "enterprise_value": 40281504.0,
+    "trailing_pe": null,
+    "forward_pe": -15.222,
+    "peg_ratio": null,
+    "price_to_sales": 3.413116,
+    "price_to_book": 1.81128,
+    "ev_to_revenue": 3.014,
+    "ev_to_ebitda": -0.53
+  },
+  "per_share": {
+    "current_price": 3.8055,
+    "eps_trailing": -6.9,
+    "eps_forward": -0.25,
+    "book_value": 2.101,
+    "revenue_per_share": 1.145,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -11.804561,
+    "gross_margin": -0.01287,
+    "ebitda_margin": 0.0,
+    "roe": -1.11803,
+    "roa": -0.4994
+  },
+  "income": {
+    "total_revenue": 13364000.0,
+    "revenue_growth": -0.809,
+    "gross_profits": -172000.0,
+    "ebitda": -75940000.0,
+    "net_income": -80520000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 8294000.0,
+    "cash_per_share": 0.692,
+    "total_debt": 2639000.0,
+    "debt_to_equity": 10.48,
+    "current_ratio": 1.88,
+    "quick_ratio": 0.393
+  },
+  "trading": {
+    "beta": 0.823,
+    "week52_high": 56.0,
+    "week52_low": 2.1,
+    "avg50d": 5.8877,
+    "avg200d": 20.837376,
+    "avg_volume": 148790.0,
+    "avg_volume_10d": 68489.0,
+    "shares_outstanding": 11986042.0,
+    "float_shares": 5914512.0,
+    "insider_ownership": 0.57955,
+    "institutional_ownership": 0.00563,
+    "short_ratio": null
+  }
+}

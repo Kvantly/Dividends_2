@@ -1,0 +1,62 @@
+{
+  "ticker": "XPLRA",
+  "name": "XPLORA TECHNOLOGIE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2645606144.0,
+    "enterprise_value": 3025713664.0,
+    "trailing_pe": null,
+    "forward_pe": 12.549127,
+    "peg_ratio": null,
+    "price_to_sales": 1.379621,
+    "price_to_book": 7.137336,
+    "ev_to_revenue": 1.578,
+    "ev_to_ebitda": 15.455
+  },
+  "per_share": {
+    "current_price": 55.4,
+    "eps_trailing": -0.72,
+    "eps_forward": 4.41465,
+    "book_value": 7.762,
+    "revenue_per_share": 35.062,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.01683,
+    "operating_margin": 0.13066,
+    "gross_margin": 0.51984,
+    "ebitda_margin": 0.10209,
+    "roe": -0.07307,
+    "roa": 0.08533
+  },
+  "income": {
+    "total_revenue": 1917633024.0,
+    "revenue_growth": 1.494,
+    "gross_profits": 996865984.0,
+    "ebitda": 195772000.0,
+    "net_income": -32269000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 422598016.0,
+    "cash_per_share": 9.43,
+    "total_debt": 954380032.0,
+    "debt_to_equity": 253.099,
+    "current_ratio": 1.236,
+    "quick_ratio": 0.829
+  },
+  "trading": {
+    "beta": 0.474,
+    "week52_high": 60.4,
+    "week52_low": 30.2,
+    "avg50d": 54.338,
+    "avg200d": 50.9195,
+    "avg_volume": 162122.0,
+    "avg_volume_10d": 59710.0,
+    "shares_outstanding": 47754623.0,
+    "float_shares": 18024896.0,
+    "insider_ownership": 0.53506,
+    "institutional_ownership": 0.17625,
+    "short_ratio": null
+  }
+}

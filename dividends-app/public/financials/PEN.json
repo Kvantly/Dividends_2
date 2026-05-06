@@ -1,0 +1,62 @@
+{
+  "ticker": "PEN",
+  "name": "PANORO ENERGY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 4347230720.0,
+    "enterprise_value": 4070435584.0,
+    "trailing_pe": null,
+    "forward_pe": 4.986435,
+    "peg_ratio": null,
+    "price_to_sales": 21.80637,
+    "price_to_book": 1.8012,
+    "ev_to_revenue": 20.418,
+    "ev_to_ebitda": 67.508
+  },
+  "per_share": {
+    "current_price": 32.9,
+    "eps_trailing": -1.11,
+    "eps_forward": 6.5979,
+    "book_value": 18.265604,
+    "revenue_per_share": 1.757,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.06569,
+    "operating_margin": -0.3992,
+    "gross_margin": 0.46743,
+    "ebitda_margin": 0.30245,
+    "roe": -0.05268,
+    "roa": 0.01096
+  },
+  "income": {
+    "total_revenue": 199356000.0,
+    "revenue_growth": -0.44,
+    "gross_profits": 93185000.0,
+    "ebitda": 60296000.0,
+    "net_income": -13096000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 77025000.0,
+    "cash_per_share": 0.679,
+    "total_debt": 148558000.0,
+    "debt_to_equity": 66.598,
+    "current_ratio": 1.321,
+    "quick_ratio": 0.972
+  },
+  "trading": {
+    "beta": -0.012,
+    "week52_high": 36.15,
+    "week52_low": 18.72,
+    "avg50d": 30.75,
+    "avg200d": 24.11495,
+    "avg_volume": 1292950.0,
+    "avg_volume_10d": 911115.0,
+    "shares_outstanding": 132134667.0,
+    "float_shares": 104475162.0,
+    "insider_ownership": 0.06779,
+    "institutional_ownership": 0.23152,
+    "short_ratio": null
+  }
+}

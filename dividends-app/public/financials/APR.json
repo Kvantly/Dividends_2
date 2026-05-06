@@ -1,0 +1,63 @@
+{
+  "ticker": "APR",
+  "name": "APPEAR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3215186944.0,
+    "enterprise_value": 2778195968.0,
+    "trailing_pe": 24.0,
+    "forward_pe": 14.092526,
+    "peg_ratio": null,
+    "price_to_sales": 4.014257,
+    "price_to_book": 5.453794,
+    "ev_to_revenue": 3.469,
+    "ev_to_ebitda": 15.477
+  },
+  "per_share": {
+    "current_price": 79.2,
+    "eps_trailing": 3.3,
+    "eps_forward": 5.62,
+    "book_value": 14.522,
+    "revenue_per_share": 21.094,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.16126,
+    "operating_margin": 0.07467,
+    "gross_margin": 0.4206,
+    "ebitda_margin": 0.22412,
+    "roe": 0.30135,
+    "roa": 0.16213
+  },
+  "income": {
+    "total_revenue": 800942016.0,
+    "revenue_growth": 0.208,
+    "gross_profits": 336878016.0,
+    "ebitda": 179510000.0,
+    "net_income": 129162000.0,
+    "earnings_growth": 0.472
+  },
+  "balance_sheet": {
+    "total_cash": 499097984.0,
+    "cash_per_share": 12.294,
+    "total_debt": 62107000.0,
+    "debt_to_equity": 10.535,
+    "current_ratio": 3.585,
+    "quick_ratio": 3.16
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 89.19,
+    "week52_low": 57.5,
+    "avg50d": 66.9516,
+    "avg200d": 72.4345,
+    "avg_volume": 95271.0,
+    "avg_volume_10d": 83464.0,
+    "shares_outstanding": 40595795.0,
+    "float_shares": 14971729.0,
+    "insider_ownership": 0.59749,
+    "institutional_ownership": 0.1389,
+    "short_ratio": null
+  },
+  "_pe_label": "24.00x"
+}

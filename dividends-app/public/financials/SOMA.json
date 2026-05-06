@@ -1,0 +1,63 @@
+{
+  "ticker": "SOMA",
+  "name": "SOLSTAD MARITIME",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 12657753088.0,
+    "enterprise_value": 13513632768.0,
+    "trailing_pe": 6.370024,
+    "forward_pe": 5.961317,
+    "peg_ratio": null,
+    "price_to_sales": 21.81416,
+    "price_to_book": 1.484507,
+    "ev_to_revenue": 23.289,
+    "ev_to_ebitda": 50.427
+  },
+  "per_share": {
+    "current_price": 27.2,
+    "eps_trailing": 4.27,
+    "eps_forward": 4.56275,
+    "book_value": 18.322578,
+    "revenue_per_share": 1.247,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.36699,
+    "operating_margin": 0.32186,
+    "gross_margin": 0.7066,
+    "ebitda_margin": 0.46184,
+    "roe": 0.25663,
+    "roa": 0.0737
+  },
+  "income": {
+    "total_revenue": 580254016.0,
+    "revenue_growth": -0.011,
+    "gross_profits": 410008992.0,
+    "ebitda": 267984000.0,
+    "net_income": 212944992.0,
+    "earnings_growth": -0.22
+  },
+  "balance_sheet": {
+    "total_cash": 77811000.0,
+    "cash_per_share": 0.167,
+    "total_debt": 607939968.0,
+    "debt_to_equity": 69.096,
+    "current_ratio": 1.077,
+    "quick_ratio": 0.858
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 30.0,
+    "week52_low": 16.84,
+    "avg50d": 27.11,
+    "avg200d": 22.640625,
+    "avg_volume": 321040.0,
+    "avg_volume_10d": 215907.0,
+    "shares_outstanding": 465358555.0,
+    "float_shares": 88297132.0,
+    "insider_ownership": 0.83252,
+    "institutional_ownership": 0.05316,
+    "short_ratio": null
+  },
+  "_pe_label": "6.37x"
+}

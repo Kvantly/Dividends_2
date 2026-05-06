@@ -1,0 +1,63 @@
+{
+  "ticker": "AKER",
+  "name": "AKER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 82312519680.0,
+    "enterprise_value": 127986884608.0,
+    "trailing_pe": 20.341473,
+    "forward_pe": 42.209522,
+    "peg_ratio": 1.88,
+    "price_to_sales": 4.482276,
+    "price_to_book": 1.758889,
+    "ev_to_revenue": 6.969,
+    "ev_to_ebitda": 19.902
+  },
+  "per_share": {
+    "current_price": 1108.0,
+    "eps_trailing": 54.47,
+    "eps_forward": 26.25,
+    "book_value": 629.943,
+    "revenue_per_share": 247.218,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.21401,
+    "operating_margin": 0.27581,
+    "gross_margin": 0.75054,
+    "ebitda_margin": 0.3502,
+    "roe": 0.04368,
+    "roa": 0.03044
+  },
+  "income": {
+    "total_revenue": 18364000256.0,
+    "revenue_growth": null,
+    "gross_profits": 13783000064.0,
+    "ebitda": 6431000064.0,
+    "net_income": 4067000064.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 2876999936.0,
+    "cash_per_share": 38.727,
+    "total_debt": 42685001728.0,
+    "debt_to_equity": 83.647,
+    "current_ratio": 1.39,
+    "quick_ratio": 0.893
+  },
+  "trading": {
+    "beta": 0.235,
+    "week52_high": 1142.0,
+    "week52_low": 579.0,
+    "avg50d": 1039.86,
+    "avg200d": 837.23,
+    "avg_volume": 81202.0,
+    "avg_volume_10d": 53271.0,
+    "shares_outstanding": 74289281.0,
+    "float_shares": 21811333.0,
+    "insider_ownership": 0.72844,
+    "institutional_ownership": 0.15717,
+    "short_ratio": null
+  },
+  "_pe_label": "20.34x"
+}

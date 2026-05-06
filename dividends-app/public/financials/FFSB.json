@@ -1,0 +1,63 @@
+{
+  "ticker": "FFSB",
+  "name": "FLEKKEFJORD SPAREB",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 176439392.0,
+    "enterprise_value": 2931860224.0,
+    "trailing_pe": 1.412822,
+    "forward_pe": 9.790164,
+    "peg_ratio": null,
+    "price_to_sales": 0.563578,
+    "price_to_book": 0.123233,
+    "ev_to_revenue": 9.365,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 119.44,
+    "eps_trailing": 84.54,
+    "eps_forward": 12.2,
+    "book_value": 969.22,
+    "revenue_per_share": 208.923,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.3982,
+    "operating_margin": 0.56248,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.08141,
+    "roa": 0.01051
+  },
+  "income": {
+    "total_revenue": 313070016.0,
+    "revenue_growth": -0.101,
+    "gross_profits": 313070016.0,
+    "ebitda": null,
+    "net_income": 124665000.0,
+    "earnings_growth": -0.169
+  },
+  "balance_sheet": {
+    "total_cash": 116583000.0,
+    "cash_per_share": 77.8,
+    "total_debt": 2869204992.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 138.0,
+    "week52_low": 115.52,
+    "avg50d": 120.98,
+    "avg200d": 123.3953,
+    "avg_volume": 1367.0,
+    "avg_volume_10d": 790.0,
+    "shares_outstanding": 1477222.0,
+    "float_shares": 1451366.0,
+    "insider_ownership": 0.24113,
+    "institutional_ownership": 0.06654,
+    "short_ratio": null
+  },
+  "_pe_label": "1.41x"
+}

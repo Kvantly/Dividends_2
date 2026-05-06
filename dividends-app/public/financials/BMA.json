@@ -1,0 +1,63 @@
+{
+  "ticker": "BMA",
+  "name": "BYGGMA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1452241152.0,
+    "enterprise_value": 2690771456.0,
+    "trailing_pe": 13.419354,
+    "forward_pe": null,
+    "peg_ratio": 1.42,
+    "price_to_sales": 0.618238,
+    "price_to_book": 1.418924,
+    "ev_to_revenue": 1.145,
+    "ev_to_ebitda": 14.374
+  },
+  "per_share": {
+    "current_price": 20.8,
+    "eps_trailing": 1.55,
+    "eps_forward": null,
+    "book_value": 14.659,
+    "revenue_per_share": 33.619,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0461,
+    "operating_margin": -0.01458,
+    "gross_margin": 0.49395,
+    "ebitda_margin": 0.07969,
+    "roe": 0.11188,
+    "roa": 0.02155
+  },
+  "income": {
+    "total_revenue": 2348999936.0,
+    "revenue_growth": 0.015,
+    "gross_profits": 1160300032.0,
+    "ebitda": 187200000.0,
+    "net_income": 108300000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 37700000.0,
+    "cash_per_share": 0.54,
+    "total_debt": 1290200064.0,
+    "debt_to_equity": 126.058,
+    "current_ratio": 0.678,
+    "quick_ratio": 0.254
+  },
+  "trading": {
+    "beta": 0.647,
+    "week52_high": 22.6,
+    "week52_low": 12.1,
+    "avg50d": 17.556,
+    "avg200d": 15.9995,
+    "avg_volume": 11995.0,
+    "avg_volume_10d": 11052.0,
+    "shares_outstanding": 69819290.0,
+    "float_shares": null,
+    "insider_ownership": 0.94766,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  },
+  "_pe_label": "13.42x"
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "NOD",
+  "name": "NORDIC SEMICONDUC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 39057711104.0,
+    "enterprise_value": 38034161664.0,
+    "trailing_pe": 167.62714,
+    "forward_pe": 43.13522,
+    "peg_ratio": 1.51,
+    "price_to_sales": 55.40148,
+    "price_to_book": 6.108251,
+    "ev_to_revenue": 53.95,
+    "ev_to_ebitda": 871.564
+  },
+  "per_share": {
+    "current_price": 197.8,
+    "eps_trailing": 1.18,
+    "eps_forward": 4.58558,
+    "book_value": 32.382427,
+    "revenue_per_share": 3.616,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.03669,
+    "operating_margin": 0.05245,
+    "gross_margin": 0.52409,
+    "ebitda_margin": 0.0619,
+    "roe": 0.04174,
+    "roa": 0.02039
+  },
+  "income": {
+    "total_revenue": 704993984.0,
+    "revenue_growth": 0.241,
+    "gross_profits": 369479008.0,
+    "ebitda": 43639000.0,
+    "net_income": 25869000.0,
+    "earnings_growth": 7.848
+  },
+  "balance_sheet": {
+    "total_cash": 279664992.0,
+    "cash_per_share": 1.413,
+    "total_debt": 166548992.0,
+    "debt_to_equity": 24.484,
+    "current_ratio": 3.623,
+    "quick_ratio": 2.514
+  },
+  "trading": {
+    "beta": 1.005,
+    "week52_high": 199.7,
+    "week52_low": 109.9,
+    "avg50d": 159.684,
+    "avg200d": 148.8615,
+    "avg_volume": 1039438.0,
+    "avg_volume_10d": 1045601.0,
+    "shares_outstanding": 197460622.0,
+    "float_shares": 157702468.0,
+    "insider_ownership": 0.14994,
+    "institutional_ownership": 0.61582,
+    "short_ratio": null
+  },
+  "_pe_label": "167.63x"
+}

@@ -1,0 +1,62 @@
+{
+  "ticker": "CRNA",
+  "name": "CIRCIO HOLDING",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1950514560.0,
+    "enterprise_value": 1863336960.0,
+    "trailing_pe": null,
+    "forward_pe": "Infinity",
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": -94.25288,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": -45.418
+  },
+  "per_share": {
+    "current_price": 8.2,
+    "eps_trailing": -0.43,
+    "eps_forward": 0.0,
+    "book_value": -0.087,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": null,
+    "roa": -1.57472
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": -41026000.0,
+    "net_income": -45907000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 6123000.0,
+    "cash_per_share": 0.028,
+    "total_debt": 8368000.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.455,
+    "quick_ratio": 0.455
+  },
+  "trading": {
+    "beta": -1.225,
+    "week52_high": 14.46,
+    "week52_low": 0.547,
+    "avg50d": 7.02596,
+    "avg200d": 2.477877,
+    "avg_volume": 17089765.0,
+    "avg_volume_10d": 11860905.0,
+    "shares_outstanding": 237867635.0,
+    "float_shares": 179752251.0,
+    "insider_ownership": 0.37403,
+    "institutional_ownership": 0.02494,
+    "short_ratio": null
+  }
+}

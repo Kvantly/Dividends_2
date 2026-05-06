@@ -1,0 +1,62 @@
+{
+  "ticker": "TGS",
+  "name": "TGS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 29217370112.0,
+    "enterprise_value": 34953199616.0,
+    "trailing_pe": null,
+    "forward_pe": 17.632624,
+    "peg_ratio": 0.92,
+    "price_to_sales": 22.173006,
+    "price_to_book": 1.522493,
+    "ev_to_revenue": 26.526,
+    "ev_to_ebitda": 68.941
+  },
+  "per_share": {
+    "current_price": 148.7,
+    "eps_trailing": -0.1,
+    "eps_forward": 8.433231,
+    "book_value": 97.66874,
+    "revenue_per_share": 6.498,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.00152,
+    "operating_margin": 0.22621,
+    "gross_margin": 0.83919,
+    "ebitda_margin": 0.38476,
+    "roe": -0.001,
+    "roa": 0.05053
+  },
+  "income": {
+    "total_revenue": 1317699968.0,
+    "revenue_growth": -0.422,
+    "gross_profits": 1105799936.0,
+    "ebitda": 507000000.0,
+    "net_income": -2000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 184000000.0,
+    "cash_per_share": 0.852,
+    "total_debt": 793200000.0,
+    "debt_to_equity": 40.893,
+    "current_ratio": 0.535,
+    "quick_ratio": 0.38
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 159.9,
+    "week52_low": 70.05,
+    "avg50d": 126.334,
+    "avg200d": 96.162,
+    "avg_volume": 592020.0,
+    "avg_volume_10d": 878277.0,
+    "shares_outstanding": 196485337.0,
+    "float_shares": 197920800.0,
+    "insider_ownership": 0.00335,
+    "institutional_ownership": 0.73554,
+    "short_ratio": null
+  }
+}

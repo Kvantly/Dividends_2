@@ -1,0 +1,63 @@
+{
+  "ticker": "CADLR",
+  "name": "CADELER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 25878845440.0,
+    "enterprise_value": 24752678912.0,
+    "trailing_pe": 7.787457,
+    "forward_pe": 4.916515,
+    "peg_ratio": null,
+    "price_to_sales": 41.716255,
+    "price_to_book": 1.434625,
+    "ev_to_revenue": 39.901,
+    "ev_to_ebitda": 58.498
+  },
+  "per_share": {
+    "current_price": 67.05,
+    "eps_trailing": 8.61,
+    "eps_forward": 13.637709,
+    "book_value": 46.736942,
+    "revenue_per_share": 1.77,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.45165,
+    "operating_margin": 0.41837,
+    "gross_margin": 0.61293,
+    "ebitda_margin": 0.68209,
+    "roe": 0.2047,
+    "roa": 0.07419
+  },
+  "income": {
+    "total_revenue": 620353984.0,
+    "revenue_growth": 0.95,
+    "gross_profits": 380231008.0,
+    "ebitda": 423137984.0,
+    "net_income": 280184000.0,
+    "earnings_growth": 0.264
+  },
+  "balance_sheet": {
+    "total_cash": 151679008.0,
+    "cash_per_share": 0.432,
+    "total_debt": 1624292992.0,
+    "debt_to_equity": 108.021,
+    "current_ratio": 1.111,
+    "quick_ratio": 1.061
+  },
+  "trading": {
+    "beta": 0.709,
+    "week52_high": 67.35,
+    "week52_low": 39.64,
+    "avg50d": 59.714,
+    "avg200d": 53.4568,
+    "avg_volume": 911988.0,
+    "avg_volume_10d": 529782.0,
+    "shares_outstanding": 385963349.0,
+    "float_shares": 206653994.0,
+    "insider_ownership": 0.39227,
+    "institutional_ownership": 0.31876,
+    "short_ratio": null
+  },
+  "_pe_label": "7.79x"
+}

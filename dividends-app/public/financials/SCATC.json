@@ -1,0 +1,63 @@
+{
+  "ticker": "SCATC",
+  "name": "SCATEC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 16656237568.0,
+    "enterprise_value": 47690764288.0,
+    "trailing_pe": 17.026144,
+    "forward_pe": 10.357852,
+    "peg_ratio": null,
+    "price_to_sales": 4.58976,
+    "price_to_book": 1.651242,
+    "ev_to_revenue": 13.142,
+    "ev_to_ebitda": 20.78
+  },
+  "per_share": {
+    "current_price": 104.2,
+    "eps_trailing": 6.12,
+    "eps_forward": 10.06,
+    "book_value": 63.104,
+    "revenue_per_share": 22.838,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.2695,
+    "operating_margin": 0.15248,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.63241,
+    "roe": 0.07961,
+    "roa": 0.01613
+  },
+  "income": {
+    "total_revenue": 3628999936.0,
+    "revenue_growth": -0.123,
+    "gross_profits": 3628999936.0,
+    "ebitda": 2295000064.0,
+    "net_income": 978000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5613000192.0,
+    "cash_per_share": 35.336,
+    "total_debt": 32771999744.0,
+    "debt_to_equity": 272.328,
+    "current_ratio": 1.061,
+    "quick_ratio": 1.035
+  },
+  "trading": {
+    "beta": 1.251,
+    "week52_high": 137.6,
+    "week52_low": 79.6,
+    "avg50d": 122.08,
+    "avg200d": 109.738,
+    "avg_volume": 577879.0,
+    "avg_volume_10d": 412322.0,
+    "shares_outstanding": 159848742.0,
+    "float_shares": 158154573.0,
+    "insider_ownership": 0.12874,
+    "institutional_ownership": 0.60638,
+    "short_ratio": null
+  },
+  "_pe_label": "17.03x"
+}

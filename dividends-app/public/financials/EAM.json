@@ -1,0 +1,63 @@
+{
+  "ticker": "EAM",
+  "name": "EAM SOLAR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 39930728.0,
+    "enterprise_value": 40594700.0,
+    "trailing_pe": 3.638889,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 33.16836,
+    "price_to_book": 1.07319,
+    "ev_to_revenue": 33.72,
+    "ev_to_ebitda": 124.284
+  },
+  "per_share": {
+    "current_price": 1.965,
+    "eps_trailing": 0.54,
+    "eps_forward": null,
+    "book_value": 1.830989,
+    "revenue_per_share": 0.059,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 1.11642,
+    "operating_margin": -0.97636,
+    "gross_margin": 0.843,
+    "ebitda_margin": 0.27131,
+    "roe": 0.64308,
+    "roa": -0.01176
+  },
+  "income": {
+    "total_revenue": 1203880.0,
+    "revenue_growth": -0.063,
+    "gross_profits": 1014868.0,
+    "ebitda": 326629.0,
+    "net_income": 1344031.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 618384.0,
+    "cash_per_share": 0.03,
+    "total_debt": 2501619.0,
+    "debt_to_equity": 73.139,
+    "current_ratio": 6.249,
+    "quick_ratio": 0.651
+  },
+  "trading": {
+    "beta": 0.062,
+    "week52_high": 29.08,
+    "week52_low": 0.66,
+    "avg50d": 1.722006,
+    "avg200d": 1.490859,
+    "avg_volume": 1384382.0,
+    "avg_volume_10d": 950087.0,
+    "shares_outstanding": 20320980.0,
+    "float_shares": 19946058.0,
+    "insider_ownership": 0.26881,
+    "institutional_ownership": 0.27043,
+    "short_ratio": null
+  },
+  "_pe_label": "3.64x"
+}

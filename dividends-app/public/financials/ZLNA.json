@@ -1,0 +1,62 @@
+{
+  "ticker": "ZLNA",
+  "name": "ZELLUNA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 604205376.0,
+    "enterprise_value": 518719488.0,
+    "trailing_pe": null,
+    "forward_pe": -2.948718,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": 7.037944,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": -3.852
+  },
+  "per_share": {
+    "current_price": 23.0,
+    "eps_trailing": -7.1,
+    "eps_forward": -7.8,
+    "book_value": 3.268,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": -2.30867,
+    "roa": -1.12294
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": -134662000.0,
+    "net_income": -140710000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 78302000.0,
+    "cash_per_share": 2.981,
+    "total_debt": 697000.0,
+    "debt_to_equity": 0.812,
+    "current_ratio": 4.865,
+    "quick_ratio": 4.784
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 35.8,
+    "week52_low": 8.204,
+    "avg50d": 19.90152,
+    "avg200d": 14.486235,
+    "avg_volume": 51854.0,
+    "avg_volume_10d": 55521.0,
+    "shares_outstanding": 26269801.0,
+    "float_shares": 11677977.0,
+    "insider_ownership": 0.46017,
+    "institutional_ownership": 0.14667,
+    "short_ratio": null
+  }
+}

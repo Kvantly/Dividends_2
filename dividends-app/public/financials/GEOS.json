@@ -1,0 +1,62 @@
+{
+  "ticker": "GEOS",
+  "name": "GOLDEN ENERGY OFF",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 610578496.0,
+    "enterprise_value": 1247408000.0,
+    "trailing_pe": null,
+    "forward_pe": 1.094937,
+    "peg_ratio": null,
+    "price_to_sales": 1.651288,
+    "price_to_book": 0.925332,
+    "ev_to_revenue": 3.374,
+    "ev_to_ebitda": 42.422
+  },
+  "per_share": {
+    "current_price": 8.65,
+    "eps_trailing": -7.76,
+    "eps_forward": 7.9,
+    "book_value": 9.348,
+    "revenue_per_share": 14.737,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.52658,
+    "operating_margin": -1.83899,
+    "gross_margin": 0.32338,
+    "ebitda_margin": 0.07952,
+    "roe": -0.58146,
+    "roa": -0.02599
+  },
+  "income": {
+    "total_revenue": 369759008.0,
+    "revenue_growth": -0.739,
+    "gross_profits": 119573000.0,
+    "ebitda": 29405000.0,
+    "net_income": -194708000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 7725000.0,
+    "cash_per_share": 0.309,
+    "total_debt": 1043846976.0,
+    "debt_to_equity": 449.036,
+    "current_ratio": 0.416,
+    "quick_ratio": 0.119
+  },
+  "trading": {
+    "beta": -0.104,
+    "week52_high": 21.7,
+    "week52_low": 6.04,
+    "avg50d": 8.737,
+    "avg200d": 13.25735,
+    "avg_volume": 20340.0,
+    "avg_volume_10d": 34401.0,
+    "shares_outstanding": 70587113.0,
+    "float_shares": 17959741.0,
+    "insider_ownership": 0.17055,
+    "institutional_ownership": 0.09471,
+    "short_ratio": null
+  }
+}

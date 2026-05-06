@@ -1,0 +1,63 @@
+{
+  "ticker": "KIT",
+  "name": "KITRON",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 23094980608.0,
+    "enterprise_value": 23044399104.0,
+    "trailing_pe": 35.918365,
+    "forward_pe": 21.922777,
+    "peg_ratio": 2.11,
+    "price_to_sales": 27.28613,
+    "price_to_book": 6.661597,
+    "ev_to_revenue": 27.226,
+    "ev_to_ebitda": 260.978
+  },
+  "per_share": {
+    "current_price": 105.6,
+    "eps_trailing": 2.94,
+    "eps_forward": 4.816908,
+    "book_value": 15.852056,
+    "revenue_per_share": 4.055,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0664,
+    "operating_margin": 0.09388,
+    "gross_margin": 0.33743,
+    "ebitda_margin": 0.10432,
+    "roe": 0.20129,
+    "roa": 0.06569
+  },
+  "income": {
+    "total_revenue": 846400000.0,
+    "revenue_growth": 0.657,
+    "gross_profits": 285600000.0,
+    "ebitda": 88300000.0,
+    "net_income": 56200000.0,
+    "earnings_growth": 1.25
+  },
+  "balance_sheet": {
+    "total_cash": 80800000.0,
+    "cash_per_share": 0.364,
+    "total_debt": 125200000.0,
+    "debt_to_equity": 35.71,
+    "current_ratio": 1.488,
+    "quick_ratio": 1.012
+  },
+  "trading": {
+    "beta": 0.987,
+    "week52_high": 111.6,
+    "week52_low": 51.5,
+    "avg50d": 100.784,
+    "avg200d": 76.3185,
+    "avg_volume": 842603.0,
+    "avg_volume_10d": 668332.0,
+    "shares_outstanding": 218702471.0,
+    "float_shares": 172824444.0,
+    "insider_ownership": 0.02678,
+    "institutional_ownership": 0.59033,
+    "short_ratio": null
+  },
+  "_pe_label": "35.92x"
+}

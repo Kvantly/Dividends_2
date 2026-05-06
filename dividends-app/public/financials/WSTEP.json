@@ -1,0 +1,63 @@
+{
+  "ticker": "WSTEP",
+  "name": "WEBSTEP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 497297536.0,
+    "enterprise_value": 462812896.0,
+    "trailing_pe": 11.366459,
+    "forward_pe": 7.99193,
+    "peg_ratio": null,
+    "price_to_sales": 0.595425,
+    "price_to_book": 1.445041,
+    "ev_to_revenue": 0.554,
+    "ev_to_ebitda": 7.618
+  },
+  "per_share": {
+    "current_price": 18.3,
+    "eps_trailing": 1.61,
+    "eps_forward": 2.28981,
+    "book_value": 12.664,
+    "revenue_per_share": 32.004,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04832,
+    "operating_margin": 0.02947,
+    "gross_margin": 0.14795,
+    "ebitda_margin": 0.07274,
+    "roe": 0.1229,
+    "roa": 0.05703
+  },
+  "income": {
+    "total_revenue": 835196992.0,
+    "revenue_growth": -0.089,
+    "gross_profits": 123565000.0,
+    "ebitda": 60751000.0,
+    "net_income": 41964000.0,
+    "earnings_growth": -0.55
+  },
+  "balance_sheet": {
+    "total_cash": 105132000.0,
+    "cash_per_share": 3.869,
+    "total_debt": 57060000.0,
+    "debt_to_equity": 17.223,
+    "current_ratio": 0.99,
+    "quick_ratio": 0.969
+  },
+  "trading": {
+    "beta": 0.271,
+    "week52_high": 27.2,
+    "week52_low": 16.9,
+    "avg50d": 17.79,
+    "avg200d": 19.717,
+    "avg_volume": 18954.0,
+    "avg_volume_10d": 29857.0,
+    "shares_outstanding": 27174729.0,
+    "float_shares": 12512876.0,
+    "insider_ownership": 0.54343,
+    "institutional_ownership": 0.26117,
+    "short_ratio": null
+  },
+  "_pe_label": "11.37x"
+}

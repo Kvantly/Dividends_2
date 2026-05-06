@@ -1,0 +1,62 @@
+{
+  "ticker": "MPCES",
+  "name": "MPC ENERGY SOLUTIO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 291475008.0,
+    "enterprise_value": 309537984.0,
+    "trailing_pe": null,
+    "forward_pe": -141.17085,
+    "peg_ratio": null,
+    "price_to_sales": 52.273136,
+    "price_to_book": 0.659543,
+    "ev_to_revenue": 55.513,
+    "ev_to_ebitda": 132.281
+  },
+  "per_share": {
+    "current_price": 13.1,
+    "eps_trailing": -7.53,
+    "eps_forward": -0.092795,
+    "book_value": 19.86223,
+    "revenue_per_share": 0.251,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.6207,
+    "operating_margin": -1.17844,
+    "gross_margin": 0.65836,
+    "ebitda_margin": 0.41966,
+    "roe": -0.22219,
+    "roa": -0.033
+  },
+  "income": {
+    "total_revenue": 5576000.0,
+    "revenue_growth": null,
+    "gross_profits": 3671000.0,
+    "ebitda": 2340000.0,
+    "net_income": -10014000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 10515000.0,
+    "cash_per_share": 0.473,
+    "total_debt": 24128000.0,
+    "debt_to_equity": 60.462,
+    "current_ratio": 1.397,
+    "quick_ratio": 0.211
+  },
+  "trading": {
+    "beta": 0.705,
+    "week52_high": 14.15,
+    "week52_low": 8.46,
+    "avg50d": 13.089,
+    "avg200d": 11.6997,
+    "avg_volume": 12241.0,
+    "avg_volume_10d": 11382.0,
+    "shares_outstanding": 22250000.0,
+    "float_shares": 22207058.0,
+    "insider_ownership": 0.31484,
+    "institutional_ownership": 0.11624,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ticker": "QEC",
+  "name": "QUESTERRE ENERGY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1111503232.0,
+    "enterprise_value": 1094663424.0,
+    "trailing_pe": null,
+    "forward_pe": 6.575757,
+    "peg_ratio": 0.59,
+    "price_to_sales": 15.709627,
+    "price_to_book": 1.848433,
+    "ev_to_revenue": 15.472,
+    "ev_to_ebitda": 69.3
+  },
+  "per_share": {
+    "current_price": 2.17,
+    "eps_trailing": -1.23,
+    "eps_forward": 0.33,
+    "book_value": 1.173967,
+    "revenue_per_share": 0.165,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.11564,
+    "operating_margin": -0.31277,
+    "gross_margin": 0.33054,
+    "ebitda_margin": 0.22326,
+    "roe": -0.7333,
+    "roa": -0.03602
+  },
+  "income": {
+    "total_revenue": 70753000.0,
+    "revenue_growth": 3.454,
+    "gross_profits": 23387000.0,
+    "ebitda": 15796000.0,
+    "net_income": -78935000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 31827000.0,
+    "cash_per_share": 0.07,
+    "total_debt": 102228000.0,
+    "debt_to_equity": 133.354,
+    "current_ratio": 0.498,
+    "quick_ratio": 0.415
+  },
+  "trading": {
+    "beta": -0.431,
+    "week52_high": 3.36,
+    "week52_low": 1.6,
+    "avg50d": 1.98854,
+    "avg200d": 2.22031,
+    "avg_volume": 1471455.0,
+    "avg_volume_10d": 2102740.0,
+    "shares_outstanding": 512213454.0,
+    "float_shares": 427870374.0,
+    "insider_ownership": 0.05262,
+    "institutional_ownership": 0.00314,
+    "short_ratio": null
+  }
+}

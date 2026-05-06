@@ -1,0 +1,63 @@
+{
+  "ticker": "ENH",
+  "name": "SED ENERGY HOLDING",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 6347276288.0,
+    "enterprise_value": 6462007808.0,
+    "trailing_pe": 18.869566,
+    "forward_pe": 9.338354,
+    "peg_ratio": null,
+    "price_to_sales": 29.876144,
+    "price_to_book": 2.077194,
+    "ev_to_revenue": 30.416,
+    "ev_to_ebitda": 63.517
+  },
+  "per_share": {
+    "current_price": 8.68,
+    "eps_trailing": 0.46,
+    "eps_forward": 0.9295,
+    "book_value": 4.178715,
+    "revenue_per_share": 0.306,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.13137,
+    "operating_margin": 0.30819,
+    "gross_margin": 0.58937,
+    "ebitda_margin": 0.47886,
+    "roe": 0.09183,
+    "roa": 0.10009
+  },
+  "income": {
+    "total_revenue": 212452992.0,
+    "revenue_growth": 0.484,
+    "gross_profits": 125214000.0,
+    "ebitda": 101736000.0,
+    "net_income": 27909000.0,
+    "earnings_growth": 0.057
+  },
+  "balance_sheet": {
+    "total_cash": 24583000.0,
+    "cash_per_share": 0.034,
+    "total_debt": 83407000.0,
+    "debt_to_equity": 25.652,
+    "current_ratio": 1.602,
+    "quick_ratio": 0.96
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 10.25,
+    "week52_low": 6.56,
+    "avg50d": 8.7722,
+    "avg200d": 8.54185,
+    "avg_volume": 3045012.0,
+    "avg_volume_10d": 1160987.0,
+    "shares_outstanding": 623152967.0,
+    "float_shares": 156108458.0,
+    "insider_ownership": 0.67632,
+    "institutional_ownership": 0.08709,
+    "short_ratio": null
+  },
+  "_pe_label": "18.87x"
+}

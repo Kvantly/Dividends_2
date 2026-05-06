@@ -1,0 +1,63 @@
+{
+  "ticker": "HAV",
+  "name": "HAV GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 474250016.0,
+    "enterprise_value": 262322000.0,
+    "trailing_pe": 104.230774,
+    "forward_pe": 5.376984,
+    "peg_ratio": null,
+    "price_to_sales": 0.590568,
+    "price_to_book": 5.171756,
+    "ev_to_revenue": 0.327,
+    "ev_to_ebitda": 12.95
+  },
+  "per_share": {
+    "current_price": 13.55,
+    "eps_trailing": 0.13,
+    "eps_forward": 2.52,
+    "book_value": 2.62,
+    "revenue_per_share": 23.0,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.00565,
+    "operating_margin": 0.03654,
+    "gross_margin": 0.39265,
+    "ebitda_margin": 0.02523,
+    "roe": 0.05103,
+    "roa": 0.00262
+  },
+  "income": {
+    "total_revenue": 803040000.0,
+    "revenue_growth": -0.118,
+    "gross_profits": 315313984.0,
+    "ebitda": 20256996.0,
+    "net_income": 4539000.0,
+    "earnings_growth": -0.451
+  },
+  "balance_sheet": {
+    "total_cash": 199418000.0,
+    "cash_per_share": 5.698,
+    "total_debt": 52000.0,
+    "debt_to_equity": 0.057,
+    "current_ratio": 1.017,
+    "quick_ratio": 0.962
+  },
+  "trading": {
+    "beta": 1.129,
+    "week52_high": 13.8,
+    "week52_low": 5.4,
+    "avg50d": 9.8894,
+    "avg200d": 7.79365,
+    "avg_volume": 112265.0,
+    "avg_volume_10d": 201908.0,
+    "shares_outstanding": 35000000.0,
+    "float_shares": 10456250.0,
+    "insider_ownership": 0.56647,
+    "institutional_ownership": 0.16855,
+    "short_ratio": null
+  },
+  "_pe_label": "104.23x"
+}

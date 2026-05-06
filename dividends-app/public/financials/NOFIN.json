@@ -1,0 +1,62 @@
+{
+  "ticker": "NOFIN",
+  "name": "NORDIC FINANCIALS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 37615636.0,
+    "enterprise_value": 22399220.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 33.525524,
+    "price_to_book": 1.304645,
+    "ev_to_revenue": 19.964,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 1.91,
+    "eps_trailing": -0.01,
+    "eps_forward": null,
+    "book_value": 1.464,
+    "revenue_per_share": 0.057,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -0.69875,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.82131,
+    "roa": -0.3243
+  },
+  "income": {
+    "total_revenue": 1122000.0,
+    "revenue_growth": null,
+    "gross_profits": 1122000.0,
+    "ebitda": null,
+    "net_income": -11915000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 16595000.0,
+    "cash_per_share": 0.843,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 18.862,
+    "quick_ratio": 18.337
+  },
+  "trading": {
+    "beta": -0.465,
+    "week52_high": 4.0775,
+    "week52_low": 1.6,
+    "avg50d": 1.869972,
+    "avg200d": 1.975942,
+    "avg_volume": 106117.0,
+    "avg_volume_10d": 107892.0,
+    "shares_outstanding": 19694050.0,
+    "float_shares": 18238069.0,
+    "insider_ownership": 0.3529,
+    "institutional_ownership": 0.13782,
+    "short_ratio": null
+  }
+}

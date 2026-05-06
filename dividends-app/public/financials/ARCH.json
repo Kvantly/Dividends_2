@@ -1,0 +1,62 @@
+{
+  "ticker": "ARCH",
+  "name": "ARCHER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2845539840.0,
+    "enterprise_value": 3434388992.0,
+    "trailing_pe": null,
+    "forward_pe": 5.192448,
+    "peg_ratio": null,
+    "price_to_sales": 2.377822,
+    "price_to_book": 1.710754,
+    "ev_to_revenue": 2.87,
+    "ev_to_ebitda": 18.564
+  },
+  "per_share": {
+    "current_price": 28.6,
+    "eps_trailing": -5.85,
+    "eps_forward": 5.508,
+    "book_value": 16.717777,
+    "revenue_per_share": 12.89,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.04905,
+    "operating_margin": 0.14595,
+    "gross_margin": 0.6304,
+    "ebitda_margin": 0.15459,
+    "roe": -0.25082,
+    "roa": 0.06488
+  },
+  "income": {
+    "total_revenue": 1196700032.0,
+    "revenue_growth": 0.036,
+    "gross_profits": 754400000.0,
+    "ebitda": 185000000.0,
+    "net_income": -58700000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 53700000.0,
+    "cash_per_share": 0.54,
+    "total_debt": 527300000.0,
+    "debt_to_equity": 264.046,
+    "current_ratio": 1.027,
+    "quick_ratio": 0.53
+  },
+  "trading": {
+    "beta": 0.307,
+    "week52_high": 30.25,
+    "week52_low": 20.05,
+    "avg50d": 26.933,
+    "avg200d": 24.15975,
+    "avg_volume": 176527.0,
+    "avg_volume_10d": 157872.0,
+    "shares_outstanding": 99494398.0,
+    "float_shares": 62062244.0,
+    "insider_ownership": 0.42644,
+    "institutional_ownership": 0.24065,
+    "short_ratio": null
+  }
+}

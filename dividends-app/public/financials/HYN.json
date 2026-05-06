@@ -1,0 +1,62 @@
+{
+  "ticker": "HYN",
+  "name": "HYNION",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 14711432.0,
+    "enterprise_value": 8806446.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 2.322841,
+    "price_to_book": 0.127273,
+    "ev_to_revenue": 1.39,
+    "ev_to_ebitda": -0.515
+  },
+  "per_share": {
+    "current_price": 0.0196,
+    "eps_trailing": -0.22,
+    "eps_forward": null,
+    "book_value": 0.154,
+    "revenue_per_share": 0.059,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -2.18726,
+    "gross_margin": 0.23697,
+    "ebitda_margin": -2.69933,
+    "roe": -0.83715,
+    "roa": -0.23285
+  },
+  "income": {
+    "total_revenue": 6333378.0,
+    "revenue_growth": 0.755,
+    "gross_profits": 1500803.0,
+    "ebitda": -17095868.0,
+    "net_income": -23520224.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3474571.0,
+    "cash_per_share": 0.032,
+    "total_debt": 10183000.0,
+    "debt_to_equity": 61.867,
+    "current_ratio": 0.365,
+    "quick_ratio": 0.274
+  },
+  "trading": {
+    "beta": 1.006,
+    "week52_high": 0.37,
+    "week52_low": 0.0126,
+    "avg50d": 0.0196,
+    "avg200d": 0.032629,
+    "avg_volume": 0.0,
+    "avg_volume_10d": 0.0,
+    "shares_outstanding": 750583252.0,
+    "float_shares": 106760147.0,
+    "insider_ownership": 0.04621,
+    "institutional_ownership": 0.00208,
+    "short_ratio": null
+  }
+}

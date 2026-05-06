@@ -1,0 +1,63 @@
+{
+  "ticker": "AURG",
+  "name": "AURSKOG SPAREBANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1178532096.0,
+    "enterprise_value": 5895488512.0,
+    "trailing_pe": 4.53567,
+    "forward_pe": 13.027594,
+    "peg_ratio": null,
+    "price_to_sales": 2.281726,
+    "price_to_book": 0.505858,
+    "ev_to_revenue": 11.414,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 254.95,
+    "eps_trailing": 56.21,
+    "eps_forward": 19.57,
+    "book_value": 503.995,
+    "revenue_per_share": 111.736,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.50311,
+    "operating_margin": 0.62909,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.10624,
+    "roa": 0.01284
+  },
+  "income": {
+    "total_revenue": 516508992.0,
+    "revenue_growth": 0.172,
+    "gross_profits": 516508992.0,
+    "ebitda": null,
+    "net_income": 89482000.0,
+    "earnings_growth": 0.297
+  },
+  "balance_sheet": {
+    "total_cash": 1537875968.0,
+    "cash_per_share": 332.686,
+    "total_debt": 6259224064.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.115,
+    "week52_high": 273.25,
+    "week52_low": 227.55,
+    "avg50d": 260.599,
+    "avg200d": 250.9305,
+    "avg_volume": 1279.0,
+    "avg_volume_10d": 1141.0,
+    "shares_outstanding": 4622601.0,
+    "float_shares": 4613402.0,
+    "insider_ownership": 0.30399,
+    "institutional_ownership": 0.05364,
+    "short_ratio": null
+  },
+  "_pe_label": "4.54x"
+}

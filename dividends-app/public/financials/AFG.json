@@ -1,0 +1,63 @@
+{
+  "ticker": "AFG",
+  "name": "AF GRUPPEN",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 20364984320.0,
+    "enterprise_value": 19776092160.0,
+    "trailing_pe": 18.046324,
+    "forward_pe": 15.327492,
+    "peg_ratio": 2.08,
+    "price_to_sales": 0.637382,
+    "price_to_book": 6.800759,
+    "ev_to_revenue": 0.619,
+    "ev_to_ebitda": 10.592
+  },
+  "per_share": {
+    "current_price": 179.2,
+    "eps_trailing": 9.93,
+    "eps_forward": 11.69141,
+    "book_value": 26.35,
+    "revenue_per_share": 292.139,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.03421,
+    "operating_margin": 0.06286,
+    "gross_margin": 0.34309,
+    "ebitda_margin": 0.05843,
+    "roe": 0.34669,
+    "roa": 0.05698
+  },
+  "income": {
+    "total_revenue": 31950999552.0,
+    "revenue_growth": 0.078,
+    "gross_profits": 10961999872.0,
+    "ebitda": 1867000064.0,
+    "net_income": 1092999936.0,
+    "earnings_growth": 0.116
+  },
+  "balance_sheet": {
+    "total_cash": 2391000064.0,
+    "cash_per_share": 21.725,
+    "total_debt": 1507000064.0,
+    "debt_to_equity": 38.171,
+    "current_ratio": 0.729,
+    "quick_ratio": 0.667
+  },
+  "trading": {
+    "beta": 0.575,
+    "week52_high": 192.4,
+    "week52_low": 144.0,
+    "avg50d": 177.664,
+    "avg200d": 174.859,
+    "avg_volume": 41838.0,
+    "avg_volume_10d": 43622.0,
+    "shares_outstanding": 113643885.0,
+    "float_shares": 36568517.0,
+    "insider_ownership": 0.59119,
+    "institutional_ownership": 0.15331,
+    "short_ratio": null
+  },
+  "_pe_label": "18.05x"
+}

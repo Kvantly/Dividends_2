@@ -1,0 +1,63 @@
+{
+  "ticker": "IWS",
+  "name": "INTEGRATED WIND SO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2469222400.0,
+    "enterprise_value": 2669341696.0,
+    "trailing_pe": 13.49345,
+    "forward_pe": 9.612693,
+    "peg_ratio": null,
+    "price_to_sales": 23.21156,
+    "price_to_book": 1.339392,
+    "ev_to_revenue": 25.093,
+    "ev_to_ebitda": 78.737
+  },
+  "per_share": {
+    "current_price": 61.8,
+    "eps_trailing": 4.58,
+    "eps_forward": 6.429,
+    "book_value": 46.14034,
+    "revenue_per_share": 2.667,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.15742,
+    "operating_margin": 0.28238,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.31869,
+    "roe": 0.11362,
+    "roa": 0.04238
+  },
+  "income": {
+    "total_revenue": 106379000.0,
+    "revenue_growth": 0.347,
+    "gross_profits": 106379000.0,
+    "ebitda": 33902000.0,
+    "net_income": 16746000.0,
+    "earnings_growth": 0.268
+  },
+  "balance_sheet": {
+    "total_cash": 52079000.0,
+    "cash_per_share": 1.303,
+    "total_debt": 191702000.0,
+    "debt_to_equity": 89.392,
+    "current_ratio": 3.116,
+    "quick_ratio": 3.116
+  },
+  "trading": {
+    "beta": 0.452,
+    "week52_high": 66.0,
+    "week52_low": 40.0,
+    "avg50d": 59.4294,
+    "avg200d": 49.813576,
+    "avg_volume": 9204.0,
+    "avg_volume_10d": 4317.0,
+    "shares_outstanding": 39955058.0,
+    "float_shares": 18476817.0,
+    "insider_ownership": 0.42781,
+    "institutional_ownership": 0.25679,
+    "short_ratio": null
+  },
+  "_pe_label": "13.49x"
+}

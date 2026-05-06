@@ -1,0 +1,63 @@
+{
+  "ticker": "SPOG",
+  "name": "SPAREBANKEN \u00d8ST",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1614337408.0,
+    "enterprise_value": 15849154560.0,
+    "trailing_pe": 9.507937,
+    "forward_pe": 12.620746,
+    "peg_ratio": null,
+    "price_to_sales": 1.579896,
+    "price_to_book": 0.344128,
+    "ev_to_revenue": 15.511,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 77.87,
+    "eps_trailing": 8.19,
+    "eps_forward": 6.17,
+    "book_value": 226.282,
+    "revenue_per_share": 49.362,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.51165,
+    "operating_margin": 0.56348,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.10389,
+    "roa": 0.01133
+  },
+  "income": {
+    "total_revenue": 1021800000.0,
+    "revenue_growth": -0.066,
+    "gross_profits": 1021800000.0,
+    "ebitda": null,
+    "net_income": 141300000.0,
+    "earnings_growth": -0.16
+  },
+  "balance_sheet": {
+    "total_cash": 9350599680.0,
+    "cash_per_share": 451.04,
+    "total_debt": 23599099904.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.265,
+    "week52_high": 86.94,
+    "week52_low": 70.0,
+    "avg50d": 81.4036,
+    "avg200d": 76.68155,
+    "avg_volume": 32767.0,
+    "avg_volume_10d": 22932.0,
+    "shares_outstanding": 20731183.0,
+    "float_shares": 12883601.0,
+    "insider_ownership": 0.20464,
+    "institutional_ownership": 0.17352,
+    "short_ratio": null
+  },
+  "_pe_label": "9.51x"
+}

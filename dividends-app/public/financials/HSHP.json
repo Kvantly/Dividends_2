@@ -1,0 +1,63 @@
+{
+  "ticker": "HSHP",
+  "name": "HIMALAYA SHIPPING",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 6622770176.0,
+    "enterprise_value": 7155049984.0,
+    "trailing_pe": 39.943344,
+    "forward_pe": 11.971797,
+    "peg_ratio": null,
+    "price_to_sales": 50.21054,
+    "price_to_book": 4.383936,
+    "ev_to_revenue": 54.246,
+    "ev_to_ebitda": 73.46
+  },
+  "per_share": {
+    "current_price": 141.0,
+    "eps_trailing": 3.53,
+    "eps_forward": 11.77768,
+    "book_value": 32.162876,
+    "revenue_per_share": 2.868,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.13419,
+    "operating_margin": 0.61758,
+    "gross_margin": 0.77559,
+    "ebitda_margin": 0.73844,
+    "roe": 0.11188,
+    "roa": 0.04888
+  },
+  "income": {
+    "total_revenue": 131900000.0,
+    "revenue_growth": 0.422,
+    "gross_profits": 102300000.0,
+    "ebitda": 97400000.0,
+    "net_income": 17700000.0,
+    "earnings_growth": 13.314
+  },
+  "balance_sheet": {
+    "total_cash": 32400000.0,
+    "cash_per_share": 0.693,
+    "total_debt": 689200000.0,
+    "debt_to_equity": 426.221,
+    "current_ratio": 1.085,
+    "quick_ratio": 0.904
+  },
+  "trading": {
+    "beta": 0.949,
+    "week52_high": 144.0,
+    "week52_low": 54.1,
+    "avg50d": 129.42,
+    "avg200d": 97.302,
+    "avg_volume": 219319.0,
+    "avg_volume_10d": 146423.0,
+    "shares_outstanding": 46970000.0,
+    "float_shares": 31062103.0,
+    "insider_ownership": 0.43523,
+    "institutional_ownership": 0.28339,
+    "short_ratio": null
+  },
+  "_pe_label": "39.94x"
+}

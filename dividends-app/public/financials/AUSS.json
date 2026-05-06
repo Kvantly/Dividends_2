@@ -1,0 +1,63 @@
+{
+  "ticker": "AUSS",
+  "name": "AUSTEVOLL SEAFOOD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 18709092352.0,
+    "enterprise_value": 41384185856.0,
+    "trailing_pe": 41.756756,
+    "forward_pe": 8.183082,
+    "peg_ratio": 1.6,
+    "price_to_sales": 0.4782,
+    "price_to_book": 1.168301,
+    "ev_to_revenue": 1.058,
+    "ev_to_ebitda": 13.613
+  },
+  "per_share": {
+    "current_price": 92.7,
+    "eps_trailing": 2.22,
+    "eps_forward": 11.32825,
+    "book_value": 79.346,
+    "revenue_per_share": 191.699,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01148,
+    "operating_margin": 0.09681,
+    "gross_margin": 0.40937,
+    "ebitda_margin": 0.0777,
+    "roe": 0.02392,
+    "roa": 0.018
+  },
+  "income": {
+    "total_revenue": 39124000768.0,
+    "revenue_growth": 0.036,
+    "gross_profits": 16016000000.0,
+    "ebitda": 3040000000.0,
+    "net_income": 449000000.0,
+    "earnings_growth": -0.916
+  },
+  "balance_sheet": {
+    "total_cash": 5101000192.0,
+    "cash_per_share": 25.274,
+    "total_debt": 15806999552.0,
+    "debt_to_equity": 56.733,
+    "current_ratio": 1.975,
+    "quick_ratio": 0.884
+  },
+  "trading": {
+    "beta": 0.56,
+    "week52_high": 105.8,
+    "week52_low": 84.3,
+    "avg50d": 99.742,
+    "avg200d": 95.357,
+    "avg_volume": 143833.0,
+    "avg_volume_10d": 150177.0,
+    "shares_outstanding": 201824074.0,
+    "float_shares": 82362386.0,
+    "insider_ownership": 0.5819,
+    "institutional_ownership": 0.19931,
+    "short_ratio": null
+  },
+  "_pe_label": "41.76x"
+}

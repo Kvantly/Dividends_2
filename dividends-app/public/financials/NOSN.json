@@ -1,0 +1,62 @@
+{
+  "ticker": "NOSN",
+  "name": "NOS NOVA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 60435120.0,
+    "enterprise_value": 48436628.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 7.41497,
+    "price_to_book": 0.912548,
+    "ev_to_revenue": 5.943,
+    "ev_to_ebitda": -1.064
+  },
+  "per_share": {
+    "current_price": 1.44,
+    "eps_trailing": -2.04,
+    "eps_forward": null,
+    "book_value": 1.578,
+    "revenue_per_share": 0.34,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -1.94759,
+    "gross_margin": 0.78836,
+    "ebitda_margin": 0.0,
+    "roe": -0.74599,
+    "roa": -0.30792
+  },
+  "income": {
+    "total_revenue": 8150420.0,
+    "revenue_growth": null,
+    "gross_profits": 6425440.0,
+    "ebitda": -45533216.0,
+    "net_income": -48913048.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 18654128.0,
+    "cash_per_share": 0.444,
+    "total_debt": 10642673.0,
+    "debt_to_equity": 21.61,
+    "current_ratio": 1.343,
+    "quick_ratio": 1.286
+  },
+  "trading": {
+    "beta": 0.682,
+    "week52_high": 1.51,
+    "week52_low": 1.11,
+    "avg50d": 1.247,
+    "avg200d": 1.289301,
+    "avg_volume": 45284.0,
+    "avg_volume_10d": 87701.0,
+    "shares_outstanding": 41968834.0,
+    "float_shares": 25444445.0,
+    "insider_ownership": 0.38085,
+    "institutional_ownership": 0.01131,
+    "short_ratio": null
+  }
+}

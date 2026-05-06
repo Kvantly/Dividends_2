@@ -1,0 +1,62 @@
+{
+  "ticker": "PCIB",
+  "name": "PCI BIOTECH HOLD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2612847.0,
+    "enterprise_value": -10722153.0,
+    "trailing_pe": null,
+    "forward_pe": -0.023973,
+    "peg_ratio": null,
+    "price_to_sales": 0.557348,
+    "price_to_book": 0.208955,
+    "ev_to_revenue": -2.287,
+    "ev_to_ebitda": 0.506
+  },
+  "per_share": {
+    "current_price": 0.07,
+    "eps_trailing": -0.55,
+    "eps_forward": -2.92,
+    "book_value": 0.335,
+    "revenue_per_share": 0.125,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -8.65627,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.92472,
+    "roa": -0.48344
+  },
+  "income": {
+    "total_revenue": 4688000.0,
+    "revenue_growth": -0.597,
+    "gross_profits": 4688000.0,
+    "ebitda": -21183000.0,
+    "net_income": -20538000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 13617000.0,
+    "cash_per_share": 0.365,
+    "total_debt": 282000.0,
+    "debt_to_equity": 2.253,
+    "current_ratio": 2.941,
+    "quick_ratio": 2.941
+  },
+  "trading": {
+    "beta": 0.794,
+    "week52_high": 2.22,
+    "week52_low": 0.0552,
+    "avg50d": 0.18211,
+    "avg200d": 0.435493,
+    "avg_volume": 1341059.0,
+    "avg_volume_10d": 771606.0,
+    "shares_outstanding": 37326390.0,
+    "float_shares": 27202353.0,
+    "insider_ownership": 0.22981,
+    "institutional_ownership": 0.05728,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "GJF",
+  "name": "GJENSIDIGE FORSIKR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 126590918656.0,
+    "enterprise_value": 48985964544.0,
+    "trailing_pe": 19.43208,
+    "forward_pe": 14.746161,
+    "peg_ratio": 1.62,
+    "price_to_sales": 2.701298,
+    "price_to_book": 4.948212,
+    "ev_to_revenue": 1.045,
+    "ev_to_ebitda": 5.118
+  },
+  "per_share": {
+    "current_price": 253.2,
+    "eps_trailing": 13.03,
+    "eps_forward": 17.17057,
+    "book_value": 51.17,
+    "revenue_per_share": 93.728,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.14819,
+    "operating_margin": 0.17876,
+    "gross_margin": 0.37489,
+    "ebitda_margin": 0.20425,
+    "roe": 0.30256,
+    "roa": 0.03136
+  },
+  "income": {
+    "total_revenue": 46862999552.0,
+    "revenue_growth": 0.059,
+    "gross_profits": 17568399360.0,
+    "ebitda": 9571874816.0,
+    "net_income": 6518400000.0,
+    "earnings_growth": 0.292
+  },
+  "balance_sheet": {
+    "total_cash": 81469399040.0,
+    "cash_per_share": 162.803,
+    "total_debt": 5348700160.0,
+    "debt_to_equity": 24.415,
+    "current_ratio": 9.996,
+    "quick_ratio": 9.732
+  },
+  "trading": {
+    "beta": 0.194,
+    "week52_high": 303.0,
+    "week52_low": 241.4,
+    "avg50d": 261.264,
+    "avg200d": 276.289,
+    "avg_volume": 453469.0,
+    "avg_volume_10d": 415101.0,
+    "shares_outstanding": 499964129.0,
+    "float_shares": 188957333.0,
+    "insider_ownership": 0.62278,
+    "institutional_ownership": 0.26274,
+    "short_ratio": null
+  },
+  "_pe_label": "19.43x"
+}

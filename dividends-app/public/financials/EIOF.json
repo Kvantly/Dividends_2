@@ -1,0 +1,63 @@
+{
+  "ticker": "EIOF",
+  "name": "EIDESVIK OFFSHORE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1251664128.0,
+    "enterprise_value": 2787033088.0,
+    "trailing_pe": 18.846153,
+    "forward_pe": -3.744541,
+    "peg_ratio": 1.42,
+    "price_to_sales": 1.594221,
+    "price_to_book": 0.776721,
+    "ev_to_revenue": 3.55,
+    "ev_to_ebitda": 9.841
+  },
+  "per_share": {
+    "current_price": 17.15,
+    "eps_trailing": 0.91,
+    "eps_forward": -4.58,
+    "book_value": 22.08,
+    "revenue_per_share": 10.758,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.08459,
+    "operating_margin": 0.05511,
+    "gross_margin": 0.54443,
+    "ebitda_margin": 0.36072,
+    "roe": 0.05633,
+    "roa": 0.01988
+  },
+  "income": {
+    "total_revenue": 785126016.0,
+    "revenue_growth": -0.019,
+    "gross_profits": 427444992.0,
+    "ebitda": 283212000.0,
+    "net_income": 66413000.0,
+    "earnings_growth": -0.851
+  },
+  "balance_sheet": {
+    "total_cash": 340499008.0,
+    "cash_per_share": 4.665,
+    "total_debt": 1311580032.0,
+    "debt_to_equity": 61.414,
+    "current_ratio": 1.67,
+    "quick_ratio": 1.608
+  },
+  "trading": {
+    "beta": 0.314,
+    "week52_high": 18.0,
+    "week52_low": 11.5,
+    "avg50d": 15.714,
+    "avg200d": 13.605,
+    "avg_volume": 37428.0,
+    "avg_volume_10d": 53976.0,
+    "shares_outstanding": 72983333.0,
+    "float_shares": 8429575.0,
+    "insider_ownership": 0.86102,
+    "institutional_ownership": 0.0139,
+    "short_ratio": null
+  },
+  "_pe_label": "18.85x"
+}

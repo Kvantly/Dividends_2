@@ -1,0 +1,62 @@
+{
+  "ticker": "NAPA",
+  "name": "NAPATECH",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3514097920.0,
+    "enterprise_value": 3432256000.0,
+    "trailing_pe": null,
+    "forward_pe": -245.38463,
+    "peg_ratio": null,
+    "price_to_sales": 23.969185,
+    "price_to_book": 11.732696,
+    "ev_to_revenue": 23.411,
+    "ev_to_ebitda": -44.098
+  },
+  "per_share": {
+    "current_price": 31.9,
+    "eps_trailing": -1.11,
+    "eps_forward": -0.13,
+    "book_value": 2.718898,
+    "revenue_per_share": 1.384,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.55014,
+    "operating_margin": -0.16848,
+    "gross_margin": 0.69488,
+    "ebitda_margin": -0.53089,
+    "roe": -0.45044,
+    "roa": -0.20108
+  },
+  "income": {
+    "total_revenue": 146608992.0,
+    "revenue_growth": 0.355,
+    "gross_profits": 101876000.0,
+    "ebitda": -77833000.0,
+    "net_income": -80655000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 127470000.0,
+    "cash_per_share": 1.157,
+    "total_debt": 34612000.0,
+    "debt_to_equity": 16.909,
+    "current_ratio": 4.574,
+    "quick_ratio": 3.426
+  },
+  "trading": {
+    "beta": 0.591,
+    "week52_high": 36.75,
+    "week52_low": 17.1,
+    "avg50d": 32.672,
+    "avg200d": 29.223,
+    "avg_volume": 200375.0,
+    "avg_volume_10d": 93375.0,
+    "shares_outstanding": 110159812.0,
+    "float_shares": 74818341.0,
+    "insider_ownership": 0.22615,
+    "institutional_ownership": 0.4522,
+    "short_ratio": null
+  }
+}

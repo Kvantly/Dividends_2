@@ -1,0 +1,63 @@
+{
+  "ticker": "BNOR",
+  "name": "BLUENORD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 14726708224.0,
+    "enterprise_value": 16087650304.0,
+    "trailing_pe": 24.806202,
+    "forward_pe": 12.66931,
+    "peg_ratio": 0.02,
+    "price_to_sales": 14.169834,
+    "price_to_book": 3.407364,
+    "ev_to_revenue": 15.479,
+    "ev_to_ebitda": 30.28
+  },
+  "per_share": {
+    "current_price": 576.0,
+    "eps_trailing": 23.22,
+    "eps_forward": 45.4642,
+    "book_value": 169.04562,
+    "revenue_per_share": 39.826,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.10738,
+    "operating_margin": 0.26713,
+    "gross_margin": 0.55576,
+    "ebitda_margin": 0.51121,
+    "roe": 0.15251,
+    "roa": 0.042
+  },
+  "income": {
+    "total_revenue": 1039299968.0,
+    "revenue_growth": 0.877,
+    "gross_profits": 577600000.0,
+    "ebitda": 531300000.0,
+    "net_income": 94600000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 142700000.0,
+    "cash_per_share": 5.581,
+    "total_debt": 1069000000.0,
+    "debt_to_equity": 139.211,
+    "current_ratio": 2.323,
+    "quick_ratio": 1.309
+  },
+  "trading": {
+    "beta": -0.186,
+    "week52_high": 650.0,
+    "week52_low": 399.5,
+    "avg50d": 552.83,
+    "avg200d": 480.05,
+    "avg_volume": 289712.0,
+    "avg_volume_10d": 167205.0,
+    "shares_outstanding": 25567202.0,
+    "float_shares": 22505785.0,
+    "insider_ownership": 0.1175,
+    "institutional_ownership": 0.2285,
+    "short_ratio": null
+  },
+  "_pe_label": "24.81x"
+}

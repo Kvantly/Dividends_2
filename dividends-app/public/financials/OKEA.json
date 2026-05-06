@@ -1,0 +1,62 @@
+{
+  "ticker": "OKEA",
+  "name": "OKEA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3995353088.0,
+    "enterprise_value": 4076327680.0,
+    "trailing_pe": null,
+    "forward_pe": 4.245616,
+    "peg_ratio": null,
+    "price_to_sales": 5.098162,
+    "price_to_book": 7.500966,
+    "ev_to_revenue": 5.201,
+    "ev_to_ebitda": 9.202
+  },
+  "per_share": {
+    "current_price": 38.45,
+    "eps_trailing": -3.63,
+    "eps_forward": 9.0564,
+    "book_value": 5.126007,
+    "revenue_per_share": 7.542,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.06976,
+    "operating_margin": -0.40117,
+    "gross_margin": 0.61711,
+    "ebitda_margin": 0.56526,
+    "roe": -0.70513,
+    "roa": 0.00547
+  },
+  "income": {
+    "total_revenue": 783684992.0,
+    "revenue_growth": -0.482,
+    "gross_profits": 483623008.0,
+    "ebitda": 442984000.0,
+    "net_income": -54668000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 308390016.0,
+    "cash_per_share": 2.968,
+    "total_debt": 311432000.0,
+    "debt_to_equity": 544.471,
+    "current_ratio": 1.485,
+    "quick_ratio": 1.067
+  },
+  "trading": {
+    "beta": -0.339,
+    "week52_high": 43.8,
+    "week52_low": 15.8,
+    "avg50d": 36.44,
+    "avg200d": 24.4486,
+    "avg_volume": 788410.0,
+    "avg_volume_10d": 662448.0,
+    "shares_outstanding": 103910350.0,
+    "float_shares": 49413528.0,
+    "insider_ownership": 0.54441,
+    "institutional_ownership": 0.04503,
+    "short_ratio": null
+  }
+}

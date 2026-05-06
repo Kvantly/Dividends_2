@@ -1,0 +1,63 @@
+{
+  "ticker": "PRS",
+  "name": "PROSAFE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1290288896.0,
+    "enterprise_value": 1206000000.0,
+    "trailing_pe": 0.463291,
+    "forward_pe": -158.6979,
+    "peg_ratio": 1.79,
+    "price_to_sales": 6.848667,
+    "price_to_book": 0.707367,
+    "ev_to_revenue": 6.401,
+    "ev_to_ebitda": 30.15
+  },
+  "per_share": {
+    "current_price": 3.66,
+    "eps_trailing": 7.9,
+    "eps_forward": -0.023063,
+    "book_value": 5.174118,
+    "revenue_per_share": 1.137,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.75637,
+    "operating_margin": 0.17207,
+    "gross_margin": 0.21231,
+    "ebitda_margin": 0.21231,
+    "roe": 2.21963,
+    "roa": 0.00988
+  },
+  "income": {
+    "total_revenue": 188400000.0,
+    "revenue_growth": 0.916,
+    "gross_profits": 40000000.0,
+    "ebitda": 40000000.0,
+    "net_income": 142500000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 65300000.0,
+    "cash_per_share": 0.246,
+    "total_debt": 296100000.0,
+    "debt_to_equity": 209.11,
+    "current_ratio": 1.953,
+    "quick_ratio": 1.713
+  },
+  "trading": {
+    "beta": 0.365,
+    "week52_high": 15.44,
+    "week52_low": 2.91,
+    "avg50d": 3.3607,
+    "avg200d": 3.51685,
+    "avg_volume": 1763786.0,
+    "avg_volume_10d": 3262477.0,
+    "shares_outstanding": 352537966.0,
+    "float_shares": 179558700.0,
+    "insider_ownership": 0.05923,
+    "institutional_ownership": 0.31824,
+    "short_ratio": null
+  },
+  "_pe_label": "0.46x"
+}

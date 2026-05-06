@@ -1,0 +1,62 @@
+{
+  "ticker": "CODE",
+  "name": "CODELAB CAPITAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 45966632.0,
+    "enterprise_value": 35136320.0,
+    "trailing_pe": null,
+    "forward_pe": -12.72,
+    "peg_ratio": null,
+    "price_to_sales": 4.313516,
+    "price_to_book": 1.214204,
+    "ev_to_revenue": 3.297,
+    "ev_to_ebitda": -2.831
+  },
+  "per_share": {
+    "current_price": 3.18,
+    "eps_trailing": -1.03,
+    "eps_forward": -0.25,
+    "book_value": 2.619,
+    "revenue_per_share": 0.737,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.39594,
+    "operating_margin": -0.90031,
+    "gross_margin": -0.11016,
+    "ebitda_margin": -1.1646,
+    "roe": -0.62703,
+    "roa": -0.25019
+  },
+  "income": {
+    "total_revenue": 10656418.0,
+    "revenue_growth": 66.336,
+    "gross_profits": -1173894.0,
+    "ebitda": -12410499.0,
+    "net_income": -14875773.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 14388258.0,
+    "cash_per_share": 0.995,
+    "total_debt": 4572429.0,
+    "debt_to_equity": 15.576,
+    "current_ratio": 1.368,
+    "quick_ratio": 1.329
+  },
+  "trading": {
+    "beta": 0.627,
+    "week52_high": 4.0,
+    "week52_low": 1.895,
+    "avg50d": 2.6446,
+    "avg200d": 2.64825,
+    "avg_volume": 25537.0,
+    "avg_volume_10d": 79781.0,
+    "shares_outstanding": 14454915.0,
+    "float_shares": 3678342.0,
+    "insider_ownership": 0.26855,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  }
+}

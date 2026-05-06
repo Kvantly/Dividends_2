@@ -1,0 +1,62 @@
+{
+  "ticker": "BARRA",
+  "name": "BARRAMUNDI GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 114011784.0,
+    "enterprise_value": 136698320.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 8.268218,
+    "price_to_book": -1.944555,
+    "ev_to_revenue": 9.913,
+    "ev_to_ebitda": -25.685
+  },
+  "per_share": {
+    "current_price": 0.65,
+    "eps_trailing": -0.71,
+    "eps_forward": null,
+    "book_value": -0.334267,
+    "revenue_per_share": 0.079,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.60197,
+    "operating_margin": -0.53032,
+    "gross_margin": 0.17844,
+    "ebitda_margin": -0.38596,
+    "roe": -8.66705,
+    "roa": -0.17759
+  },
+  "income": {
+    "total_revenue": 13789161.0,
+    "revenue_growth": -0.017,
+    "gross_profits": 2460520.0,
+    "ebitda": -5322034.0,
+    "net_income": -8300607.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3768462.0,
+    "cash_per_share": 0.021,
+    "total_debt": 21683536.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.387,
+    "quick_ratio": 0.278
+  },
+  "trading": {
+    "beta": 0.875,
+    "week52_high": 1.7,
+    "week52_low": 0.350661,
+    "avg50d": 0.88172,
+    "avg200d": 0.713444,
+    "avg_volume": 169851.0,
+    "avg_volume_10d": 275466.0,
+    "shares_outstanding": 175402745.0,
+    "float_shares": 89841286.0,
+    "insider_ownership": 0.3779,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  }
+}

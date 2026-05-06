@@ -1,0 +1,63 @@
+{
+  "ticker": "EQNR",
+  "name": "EQUINOR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 874001268736.0,
+    "enterprise_value": 970315857920.0,
+    "trailing_pe": 19.46171,
+    "forward_pe": 9.815735,
+    "peg_ratio": null,
+    "price_to_sales": 8.246928,
+    "price_to_book": 2.309592,
+    "ev_to_revenue": 9.156,
+    "ev_to_ebitda": 27.362
+  },
+  "per_share": {
+    "current_price": 350.7,
+    "eps_trailing": 18.02,
+    "eps_forward": 35.72835,
+    "book_value": 151.845,
+    "revenue_per_share": 40.871,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04758,
+    "operating_margin": 0.2144,
+    "gross_margin": 0.3703,
+    "ebitda_margin": 0.33461,
+    "roe": 0.12206,
+    "roa": 0.12643
+  },
+  "income": {
+    "total_revenue": 105979002880.0,
+    "revenue_growth": -0.051,
+    "gross_profits": 39244001280.0,
+    "ebitda": 35462000640.0,
+    "net_income": 5042999808.0,
+    "earnings_growth": -0.273
+  },
+  "balance_sheet": {
+    "total_cash": 19332999168.0,
+    "cash_per_share": 7.732,
+    "total_debt": 31221000192.0,
+    "debt_to_equity": 77.093,
+    "current_ratio": 1.265,
+    "quick_ratio": 0.98
+  },
+  "trading": {
+    "beta": -0.723,
+    "week52_high": 422.3,
+    "week52_low": 226.4,
+    "avg50d": 353.294,
+    "avg200d": 272.9455,
+    "avg_volume": 5353458.0,
+    "avg_volume_10d": 2786834.0,
+    "shares_outstanding": 2492162132.0,
+    "float_shares": 620117221.0,
+    "insider_ownership": 0.67001,
+    "institutional_ownership": 0.19322,
+    "short_ratio": null
+  },
+  "_pe_label": "19.46x"
+}

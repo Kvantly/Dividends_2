@@ -1,0 +1,63 @@
+{
+  "ticker": "VTURA",
+  "name": "VENTURA OFFSHORE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3336951808.0,
+    "enterprise_value": 3493024512.0,
+    "trailing_pe": 3.808948,
+    "forward_pe": 4.437341,
+    "peg_ratio": null,
+    "price_to_sales": 8.90179,
+    "price_to_book": 0.947642,
+    "ev_to_revenue": 9.318,
+    "ev_to_ebitda": 21.54
+  },
+  "per_share": {
+    "current_price": 31.5,
+    "eps_trailing": 8.27,
+    "eps_forward": 7.098846,
+    "book_value": 33.240406,
+    "revenue_per_share": 3.489,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.25751,
+    "operating_margin": 0.3714,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.4326,
+    "roe": 0.2928,
+    "roa": 0.12336
+  },
+  "income": {
+    "total_revenue": 374863008.0,
+    "revenue_growth": -0.369,
+    "gross_profits": 374863008.0,
+    "ebitda": 162166000.0,
+    "net_income": 96530000.0,
+    "earnings_growth": -0.217
+  },
+  "balance_sheet": {
+    "total_cash": 43002000.0,
+    "cash_per_share": 0.407,
+    "total_debt": 153231008.0,
+    "debt_to_equity": 40.528,
+    "current_ratio": 0.867,
+    "quick_ratio": 0.628
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 33.6,
+    "week52_low": 16.8,
+    "avg50d": 28.094,
+    "avg200d": 23.57925,
+    "avg_volume": 163216.0,
+    "avg_volume_10d": 147152.0,
+    "shares_outstanding": 105934979.0,
+    "float_shares": 103640398.0,
+    "insider_ownership": 0.0,
+    "institutional_ownership": 0.01773,
+    "short_ratio": null
+  },
+  "_pe_label": "3.81x"
+}

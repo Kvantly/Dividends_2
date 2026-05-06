@@ -1,0 +1,62 @@
+{
+  "ticker": "NOL",
+  "name": "NORTHERN OCEAN LTD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2613716736.0,
+    "enterprise_value": 2700453888.0,
+    "trailing_pe": null,
+    "forward_pe": -9.092827,
+    "peg_ratio": null,
+    "price_to_sales": 9.60791,
+    "price_to_book": 0.801971,
+    "ev_to_revenue": 9.927,
+    "ev_to_ebitda": 120.529
+  },
+  "per_share": {
+    "current_price": 8.62,
+    "eps_trailing": -3.16,
+    "eps_forward": -0.948,
+    "book_value": 10.748525,
+    "revenue_per_share": 0.897,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.37739,
+    "operating_margin": -0.23515,
+    "gross_margin": 0.11326,
+    "ebitda_margin": 0.08236,
+    "roe": -0.25951,
+    "roa": -0.02659
+  },
+  "income": {
+    "total_revenue": 272038016.0,
+    "revenue_growth": 0.772,
+    "gross_profits": 30811000.0,
+    "ebitda": 22405000.0,
+    "net_income": -102665000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 37545000.0,
+    "cash_per_share": 0.124,
+    "total_debt": 100025000.0,
+    "debt_to_equity": 28.988,
+    "current_ratio": 0.421,
+    "quick_ratio": 0.413
+  },
+  "trading": {
+    "beta": 0.171,
+    "week52_high": 10.88,
+    "week52_low": 5.52,
+    "avg50d": 8.9288,
+    "avg200d": 7.705,
+    "avg_volume": 140050.0,
+    "avg_volume_10d": 71139.0,
+    "shares_outstanding": 303215392.0,
+    "float_shares": 153596789.0,
+    "insider_ownership": 0.54384,
+    "institutional_ownership": 0.08734,
+    "short_ratio": null
+  }
+}

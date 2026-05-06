@@ -1,0 +1,63 @@
+{
+  "ticker": "SDSD",
+  "name": "S.D. STANDARD ETC",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 970293376.0,
+    "enterprise_value": 878696896.0,
+    "trailing_pe": 20.555555,
+    "forward_pe": 92.5,
+    "peg_ratio": null,
+    "price_to_sales": 212.22514,
+    "price_to_book": 0.867764,
+    "ev_to_revenue": 192.191,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 1.85,
+    "eps_trailing": 0.09,
+    "eps_forward": 0.02,
+    "book_value": 2.131916,
+    "revenue_per_share": 0.009,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.76531,
+    "operating_margin": 0.76183,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.02967,
+    "roa": 0.01644
+  },
+  "income": {
+    "total_revenue": 4572000.0,
+    "revenue_growth": null,
+    "gross_profits": 4572000.0,
+    "ebitda": null,
+    "net_income": 3499000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 120443000.0,
+    "cash_per_share": 0.23,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 56.138,
+    "quick_ratio": 56.116
+  },
+  "trading": {
+    "beta": 0.229,
+    "week52_high": 1.995,
+    "week52_low": 1.79,
+    "avg50d": 1.8729,
+    "avg200d": 1.853325,
+    "avg_volume": 27921.0,
+    "avg_volume_10d": 13716.0,
+    "shares_outstanding": 524482901.0,
+    "float_shares": null,
+    "insider_ownership": 0.47445,
+    "institutional_ownership": 0.59385,
+    "short_ratio": null
+  },
+  "_pe_label": "20.56x"
+}

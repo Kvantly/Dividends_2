@@ -1,0 +1,62 @@
+{
+  "ticker": "BCS",
+  "name": "BERGEN CARBON SOL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 130107432.0,
+    "enterprise_value": 7947344.0,
+    "trailing_pe": null,
+    "forward_pe": -28.181818,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": 0.891317,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": -0.195
+  },
+  "per_share": {
+    "current_price": 3.1,
+    "eps_trailing": -0.97,
+    "eps_forward": -0.11,
+    "book_value": 3.478,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.24669,
+    "roa": -0.15839
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": -199000.0,
+    "ebitda": -40760000.0,
+    "net_income": -40741000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 136740992.0,
+    "cash_per_share": 3.258,
+    "total_debt": 11643000.0,
+    "debt_to_equity": 7.976,
+    "current_ratio": 14.583,
+    "quick_ratio": 14.488
+  },
+  "trading": {
+    "beta": 0.418,
+    "week52_high": 7.58,
+    "week52_low": 2.8,
+    "avg50d": 3.4694,
+    "avg200d": 3.9243,
+    "avg_volume": 50422.0,
+    "avg_volume_10d": 55257.0,
+    "shares_outstanding": 41970140.0,
+    "float_shares": 23653951.0,
+    "insider_ownership": 0.43403,
+    "institutional_ownership": 0.06571,
+    "short_ratio": null
+  }
+}

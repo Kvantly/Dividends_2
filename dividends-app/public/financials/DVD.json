@@ -1,0 +1,63 @@
+{
+  "ticker": "DVD",
+  "name": "DEEP VALUE DRILLER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1907570048.0,
+    "enterprise_value": 1993001984.0,
+    "trailing_pe": 8.831169,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 34.234093,
+    "price_to_book": 25.43121,
+    "ev_to_revenue": 35.767,
+    "ev_to_ebitda": 38.398
+  },
+  "per_share": {
+    "current_price": 20.4,
+    "eps_trailing": 2.31,
+    "eps_forward": 0.0,
+    "book_value": 0.802164,
+    "revenue_per_share": 0.598,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.41558,
+    "operating_margin": 0.56363,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.9315,
+    "roe": 3.10364,
+    "roa": 0.17953
+  },
+  "income": {
+    "total_revenue": 55721356.0,
+    "revenue_growth": -0.252,
+    "gross_profits": 55721356.0,
+    "ebitda": 51904304.0,
+    "net_income": 23156514.0,
+    "earnings_growth": -0.586
+  },
+  "balance_sheet": {
+    "total_cash": 14495405.0,
+    "cash_per_share": 0.156,
+    "total_debt": 101387000.0,
+    "debt_to_equity": 1268.475,
+    "current_ratio": 9.064,
+    "quick_ratio": 8.72
+  },
+  "trading": {
+    "beta": 0.291,
+    "week52_high": 22.35,
+    "week52_low": 14.1,
+    "avg50d": 20.6668,
+    "avg200d": 19.9013,
+    "avg_volume": 352995.0,
+    "avg_volume_10d": 165897.0,
+    "shares_outstanding": 93508333.0,
+    "float_shares": 80682065.0,
+    "insider_ownership": 0.48734,
+    "institutional_ownership": 0.10167,
+    "short_ratio": null
+  },
+  "_pe_label": "8.83x"
+}

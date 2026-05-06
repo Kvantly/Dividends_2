@@ -1,0 +1,63 @@
+{
+  "ticker": "LINK",
+  "name": "LINK MOBILITY GRP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 7137035264.0,
+    "enterprise_value": 8855868416.0,
+    "trailing_pe": 87.17242,
+    "forward_pe": 13.947278,
+    "peg_ratio": null,
+    "price_to_sales": 1.007616,
+    "price_to_book": 1.339764,
+    "ev_to_revenue": 1.25,
+    "ev_to_ebitda": 11.402
+  },
+  "per_share": {
+    "current_price": 25.28,
+    "eps_trailing": 0.29,
+    "eps_forward": 1.81254,
+    "book_value": 18.869,
+    "revenue_per_share": 23.597,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01195,
+    "operating_margin": 0.03397,
+    "gross_margin": 0.1742,
+    "ebitda_margin": 0.10965,
+    "roe": 0.01567,
+    "roa": 0.02238
+  },
+  "income": {
+    "total_revenue": 7083090944.0,
+    "revenue_growth": 0.071,
+    "gross_profits": 1233863936.0,
+    "ebitda": 776670016.0,
+    "net_income": 87137000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 1032211968.0,
+    "cash_per_share": 3.533,
+    "total_debt": 2671517952.0,
+    "debt_to_equity": 46.488,
+    "current_ratio": 1.275,
+    "quick_ratio": 1.216
+  },
+  "trading": {
+    "beta": 1.169,
+    "week52_high": 36.2,
+    "week52_low": 19.79,
+    "avg50d": 22.5716,
+    "avg200d": 28.8714,
+    "avg_volume": 2455963.0,
+    "avg_volume_10d": 1625213.0,
+    "shares_outstanding": 282319410.0,
+    "float_shares": 190914609.0,
+    "insider_ownership": 0.06065,
+    "institutional_ownership": 0.61927,
+    "short_ratio": null
+  },
+  "_pe_label": "87.17x"
+}

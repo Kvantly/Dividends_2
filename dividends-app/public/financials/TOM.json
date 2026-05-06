@@ -1,0 +1,63 @@
+{
+  "ticker": "TOM",
+  "name": "TOMRA SYSTEMS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 28165992448.0,
+    "enterprise_value": 28836302848.0,
+    "trailing_pe": 32.431973,
+    "forward_pe": 13.692256,
+    "peg_ratio": 1.7,
+    "price_to_sales": 20.921038,
+    "price_to_book": 4.304794,
+    "ev_to_revenue": 21.419,
+    "ev_to_ebitda": 140.871
+  },
+  "per_share": {
+    "current_price": 95.35,
+    "eps_trailing": 2.94,
+    "eps_forward": 6.96379,
+    "book_value": 22.149725,
+    "revenue_per_share": 4.554,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.06016,
+    "operating_margin": 0.05389,
+    "gross_margin": 0.61754,
+    "ebitda_margin": 0.15205,
+    "roe": 0.13775,
+    "roa": 0.05259
+  },
+  "income": {
+    "total_revenue": 1346300032.0,
+    "revenue_growth": 0.092,
+    "gross_profits": 831400000.0,
+    "ebitda": 204700000.0,
+    "net_income": 81000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 91000000.0,
+    "cash_per_share": 0.308,
+    "total_debt": 679000000.0,
+    "debt_to_equity": 106.761,
+    "current_ratio": 1.546,
+    "quick_ratio": 1.014
+  },
+  "trading": {
+    "beta": 1.134,
+    "week52_high": 171.0,
+    "week52_low": 89.8,
+    "avg50d": 113.239,
+    "avg200d": 130.96175,
+    "avg_volume": 1096103.0,
+    "avg_volume_10d": 2649412.0,
+    "shares_outstanding": 295395838.0,
+    "float_shares": 217263639.0,
+    "insider_ownership": 0.001,
+    "institutional_ownership": 0.85402,
+    "short_ratio": null
+  },
+  "_pe_label": "32.43x"
+}

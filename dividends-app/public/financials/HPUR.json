@@ -1,0 +1,62 @@
+{
+  "ticker": "HPUR",
+  "name": "HEXAGON PURUS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 651298880.0,
+    "enterprise_value": 2817224448.0,
+    "trailing_pe": null,
+    "forward_pe": -1.162088,
+    "peg_ratio": null,
+    "price_to_sales": 0.569371,
+    "price_to_book": 1.408712,
+    "ev_to_revenue": 2.463,
+    "ev_to_ebitda": -4.361
+  },
+  "per_share": {
+    "current_price": 1.52,
+    "eps_trailing": -3.51,
+    "eps_forward": -1.30799,
+    "book_value": 1.079,
+    "revenue_per_share": 2.673,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.31301,
+    "operating_margin": -0.94479,
+    "gross_margin": 0.38418,
+    "ebitda_margin": -0.56474,
+    "roe": -1.13229,
+    "roa": -0.13637
+  },
+  "income": {
+    "total_revenue": 1143891968.0,
+    "revenue_growth": 0.181,
+    "gross_profits": 439456000.0,
+    "ebitda": -646001024.0,
+    "net_income": -1501944960.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 321804000.0,
+    "cash_per_share": 0.751,
+    "total_debt": 2355014912.0,
+    "debt_to_equity": 406.425,
+    "current_ratio": 2.282,
+    "quick_ratio": 1.101
+  },
+  "trading": {
+    "beta": 1.315,
+    "week52_high": 2.8,
+    "week52_low": 0.981,
+    "avg50d": 1.15148,
+    "avg200d": 1.55048,
+    "avg_volume": 604902.0,
+    "avg_volume_10d": 817802.0,
+    "shares_outstanding": 428486108.0,
+    "float_shares": 192505954.0,
+    "insider_ownership": 0.41856,
+    "institutional_ownership": 0.08902,
+    "short_ratio": null
+  }
+}

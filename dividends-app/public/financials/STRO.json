@@ -1,0 +1,62 @@
+{
+  "ticker": "STRO",
+  "name": "STRONGPOINT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 458974976.0,
+    "enterprise_value": 599746112.0,
+    "trailing_pe": null,
+    "forward_pe": 146.42857,
+    "peg_ratio": 2.83,
+    "price_to_sales": 0.338818,
+    "price_to_book": 0.945746,
+    "ev_to_revenue": 0.443,
+    "ev_to_ebitda": 377.674
+  },
+  "per_share": {
+    "current_price": 10.25,
+    "eps_trailing": -0.11,
+    "eps_forward": 0.07,
+    "book_value": 10.838,
+    "revenue_per_share": 30.272,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.0038,
+    "operating_margin": -0.00192,
+    "gross_margin": 0.15473,
+    "ebitda_margin": 0.00117,
+    "roe": -0.01146,
+    "roa": -0.011
+  },
+  "income": {
+    "total_revenue": 1354636032.0,
+    "revenue_growth": -0.012,
+    "gross_profits": 209599008.0,
+    "ebitda": 1588000.0,
+    "net_income": -5148000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 67559000.0,
+    "cash_per_share": 1.509,
+    "total_debt": 218024992.0,
+    "debt_to_equity": 49.474,
+    "current_ratio": 1.299,
+    "quick_ratio": 0.854
+  },
+  "trading": {
+    "beta": 0.598,
+    "week52_high": 12.2,
+    "week52_low": 9.12,
+    "avg50d": 10.268,
+    "avg200d": 10.33595,
+    "avg_volume": 44065.0,
+    "avg_volume_10d": 66514.0,
+    "shares_outstanding": 44778050.0,
+    "float_shares": 19272921.0,
+    "insider_ownership": 0.40878,
+    "institutional_ownership": 0.15478,
+    "short_ratio": null
+  }
+}

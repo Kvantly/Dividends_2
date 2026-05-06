@@ -1,0 +1,63 @@
+{
+  "ticker": "SKUE",
+  "name": "SKUE SPAREBANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1947139456.0,
+    "enterprise_value": 2003552384.0,
+    "trailing_pe": 15.13022,
+    "forward_pe": 9.646436,
+    "peg_ratio": null,
+    "price_to_sales": 2.789858,
+    "price_to_book": 0.506732,
+    "ev_to_revenue": 2.871,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 336.95,
+    "eps_trailing": 22.27,
+    "eps_forward": 34.93,
+    "book_value": 664.947,
+    "revenue_per_share": 120.777,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.43349,
+    "operating_margin": 0.4768,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.08494,
+    "roa": 0.0119
+  },
+  "income": {
+    "total_revenue": 697934976.0,
+    "revenue_growth": 0.261,
+    "gross_profits": 697934976.0,
+    "ebitda": null,
+    "net_income": 131228000.0,
+    "earnings_growth": 3.074
+  },
+  "balance_sheet": {
+    "total_cash": 4696967168.0,
+    "cash_per_share": 812.804,
+    "total_debt": 4753379840.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.198,
+    "week52_high": 368.9,
+    "week52_low": 304.95,
+    "avg50d": 343.88,
+    "avg200d": 332.03625,
+    "avg_volume": 3165.0,
+    "avg_volume_10d": 423.0,
+    "shares_outstanding": 5778719.0,
+    "float_shares": 5770455.0,
+    "insider_ownership": 0.70666,
+    "institutional_ownership": 0.09585,
+    "short_ratio": null
+  },
+  "_pe_label": "15.13x"
+}

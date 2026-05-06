@@ -1,0 +1,63 @@
+{
+  "ticker": "AUTO",
+  "name": "AUTOSTORE HOLDINGS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 42778415104.0,
+    "enterprise_value": 40518365184.0,
+    "trailing_pe": 37.411766,
+    "forward_pe": 23.641914,
+    "peg_ratio": null,
+    "price_to_sales": 69.16478,
+    "price_to_book": 3.001753,
+    "ev_to_revenue": 65.511,
+    "ev_to_ebitda": 194.613
+  },
+  "per_share": {
+    "current_price": 12.72,
+    "eps_trailing": 0.34,
+    "eps_forward": 0.538027,
+    "book_value": 4.237525,
+    "revenue_per_share": 0.16,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.2021,
+    "operating_margin": 0.32087,
+    "gross_margin": 0.72272,
+    "ebitda_margin": 0.33662,
+    "roe": 0.08339,
+    "roa": 0.05632
+  },
+  "income": {
+    "total_revenue": 618499968.0,
+    "revenue_growth": 0.93,
+    "gross_profits": 447000000.0,
+    "ebitda": 208200000.0,
+    "net_income": 125000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 84000000.0,
+    "cash_per_share": 0.025,
+    "total_debt": 248000000.0,
+    "debt_to_equity": 15.311,
+    "current_ratio": 2.507,
+    "quick_ratio": 1.913
+  },
+  "trading": {
+    "beta": 1.95,
+    "week52_high": 13.2,
+    "week52_low": 4.9,
+    "avg50d": 10.5961,
+    "avg200d": 10.1721,
+    "avg_volume": 7546274.0,
+    "avg_volume_10d": 9964572.0,
+    "shares_outstanding": 3363082877.0,
+    "float_shares": 1933613060.0,
+    "insider_ownership": 0.00676,
+    "institutional_ownership": 0.95516,
+    "short_ratio": null
+  },
+  "_pe_label": "37.41x"
+}

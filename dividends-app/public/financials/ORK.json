@@ -1,0 +1,63 @@
+{
+  "ticker": "ORK",
+  "name": "ORKLA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 110044422144.0,
+    "enterprise_value": 127958540288.0,
+    "trailing_pe": 17.570532,
+    "forward_pe": 15.472013,
+    "peg_ratio": 1.14,
+    "price_to_sales": 1.538072,
+    "price_to_book": 2.280124,
+    "ev_to_revenue": 1.788,
+    "ev_to_ebitda": 13.656
+  },
+  "per_share": {
+    "current_price": 112.1,
+    "eps_trailing": 6.38,
+    "eps_forward": 7.24534,
+    "book_value": 49.164,
+    "revenue_per_share": 71.788,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.16036,
+    "operating_margin": 0.10439,
+    "gross_margin": 0.47851,
+    "ebitda_margin": 0.13096,
+    "roe": 0.13402,
+    "roa": 0.05221
+  },
+  "income": {
+    "total_revenue": 71547002880.0,
+    "revenue_growth": -0.001,
+    "gross_profits": 34236000256.0,
+    "ebitda": 9370000384.0,
+    "net_income": 6352999936.0,
+    "earnings_growth": 0.39
+  },
+  "balance_sheet": {
+    "total_cash": 2044000000.0,
+    "cash_per_share": 2.065,
+    "total_debt": 16746999808.0,
+    "debt_to_equity": 32.115,
+    "current_ratio": 1.426,
+    "quick_ratio": 0.754
+  },
+  "trading": {
+    "beta": 0.217,
+    "week52_high": 131.2,
+    "week52_low": 100.6,
+    "avg50d": 120.502,
+    "avg200d": 112.714,
+    "avg_volume": 1501190.0,
+    "avg_volume_10d": 1088083.0,
+    "shares_outstanding": 981663062.0,
+    "float_shares": 652914025.0,
+    "insider_ownership": 0.00068,
+    "institutional_ownership": 0.80063,
+    "short_ratio": null
+  },
+  "_pe_label": "17.57x"
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "SOAG",
+  "name": "SPBK1 \u00d8STFOLD AKE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 5772809216.0,
+    "enterprise_value": 6092809216.0,
+    "trailing_pe": 9.433198,
+    "forward_pe": 10.22154,
+    "peg_ratio": null,
+    "price_to_sales": 4.210656,
+    "price_to_book": 1.162466,
+    "ev_to_revenue": 4.444,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 466.0,
+    "eps_trailing": 49.4,
+    "eps_forward": 45.59,
+    "book_value": 400.872,
+    "revenue_per_share": 110.576,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.47921,
+    "operating_margin": 0.53153,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.12754,
+    "roa": 0.0216
+  },
+  "income": {
+    "total_revenue": 1371000064.0,
+    "revenue_growth": 0.121,
+    "gross_profits": 1371000064.0,
+    "ebitda": null,
+    "net_income": 612000000.0,
+    "earnings_growth": -0.148
+  },
+  "balance_sheet": {
+    "total_cash": 4544999936.0,
+    "cash_per_share": 366.887,
+    "total_debt": 4864999936.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.067,
+    "week52_high": 476.35,
+    "week52_low": 410.0,
+    "avg50d": 451.878,
+    "avg200d": 443.6795,
+    "avg_volume": 4766.0,
+    "avg_volume_10d": 594.0,
+    "shares_outstanding": 12388003.0,
+    "float_shares": 4116162.0,
+    "insider_ownership": 0.70653,
+    "institutional_ownership": 0.10366,
+    "short_ratio": null
+  },
+  "_pe_label": "9.43x"
+}

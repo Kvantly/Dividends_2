@@ -1,0 +1,63 @@
+{
+  "ticker": "YAR",
+  "name": "YARA INTERNATIONAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 133883789312.0,
+    "enterprise_value": 143884320768.0,
+    "trailing_pe": 10.279678,
+    "forward_pe": 11.015648,
+    "peg_ratio": 2.53,
+    "price_to_sales": 8.252715,
+    "price_to_book": 1.583844,
+    "ev_to_revenue": 8.869,
+    "ev_to_ebitda": 52.436
+  },
+  "per_share": {
+    "current_price": 525.6,
+    "eps_trailing": 51.13,
+    "eps_forward": 47.71394,
+    "book_value": 331.85086,
+    "revenue_per_share": 63.688,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0863,
+    "operating_margin": 0.13633,
+    "gross_margin": 0.2894,
+    "ebitda_margin": 0.16914,
+    "roe": 0.16863,
+    "roa": 0.06888
+  },
+  "income": {
+    "total_revenue": 16222999552.0,
+    "revenue_growth": 0.166,
+    "gross_profits": 4695000064.0,
+    "ebitda": 2744000000.0,
+    "net_income": 1400000000.0,
+    "earnings_growth": 0.109
+  },
+  "balance_sheet": {
+    "total_cash": 1218000000.0,
+    "cash_per_share": 4.782,
+    "total_debt": 4270000128.0,
+    "debt_to_equity": 46.846,
+    "current_ratio": 1.793,
+    "quick_ratio": 0.821
+  },
+  "trading": {
+    "beta": 0.233,
+    "week52_high": 599.4,
+    "week52_low": 336.2,
+    "avg50d": 529.298,
+    "avg200d": 425.1595,
+    "avg_volume": 696982.0,
+    "avg_volume_10d": 532605.0,
+    "shares_outstanding": 254725627.0,
+    "float_shares": 143891959.0,
+    "insider_ownership": 0.36286,
+    "institutional_ownership": 0.47206,
+    "short_ratio": null
+  },
+  "_pe_label": "10.28x"
+}

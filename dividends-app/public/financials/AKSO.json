@@ -1,0 +1,63 @@
+{
+  "ticker": "AKSO",
+  "name": "AKER SOLUTIONS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 21165148160.0,
+    "enterprise_value": 15912876032.0,
+    "trailing_pe": 8.253788,
+    "forward_pe": 12.111444,
+    "peg_ratio": null,
+    "price_to_sales": 0.345621,
+    "price_to_book": 1.731977,
+    "ev_to_revenue": 0.26,
+    "ev_to_ebitda": 4.681
+  },
+  "per_share": {
+    "current_price": 43.58,
+    "eps_trailing": 5.28,
+    "eps_forward": 3.59825,
+    "book_value": 25.162,
+    "revenue_per_share": 126.664,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.04734,
+    "operating_margin": 0.05527,
+    "gross_margin": 0.36213,
+    "ebitda_margin": 0.05551,
+    "roe": 0.2491,
+    "roa": 0.04486
+  },
+  "income": {
+    "total_revenue": 61238001664.0,
+    "revenue_growth": -0.054,
+    "gross_profits": 22176000000.0,
+    "ebitda": 3399249920.0,
+    "net_income": 2899000064.0,
+    "earnings_growth": 0.514
+  },
+  "balance_sheet": {
+    "total_cash": 8725000192.0,
+    "cash_per_share": 17.948,
+    "total_debt": 2918000128.0,
+    "debt_to_equity": 24.144,
+    "current_ratio": 1.003,
+    "quick_ratio": 0.88
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 48.48,
+    "week52_low": 25.92,
+    "avg50d": 42.7384,
+    "avg200d": 34.0697,
+    "avg_volume": 1071493.0,
+    "avg_volume_10d": 1312994.0,
+    "shares_outstanding": 485661921.0,
+    "float_shares": 231059789.0,
+    "insider_ownership": 0.45774,
+    "institutional_ownership": 0.28161,
+    "short_ratio": null
+  },
+  "_pe_label": "8.25x"
+}

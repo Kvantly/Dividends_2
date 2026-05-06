@@ -1,0 +1,63 @@
+{
+  "ticker": "PNOR",
+  "name": "PETRONOR E&P",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2209378304.0,
+    "enterprise_value": 2216560640.0,
+    "trailing_pe": 29.846155,
+    "forward_pe": 4.287293,
+    "peg_ratio": null,
+    "price_to_sales": 26.582504,
+    "price_to_book": 1.584552,
+    "ev_to_revenue": 26.669,
+    "ev_to_ebitda": 31.239
+  },
+  "per_share": {
+    "current_price": 15.52,
+    "eps_trailing": 0.52,
+    "eps_forward": 3.62,
+    "book_value": 9.794569,
+    "revenue_per_share": 0.584,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.08793,
+    "operating_margin": 0.44617,
+    "gross_margin": 0.68424,
+    "ebitda_margin": 0.85369,
+    "roe": 0.05688,
+    "roa": 0.11852
+  },
+  "income": {
+    "total_revenue": 83114000.0,
+    "revenue_growth": -0.435,
+    "gross_profits": 56870000.0,
+    "ebitda": 70954000.0,
+    "net_income": 7308000.0,
+    "earnings_growth": -0.667
+  },
+  "balance_sheet": {
+    "total_cash": 58898000.0,
+    "cash_per_share": 0.414,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 7.726,
+    "quick_ratio": 5.585
+  },
+  "trading": {
+    "beta": -0.314,
+    "week52_high": 16.5,
+    "week52_low": 9.65,
+    "avg50d": 12.3164,
+    "avg200d": 10.97505,
+    "avg_volume": 484001.0,
+    "avg_volume_10d": 629562.0,
+    "shares_outstanding": 142356855.0,
+    "float_shares": 52588046.0,
+    "insider_ownership": 0.57513,
+    "institutional_ownership": 0.09333,
+    "short_ratio": null
+  },
+  "_pe_label": "29.85x"
+}

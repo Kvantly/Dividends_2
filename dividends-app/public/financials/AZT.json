@@ -1,0 +1,63 @@
+{
+  "ticker": "AZT",
+  "name": "ARCTICZYMES TECHNO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1225713408.0,
+    "enterprise_value": 905048704.0,
+    "trailing_pe": 126.31579,
+    "forward_pe": 34.993073,
+    "peg_ratio": null,
+    "price_to_sales": 10.3693,
+    "price_to_book": 3.621548,
+    "ev_to_revenue": 7.657,
+    "ev_to_ebitda": 118.199
+  },
+  "per_share": {
+    "current_price": 24.0,
+    "eps_trailing": 0.19,
+    "eps_forward": 0.68585,
+    "book_value": 6.627,
+    "revenue_per_share": 2.273,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.08359,
+    "operating_margin": 0.16907,
+    "gross_margin": 0.96038,
+    "ebitda_margin": 0.06478,
+    "roe": 0.02982,
+    "roa": 0.00497
+  },
+  "income": {
+    "total_revenue": 118206000.0,
+    "revenue_growth": 0.311,
+    "gross_profits": 113523000.0,
+    "ebitda": 7657000.0,
+    "net_income": 9881000.0,
+    "earnings_growth": 0.702
+  },
+  "balance_sheet": {
+    "total_cash": 264720992.0,
+    "cash_per_share": 5.183,
+    "total_debt": 5342000.0,
+    "debt_to_equity": 1.578,
+    "current_ratio": 16.386,
+    "quick_ratio": 15.381
+  },
+  "trading": {
+    "beta": 0.509,
+    "week52_high": 31.4,
+    "week52_low": 14.5,
+    "avg50d": 20.859,
+    "avg200d": 23.2665,
+    "avg_volume": 56134.0,
+    "avg_volume_10d": 73672.0,
+    "shares_outstanding": 51071390.0,
+    "float_shares": 42781482.0,
+    "insider_ownership": 0.17514,
+    "institutional_ownership": 0.14542,
+    "short_ratio": null
+  },
+  "_pe_label": "126.32x"
+}

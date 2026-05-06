@@ -1,0 +1,63 @@
+{
+  "ticker": "STECH",
+  "name": "SOILTECH",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 718162304.0,
+    "enterprise_value": null,
+    "trailing_pe": 21.578947,
+    "forward_pe": 13.305468,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": null,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 82.0,
+    "eps_trailing": 3.8,
+    "eps_forward": 6.16288,
+    "book_value": null,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": null,
+    "roa": null
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": null,
+    "net_income": null,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": null,
+    "cash_per_share": null,
+    "total_debt": null,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 93.0,
+    "week52_low": 48.5,
+    "avg50d": 80.44,
+    "avg200d": 72.961,
+    "avg_volume": 25187.0,
+    "avg_volume_10d": 21932.0,
+    "shares_outstanding": 8758077.0,
+    "float_shares": null,
+    "insider_ownership": 0.50017,
+    "institutional_ownership": 0.03083,
+    "short_ratio": null
+  },
+  "_pe_label": "21.58x"
+}

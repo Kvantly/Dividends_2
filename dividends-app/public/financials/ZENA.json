@@ -1,0 +1,62 @@
+{
+  "ticker": "ZENA",
+  "name": "ZENITH ENERGY",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 578952768.0,
+    "enterprise_value": 503911712.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 248.90489,
+    "price_to_book": 0.842301,
+    "ev_to_revenue": 216.643,
+    "ev_to_ebitda": 45.048
+  },
+  "per_share": {
+    "current_price": 0.81,
+    "eps_trailing": -0.05,
+    "eps_forward": null,
+    "book_value": 0.961652,
+    "revenue_per_share": 0.005,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.37274,
+    "operating_margin": -2.03761,
+    "gross_margin": 0.07051,
+    "ebitda_margin": 4.80911,
+    "roe": -0.01342,
+    "roa": 0.04071
+  },
+  "income": {
+    "total_revenue": 2326000.0,
+    "revenue_growth": 0.196,
+    "gross_profits": 164000.0,
+    "ebitda": 11186000.0,
+    "net_income": -867000.0,
+    "earnings_growth": -0.657
+  },
+  "balance_sheet": {
+    "total_cash": 2414000.0,
+    "cash_per_share": 0.004,
+    "total_debt": 53438000.0,
+    "debt_to_equity": 70.772,
+    "current_ratio": 1.22,
+    "quick_ratio": 0.976
+  },
+  "trading": {
+    "beta": -0.878,
+    "week52_high": 2.44,
+    "week52_low": 0.3,
+    "avg50d": 0.82968,
+    "avg200d": 0.558235,
+    "avg_volume": 16204361.0,
+    "avg_volume_10d": 11304984.0,
+    "shares_outstanding": 714756457.0,
+    "float_shares": 486733679.0,
+    "insider_ownership": 0.11288,
+    "institutional_ownership": 0.04598,
+    "short_ratio": null
+  }
+}

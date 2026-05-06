@@ -1,0 +1,63 @@
+{
+  "ticker": "ENTRA",
+  "name": "ENTRA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 19139653632.0,
+    "enterprise_value": 51065880576.0,
+    "trailing_pe": 16.70886,
+    "forward_pe": 15.670748,
+    "peg_ratio": null,
+    "price_to_sales": 6.200082,
+    "price_to_book": 0.774875,
+    "ev_to_revenue": 16.542,
+    "ev_to_ebitda": 18.349
+  },
+  "per_share": {
+    "current_price": 105.6,
+    "eps_trailing": 6.32,
+    "eps_forward": 6.73867,
+    "book_value": 136.28,
+    "revenue_per_share": 16.957,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.36832,
+    "operating_margin": 0.85806,
+    "gross_margin": 0.91286,
+    "ebitda_margin": 0.90152,
+    "roe": 0.0481,
+    "roa": 0.02678
+  },
+  "income": {
+    "total_revenue": 3087000064.0,
+    "revenue_growth": 0.016,
+    "gross_profits": 2817999872.0,
+    "ebitda": 2783000064.0,
+    "net_income": 1136999936.0,
+    "earnings_growth": -0.079
+  },
+  "balance_sheet": {
+    "total_cash": 185000000.0,
+    "cash_per_share": 1.016,
+    "total_debt": 30577000448.0,
+    "debt_to_equity": 114.839,
+    "current_ratio": 0.242,
+    "quick_ratio": 0.055
+  },
+  "trading": {
+    "beta": 1.197,
+    "week52_high": 135.6,
+    "week52_low": 101.2,
+    "avg50d": 108.308,
+    "avg200d": 115.007,
+    "avg_volume": 118685.0,
+    "avg_volume_10d": 100927.0,
+    "shares_outstanding": 181246728.0,
+    "float_shares": 106700243.0,
+    "insider_ownership": 0.65069,
+    "institutional_ownership": 0.13039,
+    "short_ratio": null
+  },
+  "_pe_label": "16.71x"
+}

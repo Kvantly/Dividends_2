@@ -1,0 +1,63 @@
+{
+  "ticker": "ATEA",
+  "name": "ATEA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 18072895488.0,
+    "enterprise_value": 19210086400.0,
+    "trailing_pe": 16.639343,
+    "forward_pe": 14.237869,
+    "peg_ratio": 1.65,
+    "price_to_sales": 0.469706,
+    "price_to_book": 3.985081,
+    "ev_to_revenue": 0.499,
+    "ev_to_ebitda": 11.657
+  },
+  "per_share": {
+    "current_price": 162.4,
+    "eps_trailing": 9.76,
+    "eps_forward": 11.4062,
+    "book_value": 40.752,
+    "revenue_per_share": 347.094,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.02872,
+    "operating_margin": 0.03356,
+    "gross_margin": 0.29158,
+    "ebitda_margin": 0.04283,
+    "roe": 0.24452,
+    "roa": 0.05029
+  },
+  "income": {
+    "total_revenue": 38477000704.0,
+    "revenue_growth": 0.129,
+    "gross_profits": 11219000320.0,
+    "ebitda": 1648000000.0,
+    "net_income": 1104999936.0,
+    "earnings_growth": 1.41
+  },
+  "balance_sheet": {
+    "total_cash": 790000000.0,
+    "cash_per_share": 7.108,
+    "total_debt": 2195000064.0,
+    "debt_to_equity": 47.905,
+    "current_ratio": 0.94,
+    "quick_ratio": 0.819
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 163.8,
+    "week52_low": 134.4,
+    "avg50d": 143.272,
+    "avg200d": 147.036,
+    "avg_volume": 170425.0,
+    "avg_volume_10d": 160613.0,
+    "shares_outstanding": 111286301.0,
+    "float_shares": 69914414.0,
+    "insider_ownership": 0.29545,
+    "institutional_ownership": 0.51832,
+    "short_ratio": null
+  },
+  "_pe_label": "16.64x"
+}

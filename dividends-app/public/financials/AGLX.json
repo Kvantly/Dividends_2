@@ -1,0 +1,62 @@
+{
+  "ticker": "AGLX",
+  "name": "AGILYX",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2844290304.0,
+    "enterprise_value": 2917782784.0,
+    "trailing_pe": null,
+    "forward_pe": "Infinity",
+    "peg_ratio": null,
+    "price_to_sales": 2341.8953,
+    "price_to_book": 1.996965,
+    "ev_to_revenue": 2402.406,
+    "ev_to_ebitda": -226.523
+  },
+  "per_share": {
+    "current_price": 22.6,
+    "eps_trailing": -12.17,
+    "eps_forward": 0.0,
+    "book_value": 11.317171,
+    "revenue_per_share": 0.011,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -9.78159,
+    "gross_margin": -1.40561,
+    "ebitda_margin": 0.0,
+    "roe": -1.82372,
+    "roa": -0.05706
+  },
+  "income": {
+    "total_revenue": 1214525.0,
+    "revenue_growth": 0.466,
+    "gross_profits": -1707145.0,
+    "ebitda": -12880736.0,
+    "net_income": -148041760.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5619416.0,
+    "cash_per_share": 0.045,
+    "total_debt": 74981832.0,
+    "debt_to_equity": 332.943,
+    "current_ratio": 34.131,
+    "quick_ratio": 4.529
+  },
+  "trading": {
+    "beta": 0.557,
+    "week52_high": 30.0,
+    "week52_low": 11.8,
+    "avg50d": 15.9926,
+    "avg200d": 20.7026,
+    "avg_volume": 80232.0,
+    "avg_volume_10d": 76316.0,
+    "shares_outstanding": 125853553.0,
+    "float_shares": 65766556.0,
+    "insider_ownership": 0.3545,
+    "institutional_ownership": 0.0806,
+    "short_ratio": null
+  }
+}

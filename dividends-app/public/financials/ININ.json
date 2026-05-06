@@ -1,0 +1,62 @@
+{
+  "ticker": "ININ",
+  "name": "ININ GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 419653792.0,
+    "enterprise_value": 1062607296.0,
+    "trailing_pe": null,
+    "forward_pe": 32.2,
+    "peg_ratio": null,
+    "price_to_sales": 0.200065,
+    "price_to_book": 2.367647,
+    "ev_to_revenue": 0.507,
+    "ev_to_ebitda": 16.573
+  },
+  "per_share": {
+    "current_price": 3.22,
+    "eps_trailing": -0.91,
+    "eps_forward": 0.1,
+    "book_value": 1.36,
+    "revenue_per_share": 16.069,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.05842,
+    "operating_margin": 0.03306,
+    "gross_margin": 0.54647,
+    "ebitda_margin": 0.03057,
+    "roe": -0.37578,
+    "roa": 0.01898
+  },
+  "income": {
+    "total_revenue": 2097586048.0,
+    "revenue_growth": 0.496,
+    "gross_profits": 1146262016.0,
+    "ebitda": 64116000.0,
+    "net_income": -122531000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 144980000.0,
+    "cash_per_share": 1.111,
+    "total_debt": 616707008.0,
+    "debt_to_equity": 190.019,
+    "current_ratio": 0.962,
+    "quick_ratio": 0.938
+  },
+  "trading": {
+    "beta": 0.43,
+    "week52_high": 3.58,
+    "week52_low": 1.885,
+    "avg50d": 2.9902,
+    "avg200d": 2.697275,
+    "avg_volume": 19999.0,
+    "avg_volume_10d": 2465.0,
+    "shares_outstanding": 130327262.0,
+    "float_shares": 105057006.0,
+    "insider_ownership": 0.09191,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  }
+}

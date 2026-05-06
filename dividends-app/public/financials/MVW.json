@@ -1,0 +1,62 @@
+{
+  "ticker": "MVW",
+  "name": "M VEST WATER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 206479632.0,
+    "enterprise_value": 209310560.0,
+    "trailing_pe": null,
+    "forward_pe": 41.785713,
+    "peg_ratio": null,
+    "price_to_sales": 7.785029,
+    "price_to_book": 6.386463,
+    "ev_to_revenue": 7.892,
+    "ev_to_ebitda": -12.778
+  },
+  "per_share": {
+    "current_price": 5.85,
+    "eps_trailing": -0.57,
+    "eps_forward": 0.14,
+    "book_value": 0.916,
+    "revenue_per_share": 0.8,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.71845,
+    "operating_margin": -0.65622,
+    "gross_margin": 0.58671,
+    "ebitda_margin": -0.61761,
+    "roe": -0.60853,
+    "roa": -0.26808
+  },
+  "income": {
+    "total_revenue": 26522654.0,
+    "revenue_growth": 0.53,
+    "gross_profits": 15561009.0,
+    "ebitda": -16380637.0,
+    "net_income": -19055168.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 341822.0,
+    "cash_per_share": 0.01,
+    "total_debt": 3172747.0,
+    "debt_to_equity": 9.817,
+    "current_ratio": 0.91,
+    "quick_ratio": 0.593
+  },
+  "trading": {
+    "beta": 0.21,
+    "week52_high": 10.35,
+    "week52_low": 5.1,
+    "avg50d": 6.0592,
+    "avg200d": 7.3148,
+    "avg_volume": 17632.0,
+    "avg_volume_10d": 15419.0,
+    "shares_outstanding": 35295663.0,
+    "float_shares": 11232492.0,
+    "insider_ownership": 0.81254,
+    "institutional_ownership": 0.21491,
+    "short_ratio": null
+  }
+}

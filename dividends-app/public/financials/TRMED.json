@@ -1,0 +1,62 @@
+{
+  "ticker": "TRMED",
+  "name": "THOR MEDICAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1610025728.0,
+    "enterprise_value": 1548761344.0,
+    "trailing_pe": null,
+    "forward_pe": -40.681816,
+    "peg_ratio": null,
+    "price_to_sales": 1918.9818,
+    "price_to_book": 3.474379,
+    "ev_to_revenue": 1845.961,
+    "ev_to_ebitda": -30.894
+  },
+  "per_share": {
+    "current_price": 4.475,
+    "eps_trailing": -0.17,
+    "eps_forward": -0.11,
+    "book_value": 1.288,
+    "revenue_per_share": 0.003,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -49.32747,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.14628,
+    "roa": -0.07753
+  },
+  "income": {
+    "total_revenue": 839000.0,
+    "revenue_growth": null,
+    "gross_profits": 839000.0,
+    "ebitda": -50131000.0,
+    "net_income": -58012000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 180556000.0,
+    "cash_per_share": 0.51,
+    "total_debt": 171379008.0,
+    "debt_to_equity": 37.583,
+    "current_ratio": 4.57,
+    "quick_ratio": 4.462
+  },
+  "trading": {
+    "beta": -0.301,
+    "week52_high": 5.73,
+    "week52_low": 2.29,
+    "avg50d": 4.6683,
+    "avg200d": 4.07635,
+    "avg_volume": 2736335.0,
+    "avg_volume_10d": 2343066.0,
+    "shares_outstanding": 359782299.0,
+    "float_shares": 151233323.0,
+    "insider_ownership": 0.41236,
+    "institutional_ownership": 0.08448,
+    "short_ratio": null
+  }
+}

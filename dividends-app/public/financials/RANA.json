@@ -1,0 +1,63 @@
+{
+  "ticker": "RANA",
+  "name": "RANA GRUBER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2907471360.0,
+    "enterprise_value": 3213257216.0,
+    "trailing_pe": 9.690976,
+    "forward_pe": 6.11657,
+    "peg_ratio": null,
+    "price_to_sales": 1.856911,
+    "price_to_book": 2.817306,
+    "ev_to_revenue": 2.052,
+    "ev_to_ebitda": 6.58
+  },
+  "per_share": {
+    "current_price": 78.4,
+    "eps_trailing": 8.09,
+    "eps_forward": 12.81764,
+    "book_value": 27.828,
+    "revenue_per_share": 42.221,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.19163,
+    "operating_margin": 0.14395,
+    "gross_margin": 0.79446,
+    "ebitda_margin": 0.3119,
+    "roe": 0.30591,
+    "roa": 0.11597
+  },
+  "income": {
+    "total_revenue": 1565757056.0,
+    "revenue_growth": -0.068,
+    "gross_profits": 1243937024.0,
+    "ebitda": 488358016.0,
+    "net_income": 300041984.0,
+    "earnings_growth": -0.557
+  },
+  "balance_sheet": {
+    "total_cash": 61868000.0,
+    "cash_per_share": 1.668,
+    "total_debt": 367654016.0,
+    "debt_to_equity": 35.625,
+    "current_ratio": 1.057,
+    "quick_ratio": 0.46
+  },
+  "trading": {
+    "beta": 0.782,
+    "week52_high": 78.9,
+    "week52_low": 61.8,
+    "avg50d": 78.162,
+    "avg200d": 71.7115,
+    "avg_volume": 51389.0,
+    "avg_volume_10d": 13547.0,
+    "shares_outstanding": 37085092.0,
+    "float_shares": 26301860.0,
+    "insider_ownership": 0.2839,
+    "institutional_ownership": 0.33364,
+    "short_ratio": null
+  },
+  "_pe_label": "9.69x"
+}

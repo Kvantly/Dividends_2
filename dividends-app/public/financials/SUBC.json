@@ -1,0 +1,63 @@
+{
+  "ticker": "SUBC",
+  "name": "SUBSEA 7",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 96544178176.0,
+    "enterprise_value": 98213568512.0,
+    "trailing_pe": 21.155094,
+    "forward_pe": 14.307857,
+    "peg_ratio": 1.28,
+    "price_to_sales": 13.142056,
+    "price_to_book": 2.261251,
+    "ev_to_revenue": 13.369,
+    "ev_to_ebitda": 74.898
+  },
+  "per_share": {
+    "current_price": 326.0,
+    "eps_trailing": 15.41,
+    "eps_forward": 22.784685,
+    "book_value": 144.16797,
+    "revenue_per_share": 24.829,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.06711,
+    "operating_margin": 0.11323,
+    "gross_margin": 0.16805,
+    "ebitda_margin": 0.1785,
+    "roe": 0.10883,
+    "roa": 0.06886
+  },
+  "income": {
+    "total_revenue": 7346200064.0,
+    "revenue_growth": 0.17,
+    "gross_profits": 1234499968.0,
+    "ebitda": 1311299968.0,
+    "net_income": 493000000.0,
+    "earnings_growth": 4.667
+  },
+  "balance_sheet": {
+    "total_cash": 1073169984.0,
+    "cash_per_share": 3.624,
+    "total_debt": 875400000.0,
+    "debt_to_equity": 19.244,
+    "current_ratio": 1.104,
+    "quick_ratio": 1.073
+  },
+  "trading": {
+    "beta": 0.604,
+    "week52_high": 340.6,
+    "week52_low": 157.8,
+    "avg50d": 284.552,
+    "avg200d": 226.5975,
+    "avg_volume": 504591.0,
+    "avg_volume_10d": 520448.0,
+    "shares_outstanding": 296147764.0,
+    "float_shares": 197543560.0,
+    "insider_ownership": 0.23692,
+    "institutional_ownership": 0.57388,
+    "short_ratio": null
+  },
+  "_pe_label": "21.16x"
+}

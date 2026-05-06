@@ -1,0 +1,63 @@
+{
+  "ticker": "STB",
+  "name": "STOREBRAND",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 74725744640.0,
+    "enterprise_value": 115229499392.0,
+    "trailing_pe": 16.453703,
+    "forward_pe": 13.49375,
+    "peg_ratio": 3.46,
+    "price_to_sales": 1.02252,
+    "price_to_book": 2.292726,
+    "ev_to_revenue": 1.577,
+    "ev_to_ebitda": 2.007
+  },
+  "per_share": {
+    "current_price": 177.7,
+    "eps_trailing": 10.8,
+    "eps_forward": 13.16906,
+    "book_value": 77.506,
+    "revenue_per_share": 171.368,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.06368,
+    "operating_margin": -2.4208,
+    "gross_margin": 0.86901,
+    "ebitda_margin": 0.78554,
+    "roe": 0.1391,
+    "roa": 0.03632
+  },
+  "income": {
+    "total_revenue": 73079996416.0,
+    "revenue_growth": null,
+    "gross_profits": 63507001344.0,
+    "ebitda": 57407000576.0,
+    "net_income": 4625999872.0,
+    "earnings_growth": -0.386
+  },
+  "balance_sheet": {
+    "total_cash": 23122999296.0,
+    "cash_per_share": 54.858,
+    "total_debt": 64043999232.0,
+    "debt_to_equity": 188.464,
+    "current_ratio": 0.424,
+    "quick_ratio": 0.368
+  },
+  "trading": {
+    "beta": 0.546,
+    "week52_high": 183.3,
+    "week52_low": 122.7,
+    "avg50d": 173.854,
+    "avg200d": 163.711,
+    "avg_volume": 794191.0,
+    "avg_volume_10d": 801711.0,
+    "shares_outstanding": 420516299.0,
+    "float_shares": 362231300.0,
+    "insider_ownership": 0.03356,
+    "institutional_ownership": 0.7213,
+    "short_ratio": null
+  },
+  "_pe_label": "16.45x"
+}

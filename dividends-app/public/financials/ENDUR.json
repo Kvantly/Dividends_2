@@ -1,0 +1,63 @@
+{
+  "ticker": "ENDUR",
+  "name": "END\u00daR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 6047174144.0,
+    "enterprise_value": 6243701760.0,
+    "trailing_pe": 43.054546,
+    "forward_pe": 15.760106,
+    "peg_ratio": null,
+    "price_to_sales": 0.942441,
+    "price_to_book": 2.543174,
+    "ev_to_revenue": 0.973,
+    "ev_to_ebitda": 12.967
+  },
+  "per_share": {
+    "current_price": 118.4,
+    "eps_trailing": 2.75,
+    "eps_forward": 7.51264,
+    "book_value": 46.556,
+    "revenue_per_share": 133.956,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.02085,
+    "operating_margin": 0.05512,
+    "gross_margin": 0.35868,
+    "ebitda_margin": 0.07504,
+    "roe": 0.0751,
+    "roa": 0.04297
+  },
+  "income": {
+    "total_revenue": 6416500224.0,
+    "revenue_growth": 1.607,
+    "gross_profits": 2301499904.0,
+    "ebitda": 481500000.0,
+    "net_income": 133800000.0,
+    "earnings_growth": 0.422
+  },
+  "balance_sheet": {
+    "total_cash": 1280400000.0,
+    "cash_per_share": 25.427,
+    "total_debt": 1558599936.0,
+    "debt_to_equity": 66.388,
+    "current_ratio": 1.014,
+    "quick_ratio": 0.941
+  },
+  "trading": {
+    "beta": 0.408,
+    "week52_high": 119.4,
+    "week52_low": 81.1,
+    "avg50d": 107.332,
+    "avg200d": 93.423,
+    "avg_volume": 102316.0,
+    "avg_volume_10d": 75075.0,
+    "shares_outstanding": 51074104.0,
+    "float_shares": 30425860.0,
+    "insider_ownership": 0.47301,
+    "institutional_ownership": 0.12262,
+    "short_ratio": null
+  },
+  "_pe_label": "43.05x"
+}

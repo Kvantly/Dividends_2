@@ -1,0 +1,63 @@
+{
+  "ticker": "BIEN",
+  "name": "BIEN SPAREBANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 908831680.0,
+    "enterprise_value": 2233225728.0,
+    "trailing_pe": 14.787431,
+    "forward_pe": 13.445378,
+    "peg_ratio": null,
+    "price_to_sales": 5.397247,
+    "price_to_book": 1.243636,
+    "ev_to_revenue": 13.262,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 160.0,
+    "eps_trailing": 10.82,
+    "eps_forward": 11.9,
+    "book_value": 128.655,
+    "revenue_per_share": 29.645,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.38718,
+    "operating_margin": 0.42329,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.08766,
+    "roa": 0.01125
+  },
+  "income": {
+    "total_revenue": 168388000.0,
+    "revenue_growth": 0.142,
+    "gross_profits": 168388000.0,
+    "ebitda": null,
+    "net_income": 61436000.0,
+    "earnings_growth": 0.172
+  },
+  "balance_sheet": {
+    "total_cash": 73550000.0,
+    "cash_per_share": 12.948,
+    "total_debt": 1397944064.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": -0.561,
+    "week52_high": 165.0,
+    "week52_low": 129.0,
+    "avg50d": 150.12,
+    "avg200d": 146.09,
+    "avg_volume": 379.0,
+    "avg_volume_10d": 336.0,
+    "shares_outstanding": 5680198.0,
+    "float_shares": 5679800.0,
+    "insider_ownership": 0.89002,
+    "institutional_ownership": 0.01699,
+    "short_ratio": null
+  },
+  "_pe_label": "14.79x"
+}

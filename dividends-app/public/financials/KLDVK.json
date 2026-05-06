@@ -1,0 +1,62 @@
+{
+  "ticker": "KLDVK",
+  "name": "KALDVIK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 582208448.0,
+    "enterprise_value": 763923072.0,
+    "trailing_pe": null,
+    "forward_pe": 0.98156,
+    "peg_ratio": null,
+    "price_to_sales": 5.444151,
+    "price_to_book": 0.186256,
+    "ev_to_revenue": 7.143,
+    "ev_to_ebitda": -43.658
+  },
+  "per_share": {
+    "current_price": 3.46,
+    "eps_trailing": -3.49,
+    "eps_forward": 3.525,
+    "book_value": 18.576632,
+    "revenue_per_share": 0.715,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.4498,
+    "operating_margin": -0.23091,
+    "gross_margin": 0.2845,
+    "ebitda_margin": -0.16362,
+    "roe": -0.17556,
+    "roa": -0.03767
+  },
+  "income": {
+    "total_revenue": 106942000.0,
+    "revenue_growth": 0.031,
+    "gross_profits": 30425000.0,
+    "ebitda": -17498000.0,
+    "net_income": -48103000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 12657000.0,
+    "cash_per_share": 0.075,
+    "total_debt": 197736992.0,
+    "debt_to_equity": 71.26,
+    "current_ratio": 5.432,
+    "quick_ratio": 0.687
+  },
+  "trading": {
+    "beta": 0.173,
+    "week52_high": 18.7,
+    "week52_low": 3.0,
+    "avg50d": 4.3164,
+    "avg200d": 9.3501,
+    "avg_volume": 62692.0,
+    "avg_volume_10d": 179534.0,
+    "shares_outstanding": 168268335.0,
+    "float_shares": 29839024.0,
+    "insider_ownership": 0.87063,
+    "institutional_ownership": 0.04313,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "KMCP",
+  "name": "KMC PROPERTIES",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 30094402.0,
+    "enterprise_value": 15391710.0,
+    "trailing_pe": 0.019872,
+    "forward_pe": 620.0,
+    "peg_ratio": null,
+    "price_to_sales": 0.126447,
+    "price_to_book": 2.870703,
+    "ev_to_revenue": 0.065,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 24.8,
+    "eps_trailing": 1248.0,
+    "eps_forward": 0.04,
+    "book_value": 8.639,
+    "revenue_per_share": 343.475,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 3.02941,
+    "operating_margin": 0.82353,
+    "gross_margin": 0.98739,
+    "ebitda_margin": 0.0,
+    "roe": 0.56576,
+    "roa": 0.03408
+  },
+  "income": {
+    "total_revenue": 238000000.0,
+    "revenue_growth": null,
+    "gross_profits": 235000000.0,
+    "ebitda": null,
+    "net_income": 864000000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 4000000.0,
+    "cash_per_share": 5.759,
+    "total_debt": 3000000.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.714,
+    "quick_ratio": 0.571
+  },
+  "trading": {
+    "beta": 0.688,
+    "week52_high": 312.0,
+    "week52_low": 22.02,
+    "avg50d": 25.3093,
+    "avg200d": 38.734425,
+    "avg_volume": 2685.0,
+    "avg_volume_10d": 3277.0,
+    "shares_outstanding": 1213484.0,
+    "float_shares": 690216.0,
+    "insider_ownership": 0.00657,
+    "institutional_ownership": 0.00072,
+    "short_ratio": null
+  },
+  "_pe_label": "0.02x"
+}

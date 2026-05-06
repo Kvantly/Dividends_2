@@ -1,0 +1,63 @@
+{
+  "ticker": "BOR",
+  "name": "BORGESTAD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 582030400.0,
+    "enterprise_value": 974735424.0,
+    "trailing_pe": 37.727272,
+    "forward_pe": 22.133333,
+    "peg_ratio": 1.67,
+    "price_to_sales": 0.516915,
+    "price_to_book": 0.833501,
+    "ev_to_revenue": 0.866,
+    "ev_to_ebitda": 9.085
+  },
+  "per_share": {
+    "current_price": 16.6,
+    "eps_trailing": 0.44,
+    "eps_forward": 0.75,
+    "book_value": 19.916,
+    "revenue_per_share": 29.039,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.00138,
+    "operating_margin": 0.01138,
+    "gross_margin": 0.55232,
+    "ebitda_margin": 0.09529,
+    "roe": 0.00435,
+    "roa": 0.02881
+  },
+  "income": {
+    "total_revenue": 1125970048.0,
+    "revenue_growth": 0.131,
+    "gross_profits": 621891008.0,
+    "ebitda": 107290000.0,
+    "net_income": -1551000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 152576000.0,
+    "cash_per_share": 4.352,
+    "total_debt": 457511008.0,
+    "debt_to_equity": 58.204,
+    "current_ratio": 1.823,
+    "quick_ratio": 1.257
+  },
+  "trading": {
+    "beta": -0.083,
+    "week52_high": 21.4,
+    "week52_low": 15.5,
+    "avg50d": 16.835,
+    "avg200d": 17.93425,
+    "avg_volume": 8158.0,
+    "avg_volume_10d": 11329.0,
+    "shares_outstanding": 35062072.0,
+    "float_shares": 6325899.0,
+    "insider_ownership": 0.84939,
+    "institutional_ownership": 0.00076,
+    "short_ratio": null
+  },
+  "_pe_label": "37.73x"
+}

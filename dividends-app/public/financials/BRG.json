@@ -1,0 +1,63 @@
+{
+  "ticker": "BRG",
+  "name": "BORREGAARD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 15111553024.0,
+    "enterprise_value": 16918743040.0,
+    "trailing_pe": 27.441015,
+    "forward_pe": 13.915707,
+    "peg_ratio": null,
+    "price_to_sales": 1.967138,
+    "price_to_book": 2.576292,
+    "ev_to_revenue": 2.202,
+    "ev_to_ebitda": 10.223
+  },
+  "per_share": {
+    "current_price": 151.2,
+    "eps_trailing": 5.51,
+    "eps_forward": 10.86542,
+    "book_value": 58.689,
+    "revenue_per_share": 76.998,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.07173,
+    "operating_margin": 0.13766,
+    "gross_margin": 0.6471,
+    "ebitda_margin": 0.21544,
+    "roe": 0.08763,
+    "roa": 0.07452
+  },
+  "income": {
+    "total_revenue": 7681999872.0,
+    "revenue_growth": -0.015,
+    "gross_profits": 4970999808.0,
+    "ebitda": 1655000064.0,
+    "net_income": 551000000.0,
+    "earnings_growth": -0.278
+  },
+  "balance_sheet": {
+    "total_cash": 61000000.0,
+    "cash_per_share": 0.61,
+    "total_debt": 2191000064.0,
+    "debt_to_equity": 34.64,
+    "current_ratio": 2.094,
+    "quick_ratio": 1.207
+  },
+  "trading": {
+    "beta": 0.586,
+    "week52_high": 212.0,
+    "week52_low": 142.0,
+    "avg50d": 169.972,
+    "avg200d": 188.0795,
+    "avg_volume": 141322.0,
+    "avg_volume_10d": 245147.0,
+    "shares_outstanding": 99944133.0,
+    "float_shares": 80140203.0,
+    "insider_ownership": 0.07164,
+    "institutional_ownership": 0.57441,
+    "short_ratio": null
+  },
+  "_pe_label": "27.44x"
+}

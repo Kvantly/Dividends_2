@@ -1,0 +1,62 @@
+{
+  "ticker": "OCEAN",
+  "name": "OCEAN GEOLOOP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 84344760.0,
+    "enterprise_value": 69642768.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 0.355158,
+    "price_to_book": 0.506329,
+    "ev_to_revenue": 0.293,
+    "ev_to_ebitda": -1.482
+  },
+  "per_share": {
+    "current_price": 1.6,
+    "eps_trailing": -0.95,
+    "eps_forward": null,
+    "book_value": 3.16,
+    "revenue_per_share": 4.47,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.21103,
+    "operating_margin": -0.33162,
+    "gross_margin": 0.18103,
+    "ebitda_margin": -0.19793,
+    "roe": -0.33106,
+    "roa": -0.17369
+  },
+  "income": {
+    "total_revenue": 237485344.0,
+    "revenue_growth": 0.017,
+    "gross_profits": 42991804.0,
+    "ebitda": -47006420.0,
+    "net_income": -50116872.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 34860996.0,
+    "cash_per_share": 0.661,
+    "total_debt": 3124961.0,
+    "debt_to_equity": 2.02,
+    "current_ratio": 1.653,
+    "quick_ratio": 1.54
+  },
+  "trading": {
+    "beta": 0.662,
+    "week52_high": 6.85,
+    "week52_low": 1.4,
+    "avg50d": 2.661,
+    "avg200d": 3.5842,
+    "avg_volume": 7491.0,
+    "avg_volume_10d": 5324.0,
+    "shares_outstanding": 52715477.0,
+    "float_shares": 16205265.0,
+    "insider_ownership": 0.76321,
+    "institutional_ownership": 0.05705,
+    "short_ratio": null
+  }
+}

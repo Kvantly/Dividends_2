@@ -1,0 +1,62 @@
+{
+  "ticker": "OTOVO",
+  "name": "OTOVO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 826289728.0,
+    "enterprise_value": 581968384.0,
+    "trailing_pe": null,
+    "forward_pe": -4.146612,
+    "peg_ratio": null,
+    "price_to_sales": 1.45386,
+    "price_to_book": 2.157165,
+    "ev_to_revenue": 1.024,
+    "ev_to_ebitda": -1.537
+  },
+  "per_share": {
+    "current_price": 11.2,
+    "eps_trailing": -13.42,
+    "eps_forward": -2.701,
+    "book_value": 5.192,
+    "revenue_per_share": 18.885,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.69563,
+    "operating_margin": -0.98662,
+    "gross_margin": 0.22955,
+    "ebitda_margin": -0.6664,
+    "roe": -1.06705,
+    "roa": -0.30391
+  },
+  "income": {
+    "total_revenue": 568342016.0,
+    "revenue_growth": -0.017,
+    "gross_profits": 130461000.0,
+    "ebitda": -378743008.0,
+    "net_income": -404032992.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 54015000.0,
+    "cash_per_share": 1.017,
+    "total_debt": 33081000.0,
+    "debt_to_equity": 11.783,
+    "current_ratio": 1.155,
+    "quick_ratio": 1.099
+  },
+  "trading": {
+    "beta": 0.96,
+    "week52_high": 18.68,
+    "week52_low": 6.01,
+    "avg50d": 11.79112,
+    "avg200d": 11.48254,
+    "avg_volume": 290550.0,
+    "avg_volume_10d": 28041.0,
+    "shares_outstanding": 73775874.0,
+    "float_shares": 23347460.0,
+    "insider_ownership": 0.18359,
+    "institutional_ownership": 0.18198,
+    "short_ratio": null
+  }
+}

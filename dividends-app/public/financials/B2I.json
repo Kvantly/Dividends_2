@@ -1,0 +1,63 @@
+{
+  "ticker": "B2I",
+  "name": "B2 Impact",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 8734000128.0,
+    "enterprise_value": 18868641792.0,
+    "trailing_pe": 14.186747,
+    "forward_pe": 10.107296,
+    "peg_ratio": null,
+    "price_to_sales": 3.044266,
+    "price_to_book": 1.52516,
+    "ev_to_revenue": 6.577,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 23.55,
+    "eps_trailing": 1.66,
+    "eps_forward": 2.33,
+    "book_value": 15.441,
+    "revenue_per_share": 7.762,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.21645,
+    "operating_margin": 0.30252,
+    "gross_margin": 0.80516,
+    "ebitda_margin": 0.0,
+    "roe": 0.10965,
+    "roa": 0.03595
+  },
+  "income": {
+    "total_revenue": 2868999936.0,
+    "revenue_growth": 0.463,
+    "gross_profits": 2310000128.0,
+    "ebitda": null,
+    "net_income": 621000000.0,
+    "earnings_growth": 7.0
+  },
+  "balance_sheet": {
+    "total_cash": 231000000.0,
+    "cash_per_share": 0.625,
+    "total_debt": 10485000192.0,
+    "debt_to_equity": 183.657,
+    "current_ratio": 12.145,
+    "quick_ratio": 10.929
+  },
+  "trading": {
+    "beta": 0.676,
+    "week52_high": 25.6,
+    "week52_low": 11.74,
+    "avg50d": 24.123,
+    "avg200d": 19.41095,
+    "avg_volume": 765827.0,
+    "avg_volume_10d": 309007.0,
+    "shares_outstanding": 370870485.0,
+    "float_shares": 199183109.0,
+    "insider_ownership": 0.48338,
+    "institutional_ownership": 0.2066,
+    "short_ratio": null
+  },
+  "_pe_label": "14.19x"
+}

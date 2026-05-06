@@ -1,0 +1,62 @@
+{
+  "ticker": "VEND",
+  "name": "VEND MARKETPLACES",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 51955511296.0,
+    "enterprise_value": 49385279488.0,
+    "trailing_pe": null,
+    "forward_pe": 24.214073,
+    "peg_ratio": null,
+    "price_to_sales": 8.192291,
+    "price_to_book": 2.1027,
+    "ev_to_revenue": 7.787,
+    "ev_to_ebitda": 27.559
+  },
+  "per_share": {
+    "current_price": 247.0,
+    "eps_trailing": -18.96,
+    "eps_forward": 10.20068,
+    "book_value": 117.468,
+    "revenue_per_share": 29.81,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.42242,
+    "operating_margin": 0.25664,
+    "gross_margin": 0.61952,
+    "ebitda_margin": 0.28256,
+    "roe": -0.16824,
+    "roa": 0.03518
+  },
+  "income": {
+    "total_revenue": 6342000128.0,
+    "revenue_growth": 0.016,
+    "gross_profits": 3928999936.0,
+    "ebitda": 1792000000.0,
+    "net_income": -3927000064.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5619999744.0,
+    "cash_per_share": 26.276,
+    "total_debt": 2806000128.0,
+    "debt_to_equity": 15.701,
+    "current_ratio": 2.701,
+    "quick_ratio": 2.431
+  },
+  "trading": {
+    "beta": 0.747,
+    "week52_high": 397.2,
+    "week52_low": 223.2,
+    "avg50d": 246.444,
+    "avg200d": 301.311,
+    "avg_volume": 758041.0,
+    "avg_volume_10d": 1197357.0,
+    "shares_outstanding": 210346193.0,
+    "float_shares": 184624588.0,
+    "insider_ownership": 0.01522,
+    "institutional_ownership": 0.81143,
+    "short_ratio": null
+  }
+}

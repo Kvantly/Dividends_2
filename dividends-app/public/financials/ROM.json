@@ -1,0 +1,63 @@
+{
+  "ticker": "ROM",
+  "name": "ROMREAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 100838304.0,
+    "enterprise_value": 94851512.0,
+    "trailing_pe": 5.813953,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 43.785954,
+    "price_to_book": 0.577865,
+    "ev_to_revenue": 41.186,
+    "ev_to_ebitda": 55.962
+  },
+  "per_share": {
+    "current_price": 2.5,
+    "eps_trailing": 0.43,
+    "eps_forward": null,
+    "book_value": 4.326268,
+    "revenue_per_share": 0.057,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.68938,
+    "operating_margin": 3.01692,
+    "gross_margin": 1.33904,
+    "ebitda_margin": 0.73596,
+    "roe": 0.10361,
+    "roa": 0.06589
+  },
+  "income": {
+    "total_revenue": 2302983.0,
+    "revenue_growth": null,
+    "gross_profits": 3083777.0,
+    "ebitda": 1694914.0,
+    "net_income": 1587623.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 5986795.0,
+    "cash_per_share": 0.148,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 28.155,
+    "quick_ratio": 12.525
+  },
+  "trading": {
+    "beta": 0.302,
+    "week52_high": 3.28,
+    "week52_low": 2.04,
+    "avg50d": 2.75,
+    "avg200d": 2.5499,
+    "avg_volume": 1211.0,
+    "avg_volume_10d": 2307.0,
+    "shares_outstanding": 40335322.0,
+    "float_shares": 5214954.0,
+    "insider_ownership": 0.75206,
+    "institutional_ownership": 0.02573,
+    "short_ratio": null
+  },
+  "_pe_label": "5.81x"
+}

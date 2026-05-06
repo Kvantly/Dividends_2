@@ -1,0 +1,62 @@
+{
+  "ticker": "EMGS",
+  "name": "ELECTROMAGNET GEO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 28158484.0,
+    "enterprise_value": 45942272.0,
+    "trailing_pe": null,
+    "forward_pe": -2.6875,
+    "peg_ratio": -3.61,
+    "price_to_sales": 1.193915,
+    "price_to_book": -0.279451,
+    "ev_to_revenue": 1.948,
+    "ev_to_ebitda": -30.067
+  },
+  "per_share": {
+    "current_price": 0.215,
+    "eps_trailing": -0.65,
+    "eps_forward": -0.08,
+    "book_value": -0.769366,
+    "revenue_per_share": 0.18,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.60441,
+    "operating_margin": -0.84183,
+    "gross_margin": 0.31694,
+    "ebitda_margin": -0.06479,
+    "roe": null,
+    "roa": -0.2018
+  },
+  "income": {
+    "total_revenue": 23585000.0,
+    "revenue_growth": -0.599,
+    "gross_profits": 7475000.0,
+    "ebitda": -1528000.0,
+    "net_income": -14255000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3116000.0,
+    "cash_per_share": 0.024,
+    "total_debt": 19983000.0,
+    "debt_to_equity": null,
+    "current_ratio": 5.403,
+    "quick_ratio": 4.63
+  },
+  "trading": {
+    "beta": -0.082,
+    "week52_high": 2.16,
+    "week52_low": 0.121,
+    "avg50d": 0.29414,
+    "avg200d": 0.712758,
+    "avg_volume": 2852067.0,
+    "avg_volume_10d": 629811.0,
+    "shares_outstanding": 130969690.0,
+    "float_shares": 36101795.0,
+    "insider_ownership": 0.74125,
+    "institutional_ownership": 0.01485,
+    "short_ratio": null
+  }
+}

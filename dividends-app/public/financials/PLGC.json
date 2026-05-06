@@ -1,0 +1,62 @@
+{
+  "ticker": "PLGC",
+  "name": "PELAGIC CREDIT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 673400000.0,
+    "enterprise_value": 698369472.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 393.17484,
+    "price_to_book": 4.054922,
+    "ev_to_revenue": 407.754,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 18.2,
+    "eps_trailing": null,
+    "eps_forward": null,
+    "book_value": 4.488373,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.37516,
+    "operating_margin": 0.83296,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": null,
+    "roa": null
+  },
+  "income": {
+    "total_revenue": 1712724.0,
+    "revenue_growth": null,
+    "gross_profits": 1712724.0,
+    "ebitda": null,
+    "net_income": 642545.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3929159.0,
+    "cash_per_share": 0.106,
+    "total_debt": 25198652.0,
+    "debt_to_equity": 146.117,
+    "current_ratio": 1.205,
+    "quick_ratio": 1.205
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 20.0,
+    "week52_low": 16.0,
+    "avg50d": 18.738316,
+    "avg200d": 18.738316,
+    "avg_volume": 8500.0,
+    "avg_volume_10d": 4399.0,
+    "shares_outstanding": 37000000.0,
+    "float_shares": 13283000.0,
+    "insider_ownership": null,
+    "institutional_ownership": null,
+    "short_ratio": null
+  }
+}

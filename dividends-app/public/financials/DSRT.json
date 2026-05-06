@@ -1,0 +1,62 @@
+{
+  "ticker": "DSRT",
+  "name": "DESERT CONTROL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 116912544.0,
+    "enterprise_value": 109770744.0,
+    "trailing_pe": null,
+    "forward_pe": -1.38,
+    "peg_ratio": null,
+    "price_to_sales": 58.485516,
+    "price_to_book": 0.589744,
+    "ev_to_revenue": 54.913,
+    "ev_to_ebitda": -1.722
+  },
+  "per_share": {
+    "current_price": 0.966,
+    "eps_trailing": -0.97,
+    "eps_forward": -0.7,
+    "book_value": 1.638,
+    "revenue_per_share": 0.037,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": -328.53333,
+    "gross_margin": 0.64982,
+    "ebitda_margin": 0.0,
+    "roe": -0.81827,
+    "roa": -0.43191
+  },
+  "income": {
+    "total_revenue": 1999000.0,
+    "revenue_growth": -0.67,
+    "gross_profits": 1299000.0,
+    "ebitda": -63755000.0,
+    "net_income": -71344000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 8231000.0,
+    "cash_per_share": 0.068,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 5.532,
+    "quick_ratio": 5.4
+  },
+  "trading": {
+    "beta": 0.484,
+    "week52_high": 8.4,
+    "week52_low": 0.82,
+    "avg50d": 1.44816,
+    "avg200d": 2.149682,
+    "avg_volume": 866841.0,
+    "avg_volume_10d": 2417804.0,
+    "shares_outstanding": 121027472.0,
+    "float_shares": 85888324.0,
+    "insider_ownership": 0.33527,
+    "institutional_ownership": 0.15946,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "DOFG",
+  "name": "DOF GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 34281988096.0,
+    "enterprise_value": 34928549888.0,
+    "trailing_pe": 7.927107,
+    "forward_pe": 8.500212,
+    "peg_ratio": null,
+    "price_to_sales": 18.322815,
+    "price_to_book": 1.808627,
+    "ev_to_revenue": 18.668,
+    "ev_to_ebitda": 52.762
+  },
+  "per_share": {
+    "current_price": 139.2,
+    "eps_trailing": 17.56,
+    "eps_forward": 16.376062,
+    "book_value": 76.96445,
+    "revenue_per_share": 7.597,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.2496,
+    "operating_margin": 0.24444,
+    "gross_margin": 0.67076,
+    "ebitda_margin": 0.35382,
+    "roe": 0.24476,
+    "roa": 0.07106
+  },
+  "income": {
+    "total_revenue": 1871000064.0,
+    "revenue_growth": 0.317,
+    "gross_profits": 1255000064.0,
+    "ebitda": 662000000.0,
+    "net_income": 467000000.0,
+    "earnings_growth": 0.421
+  },
+  "balance_sheet": {
+    "total_cash": 485000000.0,
+    "cash_per_share": 1.969,
+    "total_debt": 1698000000.0,
+    "debt_to_equity": 83.072,
+    "current_ratio": 1.812,
+    "quick_ratio": 1.697
+  },
+  "trading": {
+    "beta": -0.044,
+    "week52_high": 142.0,
+    "week52_low": 79.2,
+    "avg50d": 132.034,
+    "avg200d": 107.04025,
+    "avg_volume": 452335.0,
+    "avg_volume_10d": 253557.0,
+    "shares_outstanding": 246278655.0,
+    "float_shares": 7858752.0,
+    "insider_ownership": 0.48851,
+    "institutional_ownership": 0.34786,
+    "short_ratio": null
+  },
+  "_pe_label": "7.93x"
+}

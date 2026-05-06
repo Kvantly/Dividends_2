@@ -1,0 +1,63 @@
+{
+  "ticker": "BRUT",
+  "name": "BRUTON",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3220038144.0,
+    "enterprise_value": 2635138816.0,
+    "trailing_pe": 577.7778,
+    "forward_pe": 46.32517,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": 1.596295,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 52.0,
+    "eps_trailing": 0.09,
+    "eps_forward": 1.1225,
+    "book_value": 32.575436,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.00251,
+    "roa": -0.00298
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": null,
+    "net_income": 270000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 89661000.0,
+    "cash_per_share": 1.711,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 556.901,
+    "quick_ratio": 556.901
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 80.0,
+    "week52_low": 37.6,
+    "avg50d": 51.688,
+    "avg200d": 49.6085,
+    "avg_volume": 177681.0,
+    "avg_volume_10d": 119147.0,
+    "shares_outstanding": 61923808.0,
+    "float_shares": 42082438.0,
+    "insider_ownership": 0.35897,
+    "institutional_ownership": 0.11728,
+    "short_ratio": null
+  },
+  "_pe_label": "577.78x"
+}

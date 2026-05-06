@@ -1,0 +1,63 @@
+{
+  "ticker": "ELMRA",
+  "name": "ELMERA GROUP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3543007744.0,
+    "enterprise_value": 5659762176.0,
+    "trailing_pe": 22.191782,
+    "forward_pe": 9.9009,
+    "peg_ratio": null,
+    "price_to_sales": 0.292372,
+    "price_to_book": 2.607436,
+    "ev_to_revenue": 0.467,
+    "ev_to_ebitda": 14.881
+  },
+  "per_share": {
+    "current_price": 32.4,
+    "eps_trailing": 1.46,
+    "eps_forward": 3.27243,
+    "book_value": 12.426,
+    "revenue_per_share": 110.962,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01342,
+    "operating_margin": 0.03346,
+    "gross_margin": 0.13923,
+    "ebitda_margin": 0.03139,
+    "roe": 0.10538,
+    "roa": 0.03601
+  },
+  "income": {
+    "total_revenue": 12118147072.0,
+    "revenue_growth": 0.193,
+    "gross_profits": 1687154048.0,
+    "ebitda": 380344000.0,
+    "net_income": 162676992.0,
+    "earnings_growth": -0.665
+  },
+  "balance_sheet": {
+    "total_cash": 1371371008.0,
+    "cash_per_share": 12.543,
+    "total_debt": 3341373952.0,
+    "debt_to_equity": 225.152,
+    "current_ratio": 1.033,
+    "quick_ratio": 0.938
+  },
+  "trading": {
+    "beta": 0.726,
+    "week52_high": 42.55,
+    "week52_low": 31.05,
+    "avg50d": 34.159,
+    "avg200d": 34.95,
+    "avg_volume": 303531.0,
+    "avg_volume_10d": 93811.0,
+    "shares_outstanding": 109352087.0,
+    "float_shares": 85725103.0,
+    "insider_ownership": 0.1594,
+    "institutional_ownership": 0.52749,
+    "short_ratio": null
+  },
+  "_pe_label": "22.19x"
+}

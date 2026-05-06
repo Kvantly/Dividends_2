@@ -1,0 +1,62 @@
+{
+  "ticker": "NBX",
+  "name": "NORWEGIAN BLOCK EX",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 164906400.0,
+    "enterprise_value": 160147888.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 8.933956,
+    "price_to_book": 1.661202,
+    "ev_to_revenue": 8.676,
+    "ev_to_ebitda": -7.61
+  },
+  "per_share": {
+    "current_price": 0.608,
+    "eps_trailing": -0.06,
+    "eps_forward": null,
+    "book_value": 0.366,
+    "revenue_per_share": 0.078,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.78606,
+    "operating_margin": -1.33869,
+    "gross_margin": 0.15659,
+    "ebitda_margin": -1.14009,
+    "roe": -0.18214,
+    "roa": -0.08132
+  },
+  "income": {
+    "total_revenue": 18458384.0,
+    "revenue_growth": -0.161,
+    "gross_profits": 2890317.0,
+    "ebitda": -21044250.0,
+    "net_income": -14509374.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 7216439.0,
+    "cash_per_share": 0.031,
+    "total_debt": 23744248.0,
+    "debt_to_equity": 27.561,
+    "current_ratio": 0.901,
+    "quick_ratio": 0.178
+  },
+  "trading": {
+    "beta": 1.006,
+    "week52_high": 1.19,
+    "week52_low": 0.21,
+    "avg50d": 0.46813,
+    "avg200d": 0.488082,
+    "avg_volume": 1696129.0,
+    "avg_volume_10d": 4603534.0,
+    "shares_outstanding": 271227657.0,
+    "float_shares": 180791780.0,
+    "insider_ownership": 0.33494,
+    "institutional_ownership": 0.05342,
+    "short_ratio": null
+  }
+}

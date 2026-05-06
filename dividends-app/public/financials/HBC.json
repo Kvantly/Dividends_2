@@ -1,0 +1,62 @@
+{
+  "ticker": "HBC",
+  "name": "HOFSETH BIOCARE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 506278944.0,
+    "enterprise_value": 826601344.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 1.975021,
+    "price_to_book": -6.95055,
+    "ev_to_revenue": 3.225,
+    "ev_to_ebitda": -8.425
+  },
+  "per_share": {
+    "current_price": 1.265,
+    "eps_trailing": -0.33,
+    "eps_forward": null,
+    "book_value": -0.182,
+    "revenue_per_share": 0.624,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.52618,
+    "operating_margin": -0.51762,
+    "gross_margin": 0.30699,
+    "ebitda_margin": -0.38273,
+    "roe": null,
+    "roa": -0.19125
+  },
+  "income": {
+    "total_revenue": 256340992.0,
+    "revenue_growth": 0.112,
+    "gross_profits": 78694000.0,
+    "ebitda": -98110000.0,
+    "net_income": -134880992.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 67050000.0,
+    "cash_per_share": 0.163,
+    "total_debt": 359936000.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.671,
+    "quick_ratio": 0.39
+  },
+  "trading": {
+    "beta": 0.254,
+    "week52_high": 2.62,
+    "week52_low": 1.14,
+    "avg50d": 1.3747,
+    "avg200d": 1.578175,
+    "avg_volume": 170218.0,
+    "avg_volume_10d": 91355.0,
+    "shares_outstanding": 395075736.0,
+    "float_shares": 120426188.0,
+    "insider_ownership": 0.48674,
+    "institutional_ownership": 0.1662,
+    "short_ratio": null
+  }
+}

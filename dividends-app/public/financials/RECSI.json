@@ -1,0 +1,62 @@
+{
+  "ticker": "RECSI",
+  "name": "REC SILICON",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1205940096.0,
+    "enterprise_value": 593483328.0,
+    "trailing_pe": null,
+    "forward_pe": -1.172646,
+    "peg_ratio": 2.8,
+    "price_to_sales": 15.421228,
+    "price_to_book": -0.026594,
+    "ev_to_revenue": 7.589,
+    "ev_to_ebitda": -22.566
+  },
+  "per_share": {
+    "current_price": 0.2615,
+    "eps_trailing": -0.87,
+    "eps_forward": -0.223,
+    "book_value": -9.83311,
+    "revenue_per_share": 0.186,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.80691,
+    "operating_margin": -0.26368,
+    "gross_margin": 0.79284,
+    "ebitda_margin": -0.33632,
+    "roe": null,
+    "roa": -0.1342
+  },
+  "income": {
+    "total_revenue": 78200000.0,
+    "revenue_growth": -0.323,
+    "gross_profits": 62000000.0,
+    "ebitda": -26300000.0,
+    "net_income": -60300000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 7300000.0,
+    "cash_per_share": 0.017,
+    "total_debt": 491000000.0,
+    "debt_to_equity": null,
+    "current_ratio": 0.083,
+    "quick_ratio": 0.032
+  },
+  "trading": {
+    "beta": -0.112,
+    "week52_high": 2.914,
+    "week52_low": 0.218063,
+    "avg50d": 0.274135,
+    "avg200d": 1.109723,
+    "avg_volume": 1697577.0,
+    "avg_volume_10d": 1385981.0,
+    "shares_outstanding": 4611625692.0,
+    "float_shares": 38655498.0,
+    "insider_ownership": 0.05844,
+    "institutional_ownership": 0.0012,
+    "short_ratio": null
+  }
+}

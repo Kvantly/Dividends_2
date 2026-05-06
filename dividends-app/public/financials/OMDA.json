@@ -1,0 +1,63 @@
+{
+  "ticker": "OMDA",
+  "name": "OMDA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 812103488.0,
+    "enterprise_value": 1233587584.0,
+    "trailing_pe": 123.75,
+    "forward_pe": 10.645161,
+    "peg_ratio": null,
+    "price_to_sales": 1.638343,
+    "price_to_book": 48.708485,
+    "ev_to_revenue": 2.489,
+    "ev_to_ebitda": 14.363
+  },
+  "per_share": {
+    "current_price": 39.6,
+    "eps_trailing": 0.32,
+    "eps_forward": 3.72,
+    "book_value": 0.813,
+    "revenue_per_share": 24.171,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01333,
+    "operating_margin": 0.08879,
+    "gross_margin": 0.47343,
+    "ebitda_margin": 0.17327,
+    "roe": 0.39195,
+    "roa": 0.03938
+  },
+  "income": {
+    "total_revenue": 495686016.0,
+    "revenue_growth": 0.168,
+    "gross_profits": 234674000.0,
+    "ebitda": 85886000.0,
+    "net_income": 6608000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 83837000.0,
+    "cash_per_share": 4.088,
+    "total_debt": 488915008.0,
+    "debt_to_equity": 2933.431,
+    "current_ratio": 0.731,
+    "quick_ratio": 0.731
+  },
+  "trading": {
+    "beta": 0.452,
+    "week52_high": 57.4,
+    "week52_low": 37.0,
+    "avg50d": 39.51,
+    "avg200d": 45.362,
+    "avg_volume": 7208.0,
+    "avg_volume_10d": 7292.0,
+    "shares_outstanding": 20507663.0,
+    "float_shares": 7027976.0,
+    "insider_ownership": 0.42243,
+    "institutional_ownership": 0.01077,
+    "short_ratio": null
+  },
+  "_pe_label": "123.75x"
+}

@@ -1,0 +1,62 @@
+{
+  "ticker": "ABTEC",
+  "name": "AQUA BIO TECHNO",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 80838928.0,
+    "enterprise_value": 117027488.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 0.796379,
+    "price_to_book": 1.561939,
+    "ev_to_revenue": 1.153,
+    "ev_to_ebitda": -1.138
+  },
+  "per_share": {
+    "current_price": 5.22,
+    "eps_trailing": -219.0,
+    "eps_forward": null,
+    "book_value": 3.342,
+    "revenue_per_share": 46.411,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.42553,
+    "operating_margin": 0.11758,
+    "gross_margin": 0.00484,
+    "ebitda_margin": -1.01322,
+    "roe": null,
+    "roa": -0.34168
+  },
+  "income": {
+    "total_revenue": 101508080.0,
+    "revenue_growth": 0.063,
+    "gross_profits": 491262.0,
+    "ebitda": -102850384.0,
+    "net_income": -266041088.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 3105153.0,
+    "cash_per_share": 1.453,
+    "total_debt": 109021288.0,
+    "debt_to_equity": 1526.512,
+    "current_ratio": 0.088,
+    "quick_ratio": 0.07
+  },
+  "trading": {
+    "beta": 0.096,
+    "week52_high": 123.0,
+    "week52_low": 4.6,
+    "avg50d": 6.62487,
+    "avg200d": 21.814293,
+    "avg_volume": 12831.0,
+    "avg_volume_10d": 38477.0,
+    "shares_outstanding": 15486385.0,
+    "float_shares": 694096.0,
+    "insider_ownership": 0.35894,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  }
+}

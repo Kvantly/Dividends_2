@@ -1,0 +1,63 @@
+{
+  "ticker": "JAREN",
+  "name": "J\u00c6REN SPAREBANK",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1708601088.0,
+    "enterprise_value": 5801676800.0,
+    "trailing_pe": 11.166827,
+    "forward_pe": 10.017301,
+    "peg_ratio": null,
+    "price_to_sales": 2.892561,
+    "price_to_book": 0.644923,
+    "ev_to_revenue": 9.822,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 347.4,
+    "eps_trailing": 31.11,
+    "eps_forward": 34.68,
+    "book_value": 538.669,
+    "revenue_per_share": 119.754,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.52009,
+    "operating_margin": 0.57394,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.11344,
+    "roa": 0.01544
+  },
+  "income": {
+    "total_revenue": 590688000.0,
+    "revenue_growth": 0.137,
+    "gross_profits": 590688000.0,
+    "ebitda": null,
+    "net_income": 153327008.0,
+    "earnings_growth": 0.301
+  },
+  "balance_sheet": {
+    "total_cash": 387524000.0,
+    "cash_per_share": 78.565,
+    "total_debt": 4482548224.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.137,
+    "week52_high": 390.0,
+    "week52_low": 330.5,
+    "avg50d": 352.139,
+    "avg200d": 366.97324,
+    "avg_volume": 4314.0,
+    "avg_volume_10d": 495.0,
+    "shares_outstanding": 4918253.0,
+    "float_shares": 1296020.0,
+    "insider_ownership": 0.77247,
+    "institutional_ownership": 0.08372,
+    "short_ratio": null
+  },
+  "_pe_label": "11.17x"
+}

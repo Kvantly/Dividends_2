@@ -1,0 +1,62 @@
+{
+  "ticker": "SALME",
+  "name": "SALMON EVOLUTION",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2269069312.0,
+    "enterprise_value": 3990424064.0,
+    "trailing_pe": null,
+    "forward_pe": 39.60756,
+    "peg_ratio": null,
+    "price_to_sales": 6.959865,
+    "price_to_book": 1.100022,
+    "ev_to_revenue": 12.24,
+    "ev_to_ebitda": -58.311
+  },
+  "per_share": {
+    "current_price": 4.905,
+    "eps_trailing": -0.37,
+    "eps_forward": 0.12384,
+    "book_value": 4.459,
+    "revenue_per_share": 0.705,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.52635,
+    "operating_margin": -0.07056,
+    "gross_margin": 0.55916,
+    "ebitda_margin": -0.2099,
+    "roe": -0.08008,
+    "roa": -0.0242
+  },
+  "income": {
+    "total_revenue": 326022016.0,
+    "revenue_growth": -0.34,
+    "gross_profits": 182299008.0,
+    "ebitda": -68433000.0,
+    "net_income": -171600992.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 174076000.0,
+    "cash_per_share": 0.376,
+    "total_debt": 1920873984.0,
+    "debt_to_equity": 93.125,
+    "current_ratio": 0.835,
+    "quick_ratio": 0.375
+  },
+  "trading": {
+    "beta": 0.214,
+    "week52_high": 6.64,
+    "week52_low": 4.25,
+    "avg50d": 4.7202,
+    "avg200d": 5.026675,
+    "avg_volume": 922056.0,
+    "avg_volume_10d": 1429575.0,
+    "shares_outstanding": 462603306.0,
+    "float_shares": 300053756.0,
+    "insider_ownership": 0.35723,
+    "institutional_ownership": 0.15636,
+    "short_ratio": null
+  }
+}

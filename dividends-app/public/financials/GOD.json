@@ -1,0 +1,63 @@
+{
+  "ticker": "GOD",
+  "name": "GOODTECH",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 322132800.0,
+    "enterprise_value": 247883296.0,
+    "trailing_pe": 10.588236,
+    "forward_pe": 9.818182,
+    "peg_ratio": 3.79,
+    "price_to_sales": 0.444935,
+    "price_to_book": 1.136483,
+    "ev_to_revenue": 0.342,
+    "ev_to_ebitda": 5.377
+  },
+  "per_share": {
+    "current_price": 10.8,
+    "eps_trailing": 1.02,
+    "eps_forward": 1.1,
+    "book_value": 9.503,
+    "revenue_per_share": 24.989,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0261,
+    "operating_margin": 0.07472,
+    "gross_margin": 0.72113,
+    "ebitda_margin": 0.06367,
+    "roe": 0.11041,
+    "roa": 0.0485
+  },
+  "income": {
+    "total_revenue": 724000000.0,
+    "revenue_growth": 0.093,
+    "gross_profits": 522100000.0,
+    "ebitda": 46100000.0,
+    "net_income": 29800000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 127000000.0,
+    "cash_per_share": 4.357,
+    "total_debt": 63000000.0,
+    "debt_to_equity": 22.744,
+    "current_ratio": 1.291,
+    "quick_ratio": 1.21
+  },
+  "trading": {
+    "beta": 0.373,
+    "week52_high": 11.5,
+    "week52_low": 8.24,
+    "avg50d": 10.82,
+    "avg200d": 9.7883,
+    "avg_volume": 31887.0,
+    "avg_volume_10d": 28730.0,
+    "shares_outstanding": 29827111.0,
+    "float_shares": 12509144.0,
+    "insider_ownership": 0.56701,
+    "institutional_ownership": 0.0256,
+    "short_ratio": null
+  },
+  "_pe_label": "10.59x"
+}

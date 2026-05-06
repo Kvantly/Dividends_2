@@ -1,0 +1,62 @@
+{
+  "ticker": "OBSRV",
+  "name": "OBSERVE MEDICAL",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 147721040.0,
+    "enterprise_value": 169684992.0,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 7.852907,
+    "price_to_book": 4.931819,
+    "ev_to_revenue": 9.021,
+    "ev_to_ebitda": -6.435
+  },
+  "per_share": {
+    "current_price": 1.085,
+    "eps_trailing": -0.73,
+    "eps_forward": null,
+    "book_value": 0.22,
+    "revenue_per_share": 0.282,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -2.58567,
+    "operating_margin": -2.89311,
+    "gross_margin": 0.2498,
+    "ebitda_margin": -1.40189,
+    "roe": -1.90387,
+    "roa": -0.19144
+  },
+  "income": {
+    "total_revenue": 18811000.0,
+    "revenue_growth": 0.379,
+    "gross_profits": 4699000.0,
+    "ebitda": -26371000.0,
+    "net_income": -48639000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 11500000.0,
+    "cash_per_share": 0.084,
+    "total_debt": 30741000.0,
+    "debt_to_equity": 102.61,
+    "current_ratio": 0.481,
+    "quick_ratio": 0.313
+  },
+  "trading": {
+    "beta": 0.049,
+    "week52_high": 2.4,
+    "week52_low": 0.525,
+    "avg50d": 1.0482,
+    "avg200d": 0.84565,
+    "avg_volume": 1231367.0,
+    "avg_volume_10d": 412371.0,
+    "shares_outstanding": 136148412.0,
+    "float_shares": 32272620.0,
+    "insider_ownership": 0.70933,
+    "institutional_ownership": 0.0,
+    "short_ratio": null
+  }
+}

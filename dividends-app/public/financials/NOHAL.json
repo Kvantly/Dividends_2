@@ -1,0 +1,62 @@
+{
+  "ticker": "NOHAL",
+  "name": "NORDIC HALIBUT",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1250493312.0,
+    "enterprise_value": 1698118272.0,
+    "trailing_pe": null,
+    "forward_pe": 10.493274,
+    "peg_ratio": null,
+    "price_to_sales": 8.594574,
+    "price_to_book": 1.844117,
+    "ev_to_revenue": 11.671,
+    "ev_to_ebitda": 28.301
+  },
+  "per_share": {
+    "current_price": 23.4,
+    "eps_trailing": -0.19,
+    "eps_forward": 2.23,
+    "book_value": 12.689,
+    "revenue_per_share": 2.774,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.0685,
+    "operating_margin": 0.68809,
+    "gross_margin": 1.41964,
+    "ebitda_margin": 0.41239,
+    "roe": -0.01837,
+    "roa": 0.00558
+  },
+  "income": {
+    "total_revenue": 145498000.0,
+    "revenue_growth": 0.435,
+    "gross_profits": 206555008.0,
+    "ebitda": 60002000.0,
+    "net_income": -9966000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 12674000.0,
+    "cash_per_share": 0.237,
+    "total_debt": 470987008.0,
+    "debt_to_equity": 69.456,
+    "current_ratio": 2.013,
+    "quick_ratio": 0.226
+  },
+  "trading": {
+    "beta": 0.41,
+    "week52_high": 23.8,
+    "week52_low": 17.8,
+    "avg50d": 21.752,
+    "avg200d": 20.4595,
+    "avg_volume": 4136.0,
+    "avg_volume_10d": 7396.0,
+    "shares_outstanding": 53439885.0,
+    "float_shares": 24573797.0,
+    "insider_ownership": 0.85744,
+    "institutional_ownership": 0.08477,
+    "short_ratio": null
+  }
+}

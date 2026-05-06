@@ -1,0 +1,63 @@
+{
+  "ticker": "SOFF",
+  "name": "SOLSTAD OFFSHORE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 6711789056.0,
+    "enterprise_value": 5579481088.0,
+    "trailing_pe": 3.9338,
+    "forward_pe": 3.453382,
+    "peg_ratio": 1.68,
+    "price_to_sales": 23.14019,
+    "price_to_book": 1.289784,
+    "ev_to_revenue": 19.236,
+    "ev_to_ebitda": 55.799
+  },
+  "per_share": {
+    "current_price": 61.8,
+    "eps_trailing": 15.71,
+    "eps_forward": 17.8955,
+    "book_value": 47.914993,
+    "revenue_per_share": 3.522,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.4806,
+    "operating_margin": 0.32683,
+    "gross_margin": 0.54353,
+    "ebitda_margin": 0.34474,
+    "roe": 0.3963,
+    "roa": 0.06731
+  },
+  "income": {
+    "total_revenue": 290048992.0,
+    "revenue_growth": null,
+    "gross_profits": 157650000.0,
+    "ebitda": 99992000.0,
+    "net_income": 139398000.0,
+    "earnings_growth": -0.421
+  },
+  "balance_sheet": {
+    "total_cash": 74169000.0,
+    "cash_per_share": 0.901,
+    "total_debt": 376116992.0,
+    "debt_to_equity": 88.481,
+    "current_ratio": 1.106,
+    "quick_ratio": 1.071
+  },
+  "trading": {
+    "beta": 0.772,
+    "week52_high": 71.0,
+    "week52_low": 36.6,
+    "avg50d": 62.638,
+    "avg200d": 52.10575,
+    "avg_volume": 172083.0,
+    "avg_volume_10d": 99552.0,
+    "shares_outstanding": 108605000.0,
+    "float_shares": 23696078.0,
+    "insider_ownership": 0.51612,
+    "institutional_ownership": 0.253,
+    "short_ratio": null
+  },
+  "_pe_label": "3.93x"
+}

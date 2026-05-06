@@ -1,0 +1,62 @@
+{
+  "ticker": "LYTIX",
+  "name": "LYTIX BIOPHARMA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 803605056.0,
+    "enterprise_value": 653418240.0,
+    "trailing_pe": null,
+    "forward_pe": -8.495935,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": 11.546962,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": -10.211
+  },
+  "per_share": {
+    "current_price": 10.45,
+    "eps_trailing": -0.88,
+    "eps_forward": -1.23,
+    "book_value": 0.905,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": -0.70715,
+    "roa": -0.35094
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": -63991000.0,
+    "net_income": -59982000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 72358000.0,
+    "cash_per_share": 1.06,
+    "total_debt": 2199000.0,
+    "debt_to_equity": 3.561,
+    "current_ratio": 4.282,
+    "quick_ratio": 4.232
+  },
+  "trading": {
+    "beta": -0.498,
+    "week52_high": 11.9,
+    "week52_low": 5.06,
+    "avg50d": 10.1618,
+    "avg200d": 9.24215,
+    "avg_volume": 59817.0,
+    "avg_volume_10d": 69675.0,
+    "shares_outstanding": 76900005.0,
+    "float_shares": 34432036.0,
+    "insider_ownership": 0.52657,
+    "institutional_ownership": 0.05377,
+    "short_ratio": null
+  }
+}

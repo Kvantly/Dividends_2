@@ -1,0 +1,63 @@
+{
+  "ticker": "WAWI",
+  "name": "WALLENIUS WILHELMS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 49297846272.0,
+    "enterprise_value": 51924713472.0,
+    "trailing_pe": 5.205357,
+    "forward_pe": 9.936172,
+    "peg_ratio": null,
+    "price_to_sales": 9.407986,
+    "price_to_book": 1.606203,
+    "ev_to_revenue": 9.909,
+    "ev_to_ebitda": 34.779
+  },
+  "per_share": {
+    "current_price": 116.6,
+    "eps_trailing": 22.4,
+    "eps_forward": 11.734902,
+    "book_value": 72.593575,
+    "revenue_per_share": 12.395,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.19408,
+    "operating_margin": 0.16891,
+    "gross_margin": 0.3542,
+    "ebitda_margin": 0.28492,
+    "roe": 0.33303,
+    "roa": 0.08864
+  },
+  "income": {
+    "total_revenue": 5240000000.0,
+    "revenue_growth": -0.06,
+    "gross_profits": 1856000000.0,
+    "ebitda": 1492999936.0,
+    "net_income": 1017000000.0,
+    "earnings_growth": -0.413
+  },
+  "balance_sheet": {
+    "total_cash": 1071000000.0,
+    "cash_per_share": 2.533,
+    "total_debt": 2800999936.0,
+    "debt_to_equity": 84.827,
+    "current_ratio": 0.851,
+    "quick_ratio": 0.688
+  },
+  "trading": {
+    "beta": 0.976,
+    "week52_high": 137.1,
+    "week52_low": 70.3,
+    "avg50d": 123.712,
+    "avg200d": 102.99475,
+    "avg_volume": 504743.0,
+    "avg_volume_10d": 237211.0,
+    "shares_outstanding": 422794566.0,
+    "float_shares": 260767004.0,
+    "insider_ownership": 0.76047,
+    "institutional_ownership": 0.12613,
+    "short_ratio": null
+  },
+  "_pe_label": "5.21x"
+}

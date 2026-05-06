@@ -1,0 +1,63 @@
+{
+  "ticker": "SBNOR",
+  "name": "SPAREBANKEN NORGE",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 33640478720.0,
+    "enterprise_value": 376752898048.0,
+    "trailing_pe": 11.776834,
+    "forward_pe": 11.530354,
+    "peg_ratio": null,
+    "price_to_sales": 2.612244,
+    "price_to_book": 0.68269,
+    "ev_to_revenue": 29.256,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 194.2,
+    "eps_trailing": 16.49,
+    "eps_forward": 16.8425,
+    "book_value": 284.463,
+    "revenue_per_share": 67.533,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.55405,
+    "operating_margin": 0.6709,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.18759,
+    "roa": 0.01573
+  },
+  "income": {
+    "total_revenue": 12878000128.0,
+    "revenue_growth": 0.603,
+    "gross_profits": 12878000128.0,
+    "ebitda": null,
+    "net_income": 3160000000.0,
+    "earnings_growth": -0.064
+  },
+  "balance_sheet": {
+    "total_cash": 4780000256.0,
+    "cash_per_share": 10.843,
+    "total_debt": 293126995968.0,
+    "debt_to_equity": null,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": null,
+    "week52_high": 212.0,
+    "week52_low": 139.3,
+    "avg50d": 202.29,
+    "avg200d": 183.80936,
+    "avg_volume": 176219.0,
+    "avg_volume_10d": 256616.0,
+    "shares_outstanding": 173225943.0,
+    "float_shares": 366922377.0,
+    "insider_ownership": 0.31283,
+    "institutional_ownership": 0.27559,
+    "short_ratio": null
+  },
+  "_pe_label": "11.78x"
+}

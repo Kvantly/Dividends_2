@@ -1,0 +1,62 @@
+{
+  "ticker": "SCANA",
+  "name": "SCANA",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 704376768.0,
+    "enterprise_value": 1087235328.0,
+    "trailing_pe": null,
+    "forward_pe": 6.931818,
+    "peg_ratio": 3.22,
+    "price_to_sales": 0.441173,
+    "price_to_book": 1.157056,
+    "ev_to_revenue": 0.681,
+    "ev_to_ebitda": 63.211
+  },
+  "per_share": {
+    "current_price": 1.525,
+    "eps_trailing": -0.08,
+    "eps_forward": 0.22,
+    "book_value": 1.318,
+    "revenue_per_share": 3.457,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.02274,
+    "operating_margin": 0.09127,
+    "gross_margin": 0.57485,
+    "ebitda_margin": 0.01077,
+    "roe": -0.05623,
+    "roa": -0.0046
+  },
+  "income": {
+    "total_revenue": 1596600064.0,
+    "revenue_growth": 0.004,
+    "gross_profits": 917800000.0,
+    "ebitda": 17200000.0,
+    "net_income": -36300000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 53800000.0,
+    "cash_per_share": 0.116,
+    "total_debt": 471300000.0,
+    "debt_to_equity": 75.024,
+    "current_ratio": 1.03,
+    "quick_ratio": 0.783
+  },
+  "trading": {
+    "beta": 0.534,
+    "week52_high": 2.1,
+    "week52_low": 1.318,
+    "avg50d": 1.45104,
+    "avg200d": 1.49625,
+    "avg_volume": 420329.0,
+    "avg_volume_10d": 244673.0,
+    "shares_outstanding": 461886437.0,
+    "float_shares": 245451071.0,
+    "insider_ownership": 0.60984,
+    "institutional_ownership": 0.05357,
+    "short_ratio": null
+  }
+}

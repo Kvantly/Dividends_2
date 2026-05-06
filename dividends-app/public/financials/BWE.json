@@ -1,0 +1,63 @@
+{
+  "ticker": "BWE",
+  "name": "BW ENERGY LIMITED",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 13584966656.0,
+    "enterprise_value": 15441836032.0,
+    "trailing_pe": 11.097047,
+    "forward_pe": 5.472576,
+    "peg_ratio": null,
+    "price_to_sales": 17.454666,
+    "price_to_book": 1.461301,
+    "ev_to_revenue": 19.84,
+    "ev_to_ebitda": 42.423
+  },
+  "per_share": {
+    "current_price": 52.6,
+    "eps_trailing": 4.74,
+    "eps_forward": 9.611562,
+    "book_value": 35.995323,
+    "revenue_per_share": 3.016,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.17101,
+    "operating_margin": 0.01057,
+    "gross_margin": 0.507,
+    "ebitda_margin": 0.46769,
+    "roe": 0.14292,
+    "roa": 0.06075
+  },
+  "income": {
+    "total_revenue": 778300032.0,
+    "revenue_growth": -0.508,
+    "gross_profits": 394600000.0,
+    "ebitda": 364000000.0,
+    "net_income": 133100000.0,
+    "earnings_growth": -0.963
+  },
+  "balance_sheet": {
+    "total_cash": 150500000.0,
+    "cash_per_share": 0.583,
+    "total_debt": 985800000.0,
+    "debt_to_equity": 98.482,
+    "current_ratio": 1.185,
+    "quick_ratio": 0.809
+  },
+  "trading": {
+    "beta": 0.32,
+    "week52_high": 62.0,
+    "week52_low": 27.6,
+    "avg50d": 55.302,
+    "avg200d": 44.33875,
+    "avg_volume": 151354.0,
+    "avg_volume_10d": 101068.0,
+    "shares_outstanding": 258269324.0,
+    "float_shares": 52405463.0,
+    "insider_ownership": 0.79396,
+    "institutional_ownership": 0.14801,
+    "short_ratio": null
+  },
+  "_pe_label": "11.10x"
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "MOWI",
+  "name": "MOWI",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 104825372672.0,
+    "enterprise_value": 108415188992.0,
+    "trailing_pe": 13.218085,
+    "forward_pe": 11.062819,
+    "peg_ratio": 1.5,
+    "price_to_sales": 18.325472,
+    "price_to_book": 2.138483,
+    "ev_to_revenue": 18.953,
+    "ev_to_ebitda": 124.874
+  },
+  "per_share": {
+    "current_price": 198.8,
+    "eps_trailing": 15.04,
+    "eps_forward": 17.970104,
+    "book_value": 92.96309,
+    "revenue_per_share": 11.024,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.1255,
+    "operating_margin": 0.19837,
+    "gross_margin": 0.44399,
+    "ebitda_margin": 0.15178,
+    "roe": 0.16487,
+    "roa": 0.04238
+  },
+  "income": {
+    "total_revenue": 5720200192.0,
+    "revenue_growth": 0.056,
+    "gross_profits": 2539699968.0,
+    "ebitda": 868200000.0,
+    "net_income": 717900032.0,
+    "earnings_growth": 1.42
+  },
+  "balance_sheet": {
+    "total_cash": 278000000.0,
+    "cash_per_share": 0.527,
+    "total_debt": 3463000064.0,
+    "debt_to_equity": 75.86,
+    "current_ratio": 2.93,
+    "quick_ratio": 0.814
+  },
+  "trading": {
+    "beta": 0.602,
+    "week52_high": 245.8,
+    "week52_low": 182.6,
+    "avg50d": 215.844,
+    "avg200d": 218.878,
+    "avg_volume": 1191261.0,
+    "avg_volume_10d": 1063801.0,
+    "shares_outstanding": 527290596.0,
+    "float_shares": 386308909.0,
+    "insider_ownership": 0.18518,
+    "institutional_ownership": 0.62394,
+    "short_ratio": null
+  },
+  "_pe_label": "13.22x"
+}

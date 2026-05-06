@@ -1,0 +1,62 @@
+{
+  "ticker": "GEM",
+  "name": "GREEN MINERALS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 26261820.0,
+    "enterprise_value": 23699932.0,
+    "trailing_pe": null,
+    "forward_pe": -2.708333,
+    "peg_ratio": null,
+    "price_to_sales": null,
+    "price_to_book": 3.611111,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 1.3,
+    "eps_trailing": -0.81,
+    "eps_forward": -0.48,
+    "book_value": 0.36,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.0,
+    "operating_margin": 0.0,
+    "gross_margin": 0.0,
+    "ebitda_margin": 0.0,
+    "roe": -1.09986,
+    "roa": -0.4592
+  },
+  "income": {
+    "total_revenue": null,
+    "revenue_growth": null,
+    "gross_profits": null,
+    "ebitda": null,
+    "net_income": -4659000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 4178000.0,
+    "cash_per_share": 0.207,
+    "total_debt": 0.0,
+    "debt_to_equity": null,
+    "current_ratio": 8.8,
+    "quick_ratio": 8.8
+  },
+  "trading": {
+    "beta": 0.36,
+    "week52_high": 8.98,
+    "week52_low": 1.005,
+    "avg50d": 1.4394,
+    "avg200d": 1.823225,
+    "avg_volume": 45475.0,
+    "avg_volume_10d": 28263.0,
+    "shares_outstanding": 20201400.0,
+    "float_shares": 11687520.0,
+    "insider_ownership": 0.43536,
+    "institutional_ownership": 0.05702,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ticker": "GIGA",
+  "name": "GIGANTE SALMON",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 2043832192.0,
+    "enterprise_value": 2470586624.0,
+    "trailing_pe": null,
+    "forward_pe": 10.011883,
+    "peg_ratio": null,
+    "price_to_sales": 14.185004,
+    "price_to_book": 1.886793,
+    "ev_to_revenue": 17.147,
+    "ev_to_ebitda": -2046.882
+  },
+  "per_share": {
+    "current_price": 9.1,
+    "eps_trailing": -0.08,
+    "eps_forward": 0.90892,
+    "book_value": 4.823,
+    "revenue_per_share": 0.642,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.12436,
+    "operating_margin": -0.16522,
+    "gross_margin": 0.6585,
+    "ebitda_margin": -0.00838,
+    "roe": -0.01993,
+    "roa": -0.00324
+  },
+  "income": {
+    "total_revenue": 144084000.0,
+    "revenue_growth": null,
+    "gross_profits": 94879000.0,
+    "ebitda": -1207000.0,
+    "net_income": -17918000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 118508000.0,
+    "cash_per_share": 0.528,
+    "total_debt": 531785984.0,
+    "debt_to_equity": 49.096,
+    "current_ratio": 2.412,
+    "quick_ratio": 1.162
+  },
+  "trading": {
+    "beta": -0.234,
+    "week52_high": 11.0,
+    "week52_low": 6.92,
+    "avg50d": 8.6274,
+    "avg200d": 8.36735,
+    "avg_volume": 103114.0,
+    "avg_volume_10d": 43838.0,
+    "shares_outstanding": 224596927.0,
+    "float_shares": 70575115.0,
+    "insider_ownership": 0.63762,
+    "institutional_ownership": 0.10846,
+    "short_ratio": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "KID",
+  "name": "KID",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 5308258304.0,
+    "enterprise_value": null,
+    "trailing_pe": 23.197159,
+    "forward_pe": 13.540991,
+    "peg_ratio": null,
+    "price_to_sales": 1.345713,
+    "price_to_book": 3.656215,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 130.6,
+    "eps_trailing": 5.63,
+    "eps_forward": 9.64479,
+    "book_value": 35.72,
+    "revenue_per_share": 97.049,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.05812,
+    "operating_margin": 0.22659,
+    "gross_margin": 0.61459,
+    "ebitda_margin": 0.1344,
+    "roe": 0.15334,
+    "roa": 0.05813
+  },
+  "income": {
+    "total_revenue": 3944569088.0,
+    "revenue_growth": 0.035,
+    "gross_profits": 2424283904.0,
+    "ebitda": 530134016.0,
+    "net_income": 229248000.0,
+    "earnings_growth": -0.231
+  },
+  "balance_sheet": {
+    "total_cash": null,
+    "cash_per_share": null,
+    "total_debt": 2105339008.0,
+    "debt_to_equity": 145.013,
+    "current_ratio": 0.872,
+    "quick_ratio": 0.112
+  },
+  "trading": {
+    "beta": 0.587,
+    "week52_high": 160.4,
+    "week52_low": 116.6,
+    "avg50d": 126.632,
+    "avg200d": 135.503,
+    "avg_volume": 82296.0,
+    "avg_volume_10d": 60602.0,
+    "shares_outstanding": 40645162.0,
+    "float_shares": 34106168.0,
+    "insider_ownership": 0.09648,
+    "institutional_ownership": 0.75883,
+    "short_ratio": null
+  },
+  "_pe_label": "23.20x"
+}

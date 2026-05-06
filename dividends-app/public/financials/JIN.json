@@ -1,0 +1,63 @@
+{
+  "ticker": "JIN",
+  "name": "JINHUI SHIPP TRANS",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 686146176.0,
+    "enterprise_value": 716611648.0,
+    "trailing_pe": 5.869159,
+    "forward_pe": 29.904764,
+    "peg_ratio": 0.14,
+    "price_to_sales": 4.356788,
+    "price_to_book": 0.19355,
+    "ev_to_revenue": 4.55,
+    "ev_to_ebitda": 21.823
+  },
+  "per_share": {
+    "current_price": 6.28,
+    "eps_trailing": 1.07,
+    "eps_forward": 0.21,
+    "book_value": 32.446342,
+    "revenue_per_share": 1.441,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.07965,
+    "operating_margin": -0.03948,
+    "gross_margin": 0.37039,
+    "ebitda_margin": 0.2085,
+    "roe": 0.03337,
+    "roa": 0.00477
+  },
+  "income": {
+    "total_revenue": 157488992.0,
+    "revenue_growth": -0.234,
+    "gross_profits": 58332000.0,
+    "ebitda": 32837000.0,
+    "net_income": 12544000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 114248000.0,
+    "cash_per_share": 1.046,
+    "total_debt": 151268992.0,
+    "debt_to_equity": 39.779,
+    "current_ratio": 3.183,
+    "quick_ratio": 2.746
+  },
+  "trading": {
+    "beta": 0.524,
+    "week52_high": 6.8,
+    "week52_low": 5.1,
+    "avg50d": 5.8124,
+    "avg200d": 5.9441,
+    "avg_volume": 64355.0,
+    "avg_volume_10d": 34979.0,
+    "shares_outstanding": 109258943.0,
+    "float_shares": 43485059.0,
+    "insider_ownership": 0.47363,
+    "institutional_ownership": 0.01264,
+    "short_ratio": null
+  },
+  "_pe_label": "5.87x"
+}

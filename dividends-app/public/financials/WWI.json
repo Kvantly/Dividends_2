@@ -1,0 +1,63 @@
+{
+  "ticker": "WWI",
+  "name": "WILH. WILHELMSEN A",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 28110417920.0,
+    "enterprise_value": 28546199552.0,
+    "trailing_pe": 4.644714,
+    "forward_pe": 7.763634,
+    "peg_ratio": 3.32,
+    "price_to_sales": 22.779917,
+    "price_to_book": 0.889386,
+    "ev_to_revenue": 23.133,
+    "ev_to_ebitda": 189.048
+  },
+  "per_share": {
+    "current_price": 670.0,
+    "eps_trailing": 144.25,
+    "eps_forward": 86.29979,
+    "book_value": 753.3283,
+    "revenue_per_share": 29.357,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.52836,
+    "operating_margin": 0.10968,
+    "gross_margin": 0.32577,
+    "ebitda_margin": 0.12237,
+    "roe": 0.22442,
+    "roa": 0.01775
+  },
+  "income": {
+    "total_revenue": 1234000000.0,
+    "revenue_growth": 0.131,
+    "gross_profits": 402000000.0,
+    "ebitda": 151000000.0,
+    "net_income": 652000000.0,
+    "earnings_growth": 0.433
+  },
+  "balance_sheet": {
+    "total_cash": 214000000.0,
+    "cash_per_share": 5.101,
+    "total_debt": 426000000.0,
+    "debt_to_equity": 13.004,
+    "current_ratio": 1.389,
+    "quick_ratio": 0.684
+  },
+  "trading": {
+    "beta": 0.834,
+    "week52_high": 783.0,
+    "week52_low": 362.5,
+    "avg50d": 731.06,
+    "avg200d": 599.24,
+    "avg_volume": 19605.0,
+    "avg_volume_10d": 13222.0,
+    "shares_outstanding": 32446526.0,
+    "float_shares": 15592892.0,
+    "insider_ownership": 0.67417,
+    "institutional_ownership": 0.16838,
+    "short_ratio": null
+  },
+  "_pe_label": "4.64x"
+}

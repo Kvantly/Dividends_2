@@ -1,0 +1,63 @@
+{
+  "ticker": "ABG",
+  "name": "ABG SUNDAL COLLIER",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 3623396096.0,
+    "enterprise_value": 3378975232.0,
+    "trailing_pe": 10.846154,
+    "forward_pe": null,
+    "peg_ratio": 1.51,
+    "price_to_sales": 1.815471,
+    "price_to_book": 3.226545,
+    "ev_to_revenue": 1.693,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 7.05,
+    "eps_trailing": 0.65,
+    "eps_forward": null,
+    "book_value": 2.185,
+    "revenue_per_share": 3.902,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.17852,
+    "operating_margin": 0.08337,
+    "gross_margin": 1.0,
+    "ebitda_margin": 0.0,
+    "roe": 0.3324,
+    "roa": 0.0488
+  },
+  "income": {
+    "total_revenue": 1995842944.0,
+    "revenue_growth": 0.018,
+    "gross_profits": 1995842944.0,
+    "ebitda": null,
+    "net_income": 356304992.0,
+    "earnings_growth": -0.14
+  },
+  "balance_sheet": {
+    "total_cash": 761800000.0,
+    "cash_per_share": 1.482,
+    "total_debt": 499500000.0,
+    "debt_to_equity": 44.188,
+    "current_ratio": 1.148,
+    "quick_ratio": 1.148
+  },
+  "trading": {
+    "beta": 0.56,
+    "week52_high": 8.4,
+    "week52_low": 6.4,
+    "avg50d": 7.8554,
+    "avg200d": 7.56285,
+    "avg_volume": 337647.0,
+    "avg_volume_10d": 198670.0,
+    "shares_outstanding": 513956895.0,
+    "float_shares": 337844425.0,
+    "insider_ownership": 0.24976,
+    "institutional_ownership": 0.18494,
+    "short_ratio": null
+  },
+  "_pe_label": "10.85x"
+}

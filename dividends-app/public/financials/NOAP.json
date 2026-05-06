@@ -1,0 +1,62 @@
+{
+  "ticker": "NOAP",
+  "name": "NORDIC AQUA PART",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 1815881344.0,
+    "enterprise_value": 1928796160.0,
+    "trailing_pe": null,
+    "forward_pe": 40.46443,
+    "peg_ratio": null,
+    "price_to_sales": 140.91893,
+    "price_to_book": 1.856336,
+    "ev_to_revenue": 149.682,
+    "ev_to_ebitda": -292.774
+  },
+  "per_share": {
+    "current_price": 85.6,
+    "eps_trailing": -8.39,
+    "eps_forward": 2.115438,
+    "book_value": 46.112335,
+    "revenue_per_share": 0.607,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -1.26688,
+    "operating_margin": -0.9556,
+    "gross_margin": 1.19409,
+    "ebitda_margin": -0.51125,
+    "roe": -0.1727,
+    "roa": -0.0408
+  },
+  "income": {
+    "total_revenue": 12886000.0,
+    "revenue_growth": 0.293,
+    "gross_profits": 15387000.0,
+    "ebitda": -6588000.0,
+    "net_income": -16325000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 11505000.0,
+    "cash_per_share": 0.542,
+    "total_debt": 62560000.0,
+    "debt_to_equity": 60.015,
+    "current_ratio": 1.948,
+    "quick_ratio": 0.799
+  },
+  "trading": {
+    "beta": 0.018,
+    "week52_high": 99.6,
+    "week52_low": 73.0,
+    "avg50d": 79.46,
+    "avg200d": 83.116,
+    "avg_volume": 1893.0,
+    "avg_volume_10d": 2139.0,
+    "shares_outstanding": 21213567.0,
+    "float_shares": 4267958.0,
+    "insider_ownership": 0.82885,
+    "institutional_ownership": 0.0554,
+    "short_ratio": null
+  }
+}

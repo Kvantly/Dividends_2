@@ -1,0 +1,63 @@
+{
+  "ticker": "TEL",
+  "name": "TELENOR",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 209758322688.0,
+    "enterprise_value": 299287412736.0,
+    "trailing_pe": 12.473556,
+    "forward_pe": 16.18986,
+    "peg_ratio": 1.48,
+    "price_to_sales": 2.747254,
+    "price_to_book": 2.976121,
+    "ev_to_revenue": 3.92,
+    "ev_to_ebitda": 12.158
+  },
+  "per_share": {
+    "current_price": 153.3,
+    "eps_trailing": 12.29,
+    "eps_forward": 9.46889,
+    "book_value": 51.51,
+    "revenue_per_share": 55.841,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.17087,
+    "operating_margin": 0.73518,
+    "gross_margin": 0.65174,
+    "ebitda_margin": 0.32241,
+    "roe": null,
+    "roa": null
+  },
+  "income": {
+    "total_revenue": 76351995904.0,
+    "revenue_growth": -0.247,
+    "gross_profits": 49762000896.0,
+    "ebitda": 24616749056.0,
+    "net_income": 16803999744.0,
+    "earnings_growth": 2.741
+  },
+  "balance_sheet": {
+    "total_cash": 16785000448.0,
+    "cash_per_share": 12.267,
+    "total_debt": 101853003776.0,
+    "debt_to_equity": 134.675,
+    "current_ratio": null,
+    "quick_ratio": null
+  },
+  "trading": {
+    "beta": 0.247,
+    "week52_high": 178.7,
+    "week52_low": 141.5,
+    "avg50d": 166.908,
+    "avg200d": 160.076,
+    "avg_volume": 1472956.0,
+    "avg_volume_10d": 1808798.0,
+    "shares_outstanding": 1368286511.0,
+    "float_shares": 629192163.0,
+    "insider_ownership": 0.53977,
+    "institutional_ownership": 0.35514,
+    "short_ratio": null
+  },
+  "_pe_label": "12.47x"
+}

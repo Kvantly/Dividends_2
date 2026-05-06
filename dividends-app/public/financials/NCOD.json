@@ -1,0 +1,62 @@
+{
+  "ticker": "NCOD",
+  "name": "NORCOD",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 734929920.0,
+    "enterprise_value": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "peg_ratio": null,
+    "price_to_sales": 1.653862,
+    "price_to_book": 2.929633,
+    "ev_to_revenue": null,
+    "ev_to_ebitda": null
+  },
+  "per_share": {
+    "current_price": 10.45,
+    "eps_trailing": -3.23,
+    "eps_forward": null,
+    "book_value": 3.567,
+    "revenue_per_share": null,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": -0.51188,
+    "operating_margin": -0.37915,
+    "gross_margin": 0.15406,
+    "ebitda_margin": -0.35168,
+    "roe": -1.14674,
+    "roa": -0.19573
+  },
+  "income": {
+    "total_revenue": 444372000.0,
+    "revenue_growth": -0.008,
+    "gross_profits": 68461000.0,
+    "ebitda": -156276000.0,
+    "net_income": -227464000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 12307000.0,
+    "cash_per_share": null,
+    "total_debt": 296620992.0,
+    "debt_to_equity": 123.273,
+    "current_ratio": 1.231,
+    "quick_ratio": 0.378
+  },
+  "trading": {
+    "beta": 0.636,
+    "week52_high": 18.8,
+    "week52_low": 9.0,
+    "avg50d": 10.222,
+    "avg200d": 12.58275,
+    "avg_volume": 7017.0,
+    "avg_volume_10d": 6436.0,
+    "shares_outstanding": 70328227.0,
+    "float_shares": null,
+    "insider_ownership": 0.55666,
+    "institutional_ownership": 0.35842,
+    "short_ratio": null
+  }
+}

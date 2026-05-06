@@ -1,0 +1,63 @@
+{
+  "ticker": "KOG",
+  "name": "KONGSBERG GRUPPEN",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 290183086080.0,
+    "enterprise_value": 260743610368.0,
+    "trailing_pe": 69.7463,
+    "forward_pe": 34.41901,
+    "peg_ratio": 2.09,
+    "price_to_sales": 9.194065,
+    "price_to_book": 12.851578,
+    "ev_to_revenue": 8.261,
+    "ev_to_ebitda": 46.387
+  },
+  "per_share": {
+    "current_price": 329.9,
+    "eps_trailing": 4.73,
+    "eps_forward": 9.58482,
+    "book_value": 25.67,
+    "revenue_per_share": 35.884,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.25198,
+    "operating_margin": 0.17158,
+    "gross_margin": 0.59214,
+    "ebitda_margin": 0.17809,
+    "roe": 0.195,
+    "roa": 0.03864
+  },
+  "income": {
+    "total_revenue": 31562000384.0,
+    "revenue_growth": -0.31,
+    "gross_profits": 18688999424.0,
+    "ebitda": 5621000192.0,
+    "net_income": 4172999936.0,
+    "earnings_growth": 0.62
+  },
+  "balance_sheet": {
+    "total_cash": 20192000000.0,
+    "cash_per_share": 22.956,
+    "total_debt": 5430000128.0,
+    "debt_to_equity": 23.393,
+    "current_ratio": 1.187,
+    "quick_ratio": 0.679
+  },
+  "trading": {
+    "beta": 0.204,
+    "week52_high": 427.0,
+    "week52_low": 228.5,
+    "avg50d": 376.16043,
+    "avg200d": 315.27286,
+    "avg_volume": 1337672.0,
+    "avg_volume_10d": 1313077.0,
+    "shares_outstanding": 879609245.0,
+    "float_shares": 411165457.0,
+    "insider_ownership": 0.5394,
+    "institutional_ownership": 0.28186,
+    "short_ratio": null
+  },
+  "_pe_label": "69.75x"
+}

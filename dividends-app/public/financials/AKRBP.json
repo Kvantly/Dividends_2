@@ -1,0 +1,63 @@
+{
+  "ticker": "AKRBP",
+  "name": "AKER BP",
+  "last_updated": "2026-05-06",
+  "valuation": {
+    "market_cap": 217317949440.0,
+    "enterprise_value": 238689042432.0,
+    "trailing_pe": 177.31958,
+    "forward_pe": 13.516291,
+    "peg_ratio": null,
+    "price_to_sales": 19.840048,
+    "price_to_book": 2.065626,
+    "ev_to_revenue": 21.791,
+    "ev_to_ebitda": 25.908
+  },
+  "per_share": {
+    "current_price": 344.0,
+    "eps_trailing": 1.94,
+    "eps_forward": 25.45077,
+    "book_value": 166.53546,
+    "revenue_per_share": 17.35,
+    "currency": "NOK"
+  },
+  "profitability": {
+    "profit_margin": 0.01208,
+    "operating_margin": 0.52426,
+    "gross_margin": 0.89851,
+    "ebitda_margin": 0.84108,
+    "roe": 0.01106,
+    "roa": 0.0947
+  },
+  "income": {
+    "total_revenue": 10953499648.0,
+    "revenue_growth": -0.165,
+    "gross_profits": 9841800192.0,
+    "ebitda": 9212800000.0,
+    "net_income": 132300000.0,
+    "earnings_growth": null
+  },
+  "balance_sheet": {
+    "total_cash": 2644100096.0,
+    "cash_per_share": 4.185,
+    "total_debt": 9737900032.0,
+    "debt_to_equity": 86.743,
+    "current_ratio": 1.309,
+    "quick_ratio": 0.982
+  },
+  "trading": {
+    "beta": -0.094,
+    "week52_high": 373.8,
+    "week52_low": 217.8,
+    "avg50d": 332.128,
+    "avg200d": 275.453,
+    "avg_volume": 1969785.0,
+    "avg_volume_10d": 1186040.0,
+    "shares_outstanding": 631738272.0,
+    "float_shares": 263239021.0,
+    "insider_ownership": 0.51578,
+    "institutional_ownership": 0.3693,
+    "short_ratio": null
+  },
+  "_pe_label": "177.32x"
+}
