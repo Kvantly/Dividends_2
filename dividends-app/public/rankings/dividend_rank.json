@@ -1,0 +1,1711 @@
+{
+  "generated_at": "2026-05-07 14:29:10",
+  "count": 50,
+  "rankings": [
+    {
+      "ticker": "VEND",
+      "name": "VEND MARKETPLACES",
+      "avg_growth_5y": 828.81,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 20.0,
+      "latest_annual": 2.5,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 2.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 2.0,
+          "growth_pct": 0.0
+        },
+        {
+          "year": "2023",
+          "total": 2.0,
+          "growth_pct": 0.0
+        },
+        {
+          "year": "2024",
+          "total": 87.66,
+          "growth_pct": 4283.0
+        },
+        {
+          "year": "2025",
+          "total": 4.47,
+          "growth_pct": -94.9
+        },
+        {
+          "year": "2026",
+          "total": 2.5,
+          "growth_pct": -44.07
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "ticker": "POL",
+      "name": "POLARIS MEDIA",
+      "avg_growth_5y": 685.56,
+      "years_in_window": 4,
+      "streak": 1,
+      "consistency_pct": 33.3,
+      "latest_annual": 22.4,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 3.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 1.5,
+          "growth_pct": -50.0
+        },
+        {
+          "year": "2024",
+          "total": 1.0,
+          "growth_pct": -33.33
+        },
+        {
+          "year": "2025",
+          "total": 22.4,
+          "growth_pct": 2140.0
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "ticker": "GSF",
+      "name": "GRIEG SEAFOOD",
+      "avg_growth_5y": 641.77,
+      "years_in_window": 4,
+      "streak": 1,
+      "consistency_pct": 66.7,
+      "latest_annual": 35.6371,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 3.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 4.5,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2024",
+          "total": 1.75,
+          "growth_pct": -61.11
+        },
+        {
+          "year": "2026",
+          "total": 35.6371,
+          "growth_pct": 1936.41
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "ticker": "ELK",
+      "name": "ELKEM",
+      "avg_growth_5y": 635.0,
+      "years_in_window": 4,
+      "streak": 0,
+      "consistency_pct": 66.7,
+      "latest_annual": 0.3,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.15,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 3.0,
+          "growth_pct": 1900.0
+        },
+        {
+          "year": "2023",
+          "total": 6.0,
+          "growth_pct": 100.0
+        },
+        {
+          "year": "2025",
+          "total": 0.3,
+          "growth_pct": -95.0
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "ticker": "MGN",
+      "name": "MAGNORA",
+      "avg_growth_5y": 515.91,
+      "years_in_window": 3,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 0.561,
+      "yearly": [
+        {
+          "year": "2023",
+          "total": 0.374,
+          "growth_pct": null
+        },
+        {
+          "year": "2024",
+          "total": 4.561,
+          "growth_pct": 1119.52
+        },
+        {
+          "year": "2025",
+          "total": 0.561,
+          "growth_pct": -87.7
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "ticker": "FRO",
+      "name": "FRONTLINE",
+      "avg_growth_5y": 434.93,
+      "years_in_window": 5,
+      "streak": 1,
+      "consistency_pct": 50.0,
+      "latest_annual": 9.5658,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 1.3931,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 26.6541,
+          "growth_pct": 1813.33
+        },
+        {
+          "year": "2024",
+          "total": 18.1099,
+          "growth_pct": -32.06
+        },
+        {
+          "year": "2025",
+          "total": 8.6371,
+          "growth_pct": -52.31
+        },
+        {
+          "year": "2026",
+          "total": 9.5658,
+          "growth_pct": 10.75
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "ticker": "CMBTO",
+      "name": "CMB.TECH",
+      "avg_growth_5y": 304.39,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 2.0195,
+      "yearly": [
+        {
+          "year": "2025",
+          "total": 0.4994,
+          "growth_pct": null
+        },
+        {
+          "year": "2026",
+          "total": 2.0195,
+          "growth_pct": 304.39
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "ticker": "2020",
+      "name": "2020 BULKERS",
+      "avg_growth_5y": 212.46,
+      "years_in_window": 6,
+      "streak": 1,
+      "consistency_pct": 40.0,
+      "latest_annual": 132.6191,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 26.7467,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 15.045,
+          "growth_pct": -43.75
+        },
+        {
+          "year": "2023",
+          "total": 7.6154,
+          "growth_pct": -49.38
+        },
+        {
+          "year": "2024",
+          "total": 33.2476,
+          "growth_pct": 336.59
+        },
+        {
+          "year": "2025",
+          "total": 13.5591,
+          "growth_pct": -59.22
+        },
+        {
+          "year": "2026",
+          "total": 132.6191,
+          "growth_pct": 878.08
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "ticker": "NORAM",
+      "name": "NORAM DRILLING",
+      "avg_growth_5y": 198.99,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 25.0,
+      "latest_annual": 1.211,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 1.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 10.3472,
+          "growth_pct": 934.72
+        },
+        {
+          "year": "2024",
+          "total": 5.47,
+          "growth_pct": -47.14
+        },
+        {
+          "year": "2025",
+          "total": 4.434,
+          "growth_pct": -18.94
+        },
+        {
+          "year": "2026",
+          "total": 1.211,
+          "growth_pct": -72.69
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "ticker": "HAUTO",
+      "name": "H\u00d6EGH AUTOLINERS",
+      "avg_growth_5y": 189.2,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 4.9606,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 1.842,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 13.546,
+          "growth_pct": 635.4
+        },
+        {
+          "year": "2024",
+          "total": 47.6521,
+          "growth_pct": 251.78
+        },
+        {
+          "year": "2025",
+          "total": 22.8156,
+          "growth_pct": -52.12
+        },
+        {
+          "year": "2026",
+          "total": 4.9606,
+          "growth_pct": -78.26
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "ticker": "AKSO",
+      "name": "AKER SOLUTIONS",
+      "avg_growth_5y": 181.4,
+      "years_in_window": 5,
+      "streak": 4,
+      "consistency_pct": 100.0,
+      "latest_annual": 8.6,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 0.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 1.0,
+          "growth_pct": 400.0
+        },
+        {
+          "year": "2024",
+          "total": 2.0,
+          "growth_pct": 100.0
+        },
+        {
+          "year": "2025",
+          "total": 3.3,
+          "growth_pct": 65.0
+        },
+        {
+          "year": "2026",
+          "total": 8.6,
+          "growth_pct": 160.61
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "ticker": "B2I",
+      "name": "B2 Impact",
+      "avg_growth_5y": 173.25,
+      "years_in_window": 5,
+      "streak": 2,
+      "consistency_pct": 75.0,
+      "latest_annual": 1.5,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.15,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.42,
+          "growth_pct": 180.0
+        },
+        {
+          "year": "2023",
+          "total": 0.2,
+          "growth_pct": -52.38
+        },
+        {
+          "year": "2024",
+          "total": 1.3,
+          "growth_pct": 550.0
+        },
+        {
+          "year": "2025",
+          "total": 1.5,
+          "growth_pct": 15.38
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "ticker": "BEWI",
+      "name": "BEWI",
+      "avg_growth_5y": 161.9,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 1.1,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.42,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 1.1,
+          "growth_pct": 161.9
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "ticker": "WAWI",
+      "name": "WALLENIUS WILHELMS",
+      "avg_growth_5y": 144.86,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 75.0,
+      "latest_annual": 9.381,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 1.4409,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 8.5322,
+          "growth_pct": 492.12
+        },
+        {
+          "year": "2024",
+          "total": 18.6493,
+          "growth_pct": 118.57
+        },
+        {
+          "year": "2025",
+          "total": 24.2599,
+          "growth_pct": 30.09
+        },
+        {
+          "year": "2026",
+          "total": 9.381,
+          "growth_pct": -61.33
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "ticker": "NORBT",
+      "name": "NORBIT",
+      "avg_growth_5y": 133.23,
+      "years_in_window": 5,
+      "streak": 3,
+      "consistency_pct": 75.0,
+      "latest_annual": 6.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.3,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.3,
+          "growth_pct": 0.0
+        },
+        {
+          "year": "2023",
+          "total": 0.7,
+          "growth_pct": 133.33
+        },
+        {
+          "year": "2024",
+          "total": 2.55,
+          "growth_pct": 264.29
+        },
+        {
+          "year": "2025",
+          "total": 6.0,
+          "growth_pct": 135.29
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "ticker": "OET",
+      "name": "OKEANIS ECO TANKER",
+      "avg_growth_5y": 126.25,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 20.0,
+      "latest_annual": 14.3951,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 9.96,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 6.1,
+          "growth_pct": -38.76
+        },
+        {
+          "year": "2023",
+          "total": 53.4,
+          "growth_pct": 775.41
+        },
+        {
+          "year": "2024",
+          "total": 31.8809,
+          "growth_pct": -40.3
+        },
+        {
+          "year": "2025",
+          "total": 19.6888,
+          "growth_pct": -38.24
+        },
+        {
+          "year": "2026",
+          "total": 14.3951,
+          "growth_pct": -26.89
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "ticker": "SKAND",
+      "name": "SKANDIA GREENPOWER",
+      "avg_growth_5y": 125.0,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 0.045,
+      "yearly": [
+        {
+          "year": "2025",
+          "total": 0.02,
+          "growth_pct": null
+        },
+        {
+          "year": "2026",
+          "total": 0.045,
+          "growth_pct": 125.0
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "ticker": "VISTN",
+      "name": "VISTIN PHARMA",
+      "avg_growth_5y": 110.71,
+      "years_in_window": 3,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 1.25,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.5,
+          "growth_pct": null
+        },
+        {
+          "year": "2024",
+          "total": 1.75,
+          "growth_pct": 250.0
+        },
+        {
+          "year": "2025",
+          "total": 1.25,
+          "growth_pct": -28.57
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "ticker": "SUBC",
+      "name": "SUBSEA 7",
+      "avg_growth_5y": 104.17,
+      "years_in_window": 5,
+      "streak": 3,
+      "consistency_pct": 75.0,
+      "latest_annual": 13.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 2.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 1.0,
+          "growth_pct": -50.0
+        },
+        {
+          "year": "2023",
+          "total": 4.0,
+          "growth_pct": 300.0
+        },
+        {
+          "year": "2024",
+          "total": 6.0,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2025",
+          "total": 13.0,
+          "growth_pct": 116.67
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "ticker": "SAGA",
+      "name": "SAGA PURE",
+      "avg_growth_5y": 100.0,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 0.2,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.1,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.2,
+          "growth_pct": 100.0
+        }
+      ],
+      "rank": 20
+    },
+    {
+      "ticker": "PEXIP",
+      "name": "PEXIP HOLDING",
+      "avg_growth_5y": 93.64,
+      "years_in_window": 3,
+      "streak": 2,
+      "consistency_pct": 100.0,
+      "latest_annual": 4.0,
+      "yearly": [
+        {
+          "year": "2024",
+          "total": 1.1,
+          "growth_pct": null
+        },
+        {
+          "year": "2025",
+          "total": 2.5,
+          "growth_pct": 127.27
+        },
+        {
+          "year": "2026",
+          "total": 4.0,
+          "growth_pct": 60.0
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "ticker": "NHY",
+      "name": "NORSK HYDRO",
+      "avg_growth_5y": 91.18,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 25.0,
+      "latest_annual": 2.25,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 1.25,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 6.85,
+          "growth_pct": 448.0
+        },
+        {
+          "year": "2023",
+          "total": 5.65,
+          "growth_pct": -17.52
+        },
+        {
+          "year": "2024",
+          "total": 2.5,
+          "growth_pct": -55.75
+        },
+        {
+          "year": "2025",
+          "total": 2.25,
+          "growth_pct": -10.0
+        }
+      ],
+      "rank": 22
+    },
+    {
+      "ticker": "KCC",
+      "name": "KLAVENESS COMBINAT",
+      "avg_growth_5y": 88.34,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 60.0,
+      "latest_annual": 0.7429,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 1.276,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 8.033,
+          "growth_pct": 529.55
+        },
+        {
+          "year": "2023",
+          "total": 12.787,
+          "growth_pct": 59.18
+        },
+        {
+          "year": "2024",
+          "total": 13.444,
+          "growth_pct": 5.14
+        },
+        {
+          "year": "2025",
+          "total": 3.8048,
+          "growth_pct": -71.7
+        },
+        {
+          "year": "2026",
+          "total": 0.7429,
+          "growth_pct": -80.47
+        }
+      ],
+      "rank": 23
+    },
+    {
+      "ticker": "SB68",
+      "name": "SPARBNK 68 GR NORD",
+      "avg_growth_5y": 80.33,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 75.0,
+      "latest_annual": 13.5,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 2.5,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 9.5,
+          "growth_pct": 280.0
+        },
+        {
+          "year": "2024",
+          "total": 12.0,
+          "growth_pct": 26.32
+        },
+        {
+          "year": "2025",
+          "total": 15.0,
+          "growth_pct": 25.0
+        },
+        {
+          "year": "2026",
+          "total": 13.5,
+          "growth_pct": -10.0
+        }
+      ],
+      "rank": 24
+    },
+    {
+      "ticker": "ODL",
+      "name": "ODFJELL DRILLING",
+      "avg_growth_5y": 76.3,
+      "years_in_window": 4,
+      "streak": 0,
+      "consistency_pct": 66.7,
+      "latest_annual": 2.2292,
+      "yearly": [
+        {
+          "year": "2023",
+          "total": 1.1144,
+          "growth_pct": null
+        },
+        {
+          "year": "2024",
+          "total": 2.5732,
+          "growth_pct": 130.9
+        },
+        {
+          "year": "2025",
+          "total": 6.828,
+          "growth_pct": 165.35
+        },
+        {
+          "year": "2026",
+          "total": 2.2292,
+          "growth_pct": -67.35
+        }
+      ],
+      "rank": 25
+    },
+    {
+      "ticker": "STST",
+      "name": "STAINLESS TANKERS",
+      "avg_growth_5y": 66.45,
+      "years_in_window": 4,
+      "streak": 0,
+      "consistency_pct": 66.7,
+      "latest_annual": 1.3178,
+      "yearly": [
+        {
+          "year": "2023",
+          "total": 3.0446,
+          "growth_pct": null
+        },
+        {
+          "year": "2024",
+          "total": 10.3787,
+          "growth_pct": 240.88
+        },
+        {
+          "year": "2025",
+          "total": 15.5697,
+          "growth_pct": 50.02
+        },
+        {
+          "year": "2026",
+          "total": 1.3178,
+          "growth_pct": -91.54
+        }
+      ],
+      "rank": 26
+    },
+    {
+      "ticker": "WWIB",
+      "name": "WILH. WILHELMSEN B",
+      "avg_growth_5y": 63.33,
+      "years_in_window": 6,
+      "streak": 1,
+      "consistency_pct": 80.0,
+      "latest_annual": 20.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 3.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 4.0,
+          "growth_pct": 33.33
+        },
+        {
+          "year": "2023",
+          "total": 6.0,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2024",
+          "total": 18.0,
+          "growth_pct": 200.0
+        },
+        {
+          "year": "2025",
+          "total": 12.0,
+          "growth_pct": -33.33
+        },
+        {
+          "year": "2026",
+          "total": 20.0,
+          "growth_pct": 66.67
+        }
+      ],
+      "rank": 27
+    },
+    {
+      "ticker": "WWI",
+      "name": "WILH. WILHELMSEN A",
+      "avg_growth_5y": 63.33,
+      "years_in_window": 6,
+      "streak": 1,
+      "consistency_pct": 80.0,
+      "latest_annual": 20.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 3.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 4.0,
+          "growth_pct": 33.33
+        },
+        {
+          "year": "2023",
+          "total": 6.0,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2024",
+          "total": 18.0,
+          "growth_pct": 200.0
+        },
+        {
+          "year": "2025",
+          "total": 12.0,
+          "growth_pct": -33.33
+        },
+        {
+          "year": "2026",
+          "total": 20.0,
+          "growth_pct": 66.67
+        }
+      ],
+      "rank": 28
+    },
+    {
+      "ticker": "ODFB",
+      "name": "ODFJELL SER. B",
+      "avg_growth_5y": 61.86,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 4.74,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 3.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 12.75,
+          "growth_pct": 298.44
+        },
+        {
+          "year": "2024",
+          "total": 17.18,
+          "growth_pct": 34.75
+        },
+        {
+          "year": "2025",
+          "total": 13.67,
+          "growth_pct": -20.43
+        },
+        {
+          "year": "2026",
+          "total": 4.74,
+          "growth_pct": -65.33
+        }
+      ],
+      "rank": 29
+    },
+    {
+      "ticker": "ODF",
+      "name": "ODFJELL SER. A",
+      "avg_growth_5y": 61.86,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 4.74,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 3.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 12.75,
+          "growth_pct": 298.44
+        },
+        {
+          "year": "2024",
+          "total": 17.18,
+          "growth_pct": 34.75
+        },
+        {
+          "year": "2025",
+          "total": 13.67,
+          "growth_pct": -20.43
+        },
+        {
+          "year": "2026",
+          "total": 4.74,
+          "growth_pct": -65.33
+        }
+      ],
+      "rank": 30
+    },
+    {
+      "ticker": "SCATC",
+      "name": "SCATEC",
+      "avg_growth_5y": 54.7,
+      "years_in_window": 3,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 1.94,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 1.09,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 2.54,
+          "growth_pct": 133.03
+        },
+        {
+          "year": "2023",
+          "total": 1.94,
+          "growth_pct": -23.62
+        }
+      ],
+      "rank": 31
+    },
+    {
+      "ticker": "DNO",
+      "name": "DNO",
+      "avg_growth_5y": 50.97,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 80.0,
+      "latest_annual": 0.375,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.7,
+          "growth_pct": 250.0
+        },
+        {
+          "year": "2023",
+          "total": 1.0,
+          "growth_pct": 42.86
+        },
+        {
+          "year": "2024",
+          "total": 1.125,
+          "growth_pct": 12.5
+        },
+        {
+          "year": "2025",
+          "total": 1.375,
+          "growth_pct": 22.22
+        },
+        {
+          "year": "2026",
+          "total": 0.375,
+          "growth_pct": -72.73
+        }
+      ],
+      "rank": 32
+    },
+    {
+      "ticker": "PUBLI",
+      "name": "PUBLIC PROPERTY IN",
+      "avg_growth_5y": 50.0,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 0.3,
+      "yearly": [
+        {
+          "year": "2025",
+          "total": 0.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2026",
+          "total": 0.3,
+          "growth_pct": 50.0
+        }
+      ],
+      "rank": 33
+    },
+    {
+      "ticker": "KRAB",
+      "name": "KRAFT BANK",
+      "avg_growth_5y": 49.58,
+      "years_in_window": 4,
+      "streak": 3,
+      "consistency_pct": 100.0,
+      "latest_annual": 0.76,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 0.25,
+          "growth_pct": null
+        },
+        {
+          "year": "2024",
+          "total": 0.3,
+          "growth_pct": 20.0
+        },
+        {
+          "year": "2025",
+          "total": 0.37,
+          "growth_pct": 23.33
+        },
+        {
+          "year": "2026",
+          "total": 0.76,
+          "growth_pct": 105.41
+        }
+      ],
+      "rank": 34
+    },
+    {
+      "ticker": "JIN",
+      "name": "JINHUI SHIPP TRANS",
+      "avg_growth_5y": 49.44,
+      "years_in_window": 4,
+      "streak": 0,
+      "consistency_pct": 33.3,
+      "latest_annual": 0.2786,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.2786,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.9287,
+          "growth_pct": 233.33
+        },
+        {
+          "year": "2023",
+          "total": 0.3715,
+          "growth_pct": -60.0
+        },
+        {
+          "year": "2025",
+          "total": 0.2786,
+          "growth_pct": -25.0
+        }
+      ],
+      "rank": 35
+    },
+    {
+      "ticker": "SKUE",
+      "name": "SKUE SPAREBANK",
+      "avg_growth_5y": 49.41,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 75.0,
+      "latest_annual": 22.27,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 6.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 11.0,
+          "growth_pct": 83.33
+        },
+        {
+          "year": "2024",
+          "total": 17.0,
+          "growth_pct": 54.55
+        },
+        {
+          "year": "2025",
+          "total": 32.52,
+          "growth_pct": 91.29
+        },
+        {
+          "year": "2026",
+          "total": 22.27,
+          "growth_pct": -31.52
+        }
+      ],
+      "rank": 36
+    },
+    {
+      "ticker": "HELG",
+      "name": "SPBK1 HELGELAND",
+      "avg_growth_5y": 48.96,
+      "years_in_window": 5,
+      "streak": 0,
+      "consistency_pct": 50.0,
+      "latest_annual": 7.67,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 3.19,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 10.26,
+          "growth_pct": 221.63
+        },
+        {
+          "year": "2024",
+          "total": 10.77,
+          "growth_pct": 4.97
+        },
+        {
+          "year": "2025",
+          "total": 8.43,
+          "growth_pct": -21.73
+        },
+        {
+          "year": "2026",
+          "total": 7.67,
+          "growth_pct": -9.02
+        }
+      ],
+      "rank": 37
+    },
+    {
+      "ticker": "ZAL",
+      "name": "ZALARIS",
+      "avg_growth_5y": 46.07,
+      "years_in_window": 3,
+      "streak": 1,
+      "consistency_pct": 50.0,
+      "latest_annual": 0.9,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 1.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.35,
+          "growth_pct": -65.0
+        },
+        {
+          "year": "2025",
+          "total": 0.9,
+          "growth_pct": 157.14
+        }
+      ],
+      "rank": 38
+    },
+    {
+      "ticker": "HUNT",
+      "name": "HUNTER GROUP",
+      "avg_growth_5y": 45.35,
+      "years_in_window": 5,
+      "streak": 1,
+      "consistency_pct": 50.0,
+      "latest_annual": 0.98,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 26.5247,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 26.5247,
+          "growth_pct": -0.0
+        },
+        {
+          "year": "2023",
+          "total": 40.8481,
+          "growth_pct": 54.0
+        },
+        {
+          "year": "2025",
+          "total": 0.3,
+          "growth_pct": -99.27
+        },
+        {
+          "year": "2026",
+          "total": 0.98,
+          "growth_pct": 226.67
+        }
+      ],
+      "rank": 39
+    },
+    {
+      "ticker": "EQNR",
+      "name": "EQUINOR",
+      "avg_growth_5y": 43.4,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 40.0,
+      "latest_annual": 3.5249,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 4.9223,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 16.5054,
+          "growth_pct": 235.32
+        },
+        {
+          "year": "2023",
+          "total": 34.9267,
+          "growth_pct": 111.61
+        },
+        {
+          "year": "2024",
+          "total": 32.1646,
+          "growth_pct": -7.91
+        },
+        {
+          "year": "2025",
+          "total": 19.1553,
+          "growth_pct": -40.45
+        },
+        {
+          "year": "2026",
+          "total": 3.5249,
+          "growth_pct": -81.6
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "ticker": "NORCO",
+      "name": "NORCONSULT",
+      "avg_growth_5y": 41.67,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 1.7,
+      "yearly": [
+        {
+          "year": "2024",
+          "total": 1.2,
+          "growth_pct": null
+        },
+        {
+          "year": "2025",
+          "total": 1.7,
+          "growth_pct": 41.67
+        }
+      ],
+      "rank": 41
+    },
+    {
+      "ticker": "FFSB",
+      "name": "FLEKKEFJORD SPAREB",
+      "avg_growth_5y": 39.13,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 6.4,
+      "yearly": [
+        {
+          "year": "2025",
+          "total": 4.6,
+          "growth_pct": null
+        },
+        {
+          "year": "2026",
+          "total": 6.4,
+          "growth_pct": 39.13
+        }
+      ],
+      "rank": 42
+    },
+    {
+      "ticker": "OKEA",
+      "name": "OKEA",
+      "avg_growth_5y": 37.93,
+      "years_in_window": 2,
+      "streak": 1,
+      "consistency_pct": 100.0,
+      "latest_annual": 4.0,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 2.9,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 4.0,
+          "growth_pct": 37.93
+        }
+      ],
+      "rank": 43
+    },
+    {
+      "ticker": "ELO",
+      "name": "ELOPAK",
+      "avg_growth_5y": 37.37,
+      "years_in_window": 4,
+      "streak": 3,
+      "consistency_pct": 100.0,
+      "latest_annual": 1.8642,
+      "yearly": [
+        {
+          "year": "2022",
+          "total": 0.75,
+          "growth_pct": null
+        },
+        {
+          "year": "2023",
+          "total": 0.86,
+          "growth_pct": 14.67
+        },
+        {
+          "year": "2024",
+          "total": 1.46,
+          "growth_pct": 69.77
+        },
+        {
+          "year": "2025",
+          "total": 1.8642,
+          "growth_pct": 27.68
+        }
+      ],
+      "rank": 44
+    },
+    {
+      "ticker": "SOAG",
+      "name": "SPBK1 \u00d8STFOLD AKE",
+      "avg_growth_5y": 36.7,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 80.0,
+      "latest_annual": 24.5,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 7.0,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 16.2,
+          "growth_pct": 131.43
+        },
+        {
+          "year": "2023",
+          "total": 17.8,
+          "growth_pct": 9.88
+        },
+        {
+          "year": "2024",
+          "total": 21.5,
+          "growth_pct": 20.79
+        },
+        {
+          "year": "2025",
+          "total": 30.1,
+          "growth_pct": 40.0
+        },
+        {
+          "year": "2026",
+          "total": 24.5,
+          "growth_pct": -18.6
+        }
+      ],
+      "rank": 45
+    },
+    {
+      "ticker": "AKER",
+      "name": "AKER",
+      "avg_growth_5y": 35.03,
+      "years_in_window": 6,
+      "streak": 0,
+      "consistency_pct": 60.0,
+      "latest_annual": 29.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 23.5,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 29.0,
+          "growth_pct": 23.4
+        },
+        {
+          "year": "2023",
+          "total": 30.0,
+          "growth_pct": 3.45
+        },
+        {
+          "year": "2024",
+          "total": 15.5,
+          "growth_pct": -48.33
+        },
+        {
+          "year": "2025",
+          "total": 53.0,
+          "growth_pct": 241.94
+        },
+        {
+          "year": "2026",
+          "total": 29.0,
+          "growth_pct": -45.28
+        }
+      ],
+      "rank": 46
+    },
+    {
+      "ticker": "KOG",
+      "name": "KONGSBERG GRUPPEN",
+      "avg_growth_5y": 34.61,
+      "years_in_window": 6,
+      "streak": 3,
+      "consistency_pct": 80.0,
+      "latest_annual": 5.7,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 1.6,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 3.06,
+          "growth_pct": 91.25
+        },
+        {
+          "year": "2023",
+          "total": 2.4,
+          "growth_pct": -21.57
+        },
+        {
+          "year": "2024",
+          "total": 2.8,
+          "growth_pct": 16.67
+        },
+        {
+          "year": "2025",
+          "total": 4.4,
+          "growth_pct": 57.14
+        },
+        {
+          "year": "2026",
+          "total": 5.7,
+          "growth_pct": 29.55
+        }
+      ],
+      "rank": 47
+    },
+    {
+      "ticker": "RING",
+      "name": "SPBK1 RINGERIKE",
+      "avg_growth_5y": 34.46,
+      "years_in_window": 6,
+      "streak": 3,
+      "consistency_pct": 80.0,
+      "latest_annual": 44.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 11.4,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 16.2,
+          "growth_pct": 42.11
+        },
+        {
+          "year": "2023",
+          "total": 13.1,
+          "growth_pct": -19.14
+        },
+        {
+          "year": "2024",
+          "total": 20.0,
+          "growth_pct": 52.67
+        },
+        {
+          "year": "2025",
+          "total": 30.0,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2026",
+          "total": 44.0,
+          "growth_pct": 46.67
+        }
+      ],
+      "rank": 48
+    },
+    {
+      "ticker": "REACH",
+      "name": "REACH SUBSEA",
+      "avg_growth_5y": 34.28,
+      "years_in_window": 5,
+      "streak": 4,
+      "consistency_pct": 100.0,
+      "latest_annual": 0.42,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 0.1493,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 0.1792,
+          "growth_pct": 20.0
+        },
+        {
+          "year": "2023",
+          "total": 0.18,
+          "growth_pct": 0.45
+        },
+        {
+          "year": "2024",
+          "total": 0.36,
+          "growth_pct": 100.0
+        },
+        {
+          "year": "2025",
+          "total": 0.42,
+          "growth_pct": 16.67
+        }
+      ],
+      "rank": 49
+    },
+    {
+      "ticker": "SOGN",
+      "name": "SOGN SPAREBANK",
+      "avg_growth_5y": 31.95,
+      "years_in_window": 6,
+      "streak": 4,
+      "consistency_pct": 80.0,
+      "latest_annual": 22.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 6.5,
+          "growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 5.5,
+          "growth_pct": -15.38
+        },
+        {
+          "year": "2023",
+          "total": 10.0,
+          "growth_pct": 81.82
+        },
+        {
+          "year": "2024",
+          "total": 15.0,
+          "growth_pct": 50.0
+        },
+        {
+          "year": "2025",
+          "total": 20.0,
+          "growth_pct": 33.33
+        },
+        {
+          "year": "2026",
+          "total": 22.0,
+          "growth_pct": 10.0
+        }
+      ],
+      "rank": 50
+    }
+  ]
+}
