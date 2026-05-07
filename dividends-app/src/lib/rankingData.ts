@@ -3,6 +3,7 @@ export interface DividendRankEntry {
   ticker: string;
   name: string;
   avg_growth_5y: number;
+  composite_score: number;
   years_in_window: number;
   streak: number;
   consistency_pct: number;

@@ -1,5 +1,6 @@
 import json
 import os
+import statistics as _stat
 from datetime import datetime, date
 
 DIVIDENDS_DIR = 'dividends-app/public/dividends'
@@ -32,10 +33,22 @@ def yearly_totals(dividends):
 
 
 # ─── Dividend Rank ────────────────────────────────────────────────────────────
+#
+# Ranking philosophy: reward stable, compounding dividend growth.
+# A company qualifies only if its most recent year is its peak dividend
+# (the company is currently at an all-time high in its window), and the
+# majority of years show positive growth.
+#
+# Composite score weights:
+#   35% consistency  — % of periods with positive YoY growth
+#   30% stability    — inverse of growth-rate coefficient of variation
+#                      (rewards smooth, predictable growth over erratic spikes)
+#   25% recency      — avg growth of the last 2 periods (still actively growing)
+#   10% streak       — current unbroken run of positive-growth years
 
 def calc_dividend_rank(all_divs):
     today = date.today()
-    # 6-year window gives us up to 5 growth periods
+    # 6-year window gives up to 5 YoY growth periods
     window = [str(today.year - i) for i in range(5, -1, -1)]
 
     rows = []
@@ -47,7 +60,14 @@ def calc_dividend_rank(all_divs):
         yt = yearly_totals(divs)
         window_data = [(y, yt[y]) for y in window if y in yt]
 
-        if len(window_data) < 2:
+        # Need at least 3 data points → 2 growth periods to assess consistency
+        if len(window_data) < 3:
+            continue
+
+        # Hard filter: most recent year must be the highest dividend on record
+        # in this window — the company must be at its peak, not declining.
+        totals = [t for _, t in window_data]
+        if window_data[-1][1] < max(totals):
             continue
 
         growth_rates = []
@@ -72,28 +92,59 @@ def calc_dividend_rank(all_divs):
         if avg_growth <= 0:
             continue
 
-        positive  = sum(1 for g in growth_rates if g > 0)
-        consistency = positive / len(growth_rates) * 100
+        positive    = sum(1 for g in growth_rates if g > 0)
+        consistency = positive / len(growth_rates)  # 0.0–1.0
 
+        # Hard filter: majority of years must show positive growth
+        if consistency < 0.5:
+            continue
+
+        # Stability: inverse coefficient of variation.
+        # A company growing 5% every single year scores higher than one that
+        # grew 50% one year and shrank 40% another, even if avg is the same.
+        if len(growth_rates) >= 2:
+            stdev = _stat.stdev(growth_rates)
+            cv = stdev / avg_growth if avg_growth > 0 else float('inf')
+            stability = 1.0 / (1.0 + cv)
+        else:
+            stability = 0.5  # neutral with only 1 data point
+
+        # Recency: average of the last 2 growth periods, normalised to 0–1.
+        # 30% recent growth = full recency score; anything beyond is capped.
+        recent_rates = growth_rates[-2:]
+        recency_raw  = sum(recent_rates) / len(recent_rates)
+        recency      = min(max(recency_raw, 0) / 30.0, 1.0)
+
+        # Streak: current consecutive years of positive growth
         streak = 0
         for g in reversed(growth_rates):
             if g > 0:
                 streak += 1
             else:
                 break
+        streak_score = streak / len(growth_rates)
+
+        # Composite score (0–100)
+        composite = (
+            0.35 * consistency +
+            0.30 * stability   +
+            0.25 * recency     +
+            0.10 * streak_score
+        ) * 100
 
         rows.append({
-            'ticker':       ticker,
-            'name':         data.get('name', ticker),
-            'avg_growth_5y':  round(avg_growth, 2),
-            'years_in_window': len(window_data),
-            'streak':       streak,
-            'consistency_pct': round(consistency, 1),
-            'latest_annual':   round(window_data[-1][1], 4),
-            'yearly':       yearly_list,
+            'ticker':            ticker,
+            'name':              data.get('name', ticker),
+            'avg_growth_5y':     round(avg_growth, 2),
+            'composite_score':   round(composite, 1),
+            'years_in_window':   len(window_data),
+            'streak':            streak,
+            'consistency_pct':   round(consistency * 100, 1),
+            'latest_annual':     round(window_data[-1][1], 4),
+            'yearly':            yearly_list,
         })
 
-    rows.sort(key=lambda x: x['avg_growth_5y'], reverse=True)
+    rows.sort(key=lambda x: x['composite_score'], reverse=True)
     for i, r in enumerate(rows[:50], 1):
         r['rank'] = i
     return rows[:50]

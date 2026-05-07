@@ -127,7 +127,7 @@ export function DividendRankView({ onSelectStock }: Props) {
         <div>
           <div className="rank-title">Dividend Growth Ranking</div>
           <div className="rank-subtitle">
-            Top Oslo stocks by average annual dividend growth — best for building a stable dividend portfolio
+            Ranked by stable, compounding dividend growth — must be at all-time high dividend with majority of years showing increases
           </div>
         </div>
         <div className="rank-meta-pills">
@@ -146,10 +146,26 @@ export function DividendRankView({ onSelectStock }: Props) {
         </div>
       </div>
 
+      {/* ── Scoring methodology ── */}
+      <div className="rank-section">
+        <div className="rank-section-title">
+          How companies are scored
+          <span className="div-legend" style={{ fontWeight: 400, fontSize: 11 }}>
+            Only companies at their all-time dividend high qualify
+          </span>
+        </div>
+        <div className="co-legend-grid">
+          <div className="co-legend-item"><span className="co-legend-dot" /><span>35% Consistency — % of years with positive growth</span></div>
+          <div className="co-legend-item"><span className="co-legend-dot" /><span>30% Stability — smooth, predictable growth (low variance)</span></div>
+          <div className="co-legend-item"><span className="co-legend-dot" /><span>25% Recency — avg growth in the last 2 years</span></div>
+          <div className="co-legend-item"><span className="co-legend-dot" /><span>10% Streak — current unbroken run of increases</span></div>
+        </div>
+      </div>
+
       {/* ── Chart ── */}
       <div className="rank-section">
         <div className="rank-section-title">
-          Top 15 by 5Y Avg Dividend Growth
+          Top 15 by Composite Score
           <span className="div-legend">
             <span className="div-legend-dot" style={{ background: 'var(--green)' }} /> ≥80% consistent
             <span className="div-legend-dot" style={{ background: 'var(--accent)' }} /> ≥60%
@@ -169,6 +185,7 @@ export function DividendRankView({ onSelectStock }: Props) {
                 <th className="rank-th">#</th>
                 <th className="rank-th left">Ticker</th>
                 <th className="rank-th left">Company</th>
+                <th className="rank-th num">Score</th>
                 <th className="rank-th num">Avg 5Y Growth</th>
                 <th className="rank-th num">Consistency</th>
                 <th className="rank-th num">Streak</th>
@@ -193,7 +210,12 @@ export function DividendRankView({ onSelectStock }: Props) {
                     <td className="rank-td muted">{row.rank}</td>
                     <td className="rank-td bold accent">{row.ticker}</td>
                     <td className="rank-td name-cell">{row.name}</td>
-                    <td className="rank-td num bold up">{fmtGrowth(row.avg_growth_5y)}</td>
+                    <td className="rank-td num bold">
+                      <span style={{ color: (row.composite_score ?? 0) >= 65 ? 'var(--green)' : (row.composite_score ?? 0) >= 45 ? 'var(--accent)' : '#f59e0b' }}>
+                        {(row.composite_score ?? 0).toFixed(0)}
+                      </span>
+                    </td>
+                    <td className="rank-td num up">{fmtGrowth(row.avg_growth_5y)}</td>
                     <td className="rank-td num">
                       <span className={row.consistency_pct >= 80 ? 'up' : row.consistency_pct >= 60 ? '' : 'down'}>
                         {row.consistency_pct.toFixed(0)}%
@@ -213,7 +235,7 @@ export function DividendRankView({ onSelectStock }: Props) {
       </div>
 
       <div className="div-footer" style={{ padding: '12px 24px 0' }}>
-        Rankings generated: {data.generated_at} · Based on yfinance dividend history · Click any row to view stock detail
+        Rankings generated: {data.generated_at} · Ranked by composite stability score · Click any row to view stock detail
       </div>
     </div>
   );
