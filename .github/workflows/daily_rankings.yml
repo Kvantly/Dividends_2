@@ -1,0 +1,59 @@
+name: Daily Rankings Update
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # Every day at 23:00 UTC
+  workflow_dispatch:
+
+jobs:
+  calculate-rankings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Check data availability
+      run: |
+        DIV_COUNT=$(ls dividends-app/public/dividends/*.json 2>/dev/null | wc -l)
+        FIN_COUNT=$(ls dividends-app/public/financials/*.json 2>/dev/null | wc -l)
+        echo "Dividend files : $DIV_COUNT"
+        echo "Financial files: $FIN_COUNT"
+        if [ "$DIV_COUNT" -lt 1 ] && [ "$FIN_COUNT" -lt 1 ]; then
+          echo "❌ No data files found — run the weekly fetchers first"
+          exit 1
+        fi
+
+    - name: Calculate rankings
+      run: python calculate_rankings.py
+
+    - name: Verify output
+      run: |
+        for f in dividend_rank company_rank; do
+          path="dividends-app/public/rankings/${f}.json"
+          if [ ! -f "$path" ]; then
+            echo "❌ Missing: $path"
+            exit 1
+          fi
+          COUNT=$(python3 -c "import json; print(json.load(open('$path'))['count'])")
+          echo "✅ $f: $COUNT companies"
+        done
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Daily rankings update - $(date +'%Y-%m-%d')"
+          git push
+          echo "✅ Pushed"
+        fi
