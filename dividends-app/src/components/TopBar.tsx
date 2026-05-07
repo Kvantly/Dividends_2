@@ -10,7 +10,7 @@ export function TopBar({ theme, onToggleTheme }: Props) {
     <header className="topbar">
       <div className="brand">
         <span className="brand-dot" />
-        Oslo Børs Dashboard
+        Kvantin
       </div>
       <div className="topbar-right">
         <span>Data updates weekly</span>
