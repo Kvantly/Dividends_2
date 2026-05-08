@@ -8,7 +8,7 @@ export interface DividendRankEntry {
   streak: number;
   consistency_pct: number;
   latest_annual: number;
-  yearly: { year: string; total: number; growth_pct: number | null }[];
+  yearly: { year: string; total: number; growth_pct: number | null; yield_pct: number | null }[];
 }
 
 export interface DividendRankData {

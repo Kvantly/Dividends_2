@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type JSX } from 'react';
 import { getDividendRank, fmtGrowth, type DividendRankEntry } from '../lib/rankingData';
 
 interface Props {
@@ -74,12 +74,19 @@ function GrowthCell({ value }: { value: number | null }) {
   return <td className={`rank-td num ${cls}`}>{fmtGrowth(value)}</td>;
 }
 
+function YieldCell({ value }: { value: number | null }) {
+  if (value === null) return <td className="rank-td num muted">—</td>;
+  const cls = value >= 5 ? 'up strong' : value >= 2 ? 'up' : '';
+  return <td className={`rank-td num ${cls}`}>{value.toFixed(1)}%</td>;
+}
+
 // ─── Main view ────────────────────────────────────────────────────────────────
 
 export function DividendRankView({ onSelectStock }: Props) {
   const [data, setData]       = useState<ReturnType<typeof getDividendRank> extends Promise<infer T> ? T : never>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError]     = useState<string | null>(null);
+  const [yearMode, setYearMode] = useState<'growth' | 'yield'>('growth');
 
   useEffect(() => {
     getDividendRank()
@@ -177,7 +184,23 @@ export function DividendRankView({ onSelectStock }: Props) {
 
       {/* ── Table ── */}
       <div className="rank-section">
-        <div className="rank-section-title">Full Rankings Table</div>
+        <div className="rank-section-title" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          Full Rankings Table
+          <div className="div-mode-toggle">
+            <button
+              className={`div-mode-btn${yearMode === 'growth' ? ' active' : ''}`}
+              onClick={() => setYearMode('growth')}
+            >
+              Growth %
+            </button>
+            <button
+              className={`div-mode-btn${yearMode === 'yield' ? ' active' : ''}`}
+              onClick={() => setYearMode('yield')}
+            >
+              Yield %
+            </button>
+          </div>
+        </div>
         <div className="rank-table-wrap">
           <table className="rank-table">
             <thead>
@@ -197,8 +220,18 @@ export function DividendRankView({ onSelectStock }: Props) {
             </thead>
             <tbody>
               {data.rankings.map((row) => {
-                const byYear: Record<string, number | null> = {};
-                row.yearly.forEach((y) => { byYear[y.year] = y.growth_pct; });
+                const growthByYear: Record<string, number | null> = {};
+                const yieldByYear:  Record<string, number | null> = {};
+                row.yearly.forEach((y) => {
+                  growthByYear[y.year] = y.growth_pct;
+                  yieldByYear[y.year]  = y.yield_pct;
+                });
+
+                const yearCells: JSX.Element[] = allYears.map((y) =>
+                  yearMode === 'growth'
+                    ? <GrowthCell key={y} value={growthByYear[y] ?? null} />
+                    : <YieldCell  key={y} value={yieldByYear[y]  ?? null} />
+                );
 
                 return (
                   <tr
@@ -223,9 +256,7 @@ export function DividendRankView({ onSelectStock }: Props) {
                     </td>
                     <td className="rank-td num">{row.streak}y</td>
                     <td className="rank-td num muted">{row.years_in_window}</td>
-                    {allYears.map((y) => (
-                      <GrowthCell key={y} value={byYear[y] ?? null} />
-                    ))}
+                    {yearCells}
                   </tr>
                 );
               })}

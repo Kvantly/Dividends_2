@@ -24,30 +24,41 @@ def is_first_run():
 
 
 def fetch_dividends_for_ticker(ticker, name):
-    """Fetch all available dividend history from yfinance."""
+    """Fetch all available dividend history and year-end closing prices from yfinance."""
     yahoo_ticker = f"{ticker}.OL"
     try:
         stock = yf.Ticker(yahoo_ticker)
         divs = stock.dividends
 
-        if divs is None or divs.empty:
-            return None
-
         records = []
-        for ts, amount in divs.items():
-            if amount > 0:
-                records.append({
-                    'date': ts.strftime('%Y-%m-%d'),
-                    'amount': round(float(amount), 6),
-                })
+        if divs is not None and not divs.empty:
+            for ts, amount in divs.items():
+                if amount > 0:
+                    records.append({
+                        'date': ts.strftime('%Y-%m-%d'),
+                        'amount': round(float(amount), 6),
+                    })
 
-        if not records:
+        # Year-end prices: last available trading-day close per calendar year
+        year_end_prices = {}
+        try:
+            hist = stock.history(period='10y', interval='1d')
+            if hist is not None and not hist.empty:
+                for ts, row in hist.iterrows():
+                    year = str(ts.year)
+                    year_end_prices[year] = round(float(row['Close']), 4)
+                    # Iterating in order → each year ends up with its last trading day
+        except Exception as pe:
+            print(f"  ⚠️  {ticker} price history: {pe}")
+
+        if not records and not year_end_prices:
             return None
 
         return {
             'ticker': ticker,
             'name': name,
             'dividends': sorted(records, key=lambda x: x['date']),
+            'year_end_prices': year_end_prices,
         }
 
     except Exception as e:
@@ -79,6 +90,13 @@ def merge_dividends(existing_records, new_records):
         [{'date': d, 'amount': a} for d, a in by_date.items()],
         key=lambda x: x['date'],
     )
+
+
+def merge_year_end_prices(existing_prices, new_prices):
+    """Overlay new year-end prices on top of existing — always keep freshest value per year."""
+    merged = dict(existing_prices)
+    merged.update(new_prices)
+    return merged
 
 
 def main():
@@ -114,33 +132,41 @@ def main():
 
         if first_run:
             if fetched is not None:
-                # Filter to last 10 years
+                # Filter dividends to last 10 years; keep all year_end_prices
                 fetched['dividends'] = [
                     r for r in fetched['dividends'] if r['date'] >= cutoff_str
                 ]
                 fetched['last_updated'] = datetime.now().strftime('%Y-%m-%d')
-                if fetched['dividends']:
+                if fetched['dividends'] or fetched.get('year_end_prices'):
                     save_ticker_file(fetched, ticker)
-                    with_dividends += 1
+                    if fetched['dividends']:
+                        with_dividends += 1
             successful += 1
         else:
             existing = load_existing(ticker)
 
             if existing is None:
-                # No file yet — save everything we got (full history for this ticker)
-                if fetched is not None and fetched['dividends']:
+                # No file yet — save everything we got
+                if fetched is not None:
                     fetched['last_updated'] = datetime.now().strftime('%Y-%m-%d')
-                    save_ticker_file(fetched, ticker)
-                    with_dividends += 1
+                    if fetched['dividends'] or fetched.get('year_end_prices'):
+                        save_ticker_file(fetched, ticker)
+                        if fetched['dividends']:
+                            with_dividends += 1
             else:
-                # Merge: only use new records that fall within the 6-month window
+                # Merge dividends (6-month window) + always refresh year_end_prices
                 new_records = []
+                new_prices = {}
                 if fetched is not None:
                     new_records = [
                         r for r in fetched['dividends'] if r['date'] >= cutoff_str
                     ]
+                    new_prices = fetched.get('year_end_prices', {})
                 existing['dividends'] = merge_dividends(
                     existing.get('dividends', []), new_records
+                )
+                existing['year_end_prices'] = merge_year_end_prices(
+                    existing.get('year_end_prices', {}), new_prices
                 )
                 existing['last_updated'] = datetime.now().strftime('%Y-%m-%d')
                 save_ticker_file(existing, ticker)
