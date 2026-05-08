@@ -4,6 +4,8 @@ export interface DividendRankEntry {
   name: string;
   avg_growth_5y: number;
   composite_score: number;
+  yield_composite_score: number;
+  latest_yield: number | null;
   years_in_window: number;
   streak: number;
   consistency_pct: number;
