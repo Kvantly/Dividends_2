@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08 00:00:59",
+  "generated_at": "2026-05-08 08:05:12",
   "count": 44,
   "rankings": [
     {
@@ -15,32 +15,38 @@
         {
           "year": "2021",
           "total": 4.79,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 6.0,
-          "growth_pct": 25.26
+          "growth_pct": 25.26,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.8,
-          "growth_pct": 13.33
+          "growth_pct": 13.33,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 7.8,
-          "growth_pct": 14.71
+          "growth_pct": 14.71,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 10.3,
-          "growth_pct": 32.05
+          "growth_pct": 32.05,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 12.7,
-          "growth_pct": 23.3
+          "growth_pct": 23.3,
+          "yield_pct": null
         }
       ],
       "rank": 1
@@ -58,17 +64,20 @@
         {
           "year": "2024",
           "total": 1.1,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 2.5,
-          "growth_pct": 127.27
+          "growth_pct": 127.27,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 4.0,
-          "growth_pct": 60.0
+          "growth_pct": 60.0,
+          "yield_pct": null
         }
       ],
       "rank": 2
@@ -86,22 +95,26 @@
         {
           "year": "2022",
           "total": 5.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 7.0,
-          "growth_pct": 40.0
+          "growth_pct": 40.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 8.5,
-          "growth_pct": 21.43
+          "growth_pct": 21.43,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 11.0,
-          "growth_pct": 29.41
+          "growth_pct": 29.41,
+          "yield_pct": null
         }
       ],
       "rank": 3
@@ -119,22 +132,26 @@
         {
           "year": "2022",
           "total": 0.75,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.86,
-          "growth_pct": 14.67
+          "growth_pct": 14.67,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 1.46,
-          "growth_pct": 69.77
+          "growth_pct": 69.77,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 1.8642,
-          "growth_pct": 27.68
+          "growth_pct": 27.68,
+          "yield_pct": null
         }
       ],
       "rank": 4
@@ -152,27 +169,32 @@
         {
           "year": "2022",
           "total": 0.2,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 1.0,
-          "growth_pct": 400.0
+          "growth_pct": 400.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 2.0,
-          "growth_pct": 100.0
+          "growth_pct": 100.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 3.3,
-          "growth_pct": 65.0
+          "growth_pct": 65.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 8.6,
-          "growth_pct": 160.61
+          "growth_pct": 160.61,
+          "yield_pct": null
         }
       ],
       "rank": 5
@@ -190,22 +212,26 @@
         {
           "year": "2022",
           "total": 0.25,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 0.3,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 0.37,
-          "growth_pct": 23.33
+          "growth_pct": 23.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 0.76,
-          "growth_pct": 105.41
+          "growth_pct": 105.41,
+          "yield_pct": null
         }
       ],
       "rank": 6
@@ -223,17 +249,20 @@
         {
           "year": "2021",
           "total": 0.7,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 0.8,
-          "growth_pct": 14.29
+          "growth_pct": 14.29,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.9,
-          "growth_pct": 12.5
+          "growth_pct": 12.5,
+          "yield_pct": null
         }
       ],
       "rank": 7
@@ -251,27 +280,32 @@
         {
           "year": "2021",
           "total": 0.1493,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 0.1792,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.18,
-          "growth_pct": 0.45
+          "growth_pct": 0.45,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 0.36,
-          "growth_pct": 100.0
+          "growth_pct": 100.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 0.42,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         }
       ],
       "rank": 8
@@ -289,32 +323,38 @@
         {
           "year": "2021",
           "total": 3.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 3.5,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 3.86,
-          "growth_pct": 10.29
+          "growth_pct": 10.29,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 3.9,
-          "growth_pct": 1.04
+          "growth_pct": 1.04,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 4.15,
-          "growth_pct": 6.41
+          "growth_pct": 6.41,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 8.0,
-          "growth_pct": 92.77
+          "growth_pct": 92.77,
+          "yield_pct": null
         }
       ],
       "rank": 9
@@ -332,27 +372,32 @@
         {
           "year": "2021",
           "total": 0.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 0.6,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.7,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 0.8,
-          "growth_pct": 14.29
+          "growth_pct": 14.29,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 0.9,
-          "growth_pct": 12.5
+          "growth_pct": 12.5,
+          "yield_pct": null
         }
       ],
       "rank": 10
@@ -370,27 +415,32 @@
         {
           "year": "2021",
           "total": 4.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 4.3,
-          "growth_pct": 7.5
+          "growth_pct": 7.5,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 5.0,
-          "growth_pct": 16.28
+          "growth_pct": 16.28,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 6.0,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 6.75,
-          "growth_pct": 12.5
+          "growth_pct": 12.5,
+          "yield_pct": null
         }
       ],
       "rank": 11
@@ -408,32 +458,38 @@
         {
           "year": "2021",
           "total": 3.25,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 3.5,
-          "growth_pct": 7.69
+          "growth_pct": 7.69,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 3.7,
-          "growth_pct": 5.71
+          "growth_pct": 5.71,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 4.1,
-          "growth_pct": 10.81
+          "growth_pct": 10.81,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 4.7,
-          "growth_pct": 14.63
+          "growth_pct": 14.63,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 5.4,
-          "growth_pct": 14.89
+          "growth_pct": 14.89,
+          "yield_pct": null
         }
       ],
       "rank": 12
@@ -451,17 +507,20 @@
         {
           "year": "2024",
           "total": 4.92,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 5.349,
-          "growth_pct": 8.72
+          "growth_pct": 8.72,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 5.738,
-          "growth_pct": 7.27
+          "growth_pct": 7.27,
+          "yield_pct": null
         }
       ],
       "rank": 13
@@ -479,27 +538,32 @@
         {
           "year": "2021",
           "total": 0.3,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 0.3,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.7,
-          "growth_pct": 133.33
+          "growth_pct": 133.33,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 2.55,
-          "growth_pct": 264.29
+          "growth_pct": 264.29,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 6.0,
-          "growth_pct": 135.29
+          "growth_pct": 135.29,
+          "yield_pct": null
         }
       ],
       "rank": 14
@@ -517,32 +581,38 @@
         {
           "year": "2021",
           "total": 11.4,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 16.2,
-          "growth_pct": 42.11
+          "growth_pct": 42.11,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 13.1,
-          "growth_pct": -19.14
+          "growth_pct": -19.14,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 20.0,
-          "growth_pct": 52.67
+          "growth_pct": 52.67,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 30.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 44.0,
-          "growth_pct": 46.67
+          "growth_pct": 46.67,
+          "yield_pct": null
         }
       ],
       "rank": 15
@@ -560,32 +630,38 @@
         {
           "year": "2021",
           "total": 1.6,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 3.06,
-          "growth_pct": 91.25
+          "growth_pct": 91.25,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 2.4,
-          "growth_pct": -21.57
+          "growth_pct": -21.57,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 2.8,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 4.4,
-          "growth_pct": 57.14
+          "growth_pct": 57.14,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 5.7,
-          "growth_pct": 29.55
+          "growth_pct": 29.55,
+          "yield_pct": null
         }
       ],
       "rank": 16
@@ -603,27 +679,32 @@
         {
           "year": "2021",
           "total": 2.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 1.0,
-          "growth_pct": -50.0
+          "growth_pct": -50.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 4.0,
-          "growth_pct": 300.0
+          "growth_pct": 300.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 6.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 13.0,
-          "growth_pct": 116.67
+          "growth_pct": 116.67,
+          "yield_pct": null
         }
       ],
       "rank": 17
@@ -641,27 +722,32 @@
         {
           "year": "2021",
           "total": 5.75,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 7.0,
-          "growth_pct": 21.74
+          "growth_pct": 21.74,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 7.75,
-          "growth_pct": 10.71
+          "growth_pct": 10.71,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 7.9,
-          "growth_pct": 1.94
+          "growth_pct": 1.94,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 9.0,
-          "growth_pct": 13.92
+          "growth_pct": 13.92,
+          "yield_pct": null
         }
       ],
       "rank": 18
@@ -679,27 +765,32 @@
         {
           "year": "2021",
           "total": 0.15,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 0.42,
-          "growth_pct": 180.0
+          "growth_pct": 180.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 0.2,
-          "growth_pct": -52.38
+          "growth_pct": -52.38,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 1.3,
-          "growth_pct": 550.0
+          "growth_pct": 550.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 1.5,
-          "growth_pct": 15.38
+          "growth_pct": 15.38,
+          "yield_pct": null
         }
       ],
       "rank": 19
@@ -717,32 +808,38 @@
         {
           "year": "2021",
           "total": 6.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 5.5,
-          "growth_pct": -15.38
+          "growth_pct": -15.38,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 10.0,
-          "growth_pct": 81.82
+          "growth_pct": 81.82,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 15.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 20.0,
-          "growth_pct": 33.33
+          "growth_pct": 33.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 22.0,
-          "growth_pct": 10.0
+          "growth_pct": 10.0,
+          "yield_pct": null
         }
       ],
       "rank": 20
@@ -760,32 +857,38 @@
         {
           "year": "2021",
           "total": 8.6,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 6.0,
-          "growth_pct": -30.23
+          "growth_pct": -30.23,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 7.0,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 7.5,
-          "growth_pct": 7.14
+          "growth_pct": 7.14,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 8.5,
-          "growth_pct": 13.33
+          "growth_pct": 13.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 12.0,
-          "growth_pct": 41.18
+          "growth_pct": 41.18,
+          "yield_pct": null
         }
       ],
       "rank": 21
@@ -803,32 +906,38 @@
         {
           "year": "2021",
           "total": 13.8,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 7.7,
-          "growth_pct": -44.2
+          "growth_pct": -44.2,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 8.25,
-          "growth_pct": 7.14
+          "growth_pct": 7.14,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 8.75,
-          "growth_pct": 6.06
+          "growth_pct": 6.06,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 10.0,
-          "growth_pct": 14.29
+          "growth_pct": 14.29,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 14.5,
-          "growth_pct": 45.0
+          "growth_pct": 45.0,
+          "yield_pct": null
         }
       ],
       "rank": 22
@@ -846,27 +955,32 @@
         {
           "year": "2021",
           "total": 9.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 9.3,
-          "growth_pct": 3.33
+          "growth_pct": 3.33,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 9.4,
-          "growth_pct": 1.08
+          "growth_pct": 1.08,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 9.5,
-          "growth_pct": 1.06
+          "growth_pct": 1.06,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 9.6,
-          "growth_pct": 1.05
+          "growth_pct": 1.05,
+          "yield_pct": null
         }
       ],
       "rank": 23
@@ -884,32 +998,38 @@
         {
           "year": "2021",
           "total": 5.2297,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 7.8446,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 9.0,
-          "growth_pct": 14.73
+          "growth_pct": 14.73,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 10.0,
-          "growth_pct": 11.11
+          "growth_pct": 11.11,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 10.5,
-          "growth_pct": 5.0
+          "growth_pct": 5.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 11.0,
-          "growth_pct": 4.76
+          "growth_pct": 4.76,
+          "yield_pct": null
         }
       ],
       "rank": 24
@@ -927,22 +1047,26 @@
         {
           "year": "2022",
           "total": 3.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 4.5,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 1.75,
-          "growth_pct": -61.11
+          "growth_pct": -61.11,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 35.6371,
-          "growth_pct": 1936.41
+          "growth_pct": 1936.41,
+          "yield_pct": null
         }
       ],
       "rank": 25
@@ -960,27 +1084,32 @@
         {
           "year": "2021",
           "total": 10.3,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 10.05,
-          "growth_pct": -2.43
+          "growth_pct": -2.43,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 14.1,
-          "growth_pct": 40.3
+          "growth_pct": 40.3,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 16.5,
-          "growth_pct": 17.02
+          "growth_pct": 17.02,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 18.75,
-          "growth_pct": 13.64
+          "growth_pct": 13.64,
+          "yield_pct": null
         }
       ],
       "rank": 26
@@ -998,27 +1127,32 @@
         {
           "year": "2021",
           "total": 1.4958,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 1.4958,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 1.5955,
-          "growth_pct": 6.67
+          "growth_pct": 6.67,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 1.75,
-          "growth_pct": 9.68
+          "growth_pct": 9.68,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 2.0,
-          "growth_pct": 14.29
+          "growth_pct": 14.29,
+          "yield_pct": null
         }
       ],
       "rank": 27
@@ -1036,27 +1170,32 @@
         {
           "year": "2021",
           "total": 3.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 3.75,
-          "growth_pct": 25.0
+          "growth_pct": 25.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 4.5,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 4.5,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 6.0,
-          "growth_pct": 33.33
+          "growth_pct": 33.33,
+          "yield_pct": null
         }
       ],
       "rank": 28
@@ -1074,32 +1213,38 @@
         {
           "year": "2021",
           "total": 3.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 4.0,
-          "growth_pct": 33.33
+          "growth_pct": 33.33,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 18.0,
-          "growth_pct": 200.0
+          "growth_pct": 200.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 12.0,
-          "growth_pct": -33.33
+          "growth_pct": -33.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 20.0,
-          "growth_pct": 66.67
+          "growth_pct": 66.67,
+          "yield_pct": null
         }
       ],
       "rank": 29
@@ -1117,32 +1262,38 @@
         {
           "year": "2021",
           "total": 3.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 4.0,
-          "growth_pct": 33.33
+          "growth_pct": 33.33,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 18.0,
-          "growth_pct": 200.0
+          "growth_pct": 200.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 12.0,
-          "growth_pct": -33.33
+          "growth_pct": -33.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 20.0,
-          "growth_pct": 66.67
+          "growth_pct": 66.67,
+          "yield_pct": null
         }
       ],
       "rank": 30
@@ -1160,32 +1311,38 @@
         {
           "year": "2021",
           "total": 8.01,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 11.5,
-          "growth_pct": 43.57
+          "growth_pct": 43.57,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 10.0,
-          "growth_pct": -13.04
+          "growth_pct": -13.04,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 9.0,
-          "growth_pct": -10.0
+          "growth_pct": -10.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 12.0,
-          "growth_pct": 33.33
+          "growth_pct": 33.33,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 14.0,
-          "growth_pct": 16.67
+          "growth_pct": 16.67,
+          "yield_pct": null
         }
       ],
       "rank": 31
@@ -1203,27 +1360,32 @@
         {
           "year": "2021",
           "total": 4.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 3.85,
-          "growth_pct": -14.44
+          "growth_pct": -14.44,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 5.4,
-          "growth_pct": 40.26
+          "growth_pct": 40.26,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 6.4,
-          "growth_pct": 18.52
+          "growth_pct": 18.52,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 6.9,
-          "growth_pct": 7.81
+          "growth_pct": 7.81,
+          "yield_pct": null
         }
       ],
       "rank": 32
@@ -1241,32 +1403,38 @@
         {
           "year": "2021",
           "total": 7.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 11.0,
-          "growth_pct": 46.67
+          "growth_pct": 46.67,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 12.5,
-          "growth_pct": 13.64
+          "growth_pct": 13.64,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 16.0,
-          "growth_pct": 28.0
+          "growth_pct": 28.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 20.0,
-          "growth_pct": 25.0
+          "growth_pct": 25.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 20.0,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         }
       ],
       "rank": 33
@@ -1284,27 +1452,32 @@
         {
           "year": "2021",
           "total": 1.6,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 1.7,
-          "growth_pct": 6.25
+          "growth_pct": 6.25,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 1.7,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 1.0,
-          "growth_pct": -41.18
+          "growth_pct": -41.18,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 2.3,
-          "growth_pct": 130.0
+          "growth_pct": 130.0,
+          "yield_pct": null
         }
       ],
       "rank": 34
@@ -1322,27 +1495,32 @@
         {
           "year": "2021",
           "total": 3.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 4.5,
-          "growth_pct": 28.57
+          "growth_pct": 28.57,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 5.5,
-          "growth_pct": 22.22
+          "growth_pct": 22.22,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 4.5,
-          "growth_pct": -18.18
+          "growth_pct": -18.18,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 6.5,
-          "growth_pct": 44.44
+          "growth_pct": 44.44,
+          "yield_pct": null
         }
       ],
       "rank": 35
@@ -1360,27 +1538,32 @@
         {
           "year": "2021",
           "total": 2.7,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 2.31,
-          "growth_pct": -14.44
+          "growth_pct": -14.44,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 3.05,
-          "growth_pct": 32.03
+          "growth_pct": 32.03,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 3.6,
-          "growth_pct": 18.03
+          "growth_pct": 18.03,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 3.7,
-          "growth_pct": 2.78
+          "growth_pct": 2.78,
+          "yield_pct": null
         }
       ],
       "rank": 36
@@ -1398,32 +1581,38 @@
         {
           "year": "2021",
           "total": 4.4,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 7.5,
-          "growth_pct": 70.45
+          "growth_pct": 70.45,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.5,
-          "growth_pct": -13.33
+          "growth_pct": -13.33,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 12.0,
-          "growth_pct": 84.62
+          "growth_pct": 84.62,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 12.5,
-          "growth_pct": 4.17
+          "growth_pct": 4.17,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 13.5,
-          "growth_pct": 8.0
+          "growth_pct": 8.0,
+          "yield_pct": null
         }
       ],
       "rank": 37
@@ -1441,32 +1630,38 @@
         {
           "year": "2021",
           "total": 7.7099,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 8.8664,
-          "growth_pct": 15.0
+          "growth_pct": 15.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 10.0,
-          "growth_pct": 12.79
+          "growth_pct": 12.79,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 15.0,
-          "growth_pct": 50.0
+          "growth_pct": 50.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 15.0,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 17.0,
-          "growth_pct": 13.33
+          "growth_pct": 13.33,
+          "yield_pct": null
         }
       ],
       "rank": 38
@@ -1484,27 +1679,32 @@
         {
           "year": "2021",
           "total": 5.0,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 5.5,
-          "growth_pct": 10.0
+          "growth_pct": 10.0,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.25,
-          "growth_pct": 13.64
+          "growth_pct": 13.64,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 7.0,
-          "growth_pct": 12.0
+          "growth_pct": 12.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 7.0,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         }
       ],
       "rank": 39
@@ -1522,27 +1722,32 @@
         {
           "year": "2022",
           "total": 10.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 11.0,
-          "growth_pct": 4.76
+          "growth_pct": 4.76,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 12.5,
-          "growth_pct": 13.64
+          "growth_pct": 13.64,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 13.5,
-          "growth_pct": 8.0
+          "growth_pct": 8.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 13.5,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         }
       ],
       "rank": 40
@@ -1560,32 +1765,38 @@
         {
           "year": "2021",
           "total": 17.4,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 9.75,
-          "growth_pct": -43.97
+          "growth_pct": -43.97,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 12.5,
-          "growth_pct": 28.21
+          "growth_pct": 28.21,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 16.0,
-          "growth_pct": 28.0
+          "growth_pct": 28.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 16.75,
-          "growth_pct": 4.69
+          "growth_pct": 4.69,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 18.0,
-          "growth_pct": 7.46
+          "growth_pct": 7.46,
+          "yield_pct": null
         }
       ],
       "rank": 41
@@ -1603,17 +1814,20 @@
         {
           "year": "2023",
           "total": 0.5,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 0.5,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 0.6,
-          "growth_pct": 20.0
+          "growth_pct": 20.0,
+          "yield_pct": null
         }
       ],
       "rank": 42
@@ -1631,27 +1845,32 @@
         {
           "year": "2022",
           "total": 6.5425,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.5,
-          "growth_pct": -0.65
+          "growth_pct": -0.65,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 9.0,
-          "growth_pct": 38.46
+          "growth_pct": 38.46,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 9.0,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 10.0,
-          "growth_pct": 11.11
+          "growth_pct": 11.11,
+          "yield_pct": null
         }
       ],
       "rank": 43
@@ -1669,32 +1888,38 @@
         {
           "year": "2021",
           "total": 6.7607,
-          "growth_pct": null
+          "growth_pct": null,
+          "yield_pct": null
         },
         {
           "year": "2022",
           "total": 8.4,
-          "growth_pct": 24.25
+          "growth_pct": 24.25,
+          "yield_pct": null
         },
         {
           "year": "2023",
           "total": 6.7,
-          "growth_pct": -20.24
+          "growth_pct": -20.24,
+          "yield_pct": null
         },
         {
           "year": "2024",
           "total": 9.5,
-          "growth_pct": 41.79
+          "growth_pct": 41.79,
+          "yield_pct": null
         },
         {
           "year": "2025",
           "total": 10.5,
-          "growth_pct": 10.53
+          "growth_pct": 10.53,
+          "yield_pct": null
         },
         {
           "year": "2026",
           "total": 10.5,
-          "growth_pct": 0.0
+          "growth_pct": 0.0,
+          "yield_pct": null
         }
       ],
       "rank": 44
