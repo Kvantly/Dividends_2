@@ -73,21 +73,30 @@ def calc_dividend_rank(all_divs):
         year_prices = data.get('year_end_prices', {})
         growth_rates = []
         yearly_list  = []
+        prev_yield   = None
 
         for i, (year, total) in enumerate(window_data):
             price = year_prices.get(year)
             yield_pct = round(total / price * 100, 2) if price and price > 0 else None
 
+            # Yield growth = YoY change in the yield % itself
+            if yield_pct is not None and prev_yield is not None and prev_yield > 0:
+                yield_growth_pct = round((yield_pct - prev_yield) / prev_yield * 100, 2)
+            else:
+                yield_growth_pct = None
+
             if i == 0:
-                yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': None, 'yield_pct': yield_pct})
+                yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': None, 'yield_pct': yield_pct, 'yield_growth_pct': None})
             else:
                 prev = window_data[i - 1][1]
                 if prev and prev > 0:
                     g = (total - prev) / prev * 100
                     growth_rates.append(g)
-                    yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': round(g, 2), 'yield_pct': yield_pct})
+                    yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': round(g, 2), 'yield_pct': yield_pct, 'yield_growth_pct': yield_growth_pct})
                 else:
-                    yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': None, 'yield_pct': yield_pct})
+                    yearly_list.append({'year': year, 'total': round(total, 4), 'growth_pct': None, 'yield_pct': yield_pct, 'yield_growth_pct': yield_growth_pct})
+
+            prev_yield = yield_pct
 
         if not growth_rates:
             continue

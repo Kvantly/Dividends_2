@@ -80,13 +80,19 @@ function YieldCell({ value }: { value: number | null }) {
   return <td className={`rank-td num ${cls}`}>{value.toFixed(1)}%</td>;
 }
 
+function YieldGrowthCell({ value }: { value: number | null }) {
+  if (value === null) return <td className="rank-td num muted">—</td>;
+  const cls = value > 0 ? 'up' : value < 0 ? 'down' : '';
+  return <td className={`rank-td num ${cls}`}>{value > 0 ? '+' : ''}{value.toFixed(1)}%</td>;
+}
+
 // ─── Main view ────────────────────────────────────────────────────────────────
 
 export function DividendRankView({ onSelectStock }: Props) {
   const [data, setData]       = useState<ReturnType<typeof getDividendRank> extends Promise<infer T> ? T : never>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError]     = useState<string | null>(null);
-  const [yearMode, setYearMode] = useState<'growth' | 'yield'>('growth');
+  const [yearMode, setYearMode] = useState<'growth' | 'yield' | 'yield_growth'>('growth');
 
   useEffect(() => {
     getDividendRank()
@@ -191,13 +197,19 @@ export function DividendRankView({ onSelectStock }: Props) {
               className={`div-mode-btn${yearMode === 'growth' ? ' active' : ''}`}
               onClick={() => setYearMode('growth')}
             >
-              Growth %
+              Div Growth %
             </button>
             <button
               className={`div-mode-btn${yearMode === 'yield' ? ' active' : ''}`}
               onClick={() => setYearMode('yield')}
             >
               Yield %
+            </button>
+            <button
+              className={`div-mode-btn${yearMode === 'yield_growth' ? ' active' : ''}`}
+              onClick={() => setYearMode('yield_growth')}
+            >
+              Yield Growth %
             </button>
           </div>
         </div>
@@ -220,18 +232,20 @@ export function DividendRankView({ onSelectStock }: Props) {
             </thead>
             <tbody>
               {data.rankings.map((row) => {
-                const growthByYear: Record<string, number | null> = {};
-                const yieldByYear:  Record<string, number | null> = {};
+                const growthByYear:      Record<string, number | null> = {};
+                const yieldByYear:       Record<string, number | null> = {};
+                const yieldGrowthByYear: Record<string, number | null> = {};
                 row.yearly.forEach((y) => {
-                  growthByYear[y.year] = y.growth_pct;
-                  yieldByYear[y.year]  = y.yield_pct;
+                  growthByYear[y.year]      = y.growth_pct;
+                  yieldByYear[y.year]       = y.yield_pct;
+                  yieldGrowthByYear[y.year] = y.yield_growth_pct;
                 });
 
-                const yearCells: JSX.Element[] = allYears.map((y) =>
-                  yearMode === 'growth'
-                    ? <GrowthCell key={y} value={growthByYear[y] ?? null} />
-                    : <YieldCell  key={y} value={yieldByYear[y]  ?? null} />
-                );
+                const yearCells: JSX.Element[] = allYears.map((y) => {
+                  if (yearMode === 'growth')       return <GrowthCell      key={y} value={growthByYear[y]      ?? null} />;
+                  if (yearMode === 'yield')        return <YieldCell       key={y} value={yieldByYear[y]       ?? null} />;
+                  return                                  <YieldGrowthCell key={y} value={yieldGrowthByYear[y] ?? null} />;
+                });
 
                 return (
                   <tr
