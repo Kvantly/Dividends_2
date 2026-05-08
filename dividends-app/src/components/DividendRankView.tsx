@@ -88,11 +88,14 @@ function YieldGrowthCell({ value }: { value: number | null }) {
 
 // ─── Main view ────────────────────────────────────────────────────────────────
 
+type RankMode = 'composite' | 'yield' | 'yield_growth';
+
 export function DividendRankView({ onSelectStock }: Props) {
-  const [data, setData]       = useState<ReturnType<typeof getDividendRank> extends Promise<infer T> ? T : never>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError]     = useState<string | null>(null);
+  const [data, setData]         = useState<ReturnType<typeof getDividendRank> extends Promise<infer T> ? T : never>(null);
+  const [loading, setLoading]   = useState(true);
+  const [error, setError]       = useState<string | null>(null);
   const [yearMode, setYearMode] = useState<'growth' | 'yield' | 'yield_growth'>('growth');
+  const [rankMode, setRankMode] = useState<RankMode>('composite');
 
   useEffect(() => {
     getDividendRank()
@@ -107,6 +110,19 @@ export function DividendRankView({ onSelectStock }: Props) {
     const s = new Set<string>();
     data.rankings.forEach((r) => r.yearly.forEach((y) => s.add(y.year)));
     return Array.from(s).sort();
+  })();
+
+  // Re-sort a copy of the rankings according to the selected rank mode
+  const sortedRankings = (() => {
+    if (!data) return [];
+    const copy = [...data.rankings];
+    if (rankMode === 'yield') {
+      copy.sort((a, b) => (b.latest_yield ?? -1) - (a.latest_yield ?? -1));
+    } else if (rankMode === 'yield_growth') {
+      copy.sort((a, b) => (b.yield_composite_score ?? 0) - (a.yield_composite_score ?? 0));
+    }
+    // 'composite' keeps the original server-side order
+    return copy.map((r, i) => ({ ...r, rank: i + 1 }));
   })();
 
   if (loading) return (
@@ -128,7 +144,7 @@ export function DividendRankView({ onSelectStock }: Props) {
     </div>
   );
 
-  const top10 = data.rankings.slice(0, 10);
+  const top10 = sortedRankings.slice(0, 10);
   const avgGrowth = top10.length
     ? (top10.reduce((s, r) => s + r.avg_growth_5y, 0) / top10.length).toFixed(1)
     : '—';
@@ -185,14 +201,38 @@ export function DividendRankView({ onSelectStock }: Props) {
             <span className="div-legend-dot" style={{ background: '#f59e0b' }} /> &lt;60%
           </span>
         </div>
-        <GrowthBarChart data={data.rankings} />
+        <GrowthBarChart data={sortedRankings} />
       </div>
 
       {/* ── Table ── */}
       <div className="rank-section">
-        <div className="rank-section-title" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          Full Rankings Table
-          <div className="div-mode-toggle">
+        <div className="rank-section-title" style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ fontSize: 11, color: 'var(--text-tertiary)', fontWeight: 400 }}>Rank by</span>
+            <div className="div-mode-toggle">
+              <button
+                className={`div-mode-btn${rankMode === 'composite' ? ' active' : ''}`}
+                onClick={() => setRankMode('composite')}
+              >
+                Div Growth
+              </button>
+              <button
+                className={`div-mode-btn${rankMode === 'yield' ? ' active' : ''}`}
+                onClick={() => setRankMode('yield')}
+              >
+                Highest Yield
+              </button>
+              <button
+                className={`div-mode-btn${rankMode === 'yield_growth' ? ' active' : ''}`}
+                onClick={() => setRankMode('yield_growth')}
+              >
+                Yield Growth
+              </button>
+            </div>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ fontSize: 11, color: 'var(--text-tertiary)', fontWeight: 400 }}>Show years as</span>
+            <div className="div-mode-toggle">
             <button
               className={`div-mode-btn${yearMode === 'growth' ? ' active' : ''}`}
               onClick={() => setYearMode('growth')}
@@ -212,6 +252,7 @@ export function DividendRankView({ onSelectStock }: Props) {
               Yield Growth %
             </button>
           </div>
+          </div>
         </div>
         <div className="rank-table-wrap">
           <table className="rank-table">
@@ -220,7 +261,9 @@ export function DividendRankView({ onSelectStock }: Props) {
                 <th className="rank-th">#</th>
                 <th className="rank-th left">Ticker</th>
                 <th className="rank-th left">Company</th>
-                <th className="rank-th num">Score</th>
+                <th className="rank-th num">
+                  {rankMode === 'composite' ? 'Div Score' : rankMode === 'yield' ? 'Yield %' : 'Yield Score'}
+                </th>
                 <th className="rank-th num">Avg 5Y Growth</th>
                 <th className="rank-th num">Consistency</th>
                 <th className="rank-th num">Streak</th>
@@ -231,7 +274,7 @@ export function DividendRankView({ onSelectStock }: Props) {
               </tr>
             </thead>
             <tbody>
-              {data.rankings.map((row) => {
+              {sortedRankings.map((row) => {
                 const growthByYear:      Record<string, number | null> = {};
                 const yieldByYear:       Record<string, number | null> = {};
                 const yieldGrowthByYear: Record<string, number | null> = {};
@@ -258,9 +301,15 @@ export function DividendRankView({ onSelectStock }: Props) {
                     <td className="rank-td bold accent">{row.ticker}</td>
                     <td className="rank-td name-cell">{row.name}</td>
                     <td className="rank-td num bold">
-                      <span style={{ color: (row.composite_score ?? 0) >= 65 ? 'var(--green)' : (row.composite_score ?? 0) >= 45 ? 'var(--accent)' : '#f59e0b' }}>
-                        {(row.composite_score ?? 0).toFixed(0)}
-                      </span>
+                      {rankMode === 'yield' ? (
+                        <span className={row.latest_yield !== null && row.latest_yield >= 5 ? 'up strong' : row.latest_yield !== null && row.latest_yield >= 2 ? 'up' : ''}>
+                          {row.latest_yield !== null ? `${row.latest_yield.toFixed(1)}%` : '—'}
+                        </span>
+                      ) : (() => {
+                        const sc = rankMode === 'yield_growth' ? (row.yield_composite_score ?? 0) : (row.composite_score ?? 0);
+                        const color = sc >= 65 ? 'var(--green)' : sc >= 45 ? 'var(--accent)' : '#f59e0b';
+                        return <span style={{ color }}>{sc.toFixed(0)}</span>;
+                      })()}
                     </td>
                     <td className="rank-td num up">{fmtGrowth(row.avg_growth_5y)}</td>
                     <td className="rank-td num">
@@ -280,7 +329,7 @@ export function DividendRankView({ onSelectStock }: Props) {
       </div>
 
       <div className="div-footer" style={{ padding: '12px 24px 0' }}>
-        Rankings generated: {data.generated_at} · Ranked by composite stability score · Click any row to view stock detail
+        Rankings generated: {data.generated_at} · Click any row to view stock detail
       </div>
     </div>
   );

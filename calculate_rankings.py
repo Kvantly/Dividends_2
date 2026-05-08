@@ -71,17 +71,23 @@ def calc_dividend_rank(all_divs):
             continue
 
         year_prices = data.get('year_end_prices', {})
-        growth_rates = []
-        yearly_list  = []
-        prev_yield   = None
+        growth_rates      = []
+        yield_rates       = []   # raw yield % per year, in window order
+        yield_growth_rates = []  # YoY change in yield %
+        yearly_list       = []
+        prev_yield        = None
 
         for i, (year, total) in enumerate(window_data):
             price = year_prices.get(year)
             yield_pct = round(total / price * 100, 2) if price and price > 0 else None
+            if yield_pct is not None:
+                yield_rates.append(yield_pct)
 
             # Yield growth = YoY change in the yield % itself
             if yield_pct is not None and prev_yield is not None and prev_yield > 0:
-                yield_growth_pct = round((yield_pct - prev_yield) / prev_yield * 100, 2)
+                yg = round((yield_pct - prev_yield) / prev_yield * 100, 2)
+                yield_growth_pct = yg
+                yield_growth_rates.append(yg)
             else:
                 yield_growth_pct = None
 
@@ -137,7 +143,7 @@ def calc_dividend_rank(all_divs):
                 break
         streak_score = streak / len(growth_rates)
 
-        # Composite score (0–100)
+        # Composite score (0–100) — based on dividend growth
         composite = (
             0.35 * consistency +
             0.30 * stability   +
@@ -145,16 +151,51 @@ def calc_dividend_rank(all_divs):
             0.10 * streak_score
         ) * 100
 
+        # ── Yield composite score (same formula, applied to yield growth rates) ──
+        latest_yield = yield_rates[-1] if yield_rates else None
+
+        if len(yield_growth_rates) >= 1:
+            avg_yg = sum(yield_growth_rates) / len(yield_growth_rates)
+            yg_pos  = sum(1 for g in yield_growth_rates if g > 0)
+            yg_cons = yg_pos / len(yield_growth_rates)
+
+            if len(yield_growth_rates) >= 2 and avg_yg > 0:
+                yg_std = _stat.stdev(yield_growth_rates)
+                yg_cv  = yg_std / avg_yg
+                yg_stability = 1.0 / (1.0 + yg_cv)
+            else:
+                yg_stability = 0.5
+
+            recent_yg    = yield_growth_rates[-2:]
+            yg_recency   = min(max(sum(recent_yg) / len(recent_yg), 0) / 30.0, 1.0)
+
+            yg_streak = 0
+            for g in reversed(yield_growth_rates):
+                if g > 0: yg_streak += 1
+                else: break
+            yg_streak_score = yg_streak / len(yield_growth_rates)
+
+            yield_composite = (
+                0.35 * yg_cons        +
+                0.30 * yg_stability   +
+                0.25 * yg_recency     +
+                0.10 * yg_streak_score
+            ) * 100
+        else:
+            yield_composite = 0.0
+
         rows.append({
-            'ticker':            ticker,
-            'name':              data.get('name', ticker),
-            'avg_growth_5y':     round(avg_growth, 2),
-            'composite_score':   round(composite, 1),
-            'years_in_window':   len(window_data),
-            'streak':            streak,
-            'consistency_pct':   round(consistency * 100, 1),
-            'latest_annual':     round(window_data[-1][1], 4),
-            'yearly':            yearly_list,
+            'ticker':              ticker,
+            'name':                data.get('name', ticker),
+            'avg_growth_5y':       round(avg_growth, 2),
+            'composite_score':     round(composite, 1),
+            'yield_composite_score': round(yield_composite, 1),
+            'latest_yield':        round(latest_yield, 2) if latest_yield is not None else None,
+            'years_in_window':     len(window_data),
+            'streak':              streak,
+            'consistency_pct':     round(consistency * 100, 1),
+            'latest_annual':       round(window_data[-1][1], 4),
+            'yearly':              yearly_list,
         })
 
     rows.sort(key=lambda x: x['composite_score'], reverse=True)
