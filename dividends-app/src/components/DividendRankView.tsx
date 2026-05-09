@@ -82,8 +82,16 @@ function YieldCell({ value }: { value: number | null }) {
 
 function YieldGrowthCell({ value }: { value: number | null }) {
   if (value === null) return <td className="rank-td num muted">—</td>;
-  const cls = value > 0 ? 'up' : value < 0 ? 'down' : '';
-  return <td className={`rank-td num ${cls}`}>{value > 0 ? '+' : ''}{value.toFixed(1)}%</td>;
+  if (value > 0) return (
+    <td className="rank-td num" style={{ color: 'var(--green)', fontWeight: 600 }}>
+      +{value.toFixed(1)}%
+    </td>
+  );
+  return (
+    <td className="rank-td num" style={{ color: 'var(--red)', fontWeight: 600 }}>
+      {value.toFixed(1)}%
+    </td>
+  );
 }
 
 // ─── Main view ────────────────────────────────────────────────────────────────
