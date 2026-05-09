@@ -151,38 +151,39 @@ def calc_dividend_rank(all_divs):
             0.10 * streak_score
         ) * 100
 
-        # ── Yield composite score (same formula, applied to yield growth rates) ──
+        # ── Yield composite score ─────────────────────────────────────────────
+        # Goal: find companies with SUSTAINED, CONSISTENT yield growth over 5y.
+        # Requires at least 3 yield-growth periods (4 years of price+div data).
+        # Companies with fewer years are excluded from this ranking entirely.
+        # Formula deliberately ignores raw magnitude — a steady +5%/yr yield
+        # growth beats an erratic +200% one year followed by declines.
+        #
+        # Weights:
+        #   50% Consistency   — % of periods where yield grew (most important)
+        #   30% Streak        — current unbroken run of yield increases
+        #   20% Data depth    — rewarding 5-year track records over 3-year ones
         latest_yield = yield_rates[-1] if yield_rates else None
+        n_yg = len(yield_growth_rates)
 
-        if len(yield_growth_rates) >= 1:
-            avg_yg = sum(yield_growth_rates) / len(yield_growth_rates)
-            yg_pos  = sum(1 for g in yield_growth_rates if g > 0)
-            yg_cons = yg_pos / len(yield_growth_rates)
-
-            if len(yield_growth_rates) >= 2 and avg_yg > 0:
-                yg_std = _stat.stdev(yield_growth_rates)
-                yg_cv  = yg_std / avg_yg
-                yg_stability = 1.0 / (1.0 + yg_cv)
-            else:
-                yg_stability = 0.5
-
-            recent_yg    = yield_growth_rates[-2:]
-            yg_recency   = min(max(sum(recent_yg) / len(recent_yg), 0) / 30.0, 1.0)
+        if n_yg >= 3:
+            yg_pos   = sum(1 for g in yield_growth_rates if g > 0)
+            yg_cons  = yg_pos / n_yg  # 0.0–1.0
 
             yg_streak = 0
             for g in reversed(yield_growth_rates):
                 if g > 0: yg_streak += 1
                 else: break
-            yg_streak_score = yg_streak / len(yield_growth_rates)
+            yg_streak_frac = yg_streak / n_yg
+
+            data_depth = min(n_yg / 5.0, 1.0)  # 5 periods = full score
 
             yield_composite = (
-                0.35 * yg_cons        +
-                0.30 * yg_stability   +
-                0.25 * yg_recency     +
-                0.10 * yg_streak_score
+                0.50 * yg_cons         +
+                0.30 * yg_streak_frac  +
+                0.20 * data_depth
             ) * 100
         else:
-            yield_composite = 0.0
+            yield_composite = 0.0  # not enough history — hidden from yield_growth ranking
 
         rows.append({
             'ticker':              ticker,
