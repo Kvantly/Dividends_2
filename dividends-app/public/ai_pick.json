@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-05-11 12:01:23",
+  "week": "2026-W20",
+  "model_type": "static",
+  "model_version": "1.0",
+  "recommendation": {
+    "ticker": "SPOL",
+    "name": "SPBK 1 ØSTLANDET",
+    "action": "BUY",
+    "hold_period": "12 months",
+    "confidence": "HIGH",
+    "estimated_upside": "Dividend yield ~6.7% + price appreciation",
+    "summary": "SPBK 1 ØSTLANDET scores 56/70 in our multi-factor model, driven by 100% dividend consistency and a 5-year growth streak. The 6.7% current yield provides immediate income while the model waits for price appreciation.",
+    "reasoning": {
+      "dividends": "SPBK 1 ØSTLANDET has paid growing dividends for 5 consecutive year(s) with 100% consistency over the last 5 years. The current dividend yield is 6.7%, which is well above average for Oslo Børs.",
+      "valuation": "P/E of 10.5x looks attractive relative to quality. ROE of 13.6%.",
+      "momentum": "Price is 1.2% below the 200-day moving average — a constructive entry zone, not overextended.",
+      "risks": "Balance sheet appears manageable based on available data. Oslo børs is sensitive to oil prices and nok/eur movements. Past dividend growth is not a guarantee of future payouts."
+    },
+    "key_metrics": {
+      "dividend_yield_pct": 6.65,
+      "pe_ratio": 10.538462,
+      "roe_pct": 13.6,
+      "avg_5y_div_growth_pct": 21.73,
+      "consistency_pct": 100.0,
+      "latest_annual_dividend": 12.7,
+      "company_score": 79,
+      "dividend_score": 90.2
+    },
+    "score_breakdown": {
+      "consistency": 10.0,
+      "streak": 10,
+      "yield": 8,
+      "yield_trend": 4.0,
+      "roe": 4,
+      "margin": 10,
+      "momentum": 10
+    },
+    "total_score": 56.0,
+    "max_score": 70,
+    "data_as_of": "2026-05-11"
+  },
+  "candidates_scored": 128,
+  "top5_scores": [
+    {
+      "ticker": "SPOL",
+      "name": "SPBK 1 ØSTLANDET",
+      "score": 56.0
+    },
+    {
+      "ticker": "RING",
+      "name": "SPBK1 RINGERIKE",
+      "score": 56.0
+    },
+    {
+      "ticker": "TEL",
+      "name": "TELENOR",
+      "score": 55.0
+    },
+    {
+      "ticker": "DNB",
+      "name": "DNB BANK",
+      "score": 54.0
+    },
+    {
+      "ticker": "VEI",
+      "name": "VEIDEKKE",
+      "score": 54.0
+    }
+  ],
+  "backtest": {
+    "summary": {
+      "years_tested": 4,
+      "wins": 2,
+      "win_rate_pct": 50.0,
+      "avg_total_return_pct": 18.9,
+      "best_return_pct": 62.7,
+      "worst_return_pct": -4.5
+    },
+    "picks": [
+      {
+        "year": "2021",
+        "ticker": "2020",
+        "name": "2020 BULKERS",
+        "model_score": 34.0,
+        "consistency_pct": 100.0,
+        "streak": 2,
+        "yield_at_pick_pct": 28.36,
+        "entry_price": 94.32,
+        "exit_price": 79.17,
+        "div_received": 15.05,
+        "price_return_pct": -16.1,
+        "div_yield_realized_pct": 16.0,
+        "total_return_pct": -0.1,
+        "outcome": "LOSS"
+      },
+      {
+        "year": "2022",
+        "ticker": "PROT",
+        "name": "PROTECTOR FORSIKRG",
+        "model_score": 34.0,
+        "consistency_pct": 100.0,
+        "streak": 2,
+        "yield_at_pick_pct": 10.82,
+        "entry_price": 106.29,
+        "exit_price": 162.9,
+        "div_received": 10.0,
+        "price_return_pct": 53.3,
+        "div_yield_realized_pct": 9.4,
+        "total_return_pct": 62.7,
+        "outcome": "WIN"
+      },
+      {
+        "year": "2023",
+        "ticker": "ADS",
+        "name": "ADS MARITIME HOLD",
+        "model_score": 34.0,
+        "consistency_pct": 100.0,
+        "streak": 2,
+        "yield_at_pick_pct": 1259.0,
+        "entry_price": 2.01,
+        "exit_price": 1.92,
+        "div_received": 0,
+        "price_return_pct": -4.5,
+        "div_yield_realized_pct": 0.0,
+        "total_return_pct": -4.5,
+        "outcome": "LOSS"
+      },
+      {
+        "year": "2024",
+        "ticker": "TIETO",
+        "name": "TIETOEVRY",
+        "model_score": 38.0,
+        "consistency_pct": 100.0,
+        "streak": 4,
+        "yield_at_pick_pct": 8.06,
+        "entry_price": 198.51,
+        "exit_price": 216.72,
+        "div_received": 16.33,
+        "price_return_pct": 9.2,
+        "div_yield_realized_pct": 8.2,
+        "total_return_pct": 17.4,
+        "outcome": "WIN"
+      }
+    ],
+    "note": "Historical picks use dividend data only (no historical financials available). Current recommendation also includes ROE, margin, and price momentum."
+  }
+}
