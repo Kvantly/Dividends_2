@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Stock } from '../types';
 
-export type MainView = 'stocks' | 'dividend_rank' | 'company_rank';
+export type MainView = 'stocks' | 'dividend_rank' | 'company_rank' | 'ai_pick';
 
 interface Props {
   stocks: Stock[];
@@ -17,6 +17,7 @@ const NAV_TABS: { id: MainView; label: string; icon: string }[] = [
   { id: 'stocks',        label: 'Stocks',      icon: '📈' },
   { id: 'dividend_rank', label: 'Div Rank',    icon: '💰' },
   { id: 'company_rank',  label: 'Co Rank',     icon: '🏆' },
+  { id: 'ai_pick',       label: 'AI Pick',     icon: '🤖' },
 ];
 
 export function Sidebar({

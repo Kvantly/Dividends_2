@@ -6,6 +6,7 @@ import { Sidebar, type MainView } from './components/Sidebar';
 import { StockPane } from './components/StockPane';
 import { DividendRankView } from './components/DividendRankView';
 import { CompanyRankView } from './components/CompanyRankView';
+import { AiPickView } from './components/AiPickView';
 import { preloadBars } from './lib/priceData';
 import type { Stock } from './types';
 
@@ -57,6 +58,12 @@ export default function App() {
         {mainView === 'company_rank' && (
           <div className="pane rank-pane">
             <CompanyRankView onSelectStock={handleSelectFromRanking} />
+          </div>
+        )}
+
+        {mainView === 'ai_pick' && (
+          <div className="pane rank-pane">
+            <AiPickView onSelectStock={handleSelectFromRanking} />
           </div>
         )}
 

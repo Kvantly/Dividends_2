@@ -780,6 +780,189 @@ body {
 .sidebar-nav-icon { font-size: 15px; flex-shrink: 0; }
 .sidebar-nav-label { font-size: 12px; }
 
+/* ── AI Pick view ─────────────────────────────────────────────────────────── */
+
+.ai-pick-view .rank-header { align-items: flex-start; }
+
+/* Hero card */
+.ai-hero-card {
+  display: flex;
+  gap: 32px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 32px;
+}
+
+.ai-hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  min-width: 140px;
+}
+
+.ai-hero-action {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--green);
+  background: color-mix(in srgb, var(--green) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.ai-hero-ticker {
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--accent);
+  cursor: pointer;
+  line-height: 1;
+  letter-spacing: -1px;
+  transition: opacity 0.15s;
+}
+.ai-hero-ticker:hover { opacity: 0.75; }
+
+.ai-hero-name {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  max-width: 160px;
+}
+
+.ai-confidence-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.ai-hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ai-hold-row {
+  display: flex;
+  gap: 32px;
+}
+
+.ai-hold-label {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ai-hold-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 3px;
+}
+
+.ai-hold-value.up { color: var(--green); }
+
+.ai-summary {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text);
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
+}
+
+/* Metrics grid */
+.ai-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.ai-metric-chip {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  transition: border-color 0.15s;
+}
+
+.ai-metric-chip.highlight {
+  border-color: color-mix(in srgb, var(--green) 40%, transparent);
+  background: color-mix(in srgb, var(--green) 6%, var(--bg-secondary));
+}
+
+.ai-metric-label {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.ai-metric-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.ai-metric-chip.highlight .ai-metric-value { color: var(--green); }
+
+/* Reasoning 2×2 grid */
+.ai-reasoning-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.ai-reasoning-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+
+.ai-reasoning-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.ai-reasoning-icon { font-size: 15px; }
+
+.ai-reasoning-text {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Disclaimer */
+.ai-disclaimer {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-tertiary);
+}
+
+@media (max-width: 768px) {
+  .ai-hero-card     { flex-direction: column; }
+  .ai-reasoning-grid { grid-template-columns: 1fr; }
+}
+
 .sidebar-rank-hint {
   padding: 20px 16px;
   font-size: 13px;
