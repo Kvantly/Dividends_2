@@ -1,0 +1,13 @@
+{
+  "ticker": "OCEAN",
+  "name": "OCEAN GEOLOOP",
+  "dividends": [],
+  "year_end_prices": {
+    "2022": 20.995,
+    "2023": 8.0,
+    "2024": 4.3,
+    "2025": 2.2,
+    "2026": 1.6
+  },
+  "last_updated": "2026-05-11"
+}

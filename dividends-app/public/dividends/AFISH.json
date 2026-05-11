@@ -1,0 +1,14 @@
+{
+  "ticker": "AFISH",
+  "name": "ARCTIC FISH HOLDIN",
+  "dividends": [],
+  "year_end_prices": {
+    "2021": 89.0,
+    "2022": 99.2,
+    "2023": 63.5,
+    "2024": 69.5,
+    "2025": 32.0,
+    "2026": 29.0
+  },
+  "last_updated": "2026-05-11"
+}

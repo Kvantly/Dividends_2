@@ -1,0 +1,10 @@
+{
+  "ticker": "APR",
+  "name": "APPEAR",
+  "dividends": [],
+  "year_end_prices": {
+    "2025": 83.32,
+    "2026": 75.0
+  },
+  "last_updated": "2026-05-11"
+}

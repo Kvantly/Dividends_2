@@ -1,0 +1,14 @@
+{
+  "ticker": "BARRA",
+  "name": "BARRAMUNDI GROUP",
+  "dividends": [],
+  "year_end_prices": {
+    "2021": 14.0,
+    "2022": 5.0,
+    "2023": 2.5,
+    "2024": 0.8,
+    "2025": 0.596,
+    "2026": 0.63
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NORDH",
+  "name": "NORDHEALTH A-AKSJE",
+  "dividends": [],
+  "year_end_prices": {
+    "2021": 40.0,
+    "2022": 22.2,
+    "2023": 24.8,
+    "2024": 44.4,
+    "2025": 37.0,
+    "2026": 25.0
+  },
+  "last_updated": "2026-05-11"
+}

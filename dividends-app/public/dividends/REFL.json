@@ -1,0 +1,12 @@
+{
+  "ticker": "REFL",
+  "name": "REFUELS",
+  "dividends": [],
+  "year_end_prices": {
+    "2023": 20.595,
+    "2024": 11.1,
+    "2025": 13.7,
+    "2026": 18.1
+  },
+  "last_updated": "2026-05-11"
+}

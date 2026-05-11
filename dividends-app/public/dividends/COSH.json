@@ -1,0 +1,15 @@
+{
+  "ticker": "COSH",
+  "name": "CONSTELLATION OIL",
+  "dividends": [
+    {
+      "date": "2026-05-08",
+      "amount": 2.748155
+    }
+  ],
+  "year_end_prices": {
+    "2025": 116.7753,
+    "2026": 141.0
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "NBX",
+  "name": "NORWEGIAN BLOCK EX",
+  "dividends": [],
+  "year_end_prices": {
+    "2021": 8.6,
+    "2022": 1.472,
+    "2023": 0.642,
+    "2024": 0.37,
+    "2025": 0.407,
+    "2026": 0.6
+  },
+  "last_updated": "2026-05-11"
+}

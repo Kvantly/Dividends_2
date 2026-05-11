@@ -1,8 +1,8 @@
 {
-  "mode": "FULL",
-  "fetch_date": "2026-05-04 07:41:58",
+  "mode": "INCREMENTAL",
+  "fetch_date": "2026-05-11 06:38:36",
   "total_stocks": 297,
   "successful": 297,
   "failed": 0,
-  "stocks_with_dividends": 176
+  "stocks_with_dividends": 184
 }
