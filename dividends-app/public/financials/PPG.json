@@ -1,20 +1,20 @@
 {
   "ticker": "PPG",
   "name": "PIONEER PROPERTY",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": null,
     "enterprise_value": null,
-    "trailing_pe": 5.885635,
+    "trailing_pe": 5.913529,
     "forward_pe": null,
     "peg_ratio": null,
     "price_to_sales": null,
-    "price_to_book": 0.90628,
+    "price_to_book": 0.910575,
     "ev_to_revenue": null,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 105.5,
+    "current_price": 106.0,
     "eps_trailing": 17.925,
     "eps_forward": null,
     "book_value": 116.41,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 106.5,
     "week52_low": 94.6,
-    "avg50d": 104.52,
-    "avg200d": 101.526,
-    "avg_volume": 11074.0,
-    "avg_volume_10d": 6890.0,
+    "avg50d": 104.68,
+    "avg200d": 101.638,
+    "avg_volume": 11148.0,
+    "avg_volume_10d": 7385.0,
     "shares_outstanding": null,
     "float_shares": null,
     "insider_ownership": 0.0,
     "institutional_ownership": 0.0146,
     "short_ratio": null
   },
-  "_pe_label": "5.89x"
+  "_pe_label": "5.91x"
 }

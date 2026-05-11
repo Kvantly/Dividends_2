@@ -1,20 +1,20 @@
 {
   "ticker": "DVD",
   "name": "DEEP VALUE DRILLER",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1907570048.0,
-    "enterprise_value": 1993001984.0,
-    "trailing_pe": 8.831169,
+    "market_cap": 1879517568.0,
+    "enterprise_value": 1969699968.0,
+    "trailing_pe": 8.701299,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 34.234093,
-    "price_to_book": 25.43121,
-    "ev_to_revenue": 35.767,
-    "ev_to_ebitda": 38.398
+    "price_to_sales": 33.73065,
+    "price_to_book": 25.057222,
+    "ev_to_revenue": 35.349,
+    "ev_to_ebitda": 37.949
   },
   "per_share": {
-    "current_price": 20.4,
+    "current_price": 20.1,
     "eps_trailing": 2.31,
     "eps_forward": 0.0,
     "book_value": 0.802164,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.291,
     "week52_high": 22.35,
-    "week52_low": 14.1,
-    "avg50d": 20.6668,
-    "avg200d": 19.9013,
-    "avg_volume": 352995.0,
-    "avg_volume_10d": 165897.0,
+    "week52_low": 14.56,
+    "avg50d": 20.749,
+    "avg200d": 19.95975,
+    "avg_volume": 356969.0,
+    "avg_volume_10d": 179793.0,
     "shares_outstanding": 93508333.0,
     "float_shares": 80682065.0,
     "insider_ownership": 0.48734,
-    "institutional_ownership": 0.10167,
+    "institutional_ownership": 0.10166,
     "short_ratio": null
   },
-  "_pe_label": "8.83x"
+  "_pe_label": "8.70x"
 }

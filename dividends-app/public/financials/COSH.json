@@ -1,22 +1,22 @@
 {
   "ticker": "COSH",
   "name": "CONSTELLATION OIL",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 220388163584.0,
-    "enterprise_value": 13020496896.0,
+    "market_cap": 212788559872.0,
+    "enterprise_value": 12513857536.0,
     "trailing_pe": null,
-    "forward_pe": 11.379349,
+    "forward_pe": 11.07107,
     "peg_ratio": null,
-    "price_to_sales": 369.0506,
-    "price_to_book": 0.768634,
-    "ev_to_revenue": 21.803,
-    "ev_to_ebitda": 51.281
+    "price_to_sales": 356.3247,
+    "price_to_book": 0.742129,
+    "ev_to_revenue": 20.955,
+    "ev_to_ebitda": 49.285
   },
   "per_share": {
-    "current_price": 145.0,
-    "eps_trailing": -15.13,
-    "eps_forward": 12.742381,
+    "current_price": 140.0,
+    "eps_trailing": -15.14,
+    "eps_forward": 12.645572,
     "book_value": 188.64636,
     "revenue_per_share": 7.072,
     "currency": "NOK"
@@ -49,14 +49,14 @@
     "beta": null,
     "week52_high": 149.0,
     "week52_low": 72.00001,
-    "avg50d": 137.5364,
-    "avg200d": 112.99345,
-    "avg_volume": 224187.0,
-    "avg_volume_10d": 114349.0,
+    "avg50d": 138.3524,
+    "avg200d": 113.9852,
+    "avg_volume": 242695.0,
+    "avg_volume_10d": 234166.0,
     "shares_outstanding": 1519918308.0,
     "float_shares": null,
     "insider_ownership": 0.0,
-    "institutional_ownership": 0.12761,
+    "institutional_ownership": 0.12755,
     "short_ratio": null
   }
 }

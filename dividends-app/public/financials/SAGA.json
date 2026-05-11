@@ -1,20 +1,20 @@
 {
   "ticker": "SAGA",
   "name": "SAGA PURE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 998820032.0,
+    "market_cap": 992071296.0,
     "enterprise_value": 703814272.0,
-    "trailing_pe": 148.0,
+    "trailing_pe": 147.0,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 33.638233,
-    "price_to_book": 0.88411,
+    "price_to_sales": 33.41095,
+    "price_to_book": 0.878136,
     "ev_to_revenue": 23.703,
     "ev_to_ebitda": 75.703
   },
   "per_share": {
-    "current_price": 1.48,
+    "current_price": 1.47,
     "eps_trailing": 0.01,
     "eps_forward": null,
     "book_value": 1.674,
@@ -49,15 +49,15 @@
     "beta": 0.532,
     "week52_high": 1.73,
     "week52_low": 1.31,
-    "avg50d": 1.4988,
-    "avg200d": 1.4291,
-    "avg_volume": 250516.0,
-    "avg_volume_10d": 56421.0,
+    "avg50d": 1.4951,
+    "avg200d": 1.43125,
+    "avg_volume": 254811.0,
+    "avg_volume_10d": 75545.0,
     "shares_outstanding": 674878423.0,
     "float_shares": 27049127.0,
     "insider_ownership": 0.5988,
     "institutional_ownership": 0.2636,
     "short_ratio": null
   },
-  "_pe_label": "148.00x"
+  "_pe_label": "147.00x"
 }

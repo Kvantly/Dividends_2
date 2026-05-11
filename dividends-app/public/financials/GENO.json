@@ -1,22 +1,22 @@
 {
   "ticker": "GENO",
   "name": "GENERAL OCEANS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5709685760.0,
+    "market_cap": 5267521536.0,
     "enterprise_value": null,
-    "trailing_pe": 34.534885,
-    "forward_pe": null,
+    "trailing_pe": 31.860464,
+    "forward_pe": 20.296295,
     "peg_ratio": null,
-    "price_to_sales": 5.946264,
-    "price_to_book": 2.321219,
+    "price_to_sales": 5.485779,
+    "price_to_book": 2.141461,
     "ev_to_revenue": null,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 29.7,
+    "current_price": 27.4,
     "eps_trailing": 0.86,
-    "eps_forward": null,
+    "eps_forward": 1.35,
     "book_value": 12.795,
     "revenue_per_share": 17.223,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 33.255,
     "week52_low": 23.2,
-    "avg50d": 27.735,
-    "avg200d": 27.735,
-    "avg_volume": 2167694.0,
-    "avg_volume_10d": 395297.0,
+    "avg50d": 27.744333,
+    "avg200d": 27.744333,
+    "avg_volume": 1956958.0,
+    "avg_volume_10d": 387477.0,
     "shares_outstanding": 192245306.0,
     "float_shares": 15496092.0,
     "insider_ownership": 0.67227,
     "institutional_ownership": 0.16479,
     "short_ratio": null
   },
-  "_pe_label": "34.53x"
+  "_pe_label": "31.86x"
 }

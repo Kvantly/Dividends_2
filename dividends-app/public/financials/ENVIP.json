@@ -1,22 +1,22 @@
 {
   "ticker": "ENVIP",
   "name": "ENVIPCO HOLDING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 3344172800.0,
-    "enterprise_value": 3303206912.0,
+    "market_cap": 3456526592.0,
+    "enterprise_value": 3448605952.0,
     "trailing_pe": null,
-    "forward_pe": 7.462513,
+    "forward_pe": 7.70911,
     "peg_ratio": null,
-    "price_to_sales": 37.013123,
-    "price_to_book": 2.970734,
-    "ev_to_revenue": 36.56,
-    "ev_to_ebitda": 2692.1
+    "price_to_sales": 38.25665,
+    "price_to_book": 3.070542,
+    "ev_to_revenue": 38.169,
+    "ev_to_ebitda": 2810.6
   },
   "per_share": {
-    "current_price": 50.6,
-    "eps_trailing": -1.96,
-    "eps_forward": 6.780558,
+    "current_price": 52.3,
+    "eps_trailing": -1.97,
+    "eps_forward": 6.784182,
     "book_value": 17.032825,
     "revenue_per_share": 1.508,
     "currency": "NOK"
@@ -49,14 +49,14 @@
     "beta": 0.87,
     "week52_high": 96.0,
     "week52_low": 45.0,
-    "avg50d": 52.105,
-    "avg200d": 63.82325,
-    "avg_volume": 220419.0,
-    "avg_volume_10d": 162866.0,
+    "avg50d": 52.445,
+    "avg200d": 63.31025,
+    "avg_volume": 219169.0,
+    "avg_volume_10d": 199731.0,
     "shares_outstanding": 66090377.0,
     "float_shares": 48105203.0,
     "insider_ownership": 0.31869,
-    "institutional_ownership": 0.39814,
+    "institutional_ownership": 0.39203,
     "short_ratio": null
   }
 }

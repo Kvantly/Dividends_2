@@ -1,20 +1,20 @@
 {
   "ticker": "LUMI",
   "name": "LUMI GRUPPEN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1156817280.0,
-    "enterprise_value": 1568725248.0,
-    "trailing_pe": 40.0,
-    "forward_pe": 15.444016,
+    "market_cap": 1127896832.0,
+    "enterprise_value": 1539804800.0,
+    "trailing_pe": 39.0,
+    "forward_pe": 15.057916,
     "peg_ratio": null,
-    "price_to_sales": 2.283795,
-    "price_to_book": 2.321532,
-    "ev_to_revenue": 3.097,
-    "ev_to_ebitda": 20.665
+    "price_to_sales": 2.2267,
+    "price_to_book": 2.263494,
+    "ev_to_revenue": 3.04,
+    "ev_to_ebitda": 20.284
   },
   "per_share": {
-    "current_price": 20.0,
+    "current_price": 19.5,
     "eps_trailing": 0.5,
     "eps_forward": 1.295,
     "book_value": 8.615,
@@ -49,15 +49,15 @@
     "beta": 0.4,
     "week52_high": 22.6,
     "week52_low": 13.1,
-    "avg50d": 19.414,
-    "avg200d": 17.514,
-    "avg_volume": 2056.0,
-    "avg_volume_10d": 1418.0,
+    "avg50d": 19.438,
+    "avg200d": 17.578,
+    "avg_volume": 2163.0,
+    "avg_volume_10d": 1888.0,
     "shares_outstanding": 57840862.0,
     "float_shares": 14745371.0,
     "insider_ownership": 0.17993,
     "institutional_ownership": 0.77648,
     "short_ratio": null
   },
-  "_pe_label": "40.00x"
+  "_pe_label": "39.00x"
 }

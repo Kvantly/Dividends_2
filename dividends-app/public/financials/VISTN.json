@@ -1,20 +1,20 @@
 {
   "ticker": "VISTN",
   "name": "VISTIN PHARMA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 997753344.0,
-    "enterprise_value": 991926336.0,
-    "trailing_pe": 13.392858,
+    "market_cap": 993318848.0,
+    "enterprise_value": 983057408.0,
+    "trailing_pe": 13.333334,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 2.219854,
-    "price_to_book": 3.03439,
-    "ev_to_revenue": 2.207,
-    "ev_to_ebitda": 8.932
+    "price_to_sales": 2.209988,
+    "price_to_book": 3.020904,
+    "ev_to_revenue": 2.187,
+    "ev_to_ebitda": 8.852
   },
   "per_share": {
-    "current_price": 22.5,
+    "current_price": 22.4,
     "eps_trailing": 1.68,
     "eps_forward": null,
     "book_value": 7.415,
@@ -49,15 +49,15 @@
     "beta": 0.618,
     "week52_high": 26.4,
     "week52_low": 19.4,
-    "avg50d": 22.024,
-    "avg200d": 21.967,
-    "avg_volume": 23069.0,
-    "avg_volume_10d": 58187.0,
+    "avg50d": 22.002,
+    "avg200d": 21.9385,
+    "avg_volume": 22674.0,
+    "avg_volume_10d": 58408.0,
     "shares_outstanding": 44344592.0,
     "float_shares": 21969641.0,
     "insider_ownership": 0.58944,
     "institutional_ownership": 0.13737,
     "short_ratio": null
   },
-  "_pe_label": "13.39x"
+  "_pe_label": "13.33x"
 }

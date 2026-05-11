@@ -1,20 +1,20 @@
 {
   "ticker": "SOGN",
   "name": "SOGN SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 224917008.0,
-    "enterprise_value": -288408000.0,
-    "trailing_pe": 15.727554,
-    "forward_pe": 19.484932,
+    "market_cap": 227668384.0,
+    "enterprise_value": -288748480.0,
+    "trailing_pe": 15.919947,
+    "forward_pe": 19.723288,
     "peg_ratio": null,
-    "price_to_sales": 0.874102,
-    "price_to_book": 0.16794,
-    "ev_to_revenue": -1.121,
+    "price_to_sales": 0.884795,
+    "price_to_book": 0.169994,
+    "ev_to_revenue": -1.122,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 355.6,
+    "current_price": 359.95,
     "eps_trailing": 22.61,
     "eps_forward": 18.25,
     "book_value": 2117.427,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 380.0,
     "week52_low": 247.1,
-    "avg50d": 331.605,
-    "avg200d": 284.462,
-    "avg_volume": 628.0,
-    "avg_volume_10d": 341.0,
+    "avg50d": 334.616,
+    "avg200d": 285.66876,
+    "avg_volume": 652.0,
+    "avg_volume_10d": 389.0,
     "shares_outstanding": 632500.0,
     "float_shares": 559875.0,
     "insider_ownership": 0.39855,
     "institutional_ownership": 0.08968,
     "short_ratio": null
   },
-  "_pe_label": "15.73x"
+  "_pe_label": "15.92x"
 }

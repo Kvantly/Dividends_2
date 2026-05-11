@@ -1,22 +1,22 @@
 {
   "ticker": "MING",
   "name": "SPAREBANK 1 SMN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 29204062208.0,
-    "enterprise_value": 75616477184.0,
-    "trailing_pe": 10.574113,
-    "forward_pe": 10.079602,
+    "market_cap": 28013410304.0,
+    "enterprise_value": 74419699712.0,
+    "trailing_pe": 10.521928,
+    "forward_pe": 9.663848,
     "peg_ratio": 2.71,
-    "price_to_sales": 3.274732,
-    "price_to_book": 1.001468,
-    "ev_to_revenue": 8.479,
+    "price_to_sales": 3.141221,
+    "price_to_book": 0.960638,
+    "ev_to_revenue": 8.345,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 202.6,
-    "eps_trailing": 19.16,
-    "eps_forward": 20.1,
+    "current_price": 194.34,
+    "eps_trailing": 18.47,
+    "eps_forward": 20.11,
     "book_value": 202.303,
     "revenue_per_share": 61.848,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.401,
     "week52_high": 215.3,
     "week52_low": 181.72,
-    "avg50d": 208.57,
-    "avg200d": 197.56555,
-    "avg_volume": 151258.0,
-    "avg_volume_10d": 94871.0,
+    "avg50d": 207.679,
+    "avg200d": 197.61115,
+    "avg_volume": 156397.0,
+    "avg_volume_10d": 137192.0,
     "shares_outstanding": 144146405.0,
     "float_shares": 133468032.0,
     "insider_ownership": 0.13981,
-    "institutional_ownership": 0.32628,
+    "institutional_ownership": 0.32633,
     "short_ratio": null
   },
-  "_pe_label": "10.57x"
+  "_pe_label": "10.52x"
 }

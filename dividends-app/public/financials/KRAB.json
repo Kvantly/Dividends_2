@@ -1,20 +1,20 @@
 {
   "ticker": "KRAB",
   "name": "KRAFT BANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 585176512.0,
-    "enterprise_value": 541737984.0,
-    "trailing_pe": 9.689655,
-    "forward_pe": 7.805556,
+    "market_cap": 599753792.0,
+    "enterprise_value": 554337984.0,
+    "trailing_pe": 9.931034,
+    "forward_pe": 8.0,
     "peg_ratio": null,
-    "price_to_sales": 3.09027,
-    "price_to_book": 1.16414,
-    "ev_to_revenue": 2.861,
+    "price_to_sales": 3.167251,
+    "price_to_book": 1.193139,
+    "ev_to_revenue": 2.927,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 14.05,
+    "current_price": 14.4,
     "eps_trailing": 1.45,
     "eps_forward": 1.8,
     "book_value": 12.069,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.447,
     "week52_high": 15.0,
-    "week52_low": 8.1,
-    "avg50d": 14.198,
-    "avg200d": 12.515,
-    "avg_volume": 31680.0,
-    "avg_volume_10d": 18201.0,
+    "week52_low": 8.6,
+    "avg50d": 14.201,
+    "avg200d": 12.56975,
+    "avg_volume": 28308.0,
+    "avg_volume_10d": 18398.0,
     "shares_outstanding": 41649571.0,
     "float_shares": 40875660.0,
     "insider_ownership": 0.61258,
     "institutional_ownership": 0.0,
     "short_ratio": null
   },
-  "_pe_label": "9.69x"
+  "_pe_label": "9.93x"
 }

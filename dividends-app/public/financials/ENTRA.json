@@ -1,20 +1,20 @@
 {
   "ticker": "ENTRA",
   "name": "ENTRA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 19139653632.0,
-    "enterprise_value": 51065880576.0,
-    "trailing_pe": 16.70886,
-    "forward_pe": 15.670748,
+    "market_cap": 18922158080.0,
+    "enterprise_value": 51211587584.0,
+    "trailing_pe": 16.518988,
+    "forward_pe": 15.492672,
     "peg_ratio": null,
-    "price_to_sales": 6.200082,
-    "price_to_book": 0.774875,
-    "ev_to_revenue": 16.542,
-    "ev_to_ebitda": 18.349
+    "price_to_sales": 6.129627,
+    "price_to_book": 0.76607,
+    "ev_to_revenue": 16.589,
+    "ev_to_ebitda": 18.402
   },
   "per_share": {
-    "current_price": 105.6,
+    "current_price": 104.4,
     "eps_trailing": 6.32,
     "eps_forward": 6.73867,
     "book_value": 136.28,
@@ -49,15 +49,15 @@
     "beta": 1.197,
     "week52_high": 135.6,
     "week52_low": 101.2,
-    "avg50d": 108.308,
-    "avg200d": 115.007,
-    "avg_volume": 118685.0,
-    "avg_volume_10d": 100927.0,
+    "avg50d": 107.748,
+    "avg200d": 114.636,
+    "avg_volume": 120085.0,
+    "avg_volume_10d": 112890.0,
     "shares_outstanding": 181246728.0,
     "float_shares": 106700243.0,
     "insider_ownership": 0.65069,
-    "institutional_ownership": 0.13039,
+    "institutional_ownership": 0.13038,
     "short_ratio": null
   },
-  "_pe_label": "16.71x"
+  "_pe_label": "16.52x"
 }

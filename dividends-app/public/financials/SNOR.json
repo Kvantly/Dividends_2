@@ -1,20 +1,20 @@
 {
   "ticker": "SNOR",
   "name": "SPBK 1 NORDM\u00d8RE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1725978752.0,
+    "market_cap": 1722364160.0,
     "enterprise_value": 4333934592.0,
-    "trailing_pe": 10.540838,
-    "forward_pe": 9.675785,
+    "trailing_pe": 10.518764,
+    "forward_pe": 9.655522,
     "peg_ratio": null,
-    "price_to_sales": 1.59665,
-    "price_to_book": 0.414566,
+    "price_to_sales": 1.593306,
+    "price_to_book": 0.413698,
     "ev_to_revenue": 4.009,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 191.0,
+    "current_price": 190.6,
     "eps_trailing": 18.12,
     "eps_forward": 19.74,
     "book_value": 460.723,
@@ -49,15 +49,15 @@
     "beta": 0.169,
     "week52_high": 211.9,
     "week52_low": 155.04,
-    "avg50d": 191.051,
-    "avg200d": 175.89215,
-    "avg_volume": 2239.0,
-    "avg_volume_10d": 1703.0,
+    "avg50d": 191.2098,
+    "avg200d": 176.28966,
+    "avg_volume": 2480.0,
+    "avg_volume_10d": 2770.0,
     "shares_outstanding": 9036538.0,
     "float_shares": 5256953.0,
     "insider_ownership": 0.59937,
     "institutional_ownership": 0.07557,
     "short_ratio": null
   },
-  "_pe_label": "10.54x"
+  "_pe_label": "10.52x"
 }

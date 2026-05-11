@@ -1,20 +1,20 @@
 {
   "ticker": "AKAST",
   "name": "AKASTOR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4246455808.0,
-    "enterprise_value": 4271418368.0,
+    "market_cap": 4104725760.0,
+    "enterprise_value": 4053371904.0,
     "trailing_pe": null,
-    "forward_pe": -86.55555,
+    "forward_pe": -83.666664,
     "peg_ratio": 0.13,
-    "price_to_sales": 10.888349,
-    "price_to_book": 0.795954,
-    "ev_to_revenue": 10.952,
-    "ev_to_ebitda": 104.181
+    "price_to_sales": 10.524938,
+    "price_to_book": 0.769388,
+    "ev_to_revenue": 10.393,
+    "ev_to_ebitda": 98.863
   },
   "per_share": {
-    "current_price": 15.58,
+    "current_price": 15.06,
     "eps_trailing": -0.58,
     "eps_forward": -0.18,
     "book_value": 19.574,
@@ -49,14 +49,14 @@
     "beta": 0.041,
     "week52_high": 15.96,
     "week52_low": 10.6,
-    "avg50d": 14.71,
-    "avg200d": 12.4255,
-    "avg_volume": 285944.0,
-    "avg_volume_10d": 230754.0,
+    "avg50d": 14.8116,
+    "avg200d": 12.4701,
+    "avg_volume": 282435.0,
+    "avg_volume_10d": 227162.0,
     "shares_outstanding": 272558131.0,
     "float_shares": 112193103.0,
     "insider_ownership": 0.64743,
-    "institutional_ownership": 0.02733,
+    "institutional_ownership": 0.0273,
     "short_ratio": null
   }
 }

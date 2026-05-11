@@ -1,20 +1,20 @@
 {
   "ticker": "APR",
   "name": "APPEAR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 3215186944.0,
+    "market_cap": 3069042176.0,
     "enterprise_value": 2778195968.0,
-    "trailing_pe": 24.0,
-    "forward_pe": 14.092526,
+    "trailing_pe": 22.90909,
+    "forward_pe": 13.451958,
     "peg_ratio": null,
-    "price_to_sales": 4.014257,
-    "price_to_book": 5.453794,
+    "price_to_sales": 3.831791,
+    "price_to_book": 5.205895,
     "ev_to_revenue": 3.469,
     "ev_to_ebitda": 15.477
   },
   "per_share": {
-    "current_price": 79.2,
+    "current_price": 75.6,
     "eps_trailing": 3.3,
     "eps_forward": 5.62,
     "book_value": 14.522,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 89.19,
     "week52_low": 57.5,
-    "avg50d": 66.9516,
-    "avg200d": 72.4345,
-    "avg_volume": 95271.0,
-    "avg_volume_10d": 83464.0,
+    "avg50d": 67.506,
+    "avg200d": 72.53935,
+    "avg_volume": 91502.0,
+    "avg_volume_10d": 80310.0,
     "shares_outstanding": 40595795.0,
     "float_shares": 14971729.0,
     "insider_ownership": 0.59749,
     "institutional_ownership": 0.1389,
     "short_ratio": null
   },
-  "_pe_label": "24.00x"
+  "_pe_label": "22.91x"
 }

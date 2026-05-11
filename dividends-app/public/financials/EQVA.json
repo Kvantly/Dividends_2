@@ -1,21 +1,21 @@
 {
   "ticker": "EQVA",
   "name": "EQVA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 276351104.0,
-    "enterprise_value": 482500000.0,
-    "trailing_pe": 8.121951,
+    "market_cap": 265562624.0,
+    "enterprise_value": 470500000.0,
+    "trailing_pe": 8.205129,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 0.214442,
-    "price_to_book": 0.675456,
-    "ev_to_revenue": 0.374,
-    "ev_to_ebitda": 7.665
+    "price_to_sales": 0.20607,
+    "price_to_book": 0.649087,
+    "ev_to_revenue": 0.365,
+    "ev_to_ebitda": 7.475
   },
   "per_share": {
-    "current_price": 3.33,
-    "eps_trailing": 0.41,
+    "current_price": 3.2,
+    "eps_trailing": 0.39,
     "eps_forward": null,
     "book_value": 4.93,
     "revenue_per_share": 15.362,
@@ -49,15 +49,15 @@
     "beta": 0.516,
     "week52_high": 5.36,
     "week52_low": 2.74,
-    "avg50d": 3.2454,
-    "avg200d": 3.9254,
-    "avg_volume": 167729.0,
-    "avg_volume_10d": 81682.0,
+    "avg50d": 3.2656,
+    "avg200d": 3.9002,
+    "avg_volume": 147337.0,
+    "avg_volume_10d": 51787.0,
     "shares_outstanding": 82988320.0,
     "float_shares": 42580800.0,
     "insider_ownership": 0.81573,
     "institutional_ownership": 0.01696,
     "short_ratio": null
   },
-  "_pe_label": "8.12x"
+  "_pe_label": "8.21x"
 }

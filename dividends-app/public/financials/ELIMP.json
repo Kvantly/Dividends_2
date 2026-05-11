@@ -1,63 +1,63 @@
 {
   "ticker": "ELIMP",
   "name": "ELEKTROIMPORT\u00d8REN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 776967680.0,
-    "enterprise_value": 1258342272.0,
-    "trailing_pe": 24.67742,
-    "forward_pe": 7.012237,
+    "market_cap": 782045888.0,
+    "enterprise_value": 1280000000.0,
+    "trailing_pe": 22.985073,
+    "forward_pe": 7.230046,
     "peg_ratio": null,
-    "price_to_sales": 0.434511,
-    "price_to_book": 1.08089,
-    "ev_to_revenue": 0.704,
-    "ev_to_ebitda": 13.027
+    "price_to_sales": 0.428978,
+    "price_to_book": 1.087955,
+    "ev_to_revenue": 0.702,
+    "ev_to_ebitda": 12.943
   },
   "per_share": {
-    "current_price": 15.3,
-    "eps_trailing": 0.62,
-    "eps_forward": 2.1819,
+    "current_price": 15.4,
+    "eps_trailing": 0.67,
+    "eps_forward": 2.13,
     "book_value": 14.155,
-    "revenue_per_share": 35.212,
+    "revenue_per_share": 35.958,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.01792,
-    "operating_margin": 0.07137,
-    "gross_margin": 0.35675,
-    "ebitda_margin": 0.05402,
-    "roe": 0.04561,
-    "roa": 0.03018
+    "profit_margin": 0.019,
+    "operating_margin": 0.01695,
+    "gross_margin": 0.3581,
+    "ebitda_margin": 0.05425,
+    "roe": 0.0503,
+    "roa": 0.0303
   },
   "income": {
-    "total_revenue": 1788144000.0,
-    "revenue_growth": 0.132,
-    "gross_profits": 637923008.0,
-    "ebitda": 96594000.0,
-    "net_income": 32040000.0,
-    "earnings_growth": 0.331
+    "total_revenue": 1823043968.0,
+    "revenue_growth": 0.087,
+    "gross_profits": 652822976.0,
+    "ebitda": 98894000.0,
+    "net_income": 34640000.0,
+    "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 150395008.0,
-    "cash_per_share": 2.962,
-    "total_debt": 619073984.0,
-    "debt_to_equity": 86.121,
-    "current_ratio": 1.439,
-    "quick_ratio": 0.513
+    "total_cash": 136600000.0,
+    "cash_per_share": 2.678,
+    "total_debt": 631200000.0,
+    "debt_to_equity": 90.872,
+    "current_ratio": 1.531,
+    "quick_ratio": 0.544
   },
   "trading": {
-    "beta": 0.915,
+    "beta": null,
     "week52_high": 17.5,
-    "week52_low": 11.75,
-    "avg50d": 15.773,
-    "avg200d": 15.0515,
-    "avg_volume": 33015.0,
-    "avg_volume_10d": 28286.0,
+    "week52_low": 11.9,
+    "avg50d": 15.707,
+    "avg200d": 15.0365,
+    "avg_volume": 101161.0,
+    "avg_volume_10d": 424804.0,
     "shares_outstanding": 50782200.0,
-    "float_shares": 25792787.0,
+    "float_shares": 25903410.0,
     "insider_ownership": 0.44971,
     "institutional_ownership": 0.26598,
     "short_ratio": null
   },
-  "_pe_label": "24.68x"
+  "_pe_label": "22.99x"
 }

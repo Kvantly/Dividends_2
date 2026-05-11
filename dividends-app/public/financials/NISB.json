@@ -1,22 +1,22 @@
 {
   "ticker": "NISB",
   "name": "NIDAROS SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 121772816.0,
-    "enterprise_value": 215397104.0,
-    "trailing_pe": 13.4875,
-    "forward_pe": 10.599214,
+    "market_cap": 121863104.0,
+    "enterprise_value": 216503104.0,
+    "trailing_pe": 13.4975,
+    "forward_pe": 11.154959,
     "peg_ratio": null,
-    "price_to_sales": 0.849847,
-    "price_to_book": 0.213656,
-    "ev_to_revenue": 1.503,
+    "price_to_sales": 0.850477,
+    "price_to_book": 0.213815,
+    "ev_to_revenue": 1.511,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 107.9,
+    "current_price": 107.98,
     "eps_trailing": 8.0,
-    "eps_forward": 10.18,
+    "eps_forward": 9.68,
     "book_value": 505.017,
     "revenue_per_share": 126.964,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.19,
     "week52_high": 115.0,
     "week52_low": 101.48,
-    "avg50d": 107.7404,
-    "avg200d": 107.2424,
-    "avg_volume": 339.0,
-    "avg_volume_10d": 27.0,
+    "avg50d": 107.8172,
+    "avg200d": 107.2567,
+    "avg_volume": 246.0,
+    "avg_volume_10d": 58.0,
     "shares_outstanding": 1128571.0,
     "float_shares": 697491.0,
     "insider_ownership": 0.5145,
     "institutional_ownership": 0.04728,
     "short_ratio": null
   },
-  "_pe_label": "13.49x"
+  "_pe_label": "13.50x"
 }

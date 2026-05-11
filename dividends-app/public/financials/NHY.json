@@ -1,23 +1,23 @@
 {
   "ticker": "NHY",
   "name": "NORSK HYDRO",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 214510141440.0,
-    "enterprise_value": 233099755520.0,
-    "trailing_pe": 35.096466,
-    "forward_pe": 11.150407,
+    "market_cap": 207435137024.0,
+    "enterprise_value": 224944996352.0,
+    "trailing_pe": 33.83013,
+    "forward_pe": 10.782335,
     "peg_ratio": 0.58,
-    "price_to_sales": 1.065804,
-    "price_to_book": 2.148495,
-    "ev_to_revenue": 1.158,
-    "ev_to_ebitda": 4.897
+    "price_to_sales": 1.030652,
+    "price_to_book": 2.023271,
+    "ev_to_revenue": 1.118,
+    "ev_to_ebitda": 4.725
   },
   "per_share": {
-    "current_price": 109.15,
-    "eps_trailing": 3.11,
-    "eps_forward": 9.78888,
-    "book_value": 50.803,
+    "current_price": 105.55,
+    "eps_trailing": 3.12,
+    "eps_forward": 9.78916,
+    "book_value": 52.168,
     "revenue_per_share": 102.29,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.672,
     "week52_high": 110.5,
     "week52_low": 53.24,
-    "avg50d": 97.8702,
-    "avg200d": 79.11385,
-    "avg_volume": 4843334.0,
-    "avg_volume_10d": 3655119.0,
+    "avg50d": 98.9222,
+    "avg200d": 79.74975,
+    "avg_volume": 4877465.0,
+    "avg_volume_10d": 4068169.0,
     "shares_outstanding": 1965278330.0,
     "float_shares": 1123567350.0,
     "insider_ownership": 0.34302,
-    "institutional_ownership": 0.4477,
+    "institutional_ownership": 0.44878,
     "short_ratio": null
   },
-  "_pe_label": "35.10x"
+  "_pe_label": "33.83x"
 }

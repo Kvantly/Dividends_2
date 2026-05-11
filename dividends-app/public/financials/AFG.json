@@ -1,21 +1,21 @@
 {
   "ticker": "AFG",
   "name": "AF GRUPPEN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 20364984320.0,
-    "enterprise_value": 19776092160.0,
-    "trailing_pe": 18.046324,
-    "forward_pe": 15.327492,
+    "market_cap": 19774035968.0,
+    "enterprise_value": 19313854464.0,
+    "trailing_pe": 17.505032,
+    "forward_pe": 14.882722,
     "peg_ratio": 2.08,
-    "price_to_sales": 0.637382,
-    "price_to_book": 6.800759,
-    "ev_to_revenue": 0.619,
-    "ev_to_ebitda": 10.592
+    "price_to_sales": 0.618886,
+    "price_to_book": 6.603415,
+    "ev_to_revenue": 0.604,
+    "ev_to_ebitda": 10.345
   },
   "per_share": {
-    "current_price": 179.2,
-    "eps_trailing": 9.93,
+    "current_price": 174.0,
+    "eps_trailing": 9.94,
     "eps_forward": 11.69141,
     "book_value": 26.35,
     "revenue_per_share": 292.139,
@@ -49,15 +49,15 @@
     "beta": 0.575,
     "week52_high": 192.4,
     "week52_low": 144.0,
-    "avg50d": 177.664,
-    "avg200d": 174.859,
-    "avg_volume": 41838.0,
-    "avg_volume_10d": 43622.0,
+    "avg50d": 176.924,
+    "avg200d": 175.137,
+    "avg_volume": 41907.0,
+    "avg_volume_10d": 41510.0,
     "shares_outstanding": 113643885.0,
     "float_shares": 36568517.0,
     "insider_ownership": 0.59119,
-    "institutional_ownership": 0.15331,
+    "institutional_ownership": 0.15332,
     "short_ratio": null
   },
-  "_pe_label": "18.05x"
+  "_pe_label": "17.51x"
 }

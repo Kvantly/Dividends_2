@@ -1,63 +1,63 @@
 {
   "ticker": "SATS",
   "name": "SATS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 7969924096.0,
-    "enterprise_value": 14006176768.0,
-    "trailing_pe": 16.86722,
-    "forward_pe": 11.98765,
+    "market_cap": 8185591808.0,
+    "enterprise_value": 14116000768.0,
+    "trailing_pe": 17.32365,
+    "forward_pe": 12.310187,
     "peg_ratio": null,
-    "price_to_sales": 1.44671,
-    "price_to_book": 5.562398,
-    "ev_to_revenue": 2.542,
-    "ev_to_ebitda": 13.201
+    "price_to_sales": 1.462496,
+    "price_to_book": 5.712917,
+    "ev_to_revenue": 2.522,
+    "ev_to_ebitda": 16.987
   },
   "per_share": {
-    "current_price": 40.65,
+    "current_price": 41.75,
     "eps_trailing": 2.41,
-    "eps_forward": 3.39099,
+    "eps_forward": 3.3915,
     "book_value": 7.308,
-    "revenue_per_share": 27.276,
+    "revenue_per_share": 27.902,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.08604,
-    "operating_margin": 0.15966,
-    "gross_margin": 0.60047,
-    "ebitda_margin": 0.19259,
-    "roe": 0.33869,
-    "roa": 0.05892
+    "profit_margin": 0.08683,
+    "operating_margin": 0.14902,
+    "gross_margin": 0.598,
+    "ebitda_margin": 0.14847,
+    "roe": 0.36147,
+    "roa": 0.06263
   },
   "income": {
-    "total_revenue": 5509000192.0,
-    "revenue_growth": 0.09,
-    "gross_profits": 3308000000.0,
-    "ebitda": 1061000000.0,
-    "net_income": 474000000.0,
-    "earnings_growth": 0.635
+    "total_revenue": 5597000192.0,
+    "revenue_growth": 0.063,
+    "gross_profits": 3347000064.0,
+    "ebitda": 831000000.0,
+    "net_income": 486000000.0,
+    "earnings_growth": 0.152
   },
   "balance_sheet": {
-    "total_cash": 528000000.0,
-    "cash_per_share": 2.654,
-    "total_debt": 6664999936.0,
-    "debt_to_equity": 458.391,
-    "current_ratio": 0.436,
-    "quick_ratio": 0.356
+    "total_cash": 413000000.0,
+    "cash_per_share": 2.106,
+    "total_debt": 6313999872.0,
+    "debt_to_equity": 469.442,
+    "current_ratio": 0.391,
+    "quick_ratio": 0.358
   },
   "trading": {
     "beta": 0.858,
     "week52_high": 44.85,
     "week52_low": 33.65,
-    "avg50d": 42.971,
-    "avg200d": 39.83125,
-    "avg_volume": 527430.0,
-    "avg_volume_10d": 774564.0,
+    "avg50d": 42.906,
+    "avg200d": 39.89075,
+    "avg_volume": 530725.0,
+    "avg_volume_10d": 1036682.0,
     "shares_outstanding": 196062082.0,
-    "float_shares": 133823749.0,
+    "float_shares": 138606089.0,
     "insider_ownership": 0.18754,
-    "institutional_ownership": 0.59621,
+    "institutional_ownership": 0.59582,
     "short_ratio": null
   },
-  "_pe_label": "16.87x"
+  "_pe_label": "17.32x"
 }

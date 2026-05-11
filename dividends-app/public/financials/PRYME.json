@@ -1,21 +1,21 @@
 {
   "ticker": "PRYME",
   "name": "PRYME",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 133723656.0,
-    "enterprise_value": 72102736.0,
+    "market_cap": 114442568.0,
+    "enterprise_value": 60111156.0,
     "trailing_pe": null,
-    "forward_pe": -5.243903,
+    "forward_pe": -4.487805,
     "peg_ratio": null,
-    "price_to_sales": 125.092285,
-    "price_to_book": 0.624133,
-    "ev_to_revenue": 67.449,
-    "ev_to_ebitda": -7.97
+    "price_to_sales": 107.055725,
+    "price_to_book": 0.534142,
+    "ev_to_revenue": 56.231,
+    "ev_to_ebitda": -6.645
   },
   "per_share": {
-    "current_price": 4.3,
-    "eps_trailing": -11.99,
+    "current_price": 3.68,
+    "eps_trailing": -12.02,
     "eps_forward": -0.82,
     "book_value": 6.889559,
     "revenue_per_share": 0.084,
@@ -48,15 +48,15 @@
   "trading": {
     "beta": 1.55,
     "week52_high": 27.0,
-    "week52_low": 3.86,
-    "avg50d": 8.791,
-    "avg200d": 10.2584,
-    "avg_volume": 11258.0,
-    "avg_volume_10d": 21101.0,
+    "week52_low": 3.26,
+    "avg50d": 8.3802,
+    "avg200d": 10.03445,
+    "avg_volume": 11978.0,
+    "avg_volume_10d": 19282.0,
     "shares_outstanding": 31098523.0,
     "float_shares": 7748508.0,
-    "insider_ownership": 0.22877,
-    "institutional_ownership": 0.00962,
+    "insider_ownership": 0.22815,
+    "institutional_ownership": 0.00959,
     "short_ratio": null
   }
 }

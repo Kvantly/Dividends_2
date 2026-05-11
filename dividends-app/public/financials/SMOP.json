@@ -1,22 +1,22 @@
 {
   "ticker": "SMOP",
   "name": "SMARTOPTICS GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5686640128.0,
-    "enterprise_value": 5778321408.0,
-    "trailing_pe": 128.88889,
-    "forward_pe": 41.609203,
+    "market_cap": 5000321536.0,
+    "enterprise_value": 4739039232.0,
+    "trailing_pe": 113.333336,
+    "forward_pe": 36.92026,
     "peg_ratio": null,
-    "price_to_sales": 75.550896,
-    "price_to_book": 19.372,
-    "ev_to_revenue": 76.769,
-    "ev_to_ebitda": 685.285
+    "price_to_sales": 66.43268,
+    "price_to_book": 17.034,
+    "ev_to_revenue": 62.961,
+    "ev_to_ebitda": 562.03
   },
   "per_share": {
-    "current_price": 58.0,
+    "current_price": 51.0,
     "eps_trailing": 0.45,
-    "eps_forward": 1.393922,
+    "eps_forward": 1.381355,
     "book_value": 2.994012,
     "revenue_per_share": 0.768,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.229,
     "week52_high": 61.0,
     "week52_low": 14.6,
-    "avg50d": 43.892,
-    "avg200d": 29.553,
-    "avg_volume": 214136.0,
-    "avg_volume_10d": 360793.0,
+    "avg50d": 44.708,
+    "avg200d": 30.08125,
+    "avg_volume": 245093.0,
+    "avg_volume_10d": 511292.0,
     "shares_outstanding": 98045518.0,
     "float_shares": 42342918.0,
     "insider_ownership": 0.58202,
     "institutional_ownership": 0.27945,
     "short_ratio": null
   },
-  "_pe_label": "128.89x"
+  "_pe_label": "113.33x"
 }

@@ -1,20 +1,20 @@
 {
   "ticker": "CLOUD",
   "name": "CLOUDBERRY CLEAN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4369103872.0,
-    "enterprise_value": 7289170432.0,
-    "trailing_pe": 61.904762,
-    "forward_pe": 283.47144,
+    "market_cap": 4301886976.0,
+    "enterprise_value": 7200101376.0,
+    "trailing_pe": 60.952385,
+    "forward_pe": 279.11035,
     "peg_ratio": null,
-    "price_to_sales": 8.550105,
-    "price_to_book": 0.870613,
-    "ev_to_revenue": 14.265,
-    "ev_to_ebitda": 46.725
+    "price_to_sales": 8.418566,
+    "price_to_book": 0.857219,
+    "ev_to_revenue": 14.09,
+    "ev_to_ebitda": 46.154
   },
   "per_share": {
-    "current_price": 13.0,
+    "current_price": 12.8,
     "eps_trailing": 0.21,
     "eps_forward": 0.04586,
     "book_value": 14.932,
@@ -49,15 +49,15 @@
     "beta": 0.522,
     "week52_high": 13.94,
     "week52_low": 11.12,
-    "avg50d": 12.9652,
-    "avg200d": 12.9646,
-    "avg_volume": 184359.0,
-    "avg_volume_10d": 91399.0,
+    "avg50d": 13.0168,
+    "avg200d": 12.953,
+    "avg_volume": 179456.0,
+    "avg_volume_10d": 96955.0,
     "shares_outstanding": 336084938.0,
-    "float_shares": 186460206.0,
+    "float_shares": 156351604.0,
     "insider_ownership": 0.2439,
     "institutional_ownership": 0.51089,
     "short_ratio": null
   },
-  "_pe_label": "61.90x"
+  "_pe_label": "60.95x"
 }

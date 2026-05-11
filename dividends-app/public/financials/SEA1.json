@@ -1,23 +1,23 @@
 {
   "ticker": "SEA1",
   "name": "Sea1 Offshore",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4310995968.0,
-    "enterprise_value": 4665892352.0,
-    "trailing_pe": 3.882759,
-    "forward_pe": 7.69854,
+    "market_cap": 4214775552.0,
+    "enterprise_value": 4389513728.0,
+    "trailing_pe": 3.786207,
+    "forward_pe": 7.575399,
     "peg_ratio": null,
-    "price_to_sales": 15.875573,
-    "price_to_book": 1.03537,
-    "ev_to_revenue": 17.183,
-    "ev_to_ebitda": 32.897
+    "price_to_sales": 15.521235,
+    "price_to_book": 1.035734,
+    "ev_to_revenue": 16.165,
+    "ev_to_ebitda": 30.949
   },
   "per_share": {
-    "current_price": 28.15,
+    "current_price": 27.45,
     "eps_trailing": 7.25,
-    "eps_forward": 3.656538,
-    "book_value": 27.188341,
+    "eps_forward": 3.623571,
+    "book_value": 26.50295,
     "revenue_per_share": 1.769,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.229,
     "week52_high": 36.35,
-    "week52_low": 17.94,
-    "avg50d": 29.351,
-    "avg200d": 25.08465,
-    "avg_volume": 300350.0,
-    "avg_volume_10d": 167665.0,
-    "shares_outstanding": 153143734.0,
+    "week52_low": 18.9,
+    "avg50d": 29.356,
+    "avg200d": 25.10015,
+    "avg_volume": 287304.0,
+    "avg_volume_10d": 189310.0,
+    "shares_outstanding": 153543734.0,
     "float_shares": 33629149.0,
     "insider_ownership": 0.21939,
     "institutional_ownership": 0.5762,
     "short_ratio": null
   },
-  "_pe_label": "3.88x"
+  "_pe_label": "3.79x"
 }

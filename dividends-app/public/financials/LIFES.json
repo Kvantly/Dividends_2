@@ -1,7 +1,7 @@
 {
   "ticker": "LIFES",
   "name": "LIFECARE TR2",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": null,
     "enterprise_value": null,
@@ -47,8 +47,8 @@
   },
   "trading": {
     "beta": null,
-    "week52_high": 0.08,
-    "week52_low": 0.061,
+    "week52_high": 0.0747,
+    "week52_low": 0.0747,
     "avg50d": null,
     "avg200d": null,
     "avg_volume": null,

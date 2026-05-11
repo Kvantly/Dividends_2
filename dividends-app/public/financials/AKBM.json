@@ -1,62 +1,62 @@
 {
   "ticker": "AKBM",
   "name": "AKER BIOMARINE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 8842531840.0,
-    "enterprise_value": 8970721280.0,
+    "market_cap": 8965344256.0,
+    "enterprise_value": 9209350144.0,
     "trailing_pe": null,
-    "forward_pe": 24.783506,
+    "forward_pe": 25.320091,
     "peg_ratio": null,
-    "price_to_sales": 40.543476,
-    "price_to_book": 6.58818,
-    "ev_to_revenue": 41.131,
-    "ev_to_ebitda": 261.537
+    "price_to_sales": 39.91694,
+    "price_to_book": 6.815446,
+    "ev_to_revenue": 41.003,
+    "ev_to_ebitda": 234.932
   },
   "per_share": {
-    "current_price": 100.8,
+    "current_price": 102.2,
     "eps_trailing": -0.28,
-    "eps_forward": 4.067221,
-    "book_value": 15.300129,
-    "revenue_per_share": 2.487,
+    "eps_forward": 4.03632,
+    "book_value": 14.995349,
+    "revenue_per_share": 2.561,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": -0.10454,
-    "operating_margin": 0.05616,
-    "gross_margin": 0.44842,
-    "ebitda_margin": 0.15727,
-    "roe": -0.01802,
-    "roa": 0.0208
+    "profit_margin": -0.10062,
+    "operating_margin": 0.06632,
+    "gross_margin": 0.45147,
+    "ebitda_margin": 0.17453,
+    "roe": -0.02179,
+    "roa": 0.02689
   },
   "income": {
-    "total_revenue": 218100000.0,
-    "revenue_growth": 0.062,
-    "gross_profits": 97800000.0,
-    "ebitda": 34300000.0,
-    "net_income": -2800000.0,
+    "total_revenue": 224600000.0,
+    "revenue_growth": 0.128,
+    "gross_profits": 101400000.0,
+    "ebitda": 39200000.0,
+    "net_income": -3400000.0,
     "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 16900000.0,
-    "cash_per_share": 0.193,
-    "total_debt": 182200000.0,
-    "debt_to_equity": 126.616,
-    "current_ratio": 2.57,
-    "quick_ratio": 0.763
+    "total_cash": 19800000.0,
+    "cash_per_share": 0.226,
+    "total_debt": 195700000.0,
+    "debt_to_equity": 138.402,
+    "current_ratio": 3.324,
+    "quick_ratio": 1.201
   },
   "trading": {
-    "beta": 0.287,
+    "beta": 0.265,
     "week52_high": 118.0,
-    "week52_low": 53.0,
-    "avg50d": 104.486,
-    "avg200d": 92.7375,
-    "avg_volume": 19852.0,
-    "avg_volume_10d": 14787.0,
+    "week52_low": 54.3,
+    "avg50d": 104.482,
+    "avg200d": 93.0615,
+    "avg_volume": 17977.0,
+    "avg_volume_10d": 20040.0,
     "shares_outstanding": 87723526.0,
     "float_shares": 9049237.0,
     "insider_ownership": 0.89316,
-    "institutional_ownership": 0.05698,
+    "institutional_ownership": 0.05681,
     "short_ratio": null
   }
 }

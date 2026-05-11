@@ -1,20 +1,20 @@
 {
   "ticker": "ORK",
   "name": "ORKLA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 110044422144.0,
+    "market_cap": 107982938112.0,
     "enterprise_value": 127958540288.0,
-    "trailing_pe": 17.570532,
-    "forward_pe": 15.472013,
+    "trailing_pe": 17.241379,
+    "forward_pe": 15.182173,
     "peg_ratio": 1.14,
-    "price_to_sales": 1.538072,
-    "price_to_book": 2.280124,
+    "price_to_sales": 1.509259,
+    "price_to_book": 2.237409,
     "ev_to_revenue": 1.788,
     "ev_to_ebitda": 13.656
   },
   "per_share": {
-    "current_price": 112.1,
+    "current_price": 110.0,
     "eps_trailing": 6.38,
     "eps_forward": 7.24534,
     "book_value": 49.164,
@@ -49,15 +49,15 @@
     "beta": 0.217,
     "week52_high": 131.2,
     "week52_low": 100.6,
-    "avg50d": 120.502,
-    "avg200d": 112.714,
-    "avg_volume": 1501190.0,
-    "avg_volume_10d": 1088083.0,
+    "avg50d": 119.414,
+    "avg200d": 112.773,
+    "avg_volume": 1533674.0,
+    "avg_volume_10d": 1231677.0,
     "shares_outstanding": 981663062.0,
     "float_shares": 652914025.0,
     "insider_ownership": 0.00068,
-    "institutional_ownership": 0.80063,
+    "institutional_ownership": 0.80077,
     "short_ratio": null
   },
-  "_pe_label": "17.57x"
+  "_pe_label": "17.24x"
 }

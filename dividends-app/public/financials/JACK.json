@@ -1,22 +1,22 @@
 {
   "ticker": "JACK",
   "name": "JACKTEL",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 977886400.0,
+    "market_cap": 1022090560.0,
     "enterprise_value": null,
-    "trailing_pe": 3.249655,
-    "forward_pe": 6.275136,
+    "trailing_pe": 3.396552,
+    "forward_pe": 6.609007,
     "peg_ratio": null,
-    "price_to_sales": 13.967212,
+    "price_to_sales": 14.598582,
     "price_to_book": null,
     "ev_to_revenue": null,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 4.712,
+    "current_price": 4.925,
     "eps_trailing": 1.45,
-    "eps_forward": 0.7509,
+    "eps_forward": 0.745195,
     "book_value": null,
     "revenue_per_share": null,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": -0.428,
     "week52_high": 5.239,
     "week52_low": 4.1,
-    "avg50d": 4.610788,
-    "avg200d": 4.610788,
-    "avg_volume": 1328557.0,
-    "avg_volume_10d": 1301341.0,
+    "avg50d": 4.627948,
+    "avg200d": 4.627948,
+    "avg_volume": 1223701.0,
+    "avg_volume_10d": 664154.0,
     "shares_outstanding": 207531066.0,
     "float_shares": null,
     "insider_ownership": 0.0,
     "institutional_ownership": 0.0627,
     "short_ratio": null
   },
-  "_pe_label": "3.25x"
+  "_pe_label": "3.40x"
 }

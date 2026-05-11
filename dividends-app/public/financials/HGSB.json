@@ -1,20 +1,20 @@
 {
   "ticker": "HGSB",
   "name": "HAUGESUND SPB",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 855220224.0,
-    "enterprise_value": 3235135232.0,
-    "trailing_pe": 17.522066,
-    "forward_pe": 14.130208,
+    "market_cap": 848495296.0,
+    "enterprise_value": 3228410368.0,
+    "trailing_pe": 17.384285,
+    "forward_pe": 14.019096,
     "peg_ratio": null,
-    "price_to_sales": 1.889547,
-    "price_to_book": 0.330657,
-    "ev_to_revenue": 7.148,
+    "price_to_sales": 1.874688,
+    "price_to_book": 0.328057,
+    "ev_to_revenue": 7.133,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 162.78,
+    "current_price": 161.5,
     "eps_trailing": 9.29,
     "eps_forward": 11.52,
     "book_value": 492.293,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 194.0,
     "week52_low": 152.0,
-    "avg50d": 168.3568,
-    "avg200d": 163.9304,
-    "avg_volume": 841.0,
-    "avg_volume_10d": 1254.0,
+    "avg50d": 168.2628,
+    "avg200d": 163.6463,
+    "avg_volume": 828.0,
+    "avg_volume_10d": 760.0,
     "shares_outstanding": 5253841.0,
     "float_shares": 4372194.0,
     "insider_ownership": 0.57965,
     "institutional_ownership": 0.02544,
     "short_ratio": null
   },
-  "_pe_label": "17.52x"
+  "_pe_label": "17.38x"
 }

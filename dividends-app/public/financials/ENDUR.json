@@ -1,22 +1,22 @@
 {
   "ticker": "ENDUR",
   "name": "END\u00daR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 6047174144.0,
-    "enterprise_value": 6243701760.0,
-    "trailing_pe": 43.054546,
-    "forward_pe": 15.760106,
+    "market_cap": 5975670272.0,
+    "enterprise_value": 6213487616.0,
+    "trailing_pe": 42.70073,
+    "forward_pe": 15.575951,
     "peg_ratio": null,
-    "price_to_sales": 0.942441,
-    "price_to_book": 2.543174,
-    "ev_to_revenue": 0.973,
-    "ev_to_ebitda": 12.967
+    "price_to_sales": 0.931297,
+    "price_to_book": 2.513103,
+    "ev_to_revenue": 0.968,
+    "ev_to_ebitda": 12.904
   },
   "per_share": {
-    "current_price": 118.4,
-    "eps_trailing": 2.75,
-    "eps_forward": 7.51264,
+    "current_price": 117.0,
+    "eps_trailing": 2.74,
+    "eps_forward": 7.51158,
     "book_value": 46.556,
     "revenue_per_share": 133.956,
     "currency": "NOK"
@@ -47,17 +47,17 @@
   },
   "trading": {
     "beta": 0.408,
-    "week52_high": 119.4,
+    "week52_high": 120.4,
     "week52_low": 81.1,
-    "avg50d": 107.332,
-    "avg200d": 93.423,
-    "avg_volume": 102316.0,
-    "avg_volume_10d": 75075.0,
+    "avg50d": 108.056,
+    "avg200d": 93.8645,
+    "avg_volume": 97553.0,
+    "avg_volume_10d": 86993.0,
     "shares_outstanding": 51074104.0,
-    "float_shares": 30425860.0,
+    "float_shares": 30415286.0,
     "insider_ownership": 0.47301,
-    "institutional_ownership": 0.12262,
+    "institutional_ownership": 0.12261,
     "short_ratio": null
   },
-  "_pe_label": "43.05x"
+  "_pe_label": "42.70x"
 }

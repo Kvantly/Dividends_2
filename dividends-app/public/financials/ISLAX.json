@@ -1,21 +1,21 @@
 {
   "ticker": "ISLAX",
   "name": "ICELANDIC SALMON",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2662720768.0,
-    "enterprise_value": 2698916096.0,
+    "market_cap": 2631758848.0,
+    "enterprise_value": 2683435008.0,
     "trailing_pe": null,
-    "forward_pe": 16.371597,
+    "forward_pe": 16.18123,
     "peg_ratio": null,
-    "price_to_sales": 30.924831,
-    "price_to_book": 1.949927,
-    "ev_to_revenue": 31.345,
-    "ev_to_ebitda": -170.107
+    "price_to_sales": 30.565239,
+    "price_to_book": 1.927253,
+    "ev_to_revenue": 31.165,
+    "ev_to_ebitda": -169.131
   },
   "per_share": {
-    "current_price": 86.0,
-    "eps_trailing": -8.72,
+    "current_price": 85.0,
+    "eps_trailing": -8.74,
     "eps_forward": 5.253,
     "book_value": 44.104225,
     "revenue_per_share": 2.781,
@@ -49,14 +49,14 @@
     "beta": -0.217,
     "week52_high": 108.0,
     "week52_low": 62.0,
-    "avg50d": 73.124,
-    "avg200d": 81.9465,
-    "avg_volume": 15601.0,
-    "avg_volume_10d": 5299.0,
+    "avg50d": 73.648,
+    "avg200d": 81.708,
+    "avg_volume": 14866.0,
+    "avg_volume_10d": 5011.0,
     "shares_outstanding": 30961868.0,
     "float_shares": 12838029.0,
     "insider_ownership": 0.61936,
-    "institutional_ownership": 0.24364,
+    "institutional_ownership": 0.24224,
     "short_ratio": null
   }
 }

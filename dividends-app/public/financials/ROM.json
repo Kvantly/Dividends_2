@@ -1,23 +1,23 @@
 {
   "ticker": "ROM",
   "name": "ROMREAL",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 100838304.0,
-    "enterprise_value": 94851512.0,
-    "trailing_pe": 5.813953,
+    "market_cap": 101645008.0,
+    "enterprise_value": 95658216.0,
+    "trailing_pe": 5.860465,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 43.785954,
-    "price_to_book": 0.577865,
-    "ev_to_revenue": 41.186,
-    "ev_to_ebitda": 55.962
+    "price_to_sales": 44.13624,
+    "price_to_book": 0.582588,
+    "ev_to_revenue": 41.537,
+    "ev_to_ebitda": 56.438
   },
   "per_share": {
-    "current_price": 2.5,
+    "current_price": 2.52,
     "eps_trailing": 0.43,
     "eps_forward": null,
-    "book_value": 4.326268,
+    "book_value": 4.32553,
     "revenue_per_share": 0.057,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.302,
     "week52_high": 3.28,
     "week52_low": 2.04,
-    "avg50d": 2.75,
-    "avg200d": 2.5499,
-    "avg_volume": 1211.0,
-    "avg_volume_10d": 2307.0,
+    "avg50d": 2.7352,
+    "avg200d": 2.5526,
+    "avg_volume": 1183.0,
+    "avg_volume_10d": 1589.0,
     "shares_outstanding": 40335322.0,
     "float_shares": 5214954.0,
     "insider_ownership": 0.75206,
     "institutional_ownership": 0.02573,
     "short_ratio": null
   },
-  "_pe_label": "5.81x"
+  "_pe_label": "5.86x"
 }

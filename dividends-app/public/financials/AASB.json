@@ -1,22 +1,22 @@
 {
   "ticker": "AASB",
   "name": "AASEN SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 235247904.0,
-    "enterprise_value": 847505920.0,
-    "trailing_pe": 12.55771,
-    "forward_pe": 10.666667,
+    "market_cap": 229193728.0,
+    "enterprise_value": 841451712.0,
+    "trailing_pe": 12.234534,
+    "forward_pe": 9.939985,
     "peg_ratio": null,
-    "price_to_sales": 1.216474,
-    "price_to_book": 0.28805,
-    "ev_to_revenue": 4.382,
+    "price_to_sales": 1.185168,
+    "price_to_book": 0.280637,
+    "ev_to_revenue": 4.351,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 136.0,
+    "current_price": 132.5,
     "eps_trailing": 10.83,
-    "eps_forward": 12.75,
+    "eps_forward": 13.33,
     "book_value": 472.141,
     "revenue_per_share": 111.798,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": -0.008,
     "week52_high": 151.48,
     "week52_low": 118.1,
-    "avg50d": 136.7388,
-    "avg200d": 132.9964,
-    "avg_volume": 440.0,
-    "avg_volume_10d": 340.0,
+    "avg50d": 136.688,
+    "avg200d": 133.1048,
+    "avg_volume": 445.0,
+    "avg_volume_10d": 152.0,
     "shares_outstanding": 1729764.0,
     "float_shares": 1292480.0,
     "insider_ownership": 0.28818,
     "institutional_ownership": 0.04367,
     "short_ratio": null
   },
-  "_pe_label": "12.56x"
+  "_pe_label": "12.23x"
 }

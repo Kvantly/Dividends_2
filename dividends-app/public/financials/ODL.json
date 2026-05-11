@@ -1,23 +1,23 @@
 {
   "ticker": "ODL",
   "name": "ODFJELL DRILLING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 24268476416.0,
-    "enterprise_value": 25082793984.0,
-    "trailing_pe": 15.787831,
-    "forward_pe": 9.732207,
+    "market_cap": 23836825600.0,
+    "enterprise_value": 24651141120.0,
+    "trailing_pe": 15.507021,
+    "forward_pe": 9.632285,
     "peg_ratio": null,
-    "price_to_sales": 26.929068,
-    "price_to_book": 1.809162,
-    "ev_to_revenue": 27.833,
-    "ev_to_ebitda": 57.411
+    "price_to_sales": 26.450094,
+    "price_to_book": 1.796775,
+    "ev_to_revenue": 27.354,
+    "ev_to_ebitda": 56.423
   },
   "per_share": {
-    "current_price": 101.2,
+    "current_price": 99.4,
     "eps_trailing": 6.41,
-    "eps_forward": 10.398463,
-    "book_value": 55.93749,
+    "eps_forward": 10.319462,
+    "book_value": 55.32133,
     "revenue_per_share": 3.758,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.329,
     "week52_high": 112.0,
-    "week52_low": 53.0,
-    "avg50d": 101.306,
-    "avg200d": 87.6425,
-    "avg_volume": 398434.0,
-    "avg_volume_10d": 256937.0,
+    "week52_low": 56.2,
+    "avg50d": 100.846,
+    "avg200d": 88.049,
+    "avg_volume": 410550.0,
+    "avg_volume_10d": 300729.0,
     "shares_outstanding": 239807088.0,
     "float_shares": 115886775.0,
     "insider_ownership": 0.49862,
-    "institutional_ownership": 0.16475,
+    "institutional_ownership": 0.16574,
     "short_ratio": null
   },
-  "_pe_label": "15.79x"
+  "_pe_label": "15.51x"
 }

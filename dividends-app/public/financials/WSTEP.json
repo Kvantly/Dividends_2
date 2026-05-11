@@ -1,20 +1,20 @@
 {
   "ticker": "WSTEP",
   "name": "WEBSTEP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 497297536.0,
-    "enterprise_value": 462812896.0,
-    "trailing_pe": 11.366459,
-    "forward_pe": 7.99193,
+    "market_cap": 490503840.0,
+    "enterprise_value": 454660480.0,
+    "trailing_pe": 11.21118,
+    "forward_pe": 7.88275,
     "peg_ratio": null,
-    "price_to_sales": 0.595425,
-    "price_to_book": 1.445041,
-    "ev_to_revenue": 0.554,
-    "ev_to_ebitda": 7.618
+    "price_to_sales": 0.587291,
+    "price_to_book": 1.4253,
+    "ev_to_revenue": 0.544,
+    "ev_to_ebitda": 7.484
   },
   "per_share": {
-    "current_price": 18.3,
+    "current_price": 18.05,
     "eps_trailing": 1.61,
     "eps_forward": 2.28981,
     "book_value": 12.664,
@@ -49,15 +49,15 @@
     "beta": 0.271,
     "week52_high": 27.2,
     "week52_low": 16.9,
-    "avg50d": 17.79,
-    "avg200d": 19.717,
-    "avg_volume": 18954.0,
-    "avg_volume_10d": 29857.0,
+    "avg50d": 17.83,
+    "avg200d": 19.6355,
+    "avg_volume": 17538.0,
+    "avg_volume_10d": 27133.0,
     "shares_outstanding": 27174729.0,
     "float_shares": 12512876.0,
     "insider_ownership": 0.54343,
     "institutional_ownership": 0.26117,
     "short_ratio": null
   },
-  "_pe_label": "11.37x"
+  "_pe_label": "11.21x"
 }

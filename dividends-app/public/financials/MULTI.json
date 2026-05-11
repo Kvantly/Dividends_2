@@ -1,20 +1,20 @@
 {
   "ticker": "MULTI",
   "name": "MULTICONSULT",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4382418944.0,
-    "enterprise_value": 5848616960.0,
-    "trailing_pe": 17.24512,
-    "forward_pe": 11.01813,
+    "market_cap": 4343832064.0,
+    "enterprise_value": 5892706304.0,
+    "trailing_pe": 17.093275,
+    "forward_pe": 10.921116,
     "peg_ratio": null,
-    "price_to_sales": 0.774653,
-    "price_to_book": 3.691493,
-    "ev_to_revenue": 1.034,
-    "ev_to_ebitda": 12.598
+    "price_to_sales": 0.767832,
+    "price_to_book": 3.65899,
+    "ev_to_revenue": 1.042,
+    "ev_to_ebitda": 12.693
   },
   "per_share": {
-    "current_price": 159.0,
+    "current_price": 157.6,
     "eps_trailing": 9.22,
     "eps_forward": 14.43076,
     "book_value": 43.072,
@@ -49,15 +49,15 @@
     "beta": 0.114,
     "week52_high": 221.0,
     "week52_low": 150.0,
-    "avg50d": 159.788,
-    "avg200d": 172.0345,
-    "avg_volume": 14556.0,
-    "avg_volume_10d": 6663.0,
+    "avg50d": 159.84,
+    "avg200d": 171.2325,
+    "avg_volume": 13988.0,
+    "avg_volume_10d": 7438.0,
     "shares_outstanding": 27562385.0,
     "float_shares": 17271690.0,
     "insider_ownership": 0.37697,
-    "institutional_ownership": 0.35785,
+    "institutional_ownership": 0.35758,
     "short_ratio": null
   },
-  "_pe_label": "17.25x"
+  "_pe_label": "17.09x"
 }

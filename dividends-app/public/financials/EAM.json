@@ -1,21 +1,21 @@
 {
   "ticker": "EAM",
   "name": "EAM SOLAR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 39930728.0,
-    "enterprise_value": 40594700.0,
-    "trailing_pe": 3.638889,
+    "market_cap": 39625912.0,
+    "enterprise_value": 41305936.0,
+    "trailing_pe": 3.545454,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 33.16836,
-    "price_to_book": 1.07319,
-    "ev_to_revenue": 33.72,
-    "ev_to_ebitda": 124.284
+    "price_to_sales": 32.91517,
+    "price_to_book": 1.064998,
+    "ev_to_revenue": 34.311,
+    "ev_to_ebitda": 126.461
   },
   "per_share": {
-    "current_price": 1.965,
-    "eps_trailing": 0.54,
+    "current_price": 1.95,
+    "eps_trailing": 0.55,
     "eps_forward": null,
     "book_value": 1.830989,
     "revenue_per_share": 0.059,
@@ -49,15 +49,15 @@
     "beta": 0.062,
     "week52_high": 29.08,
     "week52_low": 0.66,
-    "avg50d": 1.722006,
-    "avg200d": 1.490859,
-    "avg_volume": 1384382.0,
-    "avg_volume_10d": 950087.0,
+    "avg50d": 1.761718,
+    "avg200d": 1.491152,
+    "avg_volume": 1357548.0,
+    "avg_volume_10d": 733982.0,
     "shares_outstanding": 20320980.0,
     "float_shares": 19946058.0,
     "insider_ownership": 0.26881,
     "institutional_ownership": 0.27043,
     "short_ratio": null
   },
-  "_pe_label": "3.64x"
+  "_pe_label": "3.55x"
 }

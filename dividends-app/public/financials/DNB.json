@@ -1,22 +1,22 @@
 {
   "ticker": "DNB",
   "name": "DNB BANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 402809880576.0,
-    "enterprise_value": 1182215176192.0,
-    "trailing_pe": 10.028695,
-    "forward_pe": 10.144932,
+    "market_cap": 405547155456.0,
+    "enterprise_value": 1185266925568.0,
+    "trailing_pe": 10.100466,
+    "forward_pe": 10.194695,
     "peg_ratio": 5.22,
-    "price_to_sales": 4.603278,
-    "price_to_book": 1.468279,
-    "ev_to_revenue": 13.51,
+    "price_to_sales": 4.63456,
+    "price_to_book": 1.478257,
+    "ev_to_revenue": 13.545,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 279.6,
-    "eps_trailing": 27.88,
-    "eps_forward": 27.56056,
+    "current_price": 281.5,
+    "eps_trailing": 27.87,
+    "eps_forward": 27.6124,
     "book_value": 190.427,
     "revenue_per_share": 59.664,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.336,
     "week52_high": 313.6,
     "week52_low": 256.6,
-    "avg50d": 295.442,
-    "avg200d": 277.875,
-    "avg_volume": 2043169.0,
-    "avg_volume_10d": 2162897.0,
+    "avg50d": 294.19,
+    "avg200d": 278.205,
+    "avg_volume": 2052889.0,
+    "avg_volume_10d": 1764444.0,
     "shares_outstanding": 1440664864.0,
     "float_shares": 1452111781.0,
     "insider_ownership": 0.44454,
-    "institutional_ownership": 0.43459,
+    "institutional_ownership": 0.43466,
     "short_ratio": null
   },
-  "_pe_label": "10.03x"
+  "_pe_label": "10.10x"
 }

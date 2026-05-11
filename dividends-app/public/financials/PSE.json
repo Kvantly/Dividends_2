@@ -1,20 +1,20 @@
 {
   "ticker": "PSE",
   "name": "PETROLIA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 348299328.0,
-    "enterprise_value": 357880416.0,
-    "trailing_pe": 7.02381,
+    "market_cap": 351251008.0,
+    "enterprise_value": 351977024.0,
+    "trailing_pe": 7.083334,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 5.771323,
-    "price_to_book": 0.763646,
-    "ev_to_revenue": 5.93,
-    "ev_to_ebitda": 41.041
+    "price_to_sales": 5.820232,
+    "price_to_book": 0.770118,
+    "ev_to_revenue": 5.832,
+    "ev_to_ebitda": 40.364
   },
   "per_share": {
-    "current_price": 5.9,
+    "current_price": 5.95,
     "eps_trailing": 0.84,
     "eps_forward": null,
     "book_value": 7.726092,
@@ -49,15 +49,15 @@
     "beta": -0.389,
     "week52_high": 6.5,
     "week52_low": 3.52,
-    "avg50d": 5.67,
-    "avg200d": 4.89155,
-    "avg_volume": 58423.0,
-    "avg_volume_10d": 34333.0,
+    "avg50d": 5.7356,
+    "avg200d": 4.9225,
+    "avg_volume": 59872.0,
+    "avg_volume_10d": 38204.0,
     "shares_outstanding": 59033786.0,
     "float_shares": 8817877.0,
     "insider_ownership": 0.92533,
     "institutional_ownership": 0.00254,
     "short_ratio": null
   },
-  "_pe_label": "7.02x"
+  "_pe_label": "7.08x"
 }

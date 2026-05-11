@@ -1,22 +1,22 @@
 {
   "ticker": "SNI",
   "name": "STOLT-NIELSEN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": 20451506176.0,
-    "enterprise_value": 18534754304.0,
-    "trailing_pe": 7.157797,
-    "forward_pe": 8.239622,
+    "enterprise_value": 18508193792.0,
+    "trailing_pe": 7.154472,
+    "forward_pe": 8.231199,
     "peg_ratio": 0.14,
     "price_to_sales": 7.277554,
     "price_to_book": 0.688595,
-    "ev_to_revenue": 6.595,
-    "ev_to_ebitda": 29.419
+    "ev_to_revenue": 6.586,
+    "ev_to_ebitda": 29.377
   },
   "per_share": {
     "current_price": 308.0,
-    "eps_trailing": 43.03,
-    "eps_forward": 37.380356,
+    "eps_trailing": 43.05,
+    "eps_forward": 37.418606,
     "book_value": 447.2876,
     "revenue_per_share": 52.842,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": -0.567,
     "week52_high": 358.5,
-    "week52_low": 229.5,
-    "avg50d": 318.48,
-    "avg200d": 324.7475,
-    "avg_volume": 69324.0,
-    "avg_volume_10d": 46746.0,
+    "week52_low": 240.5,
+    "avg50d": 317.32,
+    "avg200d": 324.7425,
+    "avg_volume": 69402.0,
+    "avg_volume_10d": 46176.0,
     "shares_outstanding": 53120796.0,
     "float_shares": 18313926.0,
     "insider_ownership": 0.55105,
     "institutional_ownership": 0.23936,
     "short_ratio": null
   },
-  "_pe_label": "7.16x"
+  "_pe_label": "7.15x"
 }

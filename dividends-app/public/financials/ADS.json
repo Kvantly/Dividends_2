@@ -1,23 +1,23 @@
 {
   "ticker": "ADS",
   "name": "ADS MARITIME HOLD",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 184624288.0,
-    "enterprise_value": 184006304.0,
-    "trailing_pe": 28.888887,
+    "market_cap": 176103168.0,
+    "enterprise_value": 175485184.0,
+    "trailing_pe": 27.555555,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 529.0094,
-    "price_to_book": 0.871081,
-    "ev_to_revenue": 527.239,
-    "ev_to_ebitda": -254.504
+    "price_to_sales": 504.5936,
+    "price_to_book": 0.833381,
+    "ev_to_revenue": 502.823,
+    "ev_to_ebitda": -242.718
   },
   "per_share": {
-    "current_price": 2.6,
+    "current_price": 2.48,
     "eps_trailing": 0.09,
     "eps_forward": null,
-    "book_value": 2.984796,
+    "book_value": 2.975831,
     "revenue_per_share": 0.005,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.001,
     "week52_high": 2.68,
     "week52_low": 1.88,
-    "avg50d": 2.46,
-    "avg200d": 2.2946,
-    "avg_volume": 11347.0,
-    "avg_volume_10d": 1333.0,
+    "avg50d": 2.4532,
+    "avg200d": 2.2996,
+    "avg_volume": 10141.0,
+    "avg_volume_10d": 2954.0,
     "shares_outstanding": 71009348.0,
     "float_shares": 6435577.0,
     "insider_ownership": 0.60393,
     "institutional_ownership": 0.00876,
     "short_ratio": null
   },
-  "_pe_label": "28.89x"
+  "_pe_label": "27.56x"
 }

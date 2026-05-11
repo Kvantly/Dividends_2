@@ -1,20 +1,20 @@
 {
   "ticker": "SKAND",
   "name": "SKANDIA GREENPOWER",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 229971056.0,
-    "enterprise_value": 128122440.0,
-    "trailing_pe": 21.388887,
+    "market_cap": 215037872.0,
+    "enterprise_value": 107813304.0,
+    "trailing_pe": 19.999998,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 0.426851,
-    "price_to_book": 2.359069,
-    "ev_to_revenue": 0.238,
-    "ev_to_ebitda": 4.518
+    "price_to_sales": 0.399133,
+    "price_to_book": 2.205882,
+    "ev_to_revenue": 0.2,
+    "ev_to_ebitda": 3.802
   },
   "per_share": {
-    "current_price": 1.925,
+    "current_price": 1.8,
     "eps_trailing": 0.09,
     "eps_forward": null,
     "book_value": 0.816,
@@ -49,15 +49,15 @@
     "beta": 1.37,
     "week52_high": 2.08,
     "week52_low": 1.01,
-    "avg50d": 1.7147,
-    "avg200d": 1.705625,
-    "avg_volume": 24064.0,
-    "avg_volume_10d": 21256.0,
+    "avg50d": 1.724,
+    "avg200d": 1.707975,
+    "avg_volume": 24249.0,
+    "avg_volume_10d": 27451.0,
     "shares_outstanding": 119465490.0,
     "float_shares": 63074195.0,
     "insider_ownership": 0.91966,
     "institutional_ownership": 0.03289,
     "short_ratio": null
   },
-  "_pe_label": "21.39x"
+  "_pe_label": "20.00x"
 }

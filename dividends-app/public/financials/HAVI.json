@@ -1,20 +1,20 @@
 {
   "ticker": "HAVI",
   "name": "HAVILA SHIPPING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 331578496.0,
-    "enterprise_value": 1153856128.0,
-    "trailing_pe": 30.125002,
-    "forward_pe": -0.6025,
+    "market_cap": 335706016.0,
+    "enterprise_value": 1160735360.0,
+    "trailing_pe": 30.500002,
+    "forward_pe": -0.61,
     "peg_ratio": null,
-    "price_to_sales": 0.512342,
-    "price_to_book": 0.985282,
-    "ev_to_revenue": 1.783,
-    "ev_to_ebitda": 3.903
+    "price_to_sales": 0.51872,
+    "price_to_book": 0.997547,
+    "ev_to_revenue": 1.794,
+    "ev_to_ebitda": 3.926
   },
   "per_share": {
-    "current_price": 1.205,
+    "current_price": 1.22,
     "eps_trailing": 0.04,
     "eps_forward": -2.0,
     "book_value": 1.223,
@@ -49,15 +49,15 @@
     "beta": 0.375,
     "week52_high": 2.02,
     "week52_low": 0.716,
-    "avg50d": 1.19536,
-    "avg200d": 1.205435,
-    "avg_volume": 733491.0,
-    "avg_volume_10d": 113162.0,
+    "avg50d": 1.20286,
+    "avg200d": 1.20111,
+    "avg_volume": 733353.0,
+    "avg_volume_10d": 144684.0,
     "shares_outstanding": 275168875.0,
-    "float_shares": 94080238.0,
+    "float_shares": 91584457.0,
     "insider_ownership": 0.75103,
     "institutional_ownership": 0.14072,
     "short_ratio": null
   },
-  "_pe_label": "30.13x"
+  "_pe_label": "30.50x"
 }

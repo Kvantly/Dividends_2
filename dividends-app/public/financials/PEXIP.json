@@ -1,22 +1,22 @@
 {
   "ticker": "PEXIP",
   "name": "PEXIP HOLDING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 8611533824.0,
+    "market_cap": 8454960128.0,
     "enterprise_value": 7821743616.0,
-    "trailing_pe": 34.810127,
-    "forward_pe": 26.099335,
+    "trailing_pe": 34.177216,
+    "forward_pe": 24.976873,
     "peg_ratio": null,
-    "price_to_sales": 7.011017,
-    "price_to_book": 5.596256,
+    "price_to_sales": 6.883544,
+    "price_to_book": 5.494505,
     "ev_to_revenue": 6.368,
     "ev_to_ebitda": 28.329
   },
   "per_share": {
-    "current_price": 82.5,
+    "current_price": 81.0,
     "eps_trailing": 2.37,
-    "eps_forward": 3.161,
+    "eps_forward": 3.243,
     "book_value": 14.742,
     "revenue_per_share": 11.947,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 1.386,
     "week52_high": 83.4,
-    "week52_low": 43.95,
-    "avg50d": 64.082,
-    "avg200d": 65.304,
-    "avg_volume": 408921.0,
-    "avg_volume_10d": 429499.0,
+    "week52_low": 48.6,
+    "avg50d": 65.214,
+    "avg200d": 65.583,
+    "avg_volume": 423931.0,
+    "avg_volume_10d": 501687.0,
     "shares_outstanding": 104382226.0,
     "float_shares": 85739499.0,
     "insider_ownership": 0.26893,
     "institutional_ownership": 0.40359,
     "short_ratio": null
   },
-  "_pe_label": "34.81x"
+  "_pe_label": "34.18x"
 }

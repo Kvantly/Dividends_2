@@ -1,23 +1,23 @@
 {
   "ticker": "NORAM",
   "name": "NORAM DRILLING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2079261952.0,
-    "enterprise_value": 2180594944.0,
-    "trailing_pe": 15.189873,
-    "forward_pe": 9.081449,
+    "market_cap": 2100920832.0,
+    "enterprise_value": 2070179968.0,
+    "trailing_pe": 15.348101,
+    "forward_pe": 9.176047,
     "peg_ratio": null,
-    "price_to_sales": 20.561102,
-    "price_to_book": 3.992512,
-    "ev_to_revenue": 21.563,
-    "ev_to_ebitda": 110.488
+    "price_to_sales": 20.775278,
+    "price_to_book": 4.041692,
+    "ev_to_revenue": 20.471,
+    "ev_to_ebitda": 104.894
   },
   "per_share": {
-    "current_price": 48.0,
+    "current_price": 48.5,
     "eps_trailing": 3.16,
     "eps_forward": 5.2855,
-    "book_value": 12.022507,
+    "book_value": 11.999926,
     "revenue_per_share": 2.335,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": -0.194,
     "week52_high": 50.8,
     "week52_low": 21.8,
-    "avg50d": 44.687,
-    "avg200d": 33.355,
-    "avg_volume": 104795.0,
-    "avg_volume_10d": 94253.0,
+    "avg50d": 45.297,
+    "avg200d": 33.71725,
+    "avg_volume": 111344.0,
+    "avg_volume_10d": 129108.0,
     "shares_outstanding": 43317957.0,
     "float_shares": 18611639.0,
     "insider_ownership": 0.58645,
     "institutional_ownership": 0.09329,
     "short_ratio": null
   },
-  "_pe_label": "15.19x"
+  "_pe_label": "15.35x"
 }

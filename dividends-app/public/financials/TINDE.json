@@ -1,22 +1,22 @@
 {
   "ticker": "TINDE",
   "name": "TINDE SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 654002496.0,
-    "enterprise_value": 3061702400.0,
-    "trailing_pe": 24.489796,
-    "forward_pe": 12.435234,
+    "market_cap": 651277504.0,
+    "enterprise_value": 3058977536.0,
+    "trailing_pe": 24.387754,
+    "forward_pe": 11.136999,
     "peg_ratio": null,
-    "price_to_sales": 2.103132,
-    "price_to_book": 0.326644,
-    "ev_to_revenue": 9.846,
+    "price_to_sales": 2.094369,
+    "price_to_book": 0.325283,
+    "ev_to_revenue": 9.837,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 120.0,
+    "current_price": 119.5,
     "eps_trailing": 4.9,
-    "eps_forward": 9.65,
+    "eps_forward": 10.73,
     "book_value": 367.372,
     "revenue_per_share": 57.058,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": -0.106,
     "week52_high": 130.0,
     "week52_low": 101.12,
-    "avg50d": 116.7204,
-    "avg200d": 120.0757,
-    "avg_volume": 2404.0,
-    "avg_volume_10d": 1558.0,
+    "avg50d": 117.0064,
+    "avg200d": 120.0131,
+    "avg_volume": 2367.0,
+    "avg_volume_10d": 1448.0,
     "shares_outstanding": 5450021.0,
     "float_shares": 4686092.0,
     "insider_ownership": 0.21655,
     "institutional_ownership": 0.06807,
     "short_ratio": null
   },
-  "_pe_label": "24.49x"
+  "_pe_label": "24.39x"
 }

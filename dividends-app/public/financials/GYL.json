@@ -1,20 +1,20 @@
 {
   "ticker": "GYL",
   "name": "GYLDENDAL",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 987452096.0,
+    "market_cap": 922852416.0,
     "enterprise_value": 1115334016.0,
-    "trailing_pe": 12.152185,
+    "trailing_pe": 11.357183,
     "forward_pe": null,
     "peg_ratio": 1.35,
-    "price_to_sales": 0.338507,
-    "price_to_book": 1.021212,
+    "price_to_sales": 0.316361,
+    "price_to_book": 0.954403,
     "ev_to_revenue": 0.382,
     "ev_to_ebitda": 6.809
   },
   "per_share": {
-    "current_price": 428.0,
+    "current_price": 400.0,
     "eps_trailing": 35.22,
     "eps_forward": null,
     "book_value": 419.11,
@@ -49,15 +49,15 @@
     "beta": 0.252,
     "week52_high": 500.0,
     "week52_low": 390.0,
-    "avg50d": 442.72,
-    "avg200d": 439.81,
+    "avg50d": 440.2,
+    "avg200d": 440.23,
     "avg_volume": 24.0,
-    "avg_volume_10d": 57.0,
+    "avg_volume_10d": 52.0,
     "shares_outstanding": 2307131.0,
     "float_shares": null,
     "insider_ownership": 0.96142,
     "institutional_ownership": 0.0,
     "short_ratio": null
   },
-  "_pe_label": "12.15x"
+  "_pe_label": "11.36x"
 }

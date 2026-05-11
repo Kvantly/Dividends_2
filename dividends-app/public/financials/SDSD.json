@@ -1,20 +1,20 @@
 {
   "ticker": "SDSD",
   "name": "S.D. STANDARD ETC",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 970293376.0,
-    "enterprise_value": 878696896.0,
-    "trailing_pe": 20.555555,
-    "forward_pe": 92.5,
+    "market_cap": 965048576.0,
+    "enterprise_value": 844605568.0,
+    "trailing_pe": 20.444445,
+    "forward_pe": 92.0,
     "peg_ratio": null,
-    "price_to_sales": 212.22514,
-    "price_to_book": 0.867764,
-    "ev_to_revenue": 192.191,
+    "price_to_sales": 211.07799,
+    "price_to_book": 0.863073,
+    "ev_to_revenue": 184.734,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 1.85,
+    "current_price": 1.84,
     "eps_trailing": 0.09,
     "eps_forward": 0.02,
     "book_value": 2.131916,
@@ -49,15 +49,15 @@
     "beta": 0.229,
     "week52_high": 1.995,
     "week52_low": 1.79,
-    "avg50d": 1.8729,
-    "avg200d": 1.853325,
-    "avg_volume": 27921.0,
-    "avg_volume_10d": 13716.0,
+    "avg50d": 1.8719,
+    "avg200d": 1.853825,
+    "avg_volume": 28439.0,
+    "avg_volume_10d": 16234.0,
     "shares_outstanding": 524482901.0,
     "float_shares": null,
     "insider_ownership": 0.47445,
     "institutional_ownership": 0.59385,
     "short_ratio": null
   },
-  "_pe_label": "20.56x"
+  "_pe_label": "20.44x"
 }

@@ -1,20 +1,20 @@
 {
   "ticker": "HEX",
   "name": "HEXAGON COMPOSITES",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2852459520.0,
-    "enterprise_value": 4422511104.0,
+    "market_cap": 2282722048.0,
+    "enterprise_value": 3938657280.0,
     "trailing_pe": null,
-    "forward_pe": 14.35443,
+    "forward_pe": 11.487341,
     "peg_ratio": 0.24,
-    "price_to_sales": 0.965683,
-    "price_to_book": 1.078562,
-    "ev_to_revenue": 1.497,
-    "ev_to_ebitda": 47.919
+    "price_to_sales": 0.842076,
+    "price_to_book": 0.863135,
+    "ev_to_revenue": 1.453,
+    "ev_to_ebitda": 22.469
   },
   "per_share": {
-    "current_price": 11.34,
+    "current_price": 9.075,
     "eps_trailing": -5.03,
     "eps_forward": 0.79,
     "book_value": 10.514,
@@ -22,39 +22,39 @@
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": -0.39249,
-    "operating_margin": 0.10594,
-    "gross_margin": 0.49806,
-    "ebitda_margin": 0.03124,
-    "roe": -0.37536,
-    "roa": -0.01125
+    "profit_margin": -0.19233,
+    "operating_margin": -0.03438,
+    "gross_margin": 0.51689,
+    "ebitda_margin": 0.06466,
+    "roe": -0.19887,
+    "roa": -0.00313
   },
   "income": {
-    "total_revenue": 2953827072.0,
-    "revenue_growth": -0.453,
-    "gross_profits": 1471196032.0,
-    "ebitda": 92291000.0,
-    "net_income": -1159362048.0,
+    "total_revenue": 2710827008.0,
+    "revenue_growth": -0.266,
+    "gross_profits": 1401196032.0,
+    "ebitda": 175291008.0,
+    "net_income": -487361984.0,
     "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 211406000.0,
-    "cash_per_share": 0.84,
-    "total_debt": 1751272960.0,
-    "debt_to_equity": 66.218,
-    "current_ratio": 3.179,
-    "quick_ratio": 1.16
+    "total_cash": 178000000.0,
+    "cash_per_share": 0.708,
+    "total_debt": 1722000000.0,
+    "debt_to_equity": 72.323,
+    "current_ratio": 3.079,
+    "quick_ratio": 1.193
   },
   "trading": {
-    "beta": 0.668,
+    "beta": null,
     "week52_high": 20.0,
     "week52_low": 6.3,
-    "avg50d": 9.6046,
-    "avg200d": 10.51115,
-    "avg_volume": 1360812.0,
-    "avg_volume_10d": 1459814.0,
+    "avg50d": 9.7032,
+    "avg200d": 10.4038,
+    "avg_volume": 1534221.0,
+    "avg_volume_10d": 2432048.0,
     "shares_outstanding": 251539637.0,
-    "float_shares": 152395289.0,
+    "float_shares": 150891082.0,
     "insider_ownership": 0.31185,
     "institutional_ownership": 0.17066,
     "short_ratio": null

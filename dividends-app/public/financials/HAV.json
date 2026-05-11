@@ -1,20 +1,20 @@
 {
   "ticker": "HAV",
   "name": "HAV GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 474250016.0,
-    "enterprise_value": 262322000.0,
-    "trailing_pe": 104.230774,
-    "forward_pe": 5.376984,
+    "market_cap": 483000000.0,
+    "enterprise_value": 281572000.0,
+    "trailing_pe": 106.153854,
+    "forward_pe": 5.476191,
     "peg_ratio": null,
-    "price_to_sales": 0.590568,
-    "price_to_book": 5.171756,
-    "ev_to_revenue": 0.327,
-    "ev_to_ebitda": 12.95
+    "price_to_sales": 0.601464,
+    "price_to_book": 5.267176,
+    "ev_to_revenue": 0.351,
+    "ev_to_ebitda": 13.9
   },
   "per_share": {
-    "current_price": 13.55,
+    "current_price": 13.8,
     "eps_trailing": 0.13,
     "eps_forward": 2.52,
     "book_value": 2.62,
@@ -47,17 +47,17 @@
   },
   "trading": {
     "beta": 1.129,
-    "week52_high": 13.8,
+    "week52_high": 14.0,
     "week52_low": 5.4,
-    "avg50d": 9.8894,
-    "avg200d": 7.79365,
-    "avg_volume": 112265.0,
-    "avg_volume_10d": 201908.0,
+    "avg50d": 10.0884,
+    "avg200d": 7.8885,
+    "avg_volume": 127709.0,
+    "avg_volume_10d": 304565.0,
     "shares_outstanding": 35000000.0,
     "float_shares": 10456250.0,
     "insider_ownership": 0.56647,
     "institutional_ownership": 0.16855,
     "short_ratio": null
   },
-  "_pe_label": "104.23x"
+  "_pe_label": "106.15x"
 }

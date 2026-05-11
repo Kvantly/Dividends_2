@@ -1,22 +1,22 @@
 {
   "ticker": "ROMER",
   "name": "ROMERIKE SPAREBK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 444159904.0,
-    "enterprise_value": 3343803136.0,
-    "trailing_pe": 1.964129,
-    "forward_pe": 10.5954,
+    "market_cap": 453746464.0,
+    "enterprise_value": 3355091456.0,
+    "trailing_pe": 2.006522,
+    "forward_pe": 10.809459,
     "peg_ratio": null,
-    "price_to_sales": 0.896903,
-    "price_to_book": 0.183838,
-    "ev_to_revenue": 6.752,
+    "price_to_sales": 0.916262,
+    "price_to_book": 0.187806,
+    "ev_to_revenue": 6.775,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 156.6,
+    "current_price": 159.98,
     "eps_trailing": 79.73,
-    "eps_forward": 14.78,
+    "eps_forward": 14.8,
     "book_value": 851.838,
     "revenue_per_share": 174.601,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.042,
     "week52_high": 170.72,
     "week52_low": 135.0,
-    "avg50d": 155.0904,
-    "avg200d": 144.3318,
-    "avg_volume": 779.0,
-    "avg_volume_10d": 229.0,
+    "avg50d": 156.0228,
+    "avg200d": 144.6634,
+    "avg_volume": 756.0,
+    "avg_volume_10d": 212.0,
     "shares_outstanding": 2836270.0,
     "float_shares": null,
     "insider_ownership": 0.44983,
     "institutional_ownership": 0.09913,
     "short_ratio": null
   },
-  "_pe_label": "1.96x"
+  "_pe_label": "2.01x"
 }

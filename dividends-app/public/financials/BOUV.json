@@ -1,20 +1,20 @@
 {
   "ticker": "BOUV",
   "name": "BOUVET",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5353587712.0,
-    "enterprise_value": 5054836224.0,
-    "trailing_pe": 15.115606,
-    "forward_pe": 12.875177,
+    "market_cap": 5261460992.0,
+    "enterprise_value": 4972145664.0,
+    "trailing_pe": 14.855492,
+    "forward_pe": 12.653617,
     "peg_ratio": null,
-    "price_to_sales": 1.368384,
-    "price_to_book": 12.749877,
-    "ev_to_revenue": 1.292,
-    "ev_to_ebitda": 10.187
+    "price_to_sales": 1.344836,
+    "price_to_book": 12.530473,
+    "ev_to_revenue": 1.271,
+    "ev_to_ebitda": 10.02
   },
   "per_share": {
-    "current_price": 52.3,
+    "current_price": 51.4,
     "eps_trailing": 3.46,
     "eps_forward": 4.06208,
     "book_value": 4.102,
@@ -47,17 +47,17 @@
   },
   "trading": {
     "beta": 0.344,
-    "week52_high": 83.5,
+    "week52_high": 82.3,
     "week52_low": 48.1,
-    "avg50d": 50.624,
-    "avg200d": 60.61925,
-    "avg_volume": 233555.0,
-    "avg_volume_10d": 137493.0,
+    "avg50d": 50.771,
+    "avg200d": 60.25075,
+    "avg_volume": 238742.0,
+    "avg_volume_10d": 160328.0,
     "shares_outstanding": 102363052.0,
-    "float_shares": 100446147.0,
+    "float_shares": 97297708.0,
     "insider_ownership": 0.16841,
-    "institutional_ownership": 0.45698,
+    "institutional_ownership": 0.457,
     "short_ratio": null
   },
-  "_pe_label": "15.12x"
+  "_pe_label": "14.86x"
 }

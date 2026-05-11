@@ -1,23 +1,23 @@
 {
   "ticker": "REFL",
   "name": "REFUELS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1147763072.0,
-    "enterprise_value": 1333433088.0,
-    "trailing_pe": 1.310345,
-    "forward_pe": -35.046944,
+    "market_cap": 1093395328.0,
+    "enterprise_value": 1279065344.0,
+    "trailing_pe": 1.246556,
+    "forward_pe": -33.386826,
     "peg_ratio": null,
-    "price_to_sales": -10.673093,
-    "price_to_book": 20.099064,
-    "ev_to_revenue": -12.4,
-    "ev_to_ebitda": 489.627
+    "price_to_sales": -10.167525,
+    "price_to_book": 19.139849,
+    "ev_to_revenue": -11.894,
+    "ev_to_ebitda": 469.663
   },
   "per_share": {
-    "current_price": 19.0,
-    "eps_trailing": 14.5,
+    "current_price": 18.1,
+    "eps_trailing": 14.52,
     "eps_forward": -0.54213,
-    "book_value": 0.945318,
+    "book_value": 0.945671,
     "revenue_per_share": -1.78,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": -0.482,
     "week52_high": 22.4,
     "week52_low": 10.7,
-    "avg50d": 17.238,
-    "avg200d": 15.021,
-    "avg_volume": 4201.0,
-    "avg_volume_10d": 3449.0,
+    "avg50d": 17.474,
+    "avg200d": 15.0405,
+    "avg_volume": 4253.0,
+    "avg_volume_10d": 3174.0,
     "shares_outstanding": 60408581.0,
     "float_shares": 9070348.0,
     "insider_ownership": 0.94379,
     "institutional_ownership": 0.0168,
     "short_ratio": null
   },
-  "_pe_label": "1.31x"
+  "_pe_label": "1.25x"
 }

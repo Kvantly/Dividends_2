@@ -1,22 +1,22 @@
 {
   "ticker": "SBO",
   "name": "SELVAAG BOLIG",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 3148124416.0,
-    "enterprise_value": 5975431168.0,
-    "trailing_pe": 23.661972,
-    "forward_pe": 10.243902,
+    "market_cap": 3045060864.0,
+    "enterprise_value": 5862998016.0,
+    "trailing_pe": 22.887325,
+    "forward_pe": 11.754068,
     "peg_ratio": null,
-    "price_to_sales": 1.513829,
-    "price_to_book": 1.311117,
-    "ev_to_revenue": 2.873,
-    "ev_to_ebitda": 99.853
+    "price_to_sales": 1.464269,
+    "price_to_book": 1.268194,
+    "ev_to_revenue": 2.819,
+    "ev_to_ebitda": 97.975
   },
   "per_share": {
-    "current_price": 33.6,
+    "current_price": 32.5,
     "eps_trailing": 1.42,
-    "eps_forward": 3.28,
+    "eps_forward": 2.765,
     "book_value": 25.627,
     "revenue_per_share": 22.183,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.823,
     "week52_high": 38.0,
     "week52_low": 32.5,
-    "avg50d": 34.538,
-    "avg200d": 34.97975,
-    "avg_volume": 45282.0,
-    "avg_volume_10d": 19269.0,
+    "avg50d": 34.369,
+    "avg200d": 34.9275,
+    "avg_volume": 38834.0,
+    "avg_volume_10d": 47523.0,
     "shares_outstanding": 93694184.0,
     "float_shares": 34932940.0,
     "insider_ownership": 0.73388,
-    "institutional_ownership": 0.18109,
+    "institutional_ownership": 0.18099,
     "short_ratio": null
   },
-  "_pe_label": "23.66x"
+  "_pe_label": "22.89x"
 }

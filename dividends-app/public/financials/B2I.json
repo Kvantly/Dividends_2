@@ -1,20 +1,20 @@
 {
   "ticker": "B2I",
   "name": "B2 Impact",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 8734000128.0,
-    "enterprise_value": 18868641792.0,
-    "trailing_pe": 14.186747,
-    "forward_pe": 10.107296,
+    "market_cap": 8789630976.0,
+    "enterprise_value": 19127451648.0,
+    "trailing_pe": 14.277109,
+    "forward_pe": 10.171675,
     "peg_ratio": null,
-    "price_to_sales": 3.044266,
-    "price_to_book": 1.52516,
-    "ev_to_revenue": 6.577,
+    "price_to_sales": 3.063657,
+    "price_to_book": 1.534875,
+    "ev_to_revenue": 6.667,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 23.55,
+    "current_price": 23.7,
     "eps_trailing": 1.66,
     "eps_forward": 2.33,
     "book_value": 15.441,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.676,
     "week52_high": 25.6,
-    "week52_low": 11.74,
+    "week52_low": 11.8,
     "avg50d": 24.123,
-    "avg200d": 19.41095,
-    "avg_volume": 765827.0,
-    "avg_volume_10d": 309007.0,
+    "avg200d": 19.51655,
+    "avg_volume": 762596.0,
+    "avg_volume_10d": 322628.0,
     "shares_outstanding": 370870485.0,
     "float_shares": 199183109.0,
     "insider_ownership": 0.48338,
-    "institutional_ownership": 0.2066,
+    "institutional_ownership": 0.20672,
     "short_ratio": null
   },
-  "_pe_label": "14.19x"
+  "_pe_label": "14.28x"
 }

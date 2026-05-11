@@ -1,20 +1,20 @@
 {
   "ticker": "STB",
   "name": "STOREBRAND",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 74725744640.0,
-    "enterprise_value": 115229499392.0,
-    "trailing_pe": 16.453703,
-    "forward_pe": 13.49375,
+    "market_cap": 74263175168.0,
+    "enterprise_value": 115819610112.0,
+    "trailing_pe": 16.351852,
+    "forward_pe": 13.410221,
     "peg_ratio": 3.46,
-    "price_to_sales": 1.02252,
-    "price_to_book": 2.292726,
-    "ev_to_revenue": 1.577,
-    "ev_to_ebitda": 2.007
+    "price_to_sales": 1.01619,
+    "price_to_book": 2.278533,
+    "ev_to_revenue": 1.585,
+    "ev_to_ebitda": 2.018
   },
   "per_share": {
-    "current_price": 177.7,
+    "current_price": 176.6,
     "eps_trailing": 10.8,
     "eps_forward": 13.16906,
     "book_value": 77.506,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.546,
     "week52_high": 183.3,
-    "week52_low": 122.7,
-    "avg50d": 173.854,
-    "avg200d": 163.711,
-    "avg_volume": 794191.0,
-    "avg_volume_10d": 801711.0,
+    "week52_low": 126.7,
+    "avg50d": 173.782,
+    "avg200d": 164.179,
+    "avg_volume": 772666.0,
+    "avg_volume_10d": 822177.0,
     "shares_outstanding": 420516299.0,
-    "float_shares": 362231300.0,
+    "float_shares": 362197579.0,
     "insider_ownership": 0.03356,
-    "institutional_ownership": 0.7213,
+    "institutional_ownership": 0.7216,
     "short_ratio": null
   },
-  "_pe_label": "16.45x"
+  "_pe_label": "16.35x"
 }

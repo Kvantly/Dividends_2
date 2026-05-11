@@ -1,21 +1,21 @@
 {
   "ticker": "TRSB",
   "name": "TR\u00d8NDELAG SPBK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 549896064.0,
-    "enterprise_value": 2108485120.0,
-    "trailing_pe": 7.828455,
-    "forward_pe": 13.053348,
+    "market_cap": 557451200.0,
+    "enterprise_value": 2116135808.0,
+    "trailing_pe": 7.941417,
+    "forward_pe": 13.23269,
     "peg_ratio": null,
-    "price_to_sales": 1.750241,
-    "price_to_book": 0.513737,
-    "ev_to_revenue": 6.711,
+    "price_to_sales": 1.774288,
+    "price_to_book": 0.520795,
+    "ev_to_revenue": 6.735,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 115.0,
-    "eps_trailing": 14.69,
+    "current_price": 116.58,
+    "eps_trailing": 14.68,
     "eps_forward": 8.81,
     "book_value": 223.85,
     "revenue_per_share": 65.705,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 120.0,
     "week52_low": 105.0,
-    "avg50d": 113.4344,
-    "avg200d": 114.3983,
-    "avg_volume": 1693.0,
-    "avg_volume_10d": 4431.0,
+    "avg50d": 113.6524,
+    "avg200d": 114.3466,
+    "avg_volume": 1790.0,
+    "avg_volume_10d": 1255.0,
     "shares_outstanding": 4781705.0,
-    "float_shares": 1816952.0,
+    "float_shares": 1000094.0,
     "insider_ownership": 0.64892,
     "institutional_ownership": 0.03823,
     "short_ratio": null
   },
-  "_pe_label": "7.83x"
+  "_pe_label": "7.94x"
 }

@@ -1,22 +1,22 @@
 {
   "ticker": "GRONG",
   "name": "GRONG SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": 791634816.0,
-    "enterprise_value": 1722438272.0,
-    "trailing_pe": 9.548634,
-    "forward_pe": 10.985667,
+    "enterprise_value": 1721246464.0,
+    "trailing_pe": 9.544062,
+    "forward_pe": 11.239707,
     "peg_ratio": null,
     "price_to_sales": 1.897786,
     "price_to_book": 0.560121,
-    "ev_to_revenue": 4.129,
+    "ev_to_revenue": 4.126,
     "ev_to_ebitda": null
   },
   "per_share": {
     "current_price": 199.28,
-    "eps_trailing": 20.87,
-    "eps_forward": 18.14,
+    "eps_trailing": 20.88,
+    "eps_forward": 17.73,
     "book_value": 355.78,
     "revenue_per_share": 105.007,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.238,
     "week52_high": 200.0,
     "week52_low": 142.02,
-    "avg50d": 193.8436,
-    "avg200d": 169.1397,
-    "avg_volume": 539.0,
-    "avg_volume_10d": 134.0,
+    "avg50d": 194.3256,
+    "avg200d": 169.8332,
+    "avg_volume": 544.0,
+    "avg_volume_10d": 169.0,
     "shares_outstanding": 3972475.0,
     "float_shares": 2405413.0,
     "insider_ownership": 0.39619,
     "institutional_ownership": 0.1096,
     "short_ratio": null
   },
-  "_pe_label": "9.55x"
+  "_pe_label": "9.54x"
 }

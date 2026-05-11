@@ -1,22 +1,22 @@
 {
   "ticker": "LSG",
   "name": "LER\u00d8Y SEAFOOD GP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 26891692032.0,
-    "enterprise_value": 38503342080.0,
-    "trailing_pe": 74.03278,
-    "forward_pe": 9.652997,
+    "market_cap": 26093754368.0,
+    "enterprise_value": 37729226752.0,
+    "trailing_pe": 71.83607,
+    "forward_pe": 9.242775,
     "peg_ratio": 1.75,
-    "price_to_sales": 0.782558,
-    "price_to_book": 1.430608,
-    "ev_to_revenue": 1.12,
-    "ev_to_ebitda": 17.601
+    "price_to_sales": 0.759338,
+    "price_to_book": 1.388159,
+    "ev_to_revenue": 1.098,
+    "ev_to_ebitda": 17.247
   },
   "per_share": {
-    "current_price": 45.16,
+    "current_price": 43.82,
     "eps_trailing": 0.61,
-    "eps_forward": 4.67834,
+    "eps_forward": 4.741,
     "book_value": 31.567,
     "revenue_per_share": 57.708,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.58,
     "week52_high": 52.4,
-    "week52_low": 43.54,
-    "avg50d": 48.7002,
-    "avg200d": 48.51985,
-    "avg_volume": 530917.0,
-    "avg_volume_10d": 499947.0,
+    "week52_low": 43.58,
+    "avg50d": 48.4182,
+    "avg200d": 48.46345,
+    "avg_volume": 563127.0,
+    "avg_volume_10d": 767276.0,
     "shares_outstanding": 595475920.0,
-    "float_shares": 251540938.0,
+    "float_shares": 281392146.0,
     "insider_ownership": 0.53485,
-    "institutional_ownership": 0.26722,
+    "institutional_ownership": 0.26626,
     "short_ratio": null
   },
-  "_pe_label": "74.03x"
+  "_pe_label": "71.84x"
 }

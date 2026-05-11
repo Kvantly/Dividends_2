@@ -1,20 +1,20 @@
 {
   "ticker": "ZAL",
   "name": "ZALARIS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2134385280.0,
+    "market_cap": 2160520704.0,
     "enterprise_value": 2416451072.0,
-    "trailing_pe": 42.608696,
-    "forward_pe": 13.315217,
+    "trailing_pe": 43.130436,
+    "forward_pe": 13.47826,
     "peg_ratio": null,
-    "price_to_sales": 1.418166,
-    "price_to_book": 7.73786,
+    "price_to_sales": 1.435531,
+    "price_to_book": 7.832609,
     "ev_to_revenue": 1.606,
     "ev_to_ebitda": 14.586
   },
   "per_share": {
-    "current_price": 98.0,
+    "current_price": 99.2,
     "eps_trailing": 2.3,
     "eps_forward": 7.36,
     "book_value": 12.665,
@@ -49,15 +49,15 @@
     "beta": 0.323,
     "week52_high": 100.5,
     "week52_low": 70.8,
-    "avg50d": 91.876,
-    "avg200d": 85.559,
-    "avg_volume": 74644.0,
-    "avg_volume_10d": 45281.0,
+    "avg50d": 93.048,
+    "avg200d": 85.921,
+    "avg_volume": 74139.0,
+    "avg_volume_10d": 25189.0,
     "shares_outstanding": 21779442.0,
     "float_shares": 13806812.0,
     "insider_ownership": 0.22184,
     "institutional_ownership": 0.47079,
     "short_ratio": null
   },
-  "_pe_label": "42.61x"
+  "_pe_label": "43.13x"
 }

@@ -1,21 +1,21 @@
 {
   "ticker": "GENT",
   "name": "GENTIAN DIAGNOSTIC",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 609069824.0,
-    "enterprise_value": 607981312.0,
-    "trailing_pe": 45.813953,
-    "forward_pe": 10.051021,
+    "market_cap": 602886336.0,
+    "enterprise_value": 526242816.0,
+    "trailing_pe": null,
+    "forward_pe": 9.948979,
     "peg_ratio": null,
-    "price_to_sales": 3.45084,
-    "price_to_book": 2.964635,
-    "ev_to_revenue": 3.445,
-    "ev_to_ebitda": 21.321
+    "price_to_sales": 3.415806,
+    "price_to_book": 2.934537,
+    "ev_to_revenue": 2.982,
+    "ev_to_ebitda": 18.454
   },
   "per_share": {
-    "current_price": 39.4,
-    "eps_trailing": 0.86,
+    "current_price": 39.0,
+    "eps_trailing": -0.96,
     "eps_forward": 3.92,
     "book_value": 13.29,
     "revenue_per_share": 11.445,
@@ -49,15 +49,14 @@
     "beta": 0.427,
     "week52_high": 65.8,
     "week52_low": 36.1,
-    "avg50d": 40.538,
-    "avg200d": 51.683,
-    "avg_volume": 24240.0,
-    "avg_volume_10d": 6743.0,
+    "avg50d": 40.34,
+    "avg200d": 51.4385,
+    "avg_volume": 25529.0,
+    "avg_volume_10d": 14639.0,
     "shares_outstanding": 15458624.0,
     "float_shares": 11667162.0,
     "insider_ownership": 0.44621,
     "institutional_ownership": 0.39556,
     "short_ratio": null
-  },
-  "_pe_label": "45.81x"
+  }
 }

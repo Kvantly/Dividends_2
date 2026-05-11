@@ -1,22 +1,22 @@
 {
   "ticker": "DDRIL",
   "name": "DOLPHIN DRILLING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 441098560.0,
-    "enterprise_value": 61573332.0,
+    "market_cap": 401288224.0,
+    "enterprise_value": 61376000.0,
     "trailing_pe": null,
-    "forward_pe": 1.029332,
+    "forward_pe": 0.939213,
     "peg_ratio": null,
-    "price_to_sales": 2.482266,
-    "price_to_book": 0.004063,
-    "ev_to_revenue": 0.347,
-    "ev_to_ebitda": 4.398
+    "price_to_sales": 2.258234,
+    "price_to_book": 0.003696,
+    "ev_to_revenue": 0.345,
+    "ev_to_ebitda": 4.384
   },
   "per_share": {
-    "current_price": 2.77,
-    "eps_trailing": -278.78,
-    "eps_forward": 2.691066,
+    "current_price": 2.52,
+    "eps_trailing": -278.98,
+    "eps_forward": 2.683098,
     "book_value": 681.7927,
     "revenue_per_share": 333.188,
     "currency": "NOK"
@@ -49,14 +49,14 @@
     "beta": -0.074,
     "week52_high": 44.82,
     "week52_low": 1.95,
-    "avg50d": 2.65381,
-    "avg200d": 2.724188,
-    "avg_volume": 268381.0,
-    "avg_volume_10d": 397899.0,
+    "avg50d": 2.65739,
+    "avg200d": 2.720537,
+    "avg_volume": 302544.0,
+    "avg_volume_10d": 444007.0,
     "shares_outstanding": 159241359.0,
     "float_shares": 511904.0,
-    "insider_ownership": 0.00144,
-    "institutional_ownership": 0.00015,
+    "insider_ownership": 0.00058,
+    "institutional_ownership": 6e-05,
     "short_ratio": null
   }
 }

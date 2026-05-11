@@ -1,20 +1,20 @@
 {
   "ticker": "PNOR",
   "name": "PETRONOR E&P",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2209378304.0,
-    "enterprise_value": 2216560640.0,
-    "trailing_pe": 29.846155,
-    "forward_pe": 4.287293,
+    "market_cap": 2459926528.0,
+    "enterprise_value": 2413012992.0,
+    "trailing_pe": 33.23077,
+    "forward_pe": 4.773481,
     "peg_ratio": null,
-    "price_to_sales": 26.582504,
-    "price_to_book": 1.584552,
-    "ev_to_revenue": 26.669,
-    "ev_to_ebitda": 31.239
+    "price_to_sales": 29.597017,
+    "price_to_book": 1.764243,
+    "ev_to_revenue": 29.033,
+    "ev_to_ebitda": 34.008
   },
   "per_share": {
-    "current_price": 15.52,
+    "current_price": 17.28,
     "eps_trailing": 0.52,
     "eps_forward": 3.62,
     "book_value": 9.794569,
@@ -47,17 +47,17 @@
   },
   "trading": {
     "beta": -0.314,
-    "week52_high": 16.5,
+    "week52_high": 17.7,
     "week52_low": 9.65,
-    "avg50d": 12.3164,
-    "avg200d": 10.97505,
-    "avg_volume": 484001.0,
-    "avg_volume_10d": 629562.0,
+    "avg50d": 12.686,
+    "avg200d": 11.05635,
+    "avg_volume": 551713.0,
+    "avg_volume_10d": 984240.0,
     "shares_outstanding": 142356855.0,
     "float_shares": 52588046.0,
     "insider_ownership": 0.57513,
     "institutional_ownership": 0.09333,
     "short_ratio": null
   },
-  "_pe_label": "29.85x"
+  "_pe_label": "33.23x"
 }

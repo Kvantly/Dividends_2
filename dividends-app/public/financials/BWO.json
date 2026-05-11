@@ -1,23 +1,23 @@
 {
   "ticker": "BWO",
   "name": "BW OFFSHORE LTD",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 9024542720.0,
-    "enterprise_value": 10802518016.0,
-    "trailing_pe": 7.248908,
-    "forward_pe": 15.033448,
+    "market_cap": 9242002432.0,
+    "enterprise_value": 10494451712.0,
+    "trailing_pe": 7.412791,
+    "forward_pe": 15.3957,
     "peg_ratio": 4.17,
-    "price_to_sales": 17.712547,
-    "price_to_book": 0.840774,
-    "ev_to_revenue": 21.202,
-    "ev_to_ebitda": 46.184
+    "price_to_sales": 18.139357,
+    "price_to_book": 0.865017,
+    "ev_to_revenue": 20.598,
+    "ev_to_ebitda": 44.867
   },
   "per_share": {
-    "current_price": 49.8,
-    "eps_trailing": 6.87,
+    "current_price": 51.0,
+    "eps_trailing": 6.88,
     "eps_forward": 3.312613,
-    "book_value": 59.231102,
+    "book_value": 58.958397,
     "revenue_per_share": 2.812,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.622,
     "week52_high": 54.0,
-    "week52_low": 28.7,
-    "avg50d": 51.277,
-    "avg200d": 42.358,
-    "avg_volume": 217447.0,
-    "avg_volume_10d": 110990.0,
+    "week52_low": 29.8,
+    "avg50d": 51.128,
+    "avg200d": 42.59,
+    "avg_volume": 206246.0,
+    "avg_volume_10d": 115896.0,
     "shares_outstanding": 181215735.0,
     "float_shares": 86021297.0,
     "insider_ownership": 0.53718,
-    "institutional_ownership": 0.28945,
+    "institutional_ownership": 0.28948,
     "short_ratio": null
   },
-  "_pe_label": "7.25x"
+  "_pe_label": "7.41x"
 }

@@ -1,22 +1,22 @@
 {
   "ticker": "SB68",
   "name": "SPARBNK 68 GR NORD",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 625817856.0,
-    "enterprise_value": 1713602048.0,
-    "trailing_pe": 13.824885,
-    "forward_pe": 10.943199,
+    "market_cap": 613897536.0,
+    "enterprise_value": 1712409600.0,
+    "trailing_pe": 13.570487,
+    "forward_pe": 10.928382,
     "peg_ratio": null,
-    "price_to_sales": 1.791327,
-    "price_to_book": 0.381822,
-    "ev_to_revenue": 4.905,
+    "price_to_sales": 1.757206,
+    "price_to_book": 0.374549,
+    "ev_to_revenue": 4.902,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 210.0,
-    "eps_trailing": 15.19,
-    "eps_forward": 19.19,
+    "current_price": 206.0,
+    "eps_trailing": 15.18,
+    "eps_forward": 18.85,
     "book_value": 549.995,
     "revenue_per_share": 116.726,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.077,
     "week52_high": 232.75,
     "week52_low": 174.52,
-    "avg50d": 221.01,
-    "avg200d": 200.21236,
-    "avg_volume": 103.0,
-    "avg_volume_10d": 212.0,
+    "avg50d": 220.881,
+    "avg200d": 200.57635,
+    "avg_volume": 101.0,
+    "avg_volume_10d": 183.0,
     "shares_outstanding": 2980085.0,
     "float_shares": 1521429.0,
     "insider_ownership": 0.79882,
     "institutional_ownership": 0.03905,
     "short_ratio": null
   },
-  "_pe_label": "13.82x"
+  "_pe_label": "13.57x"
 }

@@ -1,23 +1,23 @@
 {
   "ticker": "BORR",
   "name": "BORR DRILLING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 16947978240.0,
-    "enterprise_value": 18913427456.0,
-    "trailing_pe": 34.8038,
+    "market_cap": 16334657536.0,
+    "enterprise_value": 18119557120.0,
+    "trailing_pe": 33.544304,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 16.602644,
-    "price_to_book": 1.487134,
-    "ev_to_revenue": 18.528,
-    "ev_to_ebitda": 40.258
+    "price_to_sales": 16.00182,
+    "price_to_book": 1.446034,
+    "ev_to_revenue": 17.75,
+    "ev_to_ebitda": 38.569
   },
   "per_share": {
-    "current_price": 54.99,
+    "current_price": 53.0,
     "eps_trailing": 1.58,
     "eps_forward": null,
-    "book_value": 36.977165,
+    "book_value": 36.651962,
     "revenue_per_share": 3.891,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 1.038,
     "week52_high": 64.6,
     "week52_low": 39.1,
-    "avg50d": 54.187,
-    "avg200d": 50.303596,
-    "avg_volume": 77809.0,
-    "avg_volume_10d": 52040.0,
+    "avg50d": 54.0388,
+    "avg200d": 50.40685,
+    "avg_volume": 77377.0,
+    "avg_volume_10d": 48229.0,
     "shares_outstanding": 308201075.0,
     "float_shares": 232622013.0,
     "insider_ownership": 0.24562,
-    "institutional_ownership": 0.65497,
+    "institutional_ownership": 0.66874,
     "short_ratio": null
   },
-  "_pe_label": "34.80x"
+  "_pe_label": "33.54x"
 }

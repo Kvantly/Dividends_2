@@ -1,23 +1,23 @@
 {
   "ticker": "LINK",
   "name": "LINK MOBILITY GRP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 7137035264.0,
-    "enterprise_value": 8855868416.0,
-    "trailing_pe": 87.17242,
-    "forward_pe": 13.947278,
+    "market_cap": 7210438144.0,
+    "enterprise_value": 9019483136.0,
+    "trailing_pe": 88.06897,
+    "forward_pe": 14.090724,
     "peg_ratio": null,
-    "price_to_sales": 1.007616,
-    "price_to_book": 1.339764,
-    "ev_to_revenue": 1.25,
-    "ev_to_ebitda": 11.402
+    "price_to_sales": 1.017979,
+    "price_to_book": 1.29849,
+    "ev_to_revenue": 1.273,
+    "ev_to_ebitda": 11.613
   },
   "per_share": {
-    "current_price": 25.28,
+    "current_price": 25.54,
     "eps_trailing": 0.29,
     "eps_forward": 1.81254,
-    "book_value": 18.869,
+    "book_value": 19.669,
     "revenue_per_share": 23.597,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 1.169,
     "week52_high": 36.2,
     "week52_low": 19.79,
-    "avg50d": 22.5716,
-    "avg200d": 28.8714,
-    "avg_volume": 2455963.0,
-    "avg_volume_10d": 1625213.0,
+    "avg50d": 22.8388,
+    "avg200d": 28.7977,
+    "avg_volume": 2423583.0,
+    "avg_volume_10d": 1603226.0,
     "shares_outstanding": 282319410.0,
     "float_shares": 190914609.0,
     "insider_ownership": 0.06065,
     "institutional_ownership": 0.61927,
     "short_ratio": null
   },
-  "_pe_label": "87.17x"
+  "_pe_label": "88.07x"
 }

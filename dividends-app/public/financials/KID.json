@@ -1,21 +1,21 @@
 {
   "ticker": "KID",
   "name": "KID",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5308258304.0,
+    "market_cap": 4983096320.0,
     "enterprise_value": null,
-    "trailing_pe": 23.197159,
-    "forward_pe": 13.540991,
+    "trailing_pe": 21.737589,
+    "forward_pe": 12.711526,
     "peg_ratio": null,
-    "price_to_sales": 1.345713,
-    "price_to_book": 3.656215,
+    "price_to_sales": 1.26328,
+    "price_to_book": 3.432251,
     "ev_to_revenue": null,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 130.6,
-    "eps_trailing": 5.63,
+    "current_price": 122.6,
+    "eps_trailing": 5.64,
     "eps_forward": 9.64479,
     "book_value": 35.72,
     "revenue_per_share": 97.049,
@@ -49,15 +49,15 @@
     "beta": 0.587,
     "week52_high": 160.4,
     "week52_low": 116.6,
-    "avg50d": 126.632,
-    "avg200d": 135.503,
-    "avg_volume": 82296.0,
-    "avg_volume_10d": 60602.0,
+    "avg50d": 127.132,
+    "avg200d": 135.214,
+    "avg_volume": 77755.0,
+    "avg_volume_10d": 59461.0,
     "shares_outstanding": 40645162.0,
     "float_shares": 34106168.0,
     "insider_ownership": 0.09648,
-    "institutional_ownership": 0.75883,
+    "institutional_ownership": 0.75871,
     "short_ratio": null
   },
-  "_pe_label": "23.20x"
+  "_pe_label": "21.74x"
 }

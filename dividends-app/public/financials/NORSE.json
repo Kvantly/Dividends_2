@@ -1,58 +1,58 @@
 {
   "ticker": "NORSE",
   "name": "NORSE ATLANTIC",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 291998464.0,
-    "enterprise_value": 1089595008.0,
+    "market_cap": 287771296.0,
+    "enterprise_value": 1111881728.0,
     "trailing_pe": null,
-    "forward_pe": 0.786445,
+    "forward_pe": 0.780994,
     "peg_ratio": null,
-    "price_to_sales": 0.397795,
-    "price_to_book": -0.120418,
-    "ev_to_revenue": 1.484,
-    "ev_to_ebitda": -57.444
+    "price_to_sales": 0.392037,
+    "price_to_book": -0.120202,
+    "ev_to_revenue": 1.515,
+    "ev_to_ebitda": -58.622
   },
   "per_share": {
-    "current_price": 1.796,
+    "current_price": 1.77,
     "eps_trailing": -3.81,
-    "eps_forward": 2.283694,
-    "book_value": -14.914654,
-    "revenue_per_share": 4.977,
+    "eps_forward": 2.266344,
+    "book_value": -14.725248,
+    "revenue_per_share": 4.879,
     "currency": "NOK"
   },
   "profitability": {
     "profit_margin": -0.08438,
-    "operating_margin": -0.14056,
+    "operating_margin": -0.14055,
     "gross_margin": 0.19379,
     "ebitda_margin": -0.02584,
     "roe": null,
-    "roa": -0.01293
+    "roa": -0.01291
   },
   "income": {
     "total_revenue": 734041984.0,
     "revenue_growth": 0.27,
     "gross_profits": 142251008.0,
-    "ebitda": -18968000.0,
+    "ebitda": -18967000.0,
     "net_income": -61941000.0,
     "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 17554000.0,
-    "cash_per_share": 0.108,
+    "total_cash": 22256000.0,
+    "cash_per_share": 0.137,
     "total_debt": 835635968.0,
     "debt_to_equity": null,
-    "current_ratio": 0.393,
-    "quick_ratio": 0.322
+    "current_ratio": 0.405,
+    "quick_ratio": 0.34
   },
   "trading": {
     "beta": 0.099,
     "week52_high": 10.46,
     "week52_low": 1.164,
-    "avg50d": 4.1935,
-    "avg200d": 6.684425,
-    "avg_volume": 2472011.0,
-    "avg_volume_10d": 1175509.0,
+    "avg50d": 3.9371,
+    "avg200d": 6.574225,
+    "avg_volume": 2619810.0,
+    "avg_volume_10d": 1924164.0,
     "shares_outstanding": 162582658.0,
     "float_shares": 68969189.0,
     "insider_ownership": 0.51121,

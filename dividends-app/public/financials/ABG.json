@@ -1,20 +1,20 @@
 {
   "ticker": "ABG",
   "name": "ABG SUNDAL COLLIER",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 3623396096.0,
-    "enterprise_value": 3378975232.0,
-    "trailing_pe": 10.846154,
+    "market_cap": 3602838016.0,
+    "enterprise_value": 3342998272.0,
+    "trailing_pe": 10.784616,
     "forward_pe": null,
     "peg_ratio": 1.51,
-    "price_to_sales": 1.815471,
-    "price_to_book": 3.226545,
-    "ev_to_revenue": 1.693,
+    "price_to_sales": 1.805171,
+    "price_to_book": 3.208238,
+    "ev_to_revenue": 1.675,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 7.05,
+    "current_price": 7.01,
     "eps_trailing": 0.65,
     "eps_forward": null,
     "book_value": 2.185,
@@ -49,15 +49,15 @@
     "beta": 0.56,
     "week52_high": 8.4,
     "week52_low": 6.4,
-    "avg50d": 7.8554,
-    "avg200d": 7.56285,
-    "avg_volume": 337647.0,
-    "avg_volume_10d": 198670.0,
+    "avg50d": 7.7856,
+    "avg200d": 7.5648,
+    "avg_volume": 338818.0,
+    "avg_volume_10d": 220925.0,
     "shares_outstanding": 513956895.0,
     "float_shares": 337844425.0,
     "insider_ownership": 0.24976,
-    "institutional_ownership": 0.18494,
+    "institutional_ownership": 0.1848,
     "short_ratio": null
   },
-  "_pe_label": "10.85x"
+  "_pe_label": "10.78x"
 }

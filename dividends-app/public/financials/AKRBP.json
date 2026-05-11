@@ -1,63 +1,63 @@
 {
   "ticker": "AKRBP",
   "name": "AKER BP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 217317949440.0,
-    "enterprise_value": 238689042432.0,
-    "trailing_pe": 177.31958,
-    "forward_pe": 13.516291,
+    "market_cap": 213464350720.0,
+    "enterprise_value": 218487652352.0,
+    "trailing_pe": 39.8467,
+    "forward_pe": 13.370454,
     "peg_ratio": null,
-    "price_to_sales": 19.840048,
-    "price_to_book": 2.065626,
-    "ev_to_revenue": 21.791,
-    "ev_to_ebitda": 25.908
+    "price_to_sales": 19.756985,
+    "price_to_book": 2.055238,
+    "ev_to_revenue": 20.222,
+    "ev_to_ebitda": 24.094
   },
   "per_share": {
-    "current_price": 344.0,
-    "eps_trailing": 1.94,
-    "eps_forward": 25.45077,
-    "book_value": 166.53546,
-    "revenue_per_share": 17.35,
+    "current_price": 337.9,
+    "eps_trailing": 8.48,
+    "eps_forward": 25.27214,
+    "book_value": 164.40916,
+    "revenue_per_share": 17.115,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.01208,
-    "operating_margin": 0.52426,
-    "gross_margin": 0.89851,
-    "ebitda_margin": 0.84108,
-    "roe": 0.01106,
-    "roa": 0.0947
+    "profit_margin": 0.05313,
+    "operating_margin": 0.68179,
+    "gross_margin": 0.89553,
+    "ebitda_margin": 0.83929,
+    "roe": 0.04749,
+    "roa": 0.09207
   },
   "income": {
-    "total_revenue": 10953499648.0,
-    "revenue_growth": -0.165,
-    "gross_profits": 9841800192.0,
-    "ebitda": 9212800000.0,
-    "net_income": 132300000.0,
-    "earnings_growth": null
+    "total_revenue": 10804500480.0,
+    "revenue_growth": -0.047,
+    "gross_profits": 9675799552.0,
+    "ebitda": 9068099584.0,
+    "net_income": 574000000.0,
+    "earnings_growth": 1.398
   },
   "balance_sheet": {
-    "total_cash": 2644100096.0,
-    "cash_per_share": 4.185,
-    "total_debt": 9737900032.0,
-    "debt_to_equity": 86.743,
-    "current_ratio": 1.309,
-    "quick_ratio": 0.982
+    "total_cash": 2161900032.0,
+    "cash_per_share": 3.422,
+    "total_debt": 9788099584.0,
+    "debt_to_equity": 84.625,
+    "current_ratio": 1.246,
+    "quick_ratio": 0.968
   },
   "trading": {
     "beta": -0.094,
     "week52_high": 373.8,
-    "week52_low": 217.8,
-    "avg50d": 332.128,
-    "avg200d": 275.453,
-    "avg_volume": 1969785.0,
-    "avg_volume_10d": 1186040.0,
+    "week52_low": 229.3,
+    "avg50d": 335.1,
+    "avg200d": 276.751,
+    "avg_volume": 1986325.0,
+    "avg_volume_10d": 1505332.0,
     "shares_outstanding": 631738272.0,
-    "float_shares": 263239021.0,
+    "float_shares": 263387315.0,
     "insider_ownership": 0.51578,
-    "institutional_ownership": 0.3693,
+    "institutional_ownership": 0.36921,
     "short_ratio": null
   },
-  "_pe_label": "177.32x"
+  "_pe_label": "39.85x"
 }

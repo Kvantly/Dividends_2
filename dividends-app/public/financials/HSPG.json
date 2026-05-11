@@ -1,20 +1,20 @@
 {
   "ticker": "HSPG",
   "name": "H\u00d8LAND OG SETSKOG",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 114163888.0,
-    "enterprise_value": 1731876224.0,
-    "trailing_pe": 24.298683,
-    "forward_pe": 16.951992,
+    "market_cap": 110751904.0,
+    "enterprise_value": 2593833984.0,
+    "trailing_pe": 23.572475,
+    "forward_pe": 16.445353,
     "peg_ratio": null,
-    "price_to_sales": 0.701028,
-    "price_to_book": 0.123197,
-    "ev_to_revenue": 10.635,
+    "price_to_sales": 0.683839,
+    "price_to_book": 0.119515,
+    "ev_to_revenue": 16.016,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 165.96,
+    "current_price": 161.0,
     "eps_trailing": 6.83,
     "eps_forward": 9.79,
     "book_value": 1347.107,
@@ -22,42 +22,42 @@
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.29128,
-    "operating_margin": 0.27609,
+    "profit_margin": 0.25818,
+    "operating_margin": 0.21628,
     "gross_margin": 0.0,
     "ebitda_margin": 0.0,
-    "roe": 0.04433,
-    "roa": 0.00534
+    "roe": 0.03893,
+    "roa": 0.00472
   },
   "income": {
-    "total_revenue": 162852000.0,
-    "revenue_growth": -0.165,
-    "gross_profits": 162852000.0,
+    "total_revenue": 161956000.0,
+    "revenue_growth": -0.023,
+    "gross_profits": 161956000.0,
     "ebitda": null,
-    "net_income": 4714000.0,
-    "earnings_growth": -0.839
+    "net_income": -908000.0,
+    "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 1466823040.0,
-    "cash_per_share": 2132.32,
-    "total_debt": 3088648960.0,
+    "total_cash": 496979008.0,
+    "cash_per_share": 722.458,
+    "total_debt": 2980060928.0,
     "debt_to_equity": null,
     "current_ratio": null,
     "quick_ratio": null
   },
   "trading": {
-    "beta": -0.31,
+    "beta": null,
     "week52_high": 173.0,
     "week52_low": 142.06,
-    "avg50d": 156.0564,
-    "avg200d": 160.2019,
-    "avg_volume": 311.0,
-    "avg_volume_10d": 124.0,
+    "avg50d": 156.2976,
+    "avg200d": 160.0871,
+    "avg_volume": 320.0,
+    "avg_volume_10d": 179.0,
     "shares_outstanding": 687900.0,
     "float_shares": 481468.0,
     "insider_ownership": 0.3176,
     "institutional_ownership": 0.04296,
     "short_ratio": null
   },
-  "_pe_label": "24.30x"
+  "_pe_label": "23.57x"
 }

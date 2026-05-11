@@ -1,23 +1,23 @@
 {
   "ticker": "OET",
   "name": "OKEANIS ECO TANKER",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 20576534528.0,
-    "enterprise_value": 20986906624.0,
-    "trailing_pe": 15.048544,
-    "forward_pe": 11.397511,
+    "market_cap": 20420356096.0,
+    "enterprise_value": 20869773312.0,
+    "trailing_pe": 14.908779,
+    "forward_pe": 11.397594,
     "peg_ratio": null,
-    "price_to_sales": 207.5696,
-    "price_to_book": 3.511291,
-    "ev_to_revenue": 211.709,
-    "ev_to_ebitda": 484.06
+    "price_to_sales": 205.99411,
+    "price_to_book": 3.511318,
+    "ev_to_revenue": 210.528,
+    "ev_to_ebitda": 481.359
   },
   "per_share": {
-    "current_price": 527.0,
-    "eps_trailing": 35.02,
-    "eps_forward": 46.238167,
-    "book_value": 150.08723,
+    "current_price": 523.0,
+    "eps_trailing": 35.08,
+    "eps_forward": 45.886875,
+    "book_value": 148.94695,
     "revenue_per_share": 3.032,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 541.0,
     "week52_low": 213.5,
-    "avg50d": 480.71,
-    "avg200d": 366.795,
-    "avg_volume": 107146.0,
-    "avg_volume_10d": 81825.0,
+    "avg50d": 482.84,
+    "avg200d": 370.9925,
+    "avg_volume": 108470.0,
+    "avg_volume_10d": 86413.0,
     "shares_outstanding": 39044655.0,
     "float_shares": 9915000.0,
     "insider_ownership": 0.46357,
-    "institutional_ownership": 0.24228,
+    "institutional_ownership": 0.2425,
     "short_ratio": null
   },
-  "_pe_label": "15.05x"
+  "_pe_label": "14.91x"
 }

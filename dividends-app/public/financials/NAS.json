@@ -1,22 +1,22 @@
 {
   "ticker": "NAS",
   "name": "NORWEGIAN AIR SHUT",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 16038552576.0,
-    "enterprise_value": 24719097856.0,
-    "trailing_pe": 5.13468,
-    "forward_pe": 6.908079,
+    "market_cap": 15076239360.0,
+    "enterprise_value": 24829896704.0,
+    "trailing_pe": 4.826599,
+    "forward_pe": 6.458458,
     "peg_ratio": 3.35,
-    "price_to_sales": 0.426036,
-    "price_to_book": 2.09622,
-    "ev_to_revenue": 0.657,
-    "ev_to_ebitda": 5.746
+    "price_to_sales": 0.400474,
+    "price_to_book": 1.970447,
+    "ev_to_revenue": 0.66,
+    "ev_to_ebitda": 5.772
   },
   "per_share": {
-    "current_price": 15.25,
+    "current_price": 14.335,
     "eps_trailing": 2.97,
-    "eps_forward": 2.20756,
+    "eps_forward": 2.21957,
     "book_value": 7.275,
     "revenue_per_share": 36.966,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.865,
     "week52_high": 18.45,
     "week52_low": 12.29,
-    "avg50d": 14.7177,
-    "avg200d": 16.001125,
-    "avg_volume": 10661106.0,
-    "avg_volume_10d": 10613373.0,
+    "avg50d": 14.593,
+    "avg200d": 15.968575,
+    "avg_volume": 11134308.0,
+    "avg_volume_10d": 12311609.0,
     "shares_outstanding": 1051708355.0,
     "float_shares": 784380193.0,
     "insider_ownership": 0.19372,
-    "institutional_ownership": 0.49703,
+    "institutional_ownership": 0.49671,
     "short_ratio": null
   },
-  "_pe_label": "5.13x"
+  "_pe_label": "4.83x"
 }

@@ -1,23 +1,23 @@
 {
   "ticker": "GKP",
   "name": "GULF KEYSTONE PET",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5218640896.0,
-    "enterprise_value": 5193917440.0,
-    "trailing_pe": 38.70968,
+    "market_cap": 5153408000.0,
+    "enterprise_value": 5063774208.0,
+    "trailing_pe": 38.225807,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 27.026567,
-    "price_to_book": 1.165272,
-    "ev_to_revenue": 26.899,
-    "ev_to_ebitda": 58.771
+    "price_to_sales": 26.688736,
+    "price_to_book": 1.107782,
+    "ev_to_revenue": 26.225,
+    "ev_to_ebitda": 57.298
   },
   "per_share": {
-    "current_price": 24.0,
+    "current_price": 23.7,
     "eps_trailing": 0.62,
     "eps_forward": null,
-    "book_value": 20.596054,
+    "book_value": 21.394106,
     "revenue_per_share": 0.89,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.111,
     "week52_high": 29.99,
     "week52_low": 22.79,
-    "avg50d": 25.8851,
-    "avg200d": 25.948301,
-    "avg_volume": 18854.0,
-    "avg_volume_10d": 2673.0,
+    "avg50d": 25.7211,
+    "avg200d": 25.840357,
+    "avg_volume": 17855.0,
+    "avg_volume_10d": 1701.0,
     "shares_outstanding": 217443373.0,
     "float_shares": 178428457.0,
     "insider_ownership": 0.32412,
     "institutional_ownership": 0.2834,
     "short_ratio": null
   },
-  "_pe_label": "38.71x"
+  "_pe_label": "38.23x"
 }

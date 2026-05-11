@@ -1,21 +1,21 @@
 {
   "ticker": "MEDI",
   "name": "MEDISTIM",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4186772224.0,
-    "enterprise_value": 3950823680.0,
-    "trailing_pe": 26.291618,
-    "forward_pe": 24.117956,
+    "market_cap": 4150206464.0,
+    "enterprise_value": 3969106688.0,
+    "trailing_pe": 26.580797,
+    "forward_pe": 23.90732,
     "peg_ratio": 2.35,
-    "price_to_sales": 5.983095,
-    "price_to_book": 8.938329,
-    "ev_to_revenue": 5.646,
-    "ev_to_ebitda": 19.424
+    "price_to_sales": 5.930841,
+    "price_to_book": 8.860265,
+    "ev_to_revenue": 5.672,
+    "ev_to_ebitda": 19.514
   },
   "per_share": {
-    "current_price": 229.0,
-    "eps_trailing": 8.71,
+    "current_price": 227.0,
+    "eps_trailing": 8.54,
     "eps_forward": 9.495,
     "book_value": 25.62,
     "revenue_per_share": 38.288,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 1.013,
     "week52_high": 292.0,
-    "week52_low": 164.5,
-    "avg50d": 219.36,
-    "avg200d": 236.125,
-    "avg_volume": 34041.0,
-    "avg_volume_10d": 17330.0,
+    "week52_low": 185.0,
+    "avg50d": 220.14,
+    "avg200d": 236.2,
+    "avg_volume": 34819.0,
+    "avg_volume_10d": 25090.0,
     "shares_outstanding": 18282848.0,
     "float_shares": 11309587.0,
     "insider_ownership": 0.07485,
-    "institutional_ownership": 0.56889,
+    "institutional_ownership": 0.56892,
     "short_ratio": null
   },
-  "_pe_label": "26.29x"
+  "_pe_label": "26.58x"
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "HYN",
   "name": "HYNION",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": 14711432.0,
     "enterprise_value": 8806446.0,
@@ -50,7 +50,7 @@
     "week52_high": 0.37,
     "week52_low": 0.0126,
     "avg50d": 0.0196,
-    "avg200d": 0.032629,
+    "avg200d": 0.031182,
     "avg_volume": 0.0,
     "avg_volume_10d": 0.0,
     "shares_outstanding": 750583252.0,

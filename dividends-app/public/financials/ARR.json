@@ -1,20 +1,20 @@
 {
   "ticker": "ARR",
   "name": "ARRIBATEC GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 511354112.0,
+    "market_cap": 508676864.0,
     "enterprise_value": 461405888.0,
-    "trailing_pe": 16.977777,
-    "forward_pe": 9.249506,
+    "trailing_pe": 16.88889,
+    "forward_pe": 9.201079,
     "peg_ratio": 0.32,
-    "price_to_sales": 0.883497,
-    "price_to_book": 1.697024,
+    "price_to_sales": 0.878872,
+    "price_to_book": 1.688139,
     "ev_to_revenue": 0.797,
     "ev_to_ebitda": 9.728
   },
   "per_share": {
-    "current_price": 7.64,
+    "current_price": 7.6,
     "eps_trailing": 0.45,
     "eps_forward": 0.82599,
     "book_value": 4.502,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 1.217,
     "week52_high": 10.448,
-    "week52_low": 4.03,
-    "avg50d": 7.53708,
-    "avg200d": 7.46494,
-    "avg_volume": 819644.0,
-    "avg_volume_10d": 217138.0,
+    "week52_low": 4.23,
+    "avg50d": 7.51068,
+    "avg200d": 7.49654,
+    "avg_volume": 823462.0,
+    "avg_volume_10d": 229493.0,
     "shares_outstanding": 66931170.0,
     "float_shares": 31787034.0,
     "insider_ownership": 0.74066,
     "institutional_ownership": 0.07222,
     "short_ratio": null
   },
-  "_pe_label": "16.98x"
+  "_pe_label": "16.89x"
 }

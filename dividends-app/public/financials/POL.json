@@ -1,20 +1,20 @@
 {
   "ticker": "POL",
   "name": "POLARIS MEDIA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 2900295424.0,
-    "enterprise_value": 3246425088.0,
-    "trailing_pe": 394.66666,
+    "market_cap": 2870900480.0,
+    "enterprise_value": 3226874880.0,
+    "trailing_pe": 390.66663,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 0.845493,
-    "price_to_book": 1.481519,
-    "ev_to_revenue": 0.946,
-    "ev_to_ebitda": 23.871
+    "price_to_sales": 0.836924,
+    "price_to_book": 1.466503,
+    "ev_to_revenue": 0.941,
+    "ev_to_ebitda": 23.727
   },
   "per_share": {
-    "current_price": 59.2,
+    "current_price": 58.6,
     "eps_trailing": 0.15,
     "eps_forward": null,
     "book_value": 39.959,
@@ -49,15 +49,15 @@
     "beta": -0.062,
     "week52_high": 105.0,
     "week52_low": 46.8,
-    "avg50d": 60.05,
-    "avg200d": 56.2645,
-    "avg_volume": 12175.0,
-    "avg_volume_10d": 1611.0,
+    "avg50d": 60.222,
+    "avg200d": 56.2075,
+    "avg_volume": 12114.0,
+    "avg_volume_10d": 2012.0,
     "shares_outstanding": 48991477.0,
     "float_shares": 9702665.0,
     "insider_ownership": 0.77756,
     "institutional_ownership": 0.10524,
     "short_ratio": null
   },
-  "_pe_label": "394.67x"
+  "_pe_label": "390.67x"
 }

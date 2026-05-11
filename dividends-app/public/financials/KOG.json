@@ -1,63 +1,63 @@
 {
   "ticker": "KOG",
   "name": "KONGSBERG GRUPPEN",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 290183086080.0,
-    "enterprise_value": 260743610368.0,
-    "trailing_pe": 69.7463,
-    "forward_pe": 34.41901,
-    "peg_ratio": 2.09,
-    "price_to_sales": 9.194065,
-    "price_to_book": 12.851578,
-    "ev_to_revenue": 8.261,
-    "ev_to_ebitda": 46.387
+    "market_cap": 266169761792.0,
+    "enterprise_value": 259334373376.0,
+    "trailing_pe": 55.522938,
+    "forward_pe": 28.764969,
+    "peg_ratio": 2.34,
+    "price_to_sales": 7.952488,
+    "price_to_book": 11.182558,
+    "ev_to_revenue": 7.748,
+    "ev_to_ebitda": 41.801
   },
   "per_share": {
-    "current_price": 329.9,
-    "eps_trailing": 4.73,
-    "eps_forward": 9.58482,
-    "book_value": 25.67,
-    "revenue_per_share": 35.884,
+    "current_price": 302.6,
+    "eps_trailing": 5.45,
+    "eps_forward": 10.51974,
+    "book_value": 27.06,
+    "revenue_per_share": 38.022,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.25198,
-    "operating_margin": 0.17158,
-    "gross_margin": 0.59214,
-    "ebitda_margin": 0.17809,
-    "roe": 0.195,
-    "roa": 0.03864
+    "profit_margin": 0.21993,
+    "operating_margin": 0.16678,
+    "gross_margin": 0.57726,
+    "ebitda_margin": 0.18536,
+    "roe": 0.20779,
+    "roa": 0.04207
   },
   "income": {
-    "total_revenue": 31562000384.0,
-    "revenue_growth": -0.31,
-    "gross_profits": 18688999424.0,
-    "ebitda": 5621000192.0,
-    "net_income": 4172999936.0,
-    "earnings_growth": 0.62
+    "total_revenue": 33469999104.0,
+    "revenue_growth": 0.271,
+    "gross_profits": 19320999936.0,
+    "ebitda": 6204000256.0,
+    "net_income": 4786999808.0,
+    "earnings_growth": -0.263
   },
   "balance_sheet": {
-    "total_cash": 20192000000.0,
-    "cash_per_share": 22.956,
-    "total_debt": 5430000128.0,
-    "debt_to_equity": 23.393,
-    "current_ratio": 1.187,
-    "quick_ratio": 0.679
+    "total_cash": 18466000896.0,
+    "cash_per_share": 20.944,
+    "total_debt": 4384000000.0,
+    "debt_to_equity": 17.906,
+    "current_ratio": 1.202,
+    "quick_ratio": 0.657
   },
   "trading": {
     "beta": 0.204,
     "week52_high": 427.0,
     "week52_low": 228.5,
-    "avg50d": 376.16043,
-    "avg200d": 315.27286,
-    "avg_volume": 1337672.0,
-    "avg_volume_10d": 1313077.0,
+    "avg50d": 372.03543,
+    "avg200d": 315.4126,
+    "avg_volume": 1342841.0,
+    "avg_volume_10d": 1396220.0,
     "shares_outstanding": 879609245.0,
-    "float_shares": 411165457.0,
+    "float_shares": 412156795.0,
     "insider_ownership": 0.5394,
-    "institutional_ownership": 0.28186,
+    "institutional_ownership": 0.28155,
     "short_ratio": null
   },
-  "_pe_label": "69.75x"
+  "_pe_label": "55.52x"
 }

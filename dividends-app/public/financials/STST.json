@@ -1,12 +1,12 @@
 {
   "ticker": "STST",
   "name": "STAINLESS TANKERS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 595349952.0,
+    "market_cap": 607500032.0,
     "enterprise_value": null,
-    "trailing_pe": 8.963414,
-    "forward_pe": 3.720263,
+    "trailing_pe": 23.93617,
+    "forward_pe": 3.796187,
     "peg_ratio": null,
     "price_to_sales": null,
     "price_to_book": null,
@@ -14,8 +14,8 @@
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 44.1,
-    "eps_trailing": 4.92,
+    "current_price": 45.0,
+    "eps_trailing": 1.88,
     "eps_forward": 11.854,
     "book_value": null,
     "revenue_per_share": null,
@@ -47,17 +47,17 @@
   },
   "trading": {
     "beta": null,
-    "week52_high": 57.6,
+    "week52_high": 52.8,
     "week52_low": 36.3,
-    "avg50d": 39.826,
-    "avg200d": 42.1385,
-    "avg_volume": 17511.0,
-    "avg_volume_10d": 8899.0,
+    "avg50d": 40.16,
+    "avg200d": 42.0495,
+    "avg_volume": 18015.0,
+    "avg_volume_10d": 11933.0,
     "shares_outstanding": 13500000.0,
     "float_shares": null,
     "insider_ownership": 0.5941,
     "institutional_ownership": 0.02708,
     "short_ratio": null
   },
-  "_pe_label": "8.96x"
+  "_pe_label": "23.94x"
 }

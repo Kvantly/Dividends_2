@@ -1,20 +1,20 @@
 {
   "ticker": "JAREN",
   "name": "J\u00c6REN SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1708601088.0,
-    "enterprise_value": 5801676800.0,
-    "trailing_pe": 11.166827,
-    "forward_pe": 10.017301,
+    "market_cap": 1686960768.0,
+    "enterprise_value": 5786879488.0,
+    "trailing_pe": 11.025393,
+    "forward_pe": 9.890427,
     "peg_ratio": null,
-    "price_to_sales": 2.892561,
-    "price_to_book": 0.644923,
-    "ev_to_revenue": 9.822,
+    "price_to_sales": 2.855925,
+    "price_to_book": 0.636755,
+    "ev_to_revenue": 9.797,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 347.4,
+    "current_price": 343.0,
     "eps_trailing": 31.11,
     "eps_forward": 34.68,
     "book_value": 538.669,
@@ -49,15 +49,15 @@
     "beta": 0.137,
     "week52_high": 390.0,
     "week52_low": 330.5,
-    "avg50d": 352.139,
-    "avg200d": 366.97324,
-    "avg_volume": 4314.0,
-    "avg_volume_10d": 495.0,
+    "avg50d": 351.274,
+    "avg200d": 366.812,
+    "avg_volume": 4260.0,
+    "avg_volume_10d": 591.0,
     "shares_outstanding": 4918253.0,
     "float_shares": 1296020.0,
     "insider_ownership": 0.77247,
     "institutional_ownership": 0.08372,
     "short_ratio": null
   },
-  "_pe_label": "11.17x"
+  "_pe_label": "11.03x"
 }

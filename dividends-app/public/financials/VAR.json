@@ -1,22 +1,22 @@
 {
   "ticker": "VAR",
   "name": "V\u00c5R ENERGI",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 110990221312.0,
-    "enterprise_value": 124897206272.0,
-    "trailing_pe": 17.713146,
-    "forward_pe": 11.487563,
+    "market_cap": 112188497920.0,
+    "enterprise_value": 115685466112.0,
+    "trailing_pe": 17.904383,
+    "forward_pe": 10.923799,
     "peg_ratio": null,
-    "price_to_sales": 12.627017,
-    "price_to_book": -47.79728,
-    "ev_to_revenue": 14.209,
-    "ev_to_ebitda": 17.347
+    "price_to_sales": 12.763341,
+    "price_to_book": -48.31331,
+    "ev_to_revenue": 13.161,
+    "ev_to_ebitda": 16.067
   },
   "per_share": {
-    "current_price": 44.46,
+    "current_price": 44.94,
     "eps_trailing": 2.51,
-    "eps_forward": 3.870272,
+    "eps_forward": 4.113954,
     "book_value": -0.930178,
     "revenue_per_share": 3.522,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": -0.503,
     "week52_high": 50.7,
-    "week52_low": 27.73,
-    "avg50d": 43.6206,
-    "avg200d": 36.072,
-    "avg_volume": 11807910.0,
-    "avg_volume_10d": 5845854.0,
+    "week52_low": 28.54,
+    "avg50d": 44.1882,
+    "avg200d": 36.22185,
+    "avg_volume": 11722764.0,
+    "avg_volume_10d": 6611644.0,
     "shares_outstanding": 2496406246.0,
     "float_shares": 903823883.0,
     "insider_ownership": 0.65261,
-    "institutional_ownership": 0.17554,
+    "institutional_ownership": 0.1724,
     "short_ratio": null
   },
-  "_pe_label": "17.71x"
+  "_pe_label": "17.90x"
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "OCEAN",
   "name": "OCEAN GEOLOOP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": 84344760.0,
     "enterprise_value": 69642768.0,
@@ -49,10 +49,10 @@
     "beta": 0.662,
     "week52_high": 6.85,
     "week52_low": 1.4,
-    "avg50d": 2.661,
-    "avg200d": 3.5842,
-    "avg_volume": 7491.0,
-    "avg_volume_10d": 5324.0,
+    "avg50d": 2.553,
+    "avg200d": 3.53575,
+    "avg_volume": 7349.0,
+    "avg_volume_10d": 6124.0,
     "shares_outstanding": 52715477.0,
     "float_shares": 16205265.0,
     "insider_ownership": 0.76321,

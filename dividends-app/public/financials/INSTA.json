@@ -1,20 +1,20 @@
 {
   "ticker": "INSTA",
   "name": "INSTABANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1991467904.0,
-    "enterprise_value": 1860056832.0,
-    "trailing_pe": 15.172415,
-    "forward_pe": 8.940727,
+    "market_cap": 1973363712.0,
+    "enterprise_value": 1837426560.0,
+    "trailing_pe": 15.034484,
+    "forward_pe": 8.859447,
     "peg_ratio": null,
-    "price_to_sales": 4.817908,
-    "price_to_book": 1.604083,
-    "ev_to_revenue": 4.5,
+    "price_to_sales": 4.774109,
+    "price_to_book": 1.5895,
+    "ev_to_revenue": 4.445,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 4.4,
+    "current_price": 4.36,
     "eps_trailing": 0.29,
     "eps_forward": 0.49213,
     "book_value": 2.743,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.389,
     "week52_high": 4.49,
-    "week52_low": 2.24,
-    "avg50d": 4.0964,
-    "avg200d": 3.4956,
-    "avg_volume": 561359.0,
-    "avg_volume_10d": 1359457.0,
+    "week52_low": 2.29,
+    "avg50d": 4.1032,
+    "avg200d": 3.5199,
+    "avg_volume": 618562.0,
+    "avg_volume_10d": 1979565.0,
     "shares_outstanding": 452606339.0,
     "float_shares": 142693200.0,
     "insider_ownership": 0.39789,
     "institutional_ownership": 0.27099,
     "short_ratio": null
   },
-  "_pe_label": "15.17x"
+  "_pe_label": "15.03x"
 }

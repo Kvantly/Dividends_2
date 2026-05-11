@@ -1,22 +1,22 @@
 {
   "ticker": "EPR",
   "name": "EUROPRIS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 15268474880.0,
-    "enterprise_value": 19973128192.0,
-    "trailing_pe": 17.119267,
-    "forward_pe": 12.42031,
+    "market_cap": 15104826368.0,
+    "enterprise_value": 20038588416.0,
+    "trailing_pe": 16.935781,
+    "forward_pe": 12.187683,
     "peg_ratio": null,
-    "price_to_sales": 1.001872,
-    "price_to_book": 3.554151,
-    "ev_to_revenue": 1.311,
-    "ev_to_ebitda": 12.85
+    "price_to_sales": 0.991133,
+    "price_to_book": 3.516057,
+    "ev_to_revenue": 1.315,
+    "ev_to_ebitda": 12.892
   },
   "per_share": {
-    "current_price": 93.3,
+    "current_price": 92.3,
     "eps_trailing": 5.45,
-    "eps_forward": 7.51189,
+    "eps_forward": 7.57322,
     "book_value": 26.251,
     "revenue_per_share": 96.196,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.5,
     "week52_high": 104.6,
     "week52_low": 77.6,
-    "avg50d": 91.88,
-    "avg200d": 93.4775,
-    "avg_volume": 214708.0,
-    "avg_volume_10d": 245696.0,
+    "avg50d": 92.142,
+    "avg200d": 93.4525,
+    "avg_volume": 210477.0,
+    "avg_volume_10d": 196163.0,
     "shares_outstanding": 163649252.0,
     "float_shares": 138607643.0,
     "insider_ownership": 0.06133,
-    "institutional_ownership": 0.7406,
+    "institutional_ownership": 0.74061,
     "short_ratio": null
   },
-  "_pe_label": "17.12x"
+  "_pe_label": "16.94x"
 }

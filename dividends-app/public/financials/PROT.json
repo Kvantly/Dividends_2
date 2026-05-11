@@ -1,23 +1,23 @@
 {
   "ticker": "PROT",
   "name": "PROTECTOR FORSIKRG",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 38431117312.0,
-    "enterprise_value": 14862499840.0,
-    "trailing_pe": 19.020807,
-    "forward_pe": 16.685755,
+    "market_cap": 38628958208.0,
+    "enterprise_value": 16116500480.0,
+    "trailing_pe": 19.142157,
+    "forward_pe": 16.771654,
     "peg_ratio": 0.36,
-    "price_to_sales": 2.686551,
-    "price_to_book": 5.815143,
-    "ev_to_revenue": 1.039,
-    "ev_to_ebitda": 4.823
+    "price_to_sales": 2.700382,
+    "price_to_book": 5.539007,
+    "ev_to_revenue": 1.127,
+    "ev_to_ebitda": 5.23
   },
   "per_share": {
-    "current_price": 466.2,
-    "eps_trailing": 24.51,
+    "current_price": 468.6,
+    "eps_trailing": 24.48,
     "eps_forward": 27.94,
-    "book_value": 80.17,
+    "book_value": 84.6,
     "revenue_per_share": 169.153,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.384,
     "week52_high": 559.0,
-    "week52_low": 375.0,
-    "avg50d": 491.46,
-    "avg200d": 494.0675,
-    "avg_volume": 208246.0,
-    "avg_volume_10d": 203438.0,
+    "week52_low": 376.5,
+    "avg50d": 489.344,
+    "avg200d": 493.3485,
+    "avg_volume": 207975.0,
+    "avg_volume_10d": 115022.0,
     "shares_outstanding": 82434827.0,
     "float_shares": 73453875.0,
     "insider_ownership": 0.29178,
-    "institutional_ownership": 0.35743,
+    "institutional_ownership": 0.35753,
     "short_ratio": null
   },
-  "_pe_label": "19.02x"
+  "_pe_label": "19.14x"
 }

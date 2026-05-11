@@ -1,20 +1,20 @@
 {
   "ticker": "BOR",
   "name": "BORGESTAD",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 582030400.0,
-    "enterprise_value": 974735424.0,
-    "trailing_pe": 37.727272,
-    "forward_pe": 22.133333,
+    "market_cap": 564499392.0,
+    "enterprise_value": 971229184.0,
+    "trailing_pe": 36.59091,
+    "forward_pe": 21.466667,
     "peg_ratio": 1.67,
-    "price_to_sales": 0.516915,
-    "price_to_book": 0.833501,
-    "ev_to_revenue": 0.866,
-    "ev_to_ebitda": 9.085
+    "price_to_sales": 0.501345,
+    "price_to_book": 0.808395,
+    "ev_to_revenue": 0.863,
+    "ev_to_ebitda": 9.052
   },
   "per_share": {
-    "current_price": 16.6,
+    "current_price": 16.1,
     "eps_trailing": 0.44,
     "eps_forward": 0.75,
     "book_value": 19.916,
@@ -49,15 +49,15 @@
     "beta": -0.083,
     "week52_high": 21.4,
     "week52_low": 15.5,
-    "avg50d": 16.835,
-    "avg200d": 17.93425,
-    "avg_volume": 8158.0,
-    "avg_volume_10d": 11329.0,
+    "avg50d": 16.744,
+    "avg200d": 17.88125,
+    "avg_volume": 7932.0,
+    "avg_volume_10d": 10290.0,
     "shares_outstanding": 35062072.0,
     "float_shares": 6325899.0,
     "insider_ownership": 0.84939,
     "institutional_ownership": 0.00076,
     "short_ratio": null
   },
-  "_pe_label": "37.73x"
+  "_pe_label": "36.59x"
 }

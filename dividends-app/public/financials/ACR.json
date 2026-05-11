@@ -1,23 +1,23 @@
 {
   "ticker": "ACR",
   "name": "AXACTOR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 4048462848.0,
-    "enterprise_value": 2357264128.0,
-    "trailing_pe": 4.053846,
-    "forward_pe": 3.051451,
+    "market_cap": 4140647936.0,
+    "enterprise_value": 2441864960.0,
+    "trailing_pe": 4.146154,
+    "forward_pe": 3.12523,
     "peg_ratio": 1.3,
-    "price_to_sales": 15.89309,
-    "price_to_book": 0.39053,
-    "ev_to_revenue": 9.254,
-    "ev_to_ebitda": 18.726
+    "price_to_sales": 16.254982,
+    "price_to_book": 0.408237,
+    "ev_to_revenue": 9.586,
+    "ev_to_ebitda": 19.398
   },
   "per_share": {
-    "current_price": 5.27,
+    "current_price": 5.39,
     "eps_trailing": 1.3,
-    "eps_forward": 1.727047,
-    "book_value": 13.494486,
+    "eps_forward": 1.724673,
+    "book_value": 13.203101,
     "revenue_per_share": 0.843,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.634,
     "week52_high": 9.62,
     "week52_low": 4.925,
-    "avg50d": 6.7525,
-    "avg200d": 7.568825,
-    "avg_volume": 475088.0,
-    "avg_volume_10d": 1159703.0,
+    "avg50d": 6.6233,
+    "avg200d": 7.518525,
+    "avg_volume": 502773.0,
+    "avg_volume_10d": 1361500.0,
     "shares_outstanding": 768209293.0,
     "float_shares": 125263466.0,
     "insider_ownership": 0.6051,
     "institutional_ownership": 0.07305,
     "short_ratio": null
   },
-  "_pe_label": "4.05x"
+  "_pe_label": "4.15x"
 }

@@ -1,20 +1,20 @@
 {
   "ticker": "NRC",
   "name": "NRC GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1439461120.0,
-    "enterprise_value": 2369999872.0,
-    "trailing_pe": 59.57143,
-    "forward_pe": 9.400573,
+    "market_cap": 1429105152.0,
+    "enterprise_value": 2420000000.0,
+    "trailing_pe": 59.142857,
+    "forward_pe": 9.332943,
     "peg_ratio": null,
-    "price_to_sales": 0.219664,
-    "price_to_book": 0.936027,
-    "ev_to_revenue": 0.362,
-    "ev_to_ebitda": 6.991
+    "price_to_sales": 0.218084,
+    "price_to_book": 0.929293,
+    "ev_to_revenue": 0.369,
+    "ev_to_ebitda": 7.139
   },
   "per_share": {
-    "current_price": 8.34,
+    "current_price": 8.28,
     "eps_trailing": 0.14,
     "eps_forward": 0.88718,
     "book_value": 8.91,
@@ -49,15 +49,15 @@
     "beta": -0.019,
     "week52_high": 10.1,
     "week52_low": 4.67,
-    "avg50d": 8.1418,
-    "avg200d": 8.19815,
-    "avg_volume": 555524.0,
-    "avg_volume_10d": 301968.0,
+    "avg50d": 8.1726,
+    "avg200d": 8.2098,
+    "avg_volume": 552796.0,
+    "avg_volume_10d": 315526.0,
     "shares_outstanding": 172597243.0,
     "float_shares": 115372000.0,
     "insider_ownership": 0.10916,
     "institutional_ownership": 0.232,
     "short_ratio": null
   },
-  "_pe_label": "59.57x"
+  "_pe_label": "59.14x"
 }

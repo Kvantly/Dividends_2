@@ -1,63 +1,63 @@
 {
   "ticker": "ELK",
   "name": "ELKEM",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 8337924608.0,
-    "enterprise_value": 26622347264.0,
-    "trailing_pe": 59.957447,
-    "forward_pe": 8.67077,
+    "market_cap": 8604217344.0,
+    "enterprise_value": 28077105152.0,
+    "trailing_pe": 55.92308,
+    "forward_pe": 8.230686,
     "peg_ratio": null,
-    "price_to_sales": 0.504259,
-    "price_to_book": 0.747143,
-    "ev_to_revenue": 1.61,
-    "ev_to_ebitda": 6.664
+    "price_to_sales": 0.527672,
+    "price_to_book": 0.771005,
+    "ev_to_revenue": 1.722,
+    "ev_to_ebitda": 8.217
   },
   "per_share": {
-    "current_price": 28.18,
-    "eps_trailing": 0.47,
-    "eps_forward": 3.25,
+    "current_price": 29.08,
+    "eps_trailing": 0.52,
+    "eps_forward": 3.53312,
     "book_value": 37.717,
-    "revenue_per_share": 26.072,
+    "revenue_per_share": 25.711,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": -0.0404,
-    "operating_margin": 0.05867,
-    "gross_margin": 0.53849,
-    "ebitda_margin": 0.24161,
-    "roe": 0.01539,
-    "roa": 0.01688
+    "profit_margin": -0.02631,
+    "operating_margin": -0.02477,
+    "gross_margin": 0.51227,
+    "ebitda_margin": 0.20955,
+    "roe": 0.01675,
+    "roa": 0.01107
   },
   "income": {
-    "total_revenue": 16535000064.0,
-    "revenue_growth": -0.084,
-    "gross_profits": 8903999488.0,
-    "ebitda": 3995000064.0,
-    "net_income": 301000000.0,
+    "total_revenue": 16305999872.0,
+    "revenue_growth": -0.054,
+    "gross_profits": 8352999936.0,
+    "ebitda": 3416999936.0,
+    "net_income": 331000000.0,
     "earnings_growth": null
   },
   "balance_sheet": {
-    "total_cash": 2708999936.0,
-    "cash_per_share": 4.271,
-    "total_debt": 12039999488.0,
-    "debt_to_equity": 50.114,
-    "current_ratio": 2.723,
-    "quick_ratio": 0.426
+    "total_cash": 2894000128.0,
+    "cash_per_share": 4.563,
+    "total_debt": 12170000384.0,
+    "debt_to_equity": 51.07,
+    "current_ratio": 2.527,
+    "quick_ratio": 0.353
   },
   "trading": {
-    "beta": 0.972,
+    "beta": 0.95,
     "week52_high": 31.6,
-    "week52_low": 17.85,
-    "avg50d": 28.6776,
-    "avg200d": 27.5342,
-    "avg_volume": 1485351.0,
-    "avg_volume_10d": 960905.0,
+    "week52_low": 18.64,
+    "avg50d": 28.606,
+    "avg200d": 27.5841,
+    "avg_volume": 1458215.0,
+    "avg_volume_10d": 1060427.0,
     "shares_outstanding": 295880942.0,
-    "float_shares": 262788841.0,
-    "insider_ownership": 0.57858,
-    "institutional_ownership": 0.24346,
+    "float_shares": 512049780.0,
+    "insider_ownership": 1.22871,
+    "institutional_ownership": 0.51895,
     "short_ratio": null
   },
-  "_pe_label": "59.96x"
+  "_pe_label": "55.92x"
 }

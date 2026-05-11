@@ -1,63 +1,63 @@
 {
   "ticker": "PARB",
   "name": "PARETO BANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5098353152.0,
-    "enterprise_value": 10935223296.0,
-    "trailing_pe": 9.750367,
-    "forward_pe": 8.077859,
+    "market_cap": 5013892608.0,
+    "enterprise_value": 13979205632.0,
+    "trailing_pe": 9.58884,
+    "forward_pe": 7.943285,
     "peg_ratio": null,
-    "price_to_sales": 4.549566,
-    "price_to_book": 0.98219,
-    "ev_to_revenue": 9.758,
+    "price_to_sales": 5.11675,
+    "price_to_book": 0.965919,
+    "ev_to_revenue": 14.266,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 66.4,
+    "current_price": 65.3,
     "eps_trailing": 6.81,
-    "eps_forward": 8.22,
+    "eps_forward": 8.22078,
     "book_value": 67.604,
-    "revenue_per_share": 14.595,
+    "revenue_per_share": 12.411,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.60289,
-    "operating_margin": 0.74149,
+    "profit_margin": 0.58562,
+    "operating_margin": 0.63575,
     "gross_margin": 0.0,
     "ebitda_margin": 0.0,
-    "roe": 0.12089,
-    "roa": 0.0257
+    "roe": 0.10061,
+    "roa": 0.02161
   },
   "income": {
-    "total_revenue": 1120624000.0,
-    "revenue_growth": -0.212,
-    "gross_profits": 1120624000.0,
+    "total_revenue": 979897984.0,
+    "revenue_growth": -0.477,
+    "gross_profits": 979897984.0,
     "ebitda": null,
-    "net_income": 623939968.0,
-    "earnings_growth": -0.025
+    "net_income": 522179008.0,
+    "earnings_growth": -0.611
   },
   "balance_sheet": {
-    "total_cash": 1714003968.0,
-    "cash_per_share": 22.323,
-    "total_debt": 7504804864.0,
+    "total_cash": 243412992.0,
+    "cash_per_share": 2.665,
+    "total_debt": 8295858176.0,
     "debt_to_equity": null,
     "current_ratio": null,
     "quick_ratio": null
   },
   "trading": {
-    "beta": 0.582,
+    "beta": null,
     "week52_high": 97.1,
-    "week52_low": 65.2,
-    "avg50d": 81.428,
-    "avg200d": 86.626,
-    "avg_volume": 128620.0,
-    "avg_volume_10d": 218480.0,
+    "week52_low": 64.2,
+    "avg50d": 80.276,
+    "avg200d": 86.2005,
+    "avg_volume": 130328.0,
+    "avg_volume_10d": 239387.0,
     "shares_outstanding": 76782423.0,
-    "float_shares": 45988064.0,
+    "float_shares": 54696056.0,
     "insider_ownership": 0.54075,
     "institutional_ownership": 0.17858,
     "short_ratio": null
   },
-  "_pe_label": "9.75x"
+  "_pe_label": "9.59x"
 }

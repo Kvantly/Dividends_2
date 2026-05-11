@@ -1,22 +1,22 @@
 {
   "ticker": "VEI",
   "name": "VEIDEKKE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 25290805248.0,
-    "enterprise_value": 22341701632.0,
-    "trailing_pe": 16.295652,
-    "forward_pe": 15.690267,
+    "market_cap": 23914250240.0,
+    "enterprise_value": 21291192320.0,
+    "trailing_pe": 15.016949,
+    "forward_pe": 14.832113,
     "peg_ratio": 1.59,
-    "price_to_sales": 0.586209,
-    "price_to_book": 6.860448,
-    "ev_to_revenue": 0.518,
-    "ev_to_ebitda": 8.758
+    "price_to_sales": 0.554302,
+    "price_to_book": 6.48704,
+    "ev_to_revenue": 0.494,
+    "ev_to_ebitda": 8.346
   },
   "per_share": {
-    "current_price": 187.4,
-    "eps_trailing": 11.5,
-    "eps_forward": 11.94371,
+    "current_price": 177.2,
+    "eps_trailing": 11.8,
+    "eps_forward": 11.94705,
     "book_value": 27.316,
     "revenue_per_share": 319.578,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.777,
     "week52_high": 197.6,
-    "week52_low": 141.8,
-    "avg50d": 190.748,
-    "avg200d": 173.409,
-    "avg_volume": 90140.0,
-    "avg_volume_10d": 78741.0,
+    "week52_low": 146.4,
+    "avg50d": 190.1,
+    "avg200d": 173.64,
+    "avg_volume": 93757.0,
+    "avg_volume_10d": 90246.0,
     "shares_outstanding": 134956267.0,
     "float_shares": 91250317.0,
     "insider_ownership": 0.22695,
-    "institutional_ownership": 0.34743,
+    "institutional_ownership": 0.34745,
     "short_ratio": null
   },
-  "_pe_label": "16.30x"
+  "_pe_label": "15.02x"
 }

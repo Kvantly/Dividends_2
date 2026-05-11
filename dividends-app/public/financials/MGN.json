@@ -1,22 +1,22 @@
 {
   "ticker": "MGN",
   "name": "MAGNORA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1966500352.0,
-    "enterprise_value": 1833600256.0,
+    "market_cap": 1950486528.0,
+    "enterprise_value": 1788761472.0,
     "trailing_pe": null,
-    "forward_pe": 19.255505,
+    "forward_pe": 18.78713,
     "peg_ratio": 0.11,
-    "price_to_sales": 39.173313,
-    "price_to_book": 5.201627,
-    "ev_to_revenue": 36.526,
-    "ev_to_ebitda": -22.554
+    "price_to_sales": 38.854313,
+    "price_to_book": 5.159268,
+    "ev_to_revenue": 35.633,
+    "ev_to_ebitda": -22.002
   },
   "per_share": {
-    "current_price": 30.7,
+    "current_price": 30.45,
     "eps_trailing": -0.96,
-    "eps_forward": 1.594349,
+    "eps_forward": 1.62079,
     "book_value": 5.902,
     "revenue_per_share": 0.763,
     "currency": "NOK"
@@ -49,14 +49,14 @@
     "beta": 0.284,
     "week52_high": 33.5,
     "week52_low": 18.42,
-    "avg50d": 24.004,
-    "avg200d": 21.86935,
-    "avg_volume": 277943.0,
-    "avg_volume_10d": 573845.0,
+    "avg50d": 24.554,
+    "avg200d": 21.9596,
+    "avg_volume": 302152.0,
+    "avg_volume_10d": 698412.0,
     "shares_outstanding": 64055384.0,
-    "float_shares": 39230720.0,
-    "insider_ownership": 0.34373,
-    "institutional_ownership": 0.17194,
+    "float_shares": 39285808.0,
+    "insider_ownership": 0.31248,
+    "institutional_ownership": 0.15631,
     "short_ratio": null
   }
 }

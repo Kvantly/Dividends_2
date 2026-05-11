@@ -1,20 +1,20 @@
 {
   "ticker": "SPOG",
   "name": "SPAREBANKEN \u00d8ST",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1614337408.0,
-    "enterprise_value": 15849154560.0,
-    "trailing_pe": 9.507937,
-    "forward_pe": 12.620746,
+    "market_cap": 1583447808.0,
+    "enterprise_value": 15819508736.0,
+    "trailing_pe": 9.326008,
+    "forward_pe": 12.379253,
     "peg_ratio": null,
-    "price_to_sales": 1.579896,
-    "price_to_book": 0.344128,
-    "ev_to_revenue": 15.511,
+    "price_to_sales": 1.549665,
+    "price_to_book": 0.337543,
+    "ev_to_revenue": 15.482,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 77.87,
+    "current_price": 76.38,
     "eps_trailing": 8.19,
     "eps_forward": 6.17,
     "book_value": 226.282,
@@ -49,15 +49,15 @@
     "beta": 0.265,
     "week52_high": 86.94,
     "week52_low": 70.0,
-    "avg50d": 81.4036,
-    "avg200d": 76.68155,
-    "avg_volume": 32767.0,
-    "avg_volume_10d": 22932.0,
+    "avg50d": 81.0622,
+    "avg200d": 76.6787,
+    "avg_volume": 31638.0,
+    "avg_volume_10d": 21113.0,
     "shares_outstanding": 20731183.0,
     "float_shares": 12883601.0,
     "insider_ownership": 0.20464,
     "institutional_ownership": 0.17352,
     "short_ratio": null
   },
-  "_pe_label": "9.51x"
+  "_pe_label": "9.33x"
 }

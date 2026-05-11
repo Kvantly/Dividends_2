@@ -1,22 +1,22 @@
 {
   "ticker": "ELMRA",
   "name": "ELMERA GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 3543007744.0,
-    "enterprise_value": 5659762176.0,
-    "trailing_pe": 22.191782,
-    "forward_pe": 9.9009,
+    "market_cap": 3450058240.0,
+    "enterprise_value": 5517630464.0,
+    "trailing_pe": 21.609589,
+    "forward_pe": 9.650974,
     "peg_ratio": null,
-    "price_to_sales": 0.292372,
-    "price_to_book": 2.607436,
-    "ev_to_revenue": 0.467,
-    "ev_to_ebitda": 14.881
+    "price_to_sales": 0.284702,
+    "price_to_book": 2.539031,
+    "ev_to_revenue": 0.455,
+    "ev_to_ebitda": 14.507
   },
   "per_share": {
-    "current_price": 32.4,
+    "current_price": 31.55,
     "eps_trailing": 1.46,
-    "eps_forward": 3.27243,
+    "eps_forward": 3.2691,
     "book_value": 12.426,
     "revenue_per_share": 110.962,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.726,
     "week52_high": 42.55,
     "week52_low": 31.05,
-    "avg50d": 34.159,
-    "avg200d": 34.95,
-    "avg_volume": 303531.0,
-    "avg_volume_10d": 93811.0,
+    "avg50d": 34.164,
+    "avg200d": 34.9125,
+    "avg_volume": 301709.0,
+    "avg_volume_10d": 111113.0,
     "shares_outstanding": 109352087.0,
     "float_shares": 85725103.0,
     "insider_ownership": 0.1594,
     "institutional_ownership": 0.52749,
     "short_ratio": null
   },
-  "_pe_label": "22.19x"
+  "_pe_label": "21.61x"
 }

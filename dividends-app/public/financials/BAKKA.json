@@ -1,23 +1,23 @@
 {
   "ticker": "BAKKA",
   "name": "BAKKAFROST",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 25472890880.0,
-    "enterprise_value": 30645518336.0,
-    "trailing_pe": 32.99539,
-    "forward_pe": 11.643238,
+    "market_cap": 24203988992.0,
+    "enterprise_value": 29269886976.0,
+    "trailing_pe": 31.23183,
+    "forward_pe": 11.308166,
     "peg_ratio": null,
-    "price_to_sales": 3.635273,
-    "price_to_book": 1.588851,
-    "ev_to_revenue": 4.373,
-    "ev_to_ebitda": 20.92
+    "price_to_sales": 3.454186,
+    "price_to_book": 1.516465,
+    "ev_to_revenue": 4.177,
+    "ev_to_ebitda": 19.981
   },
   "per_share": {
-    "current_price": 429.6,
-    "eps_trailing": 13.02,
-    "eps_forward": 36.896954,
-    "book_value": 270.38403,
+    "current_price": 408.2,
+    "eps_trailing": 13.07,
+    "eps_forward": 36.09781,
+    "book_value": 269.1787,
     "revenue_per_share": 118.182,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": 0.561,
     "week52_high": 526.0,
     "week52_low": 388.0,
-    "avg50d": 452.5,
-    "avg200d": 462.959,
-    "avg_volume": 122735.0,
-    "avg_volume_10d": 94292.0,
+    "avg50d": 450.256,
+    "avg200d": 462.878,
+    "avg_volume": 120150.0,
+    "avg_volume_10d": 104313.0,
     "shares_outstanding": 59294436.0,
     "float_shares": 40143519.0,
     "insider_ownership": 0.16083,
-    "institutional_ownership": 0.60485,
+    "institutional_ownership": 0.60346,
     "short_ratio": null
   },
-  "_pe_label": "33.00x"
+  "_pe_label": "31.23x"
 }

@@ -1,23 +1,23 @@
 {
   "ticker": "IDEX",
   "name": "IDEX BIOMETRICS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 556372416.0,
-    "enterprise_value": 500938432.0,
+    "market_cap": 537778944.0,
+    "enterprise_value": 470890080.0,
     "trailing_pe": null,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 2190.4426,
-    "price_to_book": 36.26495,
-    "ev_to_revenue": 1972.198,
-    "ev_to_ebitda": -48.447
+    "price_to_sales": 2117.24,
+    "price_to_book": 35.234142,
+    "ev_to_revenue": 1853.898,
+    "ev_to_ebitda": -45.541
   },
   "per_share": {
-    "current_price": 7.78,
+    "current_price": 7.52,
     "eps_trailing": -2.42,
     "eps_forward": 0.0,
-    "book_value": 0.214532,
+    "book_value": 0.213429,
     "revenue_per_share": 0.006,
     "currency": "NOK"
   },
@@ -49,14 +49,14 @@
     "beta": 1.062,
     "week52_high": 12.8,
     "week52_low": 2.46,
-    "avg50d": 9.48066,
-    "avg200d": 5.307047,
-    "avg_volume": 376014.0,
-    "avg_volume_10d": 1357238.0,
+    "avg50d": 9.60226,
+    "avg200d": 5.371428,
+    "avg_volume": 385446.0,
+    "avg_volume_10d": 1378646.0,
     "shares_outstanding": 71513159.0,
     "float_shares": 51325669.0,
-    "insider_ownership": 0.46605,
-    "institutional_ownership": 0.0506,
+    "insider_ownership": 0.42368,
+    "institutional_ownership": 0.046,
     "short_ratio": null
   }
 }

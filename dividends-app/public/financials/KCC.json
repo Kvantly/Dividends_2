@@ -1,22 +1,22 @@
 {
   "ticker": "KCC",
   "name": "KLAVENESS COMBINAT",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 6145331712.0,
-    "enterprise_value": 6370049024.0,
-    "trailing_pe": 14.863702,
-    "forward_pe": 9.226736,
+    "market_cap": 6014832640.0,
+    "enterprise_value": 6227686400.0,
+    "trailing_pe": 14.548064,
+    "forward_pe": 9.0937,
     "peg_ratio": null,
-    "price_to_sales": 23.922129,
-    "price_to_book": 1.8057,
-    "ev_to_revenue": 24.797,
-    "ev_to_ebitda": 67.709
+    "price_to_sales": 23.414131,
+    "price_to_book": 1.767356,
+    "ev_to_revenue": 24.243,
+    "ev_to_ebitda": 66.196
   },
   "per_share": {
-    "current_price": 103.6,
+    "current_price": 101.4,
     "eps_trailing": 6.97,
-    "eps_forward": 11.228239,
+    "eps_forward": 11.150577,
     "book_value": 57.37385,
     "revenue_per_share": 4.308,
     "currency": "NOK"
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.17,
     "week52_high": 104.8,
-    "week52_low": 55.4,
-    "avg50d": 93.042,
-    "avg200d": 81.305,
-    "avg_volume": 112550.0,
-    "avg_volume_10d": 229139.0,
+    "week52_low": 59.2,
+    "avg50d": 93.518,
+    "avg200d": 81.781,
+    "avg_volume": 112859.0,
+    "avg_volume_10d": 232146.0,
     "shares_outstanding": 59317877.0,
-    "float_shares": 21639755.0,
+    "float_shares": 21657550.0,
     "insider_ownership": 0.69125,
     "institutional_ownership": 0.19421,
     "short_ratio": null
   },
-  "_pe_label": "14.86x"
+  "_pe_label": "14.55x"
 }

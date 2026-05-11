@@ -1,20 +1,20 @@
 {
   "ticker": "BMA",
   "name": "BYGGMA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1452241152.0,
-    "enterprise_value": 2690771456.0,
-    "trailing_pe": 13.419354,
+    "market_cap": 1466205056.0,
+    "enterprise_value": 2760590336.0,
+    "trailing_pe": 13.548388,
     "forward_pe": null,
     "peg_ratio": 1.42,
-    "price_to_sales": 0.618238,
-    "price_to_book": 1.418924,
-    "ev_to_revenue": 1.145,
-    "ev_to_ebitda": 14.374
+    "price_to_sales": 0.624183,
+    "price_to_book": 1.432567,
+    "ev_to_revenue": 1.175,
+    "ev_to_ebitda": 14.747
   },
   "per_share": {
-    "current_price": 20.8,
+    "current_price": 21.0,
     "eps_trailing": 1.55,
     "eps_forward": null,
     "book_value": 14.659,
@@ -49,15 +49,15 @@
     "beta": 0.647,
     "week52_high": 22.6,
     "week52_low": 12.1,
-    "avg50d": 17.556,
-    "avg200d": 15.9995,
-    "avg_volume": 11995.0,
-    "avg_volume_10d": 11052.0,
+    "avg50d": 17.91,
+    "avg200d": 16.038,
+    "avg_volume": 11689.0,
+    "avg_volume_10d": 10029.0,
     "shares_outstanding": 69819290.0,
     "float_shares": null,
     "insider_ownership": 0.94766,
     "institutional_ownership": 0.0,
     "short_ratio": null
   },
-  "_pe_label": "13.42x"
+  "_pe_label": "13.55x"
 }

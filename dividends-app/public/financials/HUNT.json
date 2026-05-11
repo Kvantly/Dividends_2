@@ -1,20 +1,20 @@
 {
   "ticker": "HUNT",
   "name": "HUNTER GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 930160064.0,
-    "enterprise_value": 925546432.0,
-    "trailing_pe": 7.419355,
+    "market_cap": 842536320.0,
+    "enterprise_value": 831182336.0,
+    "trailing_pe": 6.72043,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 106.2069,
-    "price_to_book": 4.814811,
-    "ev_to_revenue": 105.68,
-    "ev_to_ebitda": 133.441
+    "price_to_sales": 96.20191,
+    "price_to_book": 4.361242,
+    "ev_to_revenue": 94.905,
+    "ev_to_ebitda": 119.836
   },
   "per_share": {
-    "current_price": 6.9,
+    "current_price": 6.25,
     "eps_trailing": 0.93,
     "eps_forward": 0.0,
     "book_value": 1.433078,
@@ -49,15 +49,15 @@
     "beta": 2.167,
     "week52_high": 7.5,
     "week52_low": 0.699,
-    "avg50d": 5.5874,
-    "avg200d": 2.6168,
-    "avg_volume": 5908361.0,
-    "avg_volume_10d": 2510227.0,
+    "avg50d": 5.7219,
+    "avg200d": 2.69774,
+    "avg_volume": 6026282.0,
+    "avg_volume_10d": 3087976.0,
     "shares_outstanding": 134805815.0,
     "float_shares": 74282048.0,
     "insider_ownership": 0.47182,
     "institutional_ownership": 0.11823,
     "short_ratio": null
   },
-  "_pe_label": "7.42x"
+  "_pe_label": "6.72x"
 }

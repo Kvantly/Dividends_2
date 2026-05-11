@@ -1,23 +1,23 @@
 {
   "ticker": "BWLPG",
   "name": "BW LPG",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 28844775424.0,
-    "enterprise_value": 29736923136.0,
-    "trailing_pe": 12.786003,
-    "forward_pe": 13.289604,
+    "market_cap": 28586690560.0,
+    "enterprise_value": 29207224320.0,
+    "trailing_pe": 12.646071,
+    "forward_pe": 12.695855,
     "peg_ratio": null,
-    "price_to_sales": 8.052389,
-    "price_to_book": 1.694507,
-    "ev_to_revenue": 8.301,
-    "ev_to_ebitda": 68.568
+    "price_to_sales": 7.980341,
+    "price_to_book": 1.690978,
+    "ev_to_revenue": 8.154,
+    "ev_to_ebitda": 67.347
   },
   "per_share": {
-    "current_price": 190.0,
-    "eps_trailing": 14.86,
-    "eps_forward": 14.296889,
-    "book_value": 112.127,
+    "current_price": 188.3,
+    "eps_trailing": 14.89,
+    "eps_forward": 14.831613,
+    "book_value": 111.35566,
     "revenue_per_share": 23.659,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.071,
     "week52_high": 192.1,
-    "week52_low": 102.0,
-    "avg50d": 166.614,
-    "avg200d": 147.5365,
-    "avg_volume": 560586.0,
-    "avg_volume_10d": 473274.0,
+    "week52_low": 103.1,
+    "avg50d": 167.77,
+    "avg200d": 148.239,
+    "avg_volume": 557341.0,
+    "avg_volume_10d": 423500.0,
     "shares_outstanding": 151814604.0,
     "float_shares": 82563471.0,
     "insider_ownership": 0.38387,
-    "institutional_ownership": 0.30892,
+    "institutional_ownership": 0.3093,
     "short_ratio": null
   },
-  "_pe_label": "12.79x"
+  "_pe_label": "12.65x"
 }

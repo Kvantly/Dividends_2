@@ -1,22 +1,22 @@
 {
   "ticker": "NONG",
   "name": "SPBK1 NORD-NORGE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 15296642048.0,
-    "enterprise_value": 38564753408.0,
-    "trailing_pe": 9.964683,
-    "forward_pe": 10.14212,
+    "market_cap": 14756499456.0,
+    "enterprise_value": 38259544064.0,
+    "trailing_pe": 9.884331,
+    "forward_pe": 9.816664,
     "peg_ratio": null,
-    "price_to_sales": 2.397969,
-    "price_to_book": 0.802089,
-    "ev_to_revenue": 6.046,
+    "price_to_sales": 2.313294,
+    "price_to_book": 0.773766,
+    "ev_to_revenue": 5.998,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 152.36,
-    "eps_trailing": 15.29,
-    "eps_forward": 15.0225,
+    "current_price": 146.98,
+    "eps_trailing": 14.87,
+    "eps_forward": 14.9725,
     "book_value": 189.954,
     "revenue_per_share": 63.537,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.359,
     "week52_high": 163.32,
     "week52_low": 134.0,
-    "avg50d": 157.828,
-    "avg200d": 147.4633,
-    "avg_volume": 93236.0,
-    "avg_volume_10d": 76928.0,
+    "avg50d": 157.3212,
+    "avg200d": 147.4713,
+    "avg_volume": 95313.0,
+    "avg_volume_10d": 91704.0,
     "shares_outstanding": 100398016.0,
     "float_shares": 96404183.0,
     "insider_ownership": 0.07395,
-    "institutional_ownership": 0.38528,
+    "institutional_ownership": 0.38543,
     "short_ratio": null
   },
-  "_pe_label": "9.96x"
+  "_pe_label": "9.88x"
 }

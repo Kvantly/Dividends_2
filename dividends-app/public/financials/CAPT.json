@@ -1,12 +1,12 @@
 {
   "ticker": "CAPT",
   "name": "CAPITAL TANKERS",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 16954894336.0,
+    "market_cap": 16684835840.0,
     "enterprise_value": null,
-    "trailing_pe": 119.64152,
-    "forward_pe": 12.472463,
+    "trailing_pe": 117.735855,
+    "forward_pe": 12.250908,
     "peg_ratio": null,
     "price_to_sales": null,
     "price_to_book": null,
@@ -14,9 +14,9 @@
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 126.82,
+    "current_price": 124.8,
     "eps_trailing": 1.06,
-    "eps_forward": 10.168,
+    "eps_forward": 10.187,
     "book_value": null,
     "revenue_per_share": null,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 137.44,
     "week52_low": 118.4,
-    "avg50d": 128.09644,
-    "avg200d": 128.09644,
-    "avg_volume": 274671.0,
-    "avg_volume_10d": 141259.0,
+    "avg50d": 127.59613,
+    "avg200d": 127.59613,
+    "avg_volume": 290391.0,
+    "avg_volume_10d": 216098.0,
     "shares_outstanding": 133692593.0,
     "float_shares": null,
     "insider_ownership": 0.0,
     "institutional_ownership": 0.02757,
     "short_ratio": null
   },
-  "_pe_label": "119.64x"
+  "_pe_label": "117.74x"
 }

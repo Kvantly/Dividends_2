@@ -1,63 +1,63 @@
 {
   "ticker": "ODF",
   "name": "ODFJELL SER. A",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 9375360000.0,
-    "enterprise_value": 9974411264.0,
-    "trailing_pe": 6.501923,
-    "forward_pe": 6.037513,
+    "market_cap": 8963604480.0,
+    "enterprise_value": 9683579904.0,
+    "trailing_pe": 6.309922,
+    "forward_pe": 5.798243,
     "peg_ratio": 2.06,
-    "price_to_sales": 8.405485,
-    "price_to_book": 1.015933,
-    "ev_to_revenue": 8.943,
-    "ev_to_ebitda": 31.923
+    "price_to_sales": 8.1149,
+    "price_to_book": 0.968627,
+    "ev_to_revenue": 8.767,
+    "ev_to_ebitda": 32.5
   },
   "per_share": {
-    "current_price": 118.4,
-    "eps_trailing": 18.21,
-    "eps_forward": 19.610723,
-    "book_value": 116.5431,
-    "revenue_per_share": 14.098,
+    "current_price": 113.2,
+    "eps_trailing": 17.94,
+    "eps_forward": 19.523155,
+    "book_value": 116.86645,
+    "revenue_per_share": 13.957,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.13926,
-    "operating_margin": 0.18807,
-    "gross_margin": 0.40693,
-    "ebitda_margin": 0.28013,
-    "roe": 0.16159,
-    "roa": 0.06308
+    "profit_margin": 0.13854,
+    "operating_margin": 0.14329,
+    "gross_margin": 0.39923,
+    "ebitda_margin": 0.26975,
+    "roe": 0.16187,
+    "roa": 0.05968
   },
   "income": {
-    "total_revenue": 1115385984.0,
-    "revenue_growth": -0.088,
-    "gross_profits": 453886016.0,
-    "ebitda": 312456992.0,
-    "net_income": 155324000.0,
-    "earnings_growth": -0.247
+    "total_revenue": 1104585984.0,
+    "revenue_growth": -0.039,
+    "gross_profits": 440985984.0,
+    "ebitda": 297956992.0,
+    "net_income": 153024000.0,
+    "earnings_growth": -0.057
   },
   "balance_sheet": {
-    "total_cash": 148608000.0,
-    "cash_per_share": 1.878,
-    "total_debt": 943238016.0,
-    "debt_to_equity": 95.016,
-    "current_ratio": 1.071,
-    "quick_ratio": 0.87
+    "total_cash": 131300000.0,
+    "cash_per_share": 1.677,
+    "total_debt": 1046099968.0,
+    "debt_to_equity": 106.322,
+    "current_ratio": 1.593,
+    "quick_ratio": 1.294
   },
   "trading": {
-    "beta": -0.23,
+    "beta": null,
     "week52_high": 140.4,
-    "week52_low": 90.0,
-    "avg50d": 120.112,
-    "avg200d": 123.419,
-    "avg_volume": 46260.0,
-    "avg_volume_10d": 31848.0,
+    "week52_low": 97.6,
+    "avg50d": 119.584,
+    "avg200d": 123.278,
+    "avg_volume": 47661.0,
+    "avg_volume_10d": 40882.0,
     "shares_outstanding": 60416462.0,
-    "float_shares": 22588592.0,
+    "float_shares": 22347863.0,
     "insider_ownership": 0.71249,
     "institutional_ownership": 0.07906,
     "short_ratio": null
   },
-  "_pe_label": "6.50x"
+  "_pe_label": "6.31x"
 }

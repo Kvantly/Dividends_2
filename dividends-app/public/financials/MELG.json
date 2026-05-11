@@ -1,21 +1,21 @@
 {
   "ticker": "MELG",
   "name": "MELHUS SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 532175424.0,
-    "enterprise_value": 2585949184.0,
-    "trailing_pe": 13.22314,
-    "forward_pe": 13.684961,
+    "market_cap": 532230880.0,
+    "enterprise_value": 2589836032.0,
+    "trailing_pe": 13.242759,
+    "forward_pe": 13.686387,
     "peg_ratio": null,
-    "price_to_sales": 1.582447,
-    "price_to_book": 0.334603,
-    "ev_to_revenue": 7.689,
+    "price_to_sales": 1.582612,
+    "price_to_book": 0.334638,
+    "ev_to_revenue": 7.701,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 192.0,
-    "eps_trailing": 14.52,
+    "current_price": 192.02,
+    "eps_trailing": 14.5,
     "eps_forward": 14.03,
     "book_value": 573.814,
     "revenue_per_share": 121.135,
@@ -49,15 +49,15 @@
     "beta": 0.186,
     "week52_high": 206.0,
     "week52_low": 167.0,
-    "avg50d": 193.4544,
-    "avg200d": 184.9925,
-    "avg_volume": 805.0,
-    "avg_volume_10d": 466.0,
+    "avg50d": 193.25,
+    "avg200d": 185.3115,
+    "avg_volume": 784.0,
+    "avg_volume_10d": 322.0,
     "shares_outstanding": 2771746.0,
     "float_shares": 2775809.0,
     "insider_ownership": 0.42674,
     "institutional_ownership": 0.08697,
     "short_ratio": null
   },
-  "_pe_label": "13.22x"
+  "_pe_label": "13.24x"
 }

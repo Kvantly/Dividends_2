@@ -1,20 +1,20 @@
 {
   "ticker": "MORG",
   "name": "SPAREBANKEN M\u00d8RE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 5637632000.0,
+    "market_cap": 5682060288.0,
     "enterprise_value": null,
-    "trailing_pe": 5.865911,
-    "forward_pe": 11.500504,
+    "trailing_pe": 5.912326,
+    "forward_pe": 11.591506,
     "peg_ratio": 5.26,
-    "price_to_sales": 2.43211,
-    "price_to_book": 0.653693,
+    "price_to_sales": 2.451277,
+    "price_to_book": 0.658866,
     "ev_to_revenue": null,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 113.74,
+    "current_price": 114.64,
     "eps_trailing": 19.39,
     "eps_forward": 9.89,
     "book_value": 173.996,
@@ -49,15 +49,15 @@
     "beta": null,
     "week52_high": 123.66,
     "week52_low": 98.0,
-    "avg50d": 115.3572,
-    "avg200d": 108.94495,
-    "avg_volume": 20964.0,
-    "avg_volume_10d": 24129.0,
-    "shares_outstanding": 49565961.0,
+    "avg50d": 115.4304,
+    "avg200d": 109.08405,
+    "avg_volume": 21583.0,
+    "avg_volume_10d": 25943.0,
+    "shares_outstanding": 49564379.0,
     "float_shares": 40969916.0,
     "insider_ownership": 0.18745,
-    "institutional_ownership": 0.26059,
+    "institutional_ownership": 0.26062,
     "short_ratio": null
   },
-  "_pe_label": "5.87x"
+  "_pe_label": "5.91x"
 }

@@ -1,20 +1,20 @@
 {
   "ticker": "NORCO",
   "name": "NORCONSULT",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 11636263936.0,
-    "enterprise_value": 13007719424.0,
-    "trailing_pe": 17.605633,
-    "forward_pe": 11.91736,
+    "market_cap": 11527659520.0,
+    "enterprise_value": 12945659904.0,
+    "trailing_pe": 17.441315,
+    "forward_pe": 11.806131,
     "peg_ratio": null,
-    "price_to_sales": 1.019741,
-    "price_to_book": 3.736921,
-    "ev_to_revenue": 1.14,
-    "ev_to_ebitda": 13.099
+    "price_to_sales": 1.010223,
+    "price_to_book": 3.702043,
+    "ev_to_revenue": 1.134,
+    "ev_to_ebitda": 13.037
   },
   "per_share": {
-    "current_price": 37.5,
+    "current_price": 37.15,
     "eps_trailing": 2.13,
     "eps_forward": 3.14667,
     "book_value": 10.035,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": -0.108,
     "week52_high": 49.6,
-    "week52_low": 37.15,
-    "avg50d": 40.169,
-    "avg200d": 43.969,
-    "avg_volume": 385224.0,
-    "avg_volume_10d": 318253.0,
+    "week52_low": 37.0,
+    "avg50d": 40.022,
+    "avg200d": 43.879,
+    "avg_volume": 373343.0,
+    "avg_volume_10d": 340122.0,
     "shares_outstanding": 310300390.0,
     "float_shares": 301404078.0,
     "insider_ownership": 0.06068,
-    "institutional_ownership": 0.28474,
+    "institutional_ownership": 0.28483,
     "short_ratio": null
   },
-  "_pe_label": "17.61x"
+  "_pe_label": "17.44x"
 }

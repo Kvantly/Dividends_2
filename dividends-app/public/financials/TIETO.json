@@ -1,21 +1,21 @@
 {
   "ticker": "TIETO",
   "name": "TIETOEVRY",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 24648392704.0,
-    "enterprise_value": 25245274112.0,
-    "trailing_pe": 31.185946,
+    "market_cap": 24421087232.0,
+    "enterprise_value": 24988878848.0,
+    "trailing_pe": 30.65312,
     "forward_pe": null,
     "peg_ratio": null,
-    "price_to_sales": 13.47054,
-    "price_to_book": 2.074974,
-    "ev_to_revenue": 13.797,
-    "ev_to_ebitda": 97.472
+    "price_to_sales": 13.346315,
+    "price_to_book": 2.057439,
+    "ev_to_revenue": 13.657,
+    "ev_to_ebitda": 96.482
   },
   "per_share": {
-    "current_price": 213.0,
-    "eps_trailing": 6.83,
+    "current_price": 211.2,
+    "eps_trailing": 6.89,
     "eps_forward": null,
     "book_value": 102.651886,
     "revenue_per_share": 15.464,
@@ -49,15 +49,15 @@
     "beta": 0.66,
     "week52_high": 225.6,
     "week52_low": 170.0,
-    "avg50d": 206.17,
-    "avg200d": 201.4095,
-    "avg_volume": 6323.0,
-    "avg_volume_10d": 1526.0,
-    "shares_outstanding": 115720150.0,
-    "float_shares": 78938380.0,
+    "avg50d": 206.578,
+    "avg200d": 201.9775,
+    "avg_volume": 6182.0,
+    "avg_volume_10d": 1792.0,
+    "shares_outstanding": 115630150.0,
+    "float_shares": 78880108.0,
     "insider_ownership": 0.13201,
-    "institutional_ownership": 0.58135,
+    "institutional_ownership": 0.5827,
     "short_ratio": null
   },
-  "_pe_label": "31.19x"
+  "_pe_label": "30.65x"
 }

@@ -1,23 +1,23 @@
 {
   "ticker": "HAFNI",
   "name": "HAFNIA LIMITED",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 42181541888.0,
-    "enterprise_value": 43298689024.0,
-    "trailing_pe": 13.569133,
-    "forward_pe": 14.22432,
+    "market_cap": 40857120768.0,
+    "enterprise_value": 41630420992.0,
+    "trailing_pe": 13.12199,
+    "forward_pe": 12.66362,
     "peg_ratio": null,
-    "price_to_sales": 18.485199,
-    "price_to_book": 1.945674,
-    "ev_to_revenue": 18.975,
-    "ev_to_ebitda": 87.876
+    "price_to_sales": 17.904799,
+    "price_to_book": 1.897638,
+    "ev_to_revenue": 18.244,
+    "ev_to_ebitda": 84.491
   },
   "per_share": {
-    "current_price": 84.4,
-    "eps_trailing": 6.22,
-    "eps_forward": 5.9335,
-    "book_value": 43.378277,
+    "current_price": 81.75,
+    "eps_trailing": 6.23,
+    "eps_forward": 6.4555,
+    "book_value": 43.07987,
     "revenue_per_share": 4.581,
     "currency": "NOK"
   },
@@ -49,15 +49,15 @@
     "beta": -0.155,
     "week52_high": 86.7,
     "week52_low": 48.62,
-    "avg50d": 74.1376,
-    "avg200d": 63.3795,
-    "avg_volume": 1007818.0,
-    "avg_volume_10d": 679023.0,
+    "avg50d": 74.8516,
+    "avg200d": 63.7643,
+    "avg_volume": 1021962.0,
+    "avg_volume_10d": 744394.0,
     "shares_outstanding": 499781305.0,
     "float_shares": 237859773.0,
     "insider_ownership": 0.46061,
-    "institutional_ownership": 0.35388,
+    "institutional_ownership": 0.35461,
     "short_ratio": null
   },
-  "_pe_label": "13.57x"
+  "_pe_label": "13.12x"
 }

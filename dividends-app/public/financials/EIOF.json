@@ -1,20 +1,20 @@
 {
   "ticker": "EIOF",
   "name": "EIDESVIK OFFSHORE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1251664128.0,
-    "enterprise_value": 2787033088.0,
-    "trailing_pe": 18.846153,
-    "forward_pe": -3.744541,
+    "market_cap": 1233418368.0,
+    "enterprise_value": 2750541312.0,
+    "trailing_pe": 18.571428,
+    "forward_pe": -3.689956,
     "peg_ratio": 1.42,
-    "price_to_sales": 1.594221,
-    "price_to_book": 0.776721,
-    "ev_to_revenue": 3.55,
-    "ev_to_ebitda": 9.841
+    "price_to_sales": 1.570981,
+    "price_to_book": 0.765399,
+    "ev_to_revenue": 3.503,
+    "ev_to_ebitda": 9.712
   },
   "per_share": {
-    "current_price": 17.15,
+    "current_price": 16.9,
     "eps_trailing": 0.91,
     "eps_forward": -4.58,
     "book_value": 22.08,
@@ -48,16 +48,16 @@
   "trading": {
     "beta": 0.314,
     "week52_high": 18.0,
-    "week52_low": 11.5,
-    "avg50d": 15.714,
-    "avg200d": 13.605,
-    "avg_volume": 37428.0,
-    "avg_volume_10d": 53976.0,
+    "week52_low": 12.0,
+    "avg50d": 15.915,
+    "avg200d": 13.6635,
+    "avg_volume": 37653.0,
+    "avg_volume_10d": 46476.0,
     "shares_outstanding": 72983333.0,
-    "float_shares": 8429575.0,
+    "float_shares": 8404761.0,
     "insider_ownership": 0.86102,
     "institutional_ownership": 0.0139,
     "short_ratio": null
   },
-  "_pe_label": "18.85x"
+  "_pe_label": "18.57x"
 }

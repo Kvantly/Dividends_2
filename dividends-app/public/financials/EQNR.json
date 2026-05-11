@@ -1,63 +1,63 @@
 {
   "ticker": "EQNR",
   "name": "EQUINOR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 874001268736.0,
-    "enterprise_value": 970315857920.0,
-    "trailing_pe": 19.46171,
-    "forward_pe": 9.815735,
-    "peg_ratio": null,
-    "price_to_sales": 8.246928,
-    "price_to_book": 2.309592,
-    "ev_to_revenue": 9.156,
-    "ev_to_ebitda": 27.362
+    "market_cap": 855060840448.0,
+    "enterprise_value": 856228823040.0,
+    "trailing_pe": 16.67963,
+    "forward_pe": 9.523048,
+    "peg_ratio": 0.92,
+    "price_to_sales": 8.201236,
+    "price_to_book": 2.259541,
+    "ev_to_revenue": 8.212,
+    "ev_to_ebitda": 23.818
   },
   "per_share": {
-    "current_price": 350.7,
-    "eps_trailing": 18.02,
-    "eps_forward": 35.72835,
+    "current_price": 343.1,
+    "eps_trailing": 20.57,
+    "eps_forward": 36.02838,
     "book_value": 151.845,
-    "revenue_per_share": 40.871,
+    "revenue_per_share": 41.092,
     "currency": "NOK"
   },
   "profitability": {
-    "profit_margin": 0.04758,
-    "operating_margin": 0.2144,
-    "gross_margin": 0.3703,
-    "ebitda_margin": 0.33461,
-    "roe": 0.12206,
-    "roa": 0.12643
+    "profit_margin": 0.05296,
+    "operating_margin": 0.31478,
+    "gross_margin": 0.38109,
+    "ebitda_margin": 0.3448,
+    "roe": 0.12361,
+    "roa": 0.11965
   },
   "income": {
-    "total_revenue": 105979002880.0,
-    "revenue_growth": -0.051,
-    "gross_profits": 39244001280.0,
-    "ebitda": 35462000640.0,
-    "net_income": 5042999808.0,
-    "earnings_growth": -0.273
+    "total_revenue": 104260001792.0,
+    "revenue_growth": -0.053,
+    "gross_profits": 39731998720.0,
+    "ebitda": 35948998656.0,
+    "net_income": 5521999872.0,
+    "earnings_growth": 0.292
   },
   "balance_sheet": {
-    "total_cash": 19332999168.0,
-    "cash_per_share": 7.732,
-    "total_debt": 31221000192.0,
-    "debt_to_equity": 77.093,
-    "current_ratio": 1.265,
-    "quick_ratio": 0.98
+    "total_cash": 20096000000.0,
+    "cash_per_share": 8.051,
+    "total_debt": 31857000448.0,
+    "debt_to_equity": 72.996,
+    "current_ratio": 1.239,
+    "quick_ratio": 0.89
   },
   "trading": {
     "beta": -0.723,
     "week52_high": 422.3,
     "week52_low": 226.4,
-    "avg50d": 353.294,
-    "avg200d": 272.9455,
-    "avg_volume": 5353458.0,
-    "avg_volume_10d": 2786834.0,
+    "avg50d": 357.098,
+    "avg200d": 274.2125,
+    "avg_volume": 5427995.0,
+    "avg_volume_10d": 3629343.0,
     "shares_outstanding": 2492162132.0,
-    "float_shares": 620117221.0,
+    "float_shares": 619057920.0,
     "insider_ownership": 0.67001,
-    "institutional_ownership": 0.19322,
+    "institutional_ownership": 0.19316,
     "short_ratio": null
   },
-  "_pe_label": "19.46x"
+  "_pe_label": "16.68x"
 }

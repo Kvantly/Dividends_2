@@ -1,7 +1,7 @@
 {
   "ticker": "CRNAS",
   "name": "CIRCIO HOLDING TR",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": null,
     "enterprise_value": null,
@@ -47,8 +47,8 @@
   },
   "trading": {
     "beta": null,
-    "week52_high": 0.479,
-    "week52_low": 0.4015,
+    "week52_high": 0.554,
+    "week52_low": 0.545,
     "avg50d": null,
     "avg200d": null,
     "avg_volume": null,

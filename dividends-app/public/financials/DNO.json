@@ -1,23 +1,23 @@
 {
   "ticker": "DNO",
   "name": "DNO",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 18173999104.0,
-    "enterprise_value": 20295200768.0,
+    "market_cap": 18417750016.0,
+    "enterprise_value": 19242199040.0,
     "trailing_pe": null,
-    "forward_pe": 4.318814,
+    "forward_pe": 4.615479,
     "peg_ratio": 0.74,
-    "price_to_sales": 12.329715,
-    "price_to_book": 1.471644,
-    "ev_to_revenue": 13.769,
-    "ev_to_ebitda": 24.541
+    "price_to_sales": 12.495081,
+    "price_to_book": 1.497951,
+    "ev_to_revenue": 13.054,
+    "ev_to_ebitda": 23.267
   },
   "per_share": {
-    "current_price": 18.64,
-    "eps_trailing": -0.47,
-    "eps_forward": 4.316,
-    "book_value": 12.666109,
+    "current_price": 18.89,
+    "eps_trailing": -0.09,
+    "eps_forward": 4.09275,
+    "book_value": 12.610562,
     "revenue_per_share": 1.512,
     "currency": "NOK"
   },
@@ -48,15 +48,15 @@
   "trading": {
     "beta": -0.194,
     "week52_high": 21.96,
-    "week52_low": 11.506,
-    "avg50d": 18.5524,
-    "avg200d": 15.8085,
-    "avg_volume": 5344010.0,
-    "avg_volume_10d": 3203619.0,
+    "week52_low": 11.7,
+    "avg50d": 18.7138,
+    "avg200d": 15.87745,
+    "avg_volume": 5473934.0,
+    "avg_volume_10d": 3824321.0,
     "shares_outstanding": 975000000.0,
     "float_shares": 732936750.0,
     "insider_ownership": 0.15381,
-    "institutional_ownership": 0.28033,
+    "institutional_ownership": 0.28031,
     "short_ratio": null
   }
 }

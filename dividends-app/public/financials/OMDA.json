@@ -1,20 +1,20 @@
 {
   "ticker": "OMDA",
   "name": "OMDA",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 812103488.0,
-    "enterprise_value": 1233587584.0,
-    "trailing_pe": 123.75,
-    "forward_pe": 10.645161,
+    "market_cap": 789545088.0,
+    "enterprise_value": 1204876800.0,
+    "trailing_pe": 120.3125,
+    "forward_pe": 10.349462,
     "peg_ratio": null,
-    "price_to_sales": 1.638343,
-    "price_to_book": 48.708485,
-    "ev_to_revenue": 2.489,
-    "ev_to_ebitda": 14.363
+    "price_to_sales": 1.592833,
+    "price_to_book": 47.355473,
+    "ev_to_revenue": 2.431,
+    "ev_to_ebitda": 14.029
   },
   "per_share": {
-    "current_price": 39.6,
+    "current_price": 38.5,
     "eps_trailing": 0.32,
     "eps_forward": 3.72,
     "book_value": 0.813,
@@ -49,15 +49,15 @@
     "beta": 0.452,
     "week52_high": 57.4,
     "week52_low": 37.0,
-    "avg50d": 39.51,
-    "avg200d": 45.362,
-    "avg_volume": 7208.0,
-    "avg_volume_10d": 7292.0,
+    "avg50d": 39.572,
+    "avg200d": 45.208,
+    "avg_volume": 7192.0,
+    "avg_volume_10d": 4547.0,
     "shares_outstanding": 20507663.0,
     "float_shares": 7027976.0,
     "insider_ownership": 0.42243,
     "institutional_ownership": 0.01077,
     "short_ratio": null
   },
-  "_pe_label": "123.75x"
+  "_pe_label": "120.31x"
 }

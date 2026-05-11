@@ -1,22 +1,22 @@
 {
   "ticker": "NORDH",
   "name": "NORDHEALTH A-AKSJE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
     "market_cap": 2049162752.0,
-    "enterprise_value": 1971408640.0,
+    "enterprise_value": 1955645824.0,
     "trailing_pe": null,
-    "forward_pe": 47.720623,
+    "forward_pe": 47.974594,
     "peg_ratio": null,
     "price_to_sales": 40.30532,
     "price_to_book": 3.047742,
-    "ev_to_revenue": 38.776,
-    "ev_to_ebitda": -341.784
+    "ev_to_revenue": 38.466,
+    "ev_to_ebitda": -339.051
   },
   "per_share": {
     "current_price": 26.0,
-    "eps_trailing": -1.75,
-    "eps_forward": 0.544838,
+    "eps_trailing": -1.76,
+    "eps_forward": 0.541953,
     "book_value": 8.530905,
     "revenue_per_share": 0.645,
     "currency": "NOK"
@@ -49,14 +49,14 @@
     "beta": 0.325,
     "week52_high": 40.6,
     "week52_low": 21.2,
-    "avg50d": 26.992,
-    "avg200d": 33.435,
+    "avg50d": 26.636,
+    "avg200d": 33.237,
     "avg_volume": 26982.0,
-    "avg_volume_10d": 3822.0,
+    "avg_volume_10d": 3053.0,
     "shares_outstanding": 44216750.0,
     "float_shares": 41868336.0,
     "insider_ownership": 0.02236,
-    "institutional_ownership": 0.0679,
+    "institutional_ownership": 0.05844,
     "short_ratio": null
   }
 }

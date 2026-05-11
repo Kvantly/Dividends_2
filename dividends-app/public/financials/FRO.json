@@ -1,22 +1,22 @@
 {
   "ticker": "FRO",
   "name": "FRONTLINE",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 79142436864.0,
-    "enterprise_value": 81555275776.0,
-    "trailing_pe": 22.485767,
-    "forward_pe": 12.125311,
+    "market_cap": 80099713024.0,
+    "enterprise_value": 82512560128.0,
+    "trailing_pe": 22.743362,
+    "forward_pe": 12.263192,
     "peg_ratio": null,
-    "price_to_sales": 40.27392,
-    "price_to_book": 3.381237,
-    "ev_to_revenue": 41.502,
-    "ev_to_ebitda": 90.807
+    "price_to_sales": 40.761055,
+    "price_to_book": 3.422135,
+    "ev_to_revenue": 41.989,
+    "ev_to_ebitda": 91.873
   },
   "per_share": {
-    "current_price": 355.5,
-    "eps_trailing": 15.81,
-    "eps_forward": 29.318836,
+    "current_price": 359.8,
+    "eps_trailing": 15.82,
+    "eps_forward": 29.33983,
     "book_value": 105.13905,
     "revenue_per_share": 8.827,
     "currency": "NOK"
@@ -49,15 +49,15 @@
     "beta": 0.049,
     "week52_high": 388.6,
     "week52_low": 162.55,
-    "avg50d": 333.21,
-    "avg200d": 259.672,
-    "avg_volume": 1430118.0,
-    "avg_volume_10d": 944591.0,
+    "avg50d": 334.216,
+    "avg200d": 262.11475,
+    "avg_volume": 1412659.0,
+    "avg_volume_10d": 818409.0,
     "shares_outstanding": 222622889.0,
     "float_shares": 120775144.0,
     "insider_ownership": 0.35787,
-    "institutional_ownership": 0.29164,
+    "institutional_ownership": 0.29429,
     "short_ratio": null
   },
-  "_pe_label": "22.49x"
+  "_pe_label": "22.74x"
 }

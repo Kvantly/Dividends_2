@@ -1,9 +1,9 @@
 {
   "ticker": "HERMA",
   "name": "HERMANA HOLDING",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 232259808.0,
+    "market_cap": 224013888.0,
     "enterprise_value": null,
     "trailing_pe": null,
     "forward_pe": null,
@@ -14,7 +14,7 @@
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 16.9,
+    "current_price": 16.3,
     "eps_trailing": -0.99,
     "eps_forward": null,
     "book_value": null,
@@ -49,10 +49,10 @@
     "beta": null,
     "week52_high": 18.15,
     "week52_low": 9.22,
-    "avg50d": 17.182,
-    "avg200d": 15.40675,
-    "avg_volume": 7628.0,
-    "avg_volume_10d": 4920.0,
+    "avg50d": 17.126,
+    "avg200d": 15.46025,
+    "avg_volume": 7040.0,
+    "avg_volume_10d": 5902.0,
     "shares_outstanding": 13743184.0,
     "float_shares": null,
     "insider_ownership": 0.47078,

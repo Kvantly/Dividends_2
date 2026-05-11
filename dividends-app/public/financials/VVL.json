@@ -1,21 +1,21 @@
 {
   "ticker": "VVL",
   "name": "VOSS VEKSEL OGLAND",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1084228224.0,
-    "enterprise_value": 1421358720.0,
-    "trailing_pe": 12.882954,
-    "forward_pe": 10.032626,
+    "market_cap": 1044561408.0,
+    "enterprise_value": 1381691776.0,
+    "trailing_pe": 12.401883,
+    "forward_pe": 9.665579,
     "peg_ratio": 2.84,
-    "price_to_sales": 5.506772,
-    "price_to_book": 1.372159,
-    "ev_to_revenue": 7.219,
+    "price_to_sales": 5.305305,
+    "price_to_book": 1.321958,
+    "ev_to_revenue": 7.018,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 492.0,
-    "eps_trailing": 38.19,
+    "current_price": 474.0,
+    "eps_trailing": 38.22,
     "eps_forward": 49.04,
     "book_value": 358.559,
     "revenue_per_share": 84.216,
@@ -49,15 +49,15 @@
     "beta": 0.314,
     "week52_high": 530.0,
     "week52_low": 354.0,
-    "avg50d": 453.22,
-    "avg200d": 401.475,
-    "avg_volume": 397.0,
-    "avg_volume_10d": 552.0,
+    "avg50d": 456.94,
+    "avg200d": 402.785,
+    "avg_volume": 451.0,
+    "avg_volume_10d": 630.0,
     "shares_outstanding": 2203716.0,
     "float_shares": 1994143.0,
     "insider_ownership": 0.27734,
     "institutional_ownership": 0.07353,
     "short_ratio": null
   },
-  "_pe_label": "12.88x"
+  "_pe_label": "12.40x"
 }

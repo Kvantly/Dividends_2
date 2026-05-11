@@ -1,21 +1,21 @@
 {
   "ticker": "AURG",
   "name": "AURSKOG SPAREBANK",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 1178532096.0,
-    "enterprise_value": 5895488512.0,
-    "trailing_pe": 4.53567,
-    "forward_pe": 13.027594,
+    "market_cap": 1201645184.0,
+    "enterprise_value": 5900111360.0,
+    "trailing_pe": 4.622977,
+    "forward_pe": 13.283087,
     "peg_ratio": null,
-    "price_to_sales": 2.281726,
-    "price_to_book": 0.505858,
-    "ev_to_revenue": 11.414,
+    "price_to_sales": 2.326475,
+    "price_to_book": 0.515779,
+    "ev_to_revenue": 11.423,
     "ev_to_ebitda": null
   },
   "per_share": {
-    "current_price": 254.95,
-    "eps_trailing": 56.21,
+    "current_price": 259.95,
+    "eps_trailing": 56.23,
     "eps_forward": 19.57,
     "book_value": 503.995,
     "revenue_per_share": 111.736,
@@ -49,15 +49,15 @@
     "beta": 0.115,
     "week52_high": 273.25,
     "week52_low": 227.55,
-    "avg50d": 260.599,
-    "avg200d": 250.9305,
-    "avg_volume": 1279.0,
-    "avg_volume_10d": 1141.0,
+    "avg50d": 260.109,
+    "avg200d": 251.19925,
+    "avg_volume": 1294.0,
+    "avg_volume_10d": 1021.0,
     "shares_outstanding": 4622601.0,
     "float_shares": 4613402.0,
     "insider_ownership": 0.30399,
     "institutional_ownership": 0.05364,
     "short_ratio": null
   },
-  "_pe_label": "4.54x"
+  "_pe_label": "4.62x"
 }

@@ -1,23 +1,23 @@
 {
   "ticker": "DOFG",
   "name": "DOF GROUP",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-11",
   "valuation": {
-    "market_cap": 34281988096.0,
-    "enterprise_value": 34928549888.0,
-    "trailing_pe": 7.927107,
-    "forward_pe": 8.500212,
+    "market_cap": 33912569856.0,
+    "enterprise_value": 34756153344.0,
+    "trailing_pe": 7.837223,
+    "forward_pe": 8.472988,
     "peg_ratio": null,
-    "price_to_sales": 18.322815,
-    "price_to_book": 1.808627,
-    "ev_to_revenue": 18.668,
-    "ev_to_ebitda": 52.762
+    "price_to_sales": 18.12537,
+    "price_to_book": 1.801531,
+    "ev_to_revenue": 18.576,
+    "ev_to_ebitda": 52.502
   },
   "per_share": {
-    "current_price": 139.2,
-    "eps_trailing": 17.56,
-    "eps_forward": 16.376062,
-    "book_value": 76.96445,
+    "current_price": 137.7,
+    "eps_trailing": 17.57,
+    "eps_forward": 16.251646,
+    "book_value": 76.435,
     "revenue_per_share": 7.597,
     "currency": "NOK"
   },
@@ -48,16 +48,16 @@
   "trading": {
     "beta": -0.044,
     "week52_high": 142.0,
-    "week52_low": 79.2,
-    "avg50d": 132.034,
-    "avg200d": 107.04025,
-    "avg_volume": 452335.0,
-    "avg_volume_10d": 253557.0,
+    "week52_low": 83.95,
+    "avg50d": 132.768,
+    "avg200d": 107.73,
+    "avg_volume": 462977.0,
+    "avg_volume_10d": 341306.0,
     "shares_outstanding": 246278655.0,
     "float_shares": 7858752.0,
     "insider_ownership": 0.48851,
-    "institutional_ownership": 0.34786,
+    "institutional_ownership": 0.34798,
     "short_ratio": null
   },
-  "_pe_label": "7.93x"
+  "_pe_label": "7.84x"
 }
