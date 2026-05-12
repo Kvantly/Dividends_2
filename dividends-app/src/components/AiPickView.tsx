@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { getAiPick, type AiPickData, type ScoreBreakdown } from '../lib/aiPickData';
+import { getAiPick, type AiPickData, type ScoreBreakdown, type EquityCurvePoint, type Trade } from '../lib/aiPickData';
 
 interface Props { onSelectStock: (ticker: string) => void; }
 
-// ─── Score bar ────────────────────────────────────────────────────────────────
+// ─── Score pillar ─────────────────────────────────────────────────────────────
 
 const SCORE_LABELS: Record<keyof ScoreBreakdown, string> = {
   consistency:  'Consistency',
@@ -65,6 +65,124 @@ function ReasoningCard({ title, icon, text }: { title: string; icon: string; tex
   );
 }
 
+// ─── Equity curve SVG ─────────────────────────────────────────────────────────
+
+function EquityCurve({ curve }: { curve: EquityCurvePoint[] }) {
+  if (curve.length < 2) return null;
+  const W = 700, H = 160, PAD = { t: 12, r: 12, b: 28, l: 44 };
+  const iW = W - PAD.l - PAD.r;
+  const iH = H - PAD.t - PAD.b;
+
+  const values = curve.map(p => p.value);
+  const minV   = Math.min(...values);
+  const maxV   = Math.max(...values);
+  const range  = maxV - minV || 1;
+
+  const xOf = (i: number) => PAD.l + (i / (curve.length - 1)) * iW;
+  const yOf = (v: number) => PAD.t + iH - ((v - minV) / range) * iH;
+
+  const points = curve.map((p, i) => `${xOf(i)},${yOf(p.value)}`).join(' ');
+  const area   = `M${PAD.l},${PAD.t + iH} ` +
+                 curve.map((p, i) => `L${xOf(i)},${yOf(p.value)}`).join(' ') +
+                 ` L${PAD.l + iW},${PAD.t + iH} Z`;
+
+  const finalVal  = values[values.length - 1];
+  const lineColor = finalVal >= 100 ? 'var(--green)' : 'var(--red)';
+
+  // Tick labels
+  const ticks = [minV, 100, maxV].filter((v, i, arr) => arr.indexOf(v) === i);
+
+  // Date labels: first and last
+  const fmt = (d: string) => d.slice(0, 7);
+
+  return (
+    <div className="ai-equity-wrap">
+      <svg viewBox={`0 0 ${W} ${H}`} className="ai-equity-svg" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="ecGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor={lineColor} stopOpacity="0.25" />
+            <stop offset="100%" stopColor={lineColor} stopOpacity="0.02" />
+          </linearGradient>
+        </defs>
+        {/* Baseline at 100 */}
+        <line
+          x1={PAD.l} y1={yOf(100)} x2={PAD.l + iW} y2={yOf(100)}
+          stroke="var(--border)" strokeDasharray="4 3" strokeWidth={1}
+        />
+        {/* Area fill */}
+        <path d={area} fill="url(#ecGrad)" />
+        {/* Line */}
+        <polyline points={points} fill="none" stroke={lineColor} strokeWidth={2} strokeLinejoin="round" />
+        {/* Y ticks */}
+        {ticks.map(v => (
+          <g key={v}>
+            <line x1={PAD.l - 4} y1={yOf(v)} x2={PAD.l} y2={yOf(v)} stroke="var(--text-tertiary)" strokeWidth={1} />
+            <text x={PAD.l - 6} y={yOf(v) + 4} textAnchor="end" fontSize={9} fill="var(--text-tertiary)">{v.toFixed(0)}</text>
+          </g>
+        ))}
+        {/* X labels */}
+        <text x={PAD.l} y={H - 4} fontSize={9} fill="var(--text-tertiary)">{fmt(curve[0].date)}</text>
+        <text x={PAD.l + iW} y={H - 4} textAnchor="end" fontSize={9} fill="var(--text-tertiary)">{fmt(curve[curve.length - 1].date)}</text>
+      </svg>
+      <div className="ai-equity-stat">
+        <span style={{ color: finalVal >= 100 ? 'var(--green)' : 'var(--red)', fontWeight: 700 }}>
+          {finalVal >= 100 ? '+' : ''}{(finalVal - 100).toFixed(1)}%
+        </span>
+        <span style={{ color: 'var(--text-tertiary)', fontSize: 11 }}> total return (simulated, base 100)</span>
+      </div>
+    </div>
+  );
+}
+
+// ─── Trades table ─────────────────────────────────────────────────────────────
+
+function TradesTable({ trades, onSelectStock }: { trades: Trade[]; onSelectStock: (t: string) => void }) {
+  if (!trades.length) return null;
+  const rows = [...trades].reverse(); // newest first
+  return (
+    <div className="rank-table-wrap">
+      <table className="rank-table">
+        <thead>
+          <tr>
+            <th className="rank-th">Date</th>
+            <th className="rank-th">Action</th>
+            <th className="rank-th left">Ticker</th>
+            <th className="rank-th num">Price (NOK)</th>
+            <th className="rank-th num">Return</th>
+            <th className="rank-th left">Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((t, i) => {
+            const isSell = t.action === 'SELL';
+            const ret    = t.return_pct ?? null;
+            const win    = ret !== null && ret >= 0;
+            return (
+              <tr
+                key={i}
+                className={`rank-row${isSell ? (win ? ' bt-win' : ' bt-loss') : ''}`}
+                style={{ cursor: 'pointer' }}
+                onClick={() => onSelectStock(t.ticker)}
+              >
+                <td className="rank-td muted">{t.date}</td>
+                <td className="rank-td bold" style={{ color: isSell ? (win ? 'var(--green)' : 'var(--red)') : 'var(--accent)' }}>
+                  {t.action}
+                </td>
+                <td className="rank-td bold accent">{t.ticker}</td>
+                <td className="rank-td num">{t.price?.toFixed(2)}</td>
+                <td className="rank-td num" style={{ color: ret === null ? undefined : ret >= 0 ? 'var(--green)' : 'var(--red)', fontWeight: ret !== null ? 700 : undefined }}>
+                  {ret !== null ? `${ret > 0 ? '+' : ''}${ret.toFixed(1)}%` : '—'}
+                </td>
+                <td className="rank-td muted" style={{ fontSize: 11 }}>{t.exit_reason ?? '—'}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 function fmt(v: number | null | undefined, suffix = '', dec = 1) {
@@ -72,13 +190,52 @@ function fmt(v: number | null | undefined, suffix = '', dec = 1) {
   return `${v.toFixed(dec)}${suffix}`;
 }
 
-function ReturnCell({ value, outcome }: { value: number | null; outcome: string }) {
-  if (value === null || outcome === 'NO_DATA') return <td className="rank-td num muted">—</td>;
-  const color = value > 0 ? 'var(--green)' : 'var(--red)';
+// ─── Position card ────────────────────────────────────────────────────────────
+
+function PositionCard({ pos, onSelectStock }: { pos: NonNullable<AiPickData['recommendation']['position']>; onSelectStock: (t: string) => void }) {
+  const pctColor = pos.unrealized_pct >= 0 ? 'var(--green)' : 'var(--red)';
   return (
-    <td className="rank-td num" style={{ color, fontWeight: 700 }}>
-      {value > 0 ? '+' : ''}{value.toFixed(1)}%
-    </td>
+    <div className="ai-position-card">
+      <div className="ai-position-header">Current Position</div>
+      <div className="ai-position-row">
+        <div className="ai-position-ticker" onClick={() => onSelectStock(pos.ticker)} title="Open stock detail">
+          {pos.ticker}
+        </div>
+        <div className="ai-position-pct" style={{ color: pctColor }}>
+          {pos.unrealized_pct > 0 ? '+' : ''}{pos.unrealized_pct.toFixed(1)}%
+        </div>
+      </div>
+      <div className="ai-position-grid">
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Entry price</div>
+          <div className="ai-position-item-value">{pos.entry_price?.toFixed(2)} NOK</div>
+        </div>
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Current price</div>
+          <div className="ai-position-item-value">{pos.current_price?.toFixed(2)} NOK</div>
+        </div>
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Entry date</div>
+          <div className="ai-position-item-value">{pos.entry_date}</div>
+        </div>
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Weeks held</div>
+          <div className="ai-position-item-value">{pos.weeks_held}w</div>
+        </div>
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Take profit</div>
+          <div className="ai-position-item-value" style={{ color: 'var(--green)' }}>
+            {pos.take_profit_at != null ? `${pos.take_profit_at.toFixed(2)} NOK` : '—'}
+          </div>
+        </div>
+        <div className="ai-position-item">
+          <div className="ai-position-item-label">Stop loss</div>
+          <div className="ai-position-item-value" style={{ color: 'var(--red)' }}>
+            {pos.stop_loss_at != null ? `${pos.stop_loss_at.toFixed(2)} NOK` : '—'}
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -115,12 +272,20 @@ export function AiPickView({ onSelectStock }: Props) {
     </div>
   );
 
-  const r  = data.recommendation;
-  const bt = data.backtest;
-  const bs = bt.summary;
+  const r   = data.recommendation;
+  const bt  = data.backtest;
+  const bs  = bt.summary;
+  const pos = r.position;
+  const ex  = r.exit_signal;
+  const er  = data.exit_rules;
 
   const [weekYear, weekNum] = data.week.split('-W');
   const m = r.key_metrics;
+
+  const isHold = r.action === 'HOLD';
+  const isBuy  = r.action === 'BUY';
+
+  const actionColor = isHold ? 'var(--accent)' : isBuy ? 'var(--green)' : 'var(--red)';
 
   const metrics = [
     { label: 'Dividend Yield',    value: fmt(m.dividend_yield_pct, '%'),    highlight: (m.dividend_yield_pct ?? 0) >= 4 },
@@ -146,14 +311,14 @@ export function AiPickView({ onSelectStock }: Props) {
         </div>
         <div className="rank-meta-pills">
           <div className="rank-pill">
-            <div className="rank-pill-label">Backtest win rate</div>
-            <div className="rank-pill-value up">{bs.win_rate_pct.toFixed(0)}%</div>
+            <div className="rank-pill-label">Backtest return</div>
+            <div className={`rank-pill-value${(bs.total_return_pct ?? 0) >= 0 ? ' up' : ' down'}`}>
+              {bs.total_return_pct != null ? `${bs.total_return_pct > 0 ? '+' : ''}${bs.total_return_pct}%` : '—'}
+            </div>
           </div>
           <div className="rank-pill">
-            <div className="rank-pill-label">Avg return</div>
-            <div className={`rank-pill-value${(bs.avg_total_return_pct ?? 0) >= 0 ? ' up' : ' down'}`}>
-              {bs.avg_total_return_pct != null ? `${bs.avg_total_return_pct > 0 ? '+' : ''}${bs.avg_total_return_pct}%` : '—'}
-            </div>
+            <div className="rank-pill-label">Win rate</div>
+            <div className="rank-pill-value up">{bs.win_rate_pct?.toFixed(0) ?? '—'}%</div>
           </div>
           <div className="rank-pill">
             <div className="rank-pill-label">Generated</div>
@@ -162,11 +327,26 @@ export function AiPickView({ onSelectStock }: Props) {
         </div>
       </div>
 
+      {/* ── Exit signal banner ── */}
+      {ex && (
+        <div className="rank-section">
+          <div className="ai-exit-banner">
+            <span className="ai-exit-icon">🔄</span>
+            <div>
+              <div className="ai-exit-title">Exited {ex.prev_ticker}</div>
+              <div className="ai-exit-detail">
+                {ex.return_pct > 0 ? '+' : ''}{ex.return_pct.toFixed(1)}% — {ex.reason}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* ── Hero ── */}
       <div className="rank-section">
         <div className="ai-hero-card">
           <div className="ai-hero-left">
-            <div className="ai-hero-action">{r.action}</div>
+            <div className="ai-hero-action" style={{ background: actionColor }}>{r.action}</div>
             <div className="ai-hero-ticker" onClick={() => onSelectStock(r.ticker)} title="Open stock detail">
               {r.ticker}
             </div>
@@ -179,8 +359,8 @@ export function AiPickView({ onSelectStock }: Props) {
           <div className="ai-hero-right">
             <div className="ai-hold-row">
               <div className="ai-hold-item">
-                <div className="ai-hold-label">Hold period</div>
-                <div className="ai-hold-value">{r.hold_period}</div>
+                <div className="ai-hold-label">Hold strategy</div>
+                <div className="ai-hold-value" style={{ fontSize: 13 }}>{r.hold_period}</div>
               </div>
               <div className="ai-hold-item">
                 <div className="ai-hold-label">Expected return</div>
@@ -191,6 +371,38 @@ export function AiPickView({ onSelectStock }: Props) {
           </div>
         </div>
       </div>
+
+      {/* ── Current position card (HOLD / SELL_BUY) ── */}
+      {pos && (
+        <div className="rank-section">
+          <PositionCard pos={pos} onSelectStock={onSelectStock} />
+        </div>
+      )}
+
+      {/* ── Exit rules ── */}
+      {er && (
+        <div className="rank-section">
+          <div className="rank-section-title">Exit Rules</div>
+          <div className="ai-exit-rules">
+            <div className="ai-exit-rule">
+              <span className="ai-exit-rule-icon" style={{ color: 'var(--green)' }}>✓</span>
+              Take profit at <strong>+{er.take_profit_pct}%</strong>
+            </div>
+            <div className="ai-exit-rule">
+              <span className="ai-exit-rule-icon" style={{ color: 'var(--red)' }}>✗</span>
+              Stop loss at <strong>−{er.stop_loss_pct}%</strong>
+            </div>
+            <div className="ai-exit-rule">
+              <span className="ai-exit-rule-icon" style={{ color: 'var(--accent)' }}>↻</span>
+              Rotate if best alt scores <strong>{er.rotation_gap}+ pts</strong> higher
+            </div>
+            <div className="ai-exit-rule">
+              <span className="ai-exit-rule-icon" style={{ color: 'var(--text-tertiary)' }}>⏱</span>
+              Min hold <strong>{er.min_hold_weeks} weeks</strong>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ── Score breakdown ── */}
       <div className="rank-section">
@@ -228,94 +440,56 @@ export function AiPickView({ onSelectStock }: Props) {
         </div>
       </div>
 
-      {/* ── Backtest ── */}
+      {/* ── Backtest equity curve ── */}
       <div className="rank-section">
         <div className="rank-section-title">
-          Historical Backtest — what would the model have picked each year?
+          Backtest — simulated equity curve (~2 years of weekly signals)
         </div>
+        <EquityCurve curve={bt.equity_curve} />
 
         {/* Summary pills */}
-        <div className="ai-bt-summary">
+        <div className="ai-bt-summary" style={{ marginTop: 16 }}>
           <div className="ai-bt-pill">
-            <div className="ai-bt-pill-label">Years tested</div>
-            <div className="ai-bt-pill-value">{bs.years_tested}</div>
-          </div>
-          <div className="ai-bt-pill">
-            <div className="ai-bt-pill-label">Wins</div>
-            <div className="ai-bt-pill-value up">{bs.wins}/{bs.years_tested}</div>
+            <div className="ai-bt-pill-label">Total return</div>
+            <div className={`ai-bt-pill-value${(bs.total_return_pct ?? 0) >= 0 ? ' up' : ' down'}`}>
+              {bs.total_return_pct != null ? `${bs.total_return_pct > 0 ? '+' : ''}${bs.total_return_pct}%` : '—'}
+            </div>
           </div>
           <div className="ai-bt-pill">
             <div className="ai-bt-pill-label">Win rate</div>
-            <div className="ai-bt-pill-value up">{bs.win_rate_pct.toFixed(0)}%</div>
+            <div className="ai-bt-pill-value up">{bs.win_rate_pct?.toFixed(0) ?? '—'}%</div>
           </div>
           <div className="ai-bt-pill">
-            <div className="ai-bt-pill-label">Avg total return</div>
-            <div className={`ai-bt-pill-value${(bs.avg_total_return_pct ?? 0) >= 0 ? ' up' : ' down'}`}>
-              {bs.avg_total_return_pct != null ? `${bs.avg_total_return_pct > 0 ? '+' : ''}${bs.avg_total_return_pct}%` : '—'}
+            <div className="ai-bt-pill-label">Total trades</div>
+            <div className="ai-bt-pill-value">{bs.total_trades ?? '—'}</div>
+          </div>
+          <div className="ai-bt-pill">
+            <div className="ai-bt-pill-label">Max drawdown</div>
+            <div className="ai-bt-pill-value down">
+              {bs.max_drawdown_pct != null ? `${bs.max_drawdown_pct.toFixed(1)}%` : '—'}
             </div>
           </div>
           <div className="ai-bt-pill">
-            <div className="ai-bt-pill-label">Best year</div>
-            <div className="ai-bt-pill-value up">{bs.best_return_pct != null ? `+${bs.best_return_pct}%` : '—'}</div>
+            <div className="ai-bt-pill-label">Start</div>
+            <div className="ai-bt-pill-value">{bs.start_date?.slice(0, 10) ?? '—'}</div>
           </div>
           <div className="ai-bt-pill">
-            <div className="ai-bt-pill-label">Worst year</div>
-            <div className={`ai-bt-pill-value${(bs.worst_return_pct ?? 0) >= 0 ? ' up' : ' down'}`}>
-              {bs.worst_return_pct != null ? `${bs.worst_return_pct > 0 ? '+' : ''}${bs.worst_return_pct}%` : '—'}
-            </div>
+            <div className="ai-bt-pill-label">End</div>
+            <div className="ai-bt-pill-value">{bs.end_date?.slice(0, 10) ?? '—'}</div>
           </div>
-        </div>
-
-        {/* Picks table */}
-        <div className="rank-table-wrap" style={{ marginTop: 12 }}>
-          <table className="rank-table">
-            <thead>
-              <tr>
-                <th className="rank-th">Year</th>
-                <th className="rank-th left">Pick</th>
-                <th className="rank-th left">Company</th>
-                <th className="rank-th num">Score</th>
-                <th className="rank-th num">Consistency</th>
-                <th className="rank-th num">Streak</th>
-                <th className="rank-th num">Yield @ pick</th>
-                <th className="rank-th num">Entry</th>
-                <th className="rank-th num">Exit</th>
-                <th className="rank-th num">Div received</th>
-                <th className="rank-th num">Price return</th>
-                <th className="rank-th num">Div yield</th>
-                <th className="rank-th num">Total return</th>
-              </tr>
-            </thead>
-            <tbody>
-              {bt.picks.map((p) => (
-                <tr
-                  key={p.year}
-                  className={`rank-row${p.outcome === 'WIN' ? ' bt-win' : p.outcome === 'LOSS' ? ' bt-loss' : ''}`}
-                  onClick={() => onSelectStock(p.ticker)}
-                  title={`Open ${p.ticker} detail`}
-                >
-                  <td className="rank-td bold">{p.year}</td>
-                  <td className="rank-td bold accent">{p.ticker}</td>
-                  <td className="rank-td name-cell">{p.name}</td>
-                  <td className="rank-td num">{p.model_score}</td>
-                  <td className="rank-td num">{fmt(p.consistency_pct, '%', 0)}</td>
-                  <td className="rank-td num">{p.streak}y</td>
-                  <td className="rank-td num">{fmt(p.yield_at_pick_pct, '%')}</td>
-                  <td className="rank-td num muted">{p.entry_price != null ? `${p.entry_price} NOK` : '—'}</td>
-                  <td className="rank-td num muted">{p.exit_price  != null ? `${p.exit_price}  NOK` : '—'}</td>
-                  <td className="rank-td num muted">{p.div_received != null ? `${p.div_received} NOK` : '—'}</td>
-                  <ReturnCell value={p.price_return_pct}       outcome={p.outcome} />
-                  <ReturnCell value={p.div_yield_realized_pct} outcome={p.outcome} />
-                  <ReturnCell value={p.total_return_pct}       outcome={p.outcome} />
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 8, lineHeight: 1.5 }}>
-          {bt.note}
         </div>
       </div>
+
+      {/* ── Trade history ── */}
+      {bt.trades.length > 0 && (
+        <div className="rank-section">
+          <div className="rank-section-title">Trade History</div>
+          <TradesTable trades={bt.trades} onSelectStock={onSelectStock} />
+          <div style={{ fontSize: 11, color: 'var(--text-tertiary)', marginTop: 8, lineHeight: 1.5 }}>
+            {bt.note}
+          </div>
+        </div>
+      )}
 
       {/* ── Runner-up ── */}
       {data.top5_scores.length > 1 && (
@@ -341,7 +515,7 @@ export function AiPickView({ onSelectStock }: Props) {
 
       <div className="div-footer ai-disclaimer">
         <strong>Disclaimer:</strong> This is a quantitative model output, not financial advice.
-        Past backtest performance does not guarantee future results.
+        Backtest results use simulated weekly signals and do not account for trading costs or slippage.
         Always do your own research before investing. Data as of {r.data_as_of}.
       </div>
 
