@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 00:00:06",
+  "generated_at": "2026-05-12 00:04:58",
   "count": 44,
   "rankings": [
     {
@@ -8,7 +8,7 @@
       "avg_growth_5y": 21.73,
       "composite_score": 90.2,
       "yield_composite_score": 46.0,
-      "latest_yield": 6.66,
+      "latest_yield": 6.65,
       "years_in_window": 6,
       "streak": 5,
       "consistency_pct": 100.0,
@@ -53,8 +53,8 @@
           "year": "2026",
           "total": 12.7,
           "growth_pct": 23.3,
-          "yield_pct": 6.66,
-          "yield_growth_pct": 24.72
+          "yield_pct": 6.65,
+          "yield_growth_pct": 24.53
         }
       ],
       "rank": 1
@@ -65,7 +65,7 @@
       "avg_growth_5y": 93.64,
       "composite_score": 89.9,
       "yield_composite_score": 0.0,
-      "latest_yield": 4.93,
+      "latest_yield": 4.92,
       "years_in_window": 3,
       "streak": 2,
       "consistency_pct": 100.0,
@@ -89,8 +89,8 @@
           "year": "2026",
           "total": 4.0,
           "growth_pct": 60.0,
-          "yield_pct": 4.93,
-          "yield_growth_pct": 45.0
+          "yield_pct": 4.92,
+          "yield_growth_pct": 44.71
         }
       ],
       "rank": 2
@@ -187,7 +187,7 @@
       "avg_growth_5y": 181.4,
       "composite_score": 86.4,
       "yield_composite_score": 96.0,
-      "latest_yield": 20.44,
+      "latest_yield": 20.34,
       "years_in_window": 5,
       "streak": 4,
       "consistency_pct": 100.0,
@@ -197,22 +197,22 @@
           "year": "2022",
           "total": 0.2,
           "growth_pct": null,
-          "yield_pct": 1.36,
+          "yield_pct": 0.79,
           "yield_growth_pct": null
         },
         {
           "year": "2023",
           "total": 1.0,
           "growth_pct": 400.0,
-          "yield_pct": 5.9,
-          "yield_growth_pct": 333.82
+          "yield_pct": 3.44,
+          "yield_growth_pct": 335.44
         },
         {
           "year": "2024",
           "total": 2.0,
           "growth_pct": 100.0,
           "yield_pct": 8.8,
-          "yield_growth_pct": 49.15
+          "yield_growth_pct": 155.81
         },
         {
           "year": "2025",
@@ -225,8 +225,8 @@
           "year": "2026",
           "total": 8.6,
           "growth_pct": 160.61,
-          "yield_pct": 20.44,
-          "yield_growth_pct": 56.87
+          "yield_pct": 20.34,
+          "yield_growth_pct": 56.1
         }
       ],
       "rank": 5
@@ -237,7 +237,7 @@
       "avg_growth_5y": 49.58,
       "composite_score": 85.2,
       "yield_composite_score": 55.3,
-      "latest_yield": 5.3,
+      "latest_yield": 5.24,
       "years_in_window": 4,
       "streak": 3,
       "consistency_pct": 100.0,
@@ -268,8 +268,8 @@
           "year": "2026",
           "total": 0.76,
           "growth_pct": 105.41,
-          "yield_pct": 5.3,
-          "yield_growth_pct": 54.52
+          "yield_pct": 5.24,
+          "yield_growth_pct": 52.77
         }
       ],
       "rank": 6
@@ -366,7 +366,7 @@
       "avg_growth_5y": 25.43,
       "composite_score": 82.0,
       "yield_composite_score": 46.0,
-      "latest_yield": 12.29,
+      "latest_yield": 12.33,
       "years_in_window": 6,
       "streak": 5,
       "consistency_pct": 100.0,
@@ -411,8 +411,8 @@
           "year": "2026",
           "total": 8.0,
           "growth_pct": 92.77,
-          "yield_pct": 12.29,
-          "yield_growth_pct": 145.31
+          "yield_pct": 12.33,
+          "yield_growth_pct": 146.11
         }
       ],
       "rank": 9
@@ -518,12 +518,105 @@
       "rank": 11
     },
     {
+      "ticker": "VEI",
+      "name": "VEIDEKKE",
+      "avg_growth_5y": 14.66,
+      "composite_score": 79.7,
+      "yield_composite_score": 46.0,
+      "latest_yield": 6.32,
+      "years_in_window": 6,
+      "streak": 5,
+      "consistency_pct": 100.0,
+      "latest_annual": 11.25,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 5.75,
+          "growth_pct": null,
+          "yield_pct": 6.06,
+          "yield_growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 7.0,
+          "growth_pct": 21.74,
+          "yield_pct": 9.45,
+          "yield_growth_pct": 55.94
+        },
+        {
+          "year": "2023",
+          "total": 7.75,
+          "growth_pct": 10.71,
+          "yield_pct": 9.21,
+          "yield_growth_pct": -2.54
+        },
+        {
+          "year": "2024",
+          "total": 7.9,
+          "growth_pct": 1.94,
+          "yield_pct": 6.26,
+          "yield_growth_pct": -32.03
+        },
+        {
+          "year": "2025",
+          "total": 9.0,
+          "growth_pct": 13.92,
+          "yield_pct": 5.36,
+          "yield_growth_pct": -14.38
+        },
+        {
+          "year": "2026",
+          "total": 11.25,
+          "growth_pct": 25.0,
+          "yield_pct": 6.32,
+          "yield_growth_pct": 17.91
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "ticker": "NORCO",
+      "name": "NORCONSULT",
+      "avg_growth_5y": 23.77,
+      "composite_score": 79.3,
+      "yield_composite_score": 0.0,
+      "latest_yield": 4.85,
+      "years_in_window": 3,
+      "streak": 2,
+      "consistency_pct": 100.0,
+      "latest_annual": 1.8,
+      "yearly": [
+        {
+          "year": "2024",
+          "total": 1.2,
+          "growth_pct": null,
+          "yield_pct": 2.95,
+          "yield_growth_pct": null
+        },
+        {
+          "year": "2025",
+          "total": 1.7,
+          "growth_pct": 41.67,
+          "yield_pct": 3.88,
+          "yield_growth_pct": 31.53
+        },
+        {
+          "year": "2026",
+          "total": 1.8,
+          "growth_pct": 5.88,
+          "yield_pct": 4.85,
+          "yield_growth_pct": 25.0
+        }
+      ],
+      "rank": 13
+    },
+    {
       "ticker": "STB",
       "name": "STOREBRAND",
       "avg_growth_5y": 10.75,
       "composite_score": 79.0,
       "yield_composite_score": 46.0,
-      "latest_yield": 3.03,
+      "latest_yield": 3.05,
       "years_in_window": 6,
       "streak": 5,
       "consistency_pct": 100.0,
@@ -568,11 +661,11 @@
           "year": "2026",
           "total": 5.4,
           "growth_pct": 14.89,
-          "yield_pct": 3.03,
-          "yield_growth_pct": 7.83
+          "yield_pct": 3.05,
+          "yield_growth_pct": 8.54
         }
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "ticker": "BIEN",
@@ -608,7 +701,64 @@
           "yield_growth_pct": 7.12
         }
       ],
-      "rank": 13
+      "rank": 15
+    },
+    {
+      "ticker": "MEDI",
+      "name": "MEDISTIM",
+      "avg_growth_5y": 22.33,
+      "composite_score": 75.6,
+      "yield_composite_score": 66.0,
+      "latest_yield": 3.54,
+      "years_in_window": 6,
+      "streak": 2,
+      "consistency_pct": 80.0,
+      "latest_annual": 8.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 3.0,
+          "growth_pct": null,
+          "yield_pct": 0.93,
+          "yield_growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 3.75,
+          "growth_pct": 25.0,
+          "yield_pct": 1.82,
+          "yield_growth_pct": 95.7
+        },
+        {
+          "year": "2023",
+          "total": 4.5,
+          "growth_pct": 20.0,
+          "yield_pct": 2.32,
+          "yield_growth_pct": 27.47
+        },
+        {
+          "year": "2024",
+          "total": 4.5,
+          "growth_pct": 0.0,
+          "yield_pct": 3.23,
+          "yield_growth_pct": 39.22
+        },
+        {
+          "year": "2025",
+          "total": 6.0,
+          "growth_pct": 33.33,
+          "yield_pct": 2.4,
+          "yield_growth_pct": -25.7
+        },
+        {
+          "year": "2026",
+          "total": 8.0,
+          "growth_pct": 33.33,
+          "yield_pct": 3.54,
+          "yield_growth_pct": 47.5
+        }
+      ],
+      "rank": 16
     },
     {
       "ticker": "NORBT",
@@ -658,7 +808,7 @@
           "yield_growth_pct": 17.15
         }
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "ticker": "RING",
@@ -666,7 +816,7 @@
       "avg_growth_5y": 34.46,
       "composite_score": 75.0,
       "yield_composite_score": 78.0,
-      "latest_yield": 10.04,
+      "latest_yield": 10.02,
       "years_in_window": 6,
       "streak": 3,
       "consistency_pct": 80.0,
@@ -711,11 +861,11 @@
           "year": "2026",
           "total": 44.0,
           "growth_pct": 46.67,
-          "yield_pct": 10.04,
-          "yield_growth_pct": 26.61
+          "yield_pct": 10.02,
+          "yield_growth_pct": 26.36
         }
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "ticker": "KOG",
@@ -723,7 +873,7 @@
       "avg_growth_5y": 34.61,
       "composite_score": 72.5,
       "yield_composite_score": 62.0,
-      "latest_yield": 1.81,
+      "latest_yield": 1.84,
       "years_in_window": 6,
       "streak": 3,
       "consistency_pct": 80.0,
@@ -768,11 +918,11 @@
           "year": "2026",
           "total": 5.7,
           "growth_pct": 29.55,
-          "yield_pct": 1.81,
-          "yield_growth_pct": 4.62
+          "yield_pct": 1.84,
+          "yield_growth_pct": 6.36
         }
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "ticker": "SUBC",
@@ -822,57 +972,7 @@
           "yield_growth_pct": 78.27
         }
       ],
-      "rank": 17
-    },
-    {
-      "ticker": "VEI",
-      "name": "VEIDEKKE",
-      "avg_growth_5y": 12.08,
-      "composite_score": 69.5,
-      "yield_composite_score": 28.5,
-      "latest_yield": 5.36,
-      "years_in_window": 5,
-      "streak": 4,
-      "consistency_pct": 100.0,
-      "latest_annual": 9.0,
-      "yearly": [
-        {
-          "year": "2021",
-          "total": 5.75,
-          "growth_pct": null,
-          "yield_pct": 6.06,
-          "yield_growth_pct": null
-        },
-        {
-          "year": "2022",
-          "total": 7.0,
-          "growth_pct": 21.74,
-          "yield_pct": 9.45,
-          "yield_growth_pct": 55.94
-        },
-        {
-          "year": "2023",
-          "total": 7.75,
-          "growth_pct": 10.71,
-          "yield_pct": 9.21,
-          "yield_growth_pct": -2.54
-        },
-        {
-          "year": "2024",
-          "total": 7.9,
-          "growth_pct": 1.94,
-          "yield_pct": 6.26,
-          "yield_growth_pct": -32.03
-        },
-        {
-          "year": "2025",
-          "total": 9.0,
-          "growth_pct": 13.92,
-          "yield_pct": 5.36,
-          "yield_growth_pct": -14.38
-        }
-      ],
-      "rank": 18
+      "rank": 20
     },
     {
       "ticker": "B2I",
@@ -922,7 +1022,7 @@
           "yield_growth_pct": -43.31
         }
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "ticker": "SOGN",
@@ -979,7 +1079,7 @@
           "yield_growth_pct": -20.1
         }
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "ticker": "SB1NO",
@@ -987,7 +1087,7 @@
       "avg_growth_5y": 9.62,
       "composite_score": 66.9,
       "yield_composite_score": 46.0,
-      "latest_yield": 6.3,
+      "latest_yield": 6.28,
       "years_in_window": 6,
       "streak": 4,
       "consistency_pct": 80.0,
@@ -1032,11 +1132,11 @@
           "year": "2026",
           "total": 12.0,
           "growth_pct": 41.18,
-          "yield_pct": 6.3,
-          "yield_growth_pct": 38.46
+          "yield_pct": 6.28,
+          "yield_growth_pct": 38.02
         }
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "ticker": "GJF",
@@ -1044,7 +1144,7 @@
       "avg_growth_5y": 5.66,
       "composite_score": 65.2,
       "yield_composite_score": 46.0,
-      "latest_yield": 5.75,
+      "latest_yield": 5.8,
       "years_in_window": 6,
       "streak": 4,
       "consistency_pct": 80.0,
@@ -1089,11 +1189,11 @@
           "year": "2026",
           "total": 14.5,
           "growth_pct": 45.0,
-          "yield_pct": 5.75,
-          "yield_growth_pct": 63.82
+          "yield_pct": 5.8,
+          "yield_growth_pct": 65.24
         }
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "ticker": "TEL",
@@ -1143,7 +1243,7 @@
           "yield_growth_pct": -17.63
         }
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "ticker": "GRONG",
@@ -1200,7 +1300,7 @@
           "yield_growth_pct": -16.59
         }
       ],
-      "rank": 24
+      "rank": 26
     },
     {
       "ticker": "GSF",
@@ -1208,7 +1308,7 @@
       "avg_growth_5y": 641.77,
       "composite_score": 62.6,
       "yield_composite_score": 55.3,
-      "latest_yield": 110.2,
+      "latest_yield": 110.67,
       "years_in_window": 4,
       "streak": 1,
       "consistency_pct": 66.7,
@@ -1239,11 +1339,11 @@
           "year": "2026",
           "total": 35.6371,
           "growth_pct": 1936.41,
-          "yield_pct": 110.2,
-          "yield_growth_pct": 1860.85
+          "yield_pct": 110.67,
+          "yield_growth_pct": 1869.22
         }
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "ticker": "VVL",
@@ -1251,7 +1351,7 @@
       "avg_growth_5y": 17.13,
       "composite_score": 61.3,
       "yield_composite_score": 16.0,
-      "latest_yield": 3.99,
+      "latest_yield": 3.94,
       "years_in_window": 5,
       "streak": 3,
       "consistency_pct": 75.0,
@@ -1289,11 +1389,11 @@
           "year": "2026",
           "total": 18.75,
           "growth_pct": 13.64,
-          "yield_pct": 3.99,
-          "yield_growth_pct": -5.9
+          "yield_pct": 3.94,
+          "yield_growth_pct": -7.08
         }
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "ticker": "BALT",
@@ -1343,57 +1443,7 @@
           "yield_growth_pct": 11.78
         }
       ],
-      "rank": 27
-    },
-    {
-      "ticker": "MEDI",
-      "name": "MEDISTIM",
-      "avg_growth_5y": 19.58,
-      "composite_score": 60.0,
-      "yield_composite_score": 53.5,
-      "latest_yield": 2.4,
-      "years_in_window": 5,
-      "streak": 1,
-      "consistency_pct": 75.0,
-      "latest_annual": 6.0,
-      "yearly": [
-        {
-          "year": "2021",
-          "total": 3.0,
-          "growth_pct": null,
-          "yield_pct": 0.93,
-          "yield_growth_pct": null
-        },
-        {
-          "year": "2022",
-          "total": 3.75,
-          "growth_pct": 25.0,
-          "yield_pct": 1.82,
-          "yield_growth_pct": 95.7
-        },
-        {
-          "year": "2023",
-          "total": 4.5,
-          "growth_pct": 20.0,
-          "yield_pct": 2.32,
-          "yield_growth_pct": 27.47
-        },
-        {
-          "year": "2024",
-          "total": 4.5,
-          "growth_pct": 0.0,
-          "yield_pct": 3.23,
-          "yield_growth_pct": 39.22
-        },
-        {
-          "year": "2025",
-          "total": 6.0,
-          "growth_pct": 33.33,
-          "yield_pct": 2.4,
-          "yield_growth_pct": -25.7
-        }
-      ],
-      "rank": 28
+      "rank": 29
     },
     {
       "ticker": "WWIB",
@@ -1401,64 +1451,7 @@
       "avg_growth_5y": 63.33,
       "composite_score": 56.7,
       "yield_composite_score": 56.0,
-      "latest_yield": 3.5,
-      "years_in_window": 6,
-      "streak": 1,
-      "consistency_pct": 80.0,
-      "latest_annual": 20.0,
-      "yearly": [
-        {
-          "year": "2021",
-          "total": 3.0,
-          "growth_pct": null,
-          "yield_pct": 1.83,
-          "yield_growth_pct": null
-        },
-        {
-          "year": "2022",
-          "total": 4.0,
-          "growth_pct": 33.33,
-          "yield_pct": 1.8,
-          "yield_growth_pct": -1.64
-        },
-        {
-          "year": "2023",
-          "total": 6.0,
-          "growth_pct": 50.0,
-          "yield_pct": 1.94,
-          "yield_growth_pct": 7.78
-        },
-        {
-          "year": "2024",
-          "total": 18.0,
-          "growth_pct": 200.0,
-          "yield_pct": 4.89,
-          "yield_growth_pct": 152.06
-        },
-        {
-          "year": "2025",
-          "total": 12.0,
-          "growth_pct": -33.33,
-          "yield_pct": 2.27,
-          "yield_growth_pct": -53.58
-        },
-        {
-          "year": "2026",
-          "total": 20.0,
-          "growth_pct": 66.67,
-          "yield_pct": 3.5,
-          "yield_growth_pct": 54.19
-        }
-      ],
-      "rank": 29
-    },
-    {
-      "ticker": "WWI",
-      "name": "WILH. WILHELMSEN A",
-      "avg_growth_5y": 63.33,
-      "composite_score": 56.7,
-      "yield_composite_score": 56.0,
-      "latest_yield": 3.0,
+      "latest_yield": 3.46,
       "years_in_window": 6,
       "streak": 1,
       "consistency_pct": 80.0,
@@ -1475,39 +1468,96 @@
           "year": "2022",
           "total": 4.0,
           "growth_pct": 33.33,
-          "yield_pct": 1.71,
-          "yield_growth_pct": -2.29
+          "yield_pct": 1.75,
+          "yield_growth_pct": 0.0
         },
         {
           "year": "2023",
           "total": 6.0,
           "growth_pct": 50.0,
-          "yield_pct": 1.86,
-          "yield_growth_pct": 8.77
+          "yield_pct": 1.91,
+          "yield_growth_pct": 9.14
         },
         {
           "year": "2024",
           "total": 18.0,
           "growth_pct": 200.0,
-          "yield_pct": 4.74,
-          "yield_growth_pct": 154.84
+          "yield_pct": 4.81,
+          "yield_growth_pct": 151.83
+        },
+        {
+          "year": "2025",
+          "total": 12.0,
+          "growth_pct": -33.33,
+          "yield_pct": 2.27,
+          "yield_growth_pct": -52.81
+        },
+        {
+          "year": "2026",
+          "total": 20.0,
+          "growth_pct": 66.67,
+          "yield_pct": 3.46,
+          "yield_growth_pct": 52.42
+        }
+      ],
+      "rank": 30
+    },
+    {
+      "ticker": "WWI",
+      "name": "WILH. WILHELMSEN A",
+      "avg_growth_5y": 63.33,
+      "composite_score": 56.7,
+      "yield_composite_score": 56.0,
+      "latest_yield": 3.01,
+      "years_in_window": 6,
+      "streak": 1,
+      "consistency_pct": 80.0,
+      "latest_annual": 20.0,
+      "yearly": [
+        {
+          "year": "2021",
+          "total": 3.0,
+          "growth_pct": null,
+          "yield_pct": 1.68,
+          "yield_growth_pct": null
+        },
+        {
+          "year": "2022",
+          "total": 4.0,
+          "growth_pct": 33.33,
+          "yield_pct": 1.66,
+          "yield_growth_pct": -1.19
+        },
+        {
+          "year": "2023",
+          "total": 6.0,
+          "growth_pct": 50.0,
+          "yield_pct": 1.83,
+          "yield_growth_pct": 10.24
+        },
+        {
+          "year": "2024",
+          "total": 18.0,
+          "growth_pct": 200.0,
+          "yield_pct": 4.67,
+          "yield_growth_pct": 155.19
         },
         {
           "year": "2025",
           "total": 12.0,
           "growth_pct": -33.33,
           "yield_pct": 2.09,
-          "yield_growth_pct": -55.91
+          "yield_growth_pct": -55.25
         },
         {
           "year": "2026",
           "total": 20.0,
           "growth_pct": 66.67,
-          "yield_pct": 3.0,
-          "yield_growth_pct": 43.54
+          "yield_pct": 3.01,
+          "yield_growth_pct": 44.02
         }
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "ticker": "PROT",
@@ -1515,7 +1565,7 @@
       "avg_growth_5y": 14.11,
       "composite_score": 56.6,
       "yield_composite_score": 46.0,
-      "latest_yield": 2.96,
+      "latest_yield": 2.99,
       "years_in_window": 6,
       "streak": 2,
       "consistency_pct": 60.0,
@@ -1560,11 +1610,11 @@
           "year": "2026",
           "total": 14.0,
           "growth_pct": 16.67,
-          "yield_pct": 2.96,
-          "yield_growth_pct": 25.42
+          "yield_pct": 2.99,
+          "yield_growth_pct": 26.69
         }
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "ticker": "SPOG",
@@ -1572,7 +1622,7 @@
       "avg_growth_5y": 13.04,
       "composite_score": 55.6,
       "yield_composite_score": 36.0,
-      "latest_yield": 8.98,
+      "latest_yield": 9.11,
       "years_in_window": 5,
       "streak": 3,
       "consistency_pct": 75.0,
@@ -1610,11 +1660,11 @@
           "year": "2026",
           "total": 6.9,
           "growth_pct": 7.81,
-          "yield_pct": 8.98,
-          "yield_growth_pct": 3.58
+          "yield_pct": 9.11,
+          "yield_growth_pct": 5.07
         }
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "ticker": "JAREN",
@@ -1671,7 +1721,7 @@
           "yield_growth_pct": 7.17
         }
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "ticker": "WSTEP",
@@ -1721,7 +1771,7 @@
           "yield_growth_pct": 150.1
         }
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "ticker": "AUSS",
@@ -1771,7 +1821,7 @@
           "yield_growth_pct": 35.29
         }
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "ticker": "BOUV",
@@ -1821,7 +1871,7 @@
           "yield_growth_pct": 21.66
         }
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "ticker": "MING",
@@ -1829,7 +1879,7 @@
       "avg_growth_5y": 30.78,
       "composite_score": 51.5,
       "yield_composite_score": 56.0,
-      "latest_yield": 6.98,
+      "latest_yield": 6.95,
       "years_in_window": 6,
       "streak": 3,
       "consistency_pct": 80.0,
@@ -1874,11 +1924,11 @@
           "year": "2026",
           "total": 13.5,
           "growth_pct": 8.0,
-          "yield_pct": 6.98,
-          "yield_growth_pct": 7.55
+          "yield_pct": 6.95,
+          "yield_growth_pct": 7.09
         }
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "ticker": "AURG",
@@ -1935,7 +1985,7 @@
           "yield_growth_pct": 12.48
         }
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "ticker": "ATEA",
@@ -1985,7 +2035,7 @@
           "yield_growth_pct": -14.45
         }
       ],
-      "rank": 39
+      "rank": 40
     },
     {
       "ticker": "MELG",
@@ -2035,7 +2085,7 @@
           "yield_growth_pct": -3.06
         }
       ],
-      "rank": 40
+      "rank": 41
     },
     {
       "ticker": "DNB",
@@ -2043,7 +2093,7 @@
       "avg_growth_5y": 4.88,
       "composite_score": 45.3,
       "yield_composite_score": 56.0,
-      "latest_yield": 6.4,
+      "latest_yield": 6.43,
       "years_in_window": 6,
       "streak": 4,
       "consistency_pct": 80.0,
@@ -2088,44 +2138,8 @@
           "year": "2026",
           "total": 18.0,
           "growth_pct": 7.46,
-          "yield_pct": 6.4,
-          "yield_growth_pct": 1.27
-        }
-      ],
-      "rank": 41
-    },
-    {
-      "ticker": "SMOP",
-      "name": "SMARTOPTICS GROUP",
-      "avg_growth_5y": 10.0,
-      "composite_score": 43.3,
-      "yield_composite_score": 0.0,
-      "latest_yield": 2.06,
-      "years_in_window": 3,
-      "streak": 1,
-      "consistency_pct": 50.0,
-      "latest_annual": 0.6,
-      "yearly": [
-        {
-          "year": "2023",
-          "total": 0.5,
-          "growth_pct": null,
-          "yield_pct": 2.98,
-          "yield_growth_pct": null
-        },
-        {
-          "year": "2024",
-          "total": 0.5,
-          "growth_pct": 0.0,
-          "yield_pct": 2.91,
-          "yield_growth_pct": -2.35
-        },
-        {
-          "year": "2025",
-          "total": 0.6,
-          "growth_pct": 20.0,
-          "yield_pct": 2.06,
-          "yield_growth_pct": -29.21
+          "yield_pct": 6.43,
+          "yield_growth_pct": 1.74
         }
       ],
       "rank": 42
@@ -2186,7 +2200,7 @@
       "avg_growth_5y": 11.27,
       "composite_score": 35.1,
       "yield_composite_score": 40.0,
-      "latest_yield": 6.6,
+      "latest_yield": 6.56,
       "years_in_window": 6,
       "streak": 0,
       "consistency_pct": 60.0,
@@ -2231,8 +2245,8 @@
           "year": "2026",
           "total": 10.5,
           "growth_pct": 0.0,
-          "yield_pct": 6.6,
-          "yield_growth_pct": -15.17
+          "yield_pct": 6.56,
+          "yield_growth_pct": -15.68
         }
       ],
       "rank": 44

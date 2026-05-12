@@ -1,67 +1,7 @@
 {
-  "generated_at": "2026-05-11 00:00:06",
+  "generated_at": "2026-05-12 00:04:58",
   "count": 50,
   "rankings": [
-    {
-      "ticker": "WWIB",
-      "name": "WILH. WILHELMSEN B",
-      "score": 88,
-      "scores": {
-        "momentum": 8,
-        "golden_cross": 10,
-        "pe": 10,
-        "roe": 8,
-        "debt": 10,
-        "dividend": 10,
-        "revenue_growth": 6,
-        "profit_margin": 10,
-        "low_beta": 6,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 4.097338,
-        "roe": 22.44,
-        "profit_margin": 52.84,
-        "revenue_growth": 13.1,
-        "earnings_growth": 43.3,
-        "debt_to_equity": 13.004,
-        "current_ratio": 1.389,
-        "beta": 0.834,
-        "price_vs_200d": 8.4,
-        "market_cap": 24795906048.0
-      },
-      "rank": 1
-    },
-    {
-      "ticker": "WWI",
-      "name": "WILH. WILHELMSEN A",
-      "score": 88,
-      "scores": {
-        "momentum": 8,
-        "golden_cross": 10,
-        "pe": 10,
-        "roe": 8,
-        "debt": 10,
-        "dividend": 10,
-        "revenue_growth": 6,
-        "profit_margin": 10,
-        "low_beta": 6,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 4.644714,
-        "roe": 22.44,
-        "profit_margin": 52.84,
-        "revenue_growth": 13.1,
-        "earnings_growth": 43.3,
-        "debt_to_equity": 13.004,
-        "current_ratio": 1.389,
-        "beta": 0.834,
-        "price_vs_200d": 11.8,
-        "market_cap": 28110417920.0
-      },
-      "rank": 2
-    },
     {
       "ticker": "KRAB",
       "name": "KRAFT BANK",
@@ -79,7 +19,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 9.689655,
+        "pe": 9.931034,
         "roe": 13.49,
         "profit_margin": 34.35,
         "revenue_growth": 34.6,
@@ -87,10 +27,10 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.447,
-        "price_vs_200d": 12.3,
-        "market_cap": 585176512.0
+        "price_vs_200d": 14.6,
+        "market_cap": 599753792.0
       },
-      "rank": 3
+      "rank": 1
     },
     {
       "ticker": "DOFG",
@@ -109,7 +49,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 7.927107,
+        "pe": 7.837223,
         "roe": 24.48,
         "profit_margin": 24.96,
         "revenue_growth": 31.7,
@@ -117,10 +57,10 @@
         "debt_to_equity": 83.072,
         "current_ratio": 1.812,
         "beta": -0.044,
-        "price_vs_200d": 30.0,
-        "market_cap": 34281988096.0
+        "price_vs_200d": 27.8,
+        "market_cap": 33912569856.0
       },
-      "rank": 4
+      "rank": 2
     },
     {
       "ticker": "INSTA",
@@ -139,7 +79,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 15.172415,
+        "pe": 15.034484,
         "roe": 10.11,
         "profit_margin": 29.7,
         "revenue_growth": 28.2,
@@ -147,10 +87,10 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.389,
-        "price_vs_200d": 25.9,
-        "market_cap": 1991467904.0
+        "price_vs_200d": 23.9,
+        "market_cap": 1973363712.0
       },
-      "rank": 5
+      "rank": 3
     },
     {
       "ticker": "GRONG",
@@ -169,7 +109,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 9.548634,
+        "pe": 9.544062,
         "roe": 13.71,
         "profit_margin": 47.01,
         "revenue_growth": 51.3,
@@ -177,17 +117,47 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.238,
-        "price_vs_200d": 17.8,
+        "price_vs_200d": 17.3,
         "market_cap": 791634816.0
       },
-      "rank": 6
+      "rank": 4
+    },
+    {
+      "ticker": "AURG",
+      "name": "AURSKOG SPAREBANK",
+      "score": 81,
+      "scores": {
+        "momentum": 6,
+        "golden_cross": 10,
+        "pe": 10,
+        "roe": 4,
+        "debt": 5,
+        "dividend": 8,
+        "revenue_growth": 8,
+        "profit_margin": 10,
+        "low_beta": 10,
+        "eps_growth": 10
+      },
+      "metrics": {
+        "pe": 4.622977,
+        "roe": 10.62,
+        "profit_margin": 50.31,
+        "revenue_growth": 17.2,
+        "earnings_growth": 29.7,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "beta": 0.115,
+        "price_vs_200d": 3.5,
+        "market_cap": 1201645184.0
+      },
+      "rank": 5
     },
     {
       "ticker": "ADS",
       "name": "ADS MARITIME HOLD",
-      "score": 82,
+      "score": 80,
       "scores": {
-        "momentum": 8,
+        "momentum": 6,
         "golden_cross": 10,
         "pe": 2,
         "roe": 2,
@@ -199,7 +169,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 28.888887,
+        "pe": 27.555555,
         "roe": 3.31,
         "profit_margin": 210.03,
         "revenue_growth": 68.6,
@@ -207,10 +177,10 @@
         "debt_to_equity": 1.088,
         "current_ratio": 2.883,
         "beta": 0.001,
-        "price_vs_200d": 13.3,
-        "market_cap": 184624288.0
+        "price_vs_200d": 7.8,
+        "market_cap": 176103168.0
       },
-      "rank": 7
+      "rank": 6
     },
     {
       "ticker": "NORBT",
@@ -229,7 +199,7 @@
         "eps_growth": 8
       },
       "metrics": {
-        "pe": 35.822784,
+        "pe": 36.075947,
         "roe": 34.13,
         "profit_margin": 16.16,
         "revenue_growth": 42.2,
@@ -237,10 +207,10 @@
         "debt_to_equity": 59.224,
         "current_ratio": 1.563,
         "beta": 0.466,
-        "price_vs_200d": 16.0,
-        "market_cap": 14465265664.0
+        "price_vs_200d": 16.6,
+        "market_cap": 14567494656.0
       },
-      "rank": 8
+      "rank": 7
     },
     {
       "ticker": "CADLR",
@@ -259,7 +229,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 7.787457,
+        "pe": 7.809965,
         "roe": 20.47,
         "profit_margin": 45.16,
         "revenue_growth": 95.0,
@@ -267,10 +237,10 @@
         "debt_to_equity": 108.021,
         "current_ratio": 1.111,
         "beta": 0.709,
-        "price_vs_200d": 25.4,
-        "market_cap": 25878845440.0
+        "price_vs_200d": 25.7,
+        "market_cap": 26013931520.0
       },
-      "rank": 9
+      "rank": 8
     },
     {
       "ticker": "B2I",
@@ -289,7 +259,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 14.186747,
+        "pe": 14.277109,
         "roe": 10.96,
         "profit_margin": 21.64,
         "revenue_growth": 46.3,
@@ -297,70 +267,10 @@
         "debt_to_equity": 183.657,
         "current_ratio": 12.145,
         "beta": 0.676,
-        "price_vs_200d": 21.3,
-        "market_cap": 8734000128.0
+        "price_vs_200d": 21.4,
+        "market_cap": 8789630976.0
       },
-      "rank": 10
-    },
-    {
-      "ticker": "AURG",
-      "name": "AURSKOG SPAREBANK",
-      "score": 79,
-      "scores": {
-        "momentum": 4,
-        "golden_cross": 10,
-        "pe": 10,
-        "roe": 4,
-        "debt": 5,
-        "dividend": 8,
-        "revenue_growth": 8,
-        "profit_margin": 10,
-        "low_beta": 10,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 4.53567,
-        "roe": 10.62,
-        "profit_margin": 50.31,
-        "revenue_growth": 17.2,
-        "earnings_growth": 29.7,
-        "debt_to_equity": null,
-        "current_ratio": null,
-        "beta": 0.115,
-        "price_vs_200d": 1.6,
-        "market_cap": 1178532096.0
-      },
-      "rank": 11
-    },
-    {
-      "ticker": "SPOL",
-      "name": "SPBK 1 \u00d8STLANDET",
-      "score": 79,
-      "scores": {
-        "momentum": 4,
-        "golden_cross": 10,
-        "pe": 8,
-        "roe": 4,
-        "debt": 5,
-        "dividend": 10,
-        "revenue_growth": 8,
-        "profit_margin": 10,
-        "low_beta": 10,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 10.940077,
-        "roe": 13.13,
-        "profit_margin": 47.82,
-        "revenue_growth": 16.8,
-        "earnings_growth": 30.4,
-        "debt_to_equity": null,
-        "current_ratio": null,
-        "beta": 0.344,
-        "price_vs_200d": 2.6,
-        "market_cap": 27020353536.0
-      },
-      "rank": 12
+      "rank": 9
     },
     {
       "ticker": "RING",
@@ -379,7 +289,7 @@
         "eps_growth": 6
       },
       "metrics": {
-        "pe": 9.363694,
+        "pe": 9.145708,
         "roe": 13.57,
         "profit_margin": 50.66,
         "revenue_growth": 19.4,
@@ -387,40 +297,40 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.151,
-        "price_vs_200d": 6.8,
+        "price_vs_200d": 6.5,
         "market_cap": 6884093952.0
       },
-      "rank": 13
+      "rank": 10
     },
     {
-      "ticker": "FRO",
-      "name": "FRONTLINE",
-      "score": 78,
+      "ticker": "AKSO",
+      "name": "AKER SOLUTIONS",
+      "score": 77,
       "scores": {
         "momentum": 10,
         "golden_cross": 10,
-        "pe": 4,
-        "roe": 6,
-        "debt": 4,
-        "dividend": 8,
-        "revenue_growth": 10,
-        "profit_margin": 6,
+        "pe": 10,
+        "roe": 8,
+        "debt": 8,
+        "dividend": 10,
+        "revenue_growth": 0,
+        "profit_margin": 1,
         "low_beta": 10,
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 22.485767,
-        "roe": 15.63,
-        "profit_margin": 19.29,
-        "revenue_growth": 46.7,
-        "earnings_growth": 241.6,
-        "debt_to_equity": 122.178,
-        "current_ratio": 1.43,
-        "beta": 0.049,
-        "price_vs_200d": 36.9,
-        "market_cap": 79142436864.0
+        "pe": 8.068181,
+        "roe": 24.91,
+        "profit_margin": 4.73,
+        "revenue_growth": -6.5,
+        "earnings_growth": 51.7,
+        "debt_to_equity": 24.144,
+        "current_ratio": 1.003,
+        "beta": -0.18,
+        "price_vs_200d": 24.4,
+        "market_cap": 20689197056.0
       },
-      "rank": 14
+      "rank": 11
     },
     {
       "ticker": "IWS",
@@ -439,7 +349,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 13.49345,
+        "pe": 13.420479,
         "roe": 11.36,
         "profit_margin": 15.74,
         "revenue_growth": 34.7,
@@ -447,10 +357,10 @@
         "debt_to_equity": 89.392,
         "current_ratio": 3.116,
         "beta": 0.452,
-        "price_vs_200d": 24.1,
-        "market_cap": 2469222400.0
+        "price_vs_200d": 23.1,
+        "market_cap": 2461231360.0
       },
-      "rank": 15
+      "rank": 12
     },
     {
       "ticker": "SUBC",
@@ -469,7 +379,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 21.155094,
+        "pe": 20.194426,
         "roe": 10.88,
         "profit_margin": 6.71,
         "revenue_growth": 17.0,
@@ -477,40 +387,70 @@
         "debt_to_equity": 19.244,
         "current_ratio": 1.104,
         "beta": 0.604,
-        "price_vs_200d": 43.9,
-        "market_cap": 96544178176.0
+        "price_vs_200d": 36.5,
+        "market_cap": 92279652352.0
       },
-      "rank": 16
+      "rank": 13
     },
     {
-      "ticker": "SMOP",
-      "name": "SMARTOPTICS GROUP",
+      "ticker": "FRO",
+      "name": "FRONTLINE",
       "score": 76,
       "scores": {
         "momentum": 10,
         "golden_cross": 10,
-        "pe": 0,
+        "pe": 4,
         "roe": 6,
-        "debt": 10,
-        "dividend": 10,
+        "debt": 4,
+        "dividend": 6,
         "revenue_growth": 10,
-        "profit_margin": 2,
+        "profit_margin": 6,
         "low_beta": 10,
-        "eps_growth": 8
+        "eps_growth": 10
       },
       "metrics": {
-        "pe": 128.88889,
-        "roe": 15.95,
-        "profit_margin": 6.22,
-        "revenue_growth": 38.5,
-        "earnings_growth": 24.5,
-        "debt_to_equity": 3.215,
-        "current_ratio": 2.354,
-        "beta": 0.229,
-        "price_vs_200d": 96.3,
-        "market_cap": 5686640128.0
+        "pe": 22.743362,
+        "roe": 15.63,
+        "profit_margin": 19.29,
+        "revenue_growth": 46.7,
+        "earnings_growth": 241.6,
+        "debt_to_equity": 122.178,
+        "current_ratio": 1.43,
+        "beta": 0.049,
+        "price_vs_200d": 37.3,
+        "market_cap": 80099713024.0
       },
-      "rank": 17
+      "rank": 14
+    },
+    {
+      "ticker": "WWI",
+      "name": "WILH. WILHELMSEN A",
+      "score": 75,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 10,
+        "roe": 8,
+        "debt": 10,
+        "dividend": 10,
+        "revenue_growth": 2,
+        "profit_margin": 10,
+        "low_beta": 5,
+        "eps_growth": 0
+      },
+      "metrics": {
+        "pe": 4.960034,
+        "roe": 20.62,
+        "profit_margin": 50.8,
+        "revenue_growth": 3.4,
+        "earnings_growth": -14.4,
+        "debt_to_equity": 12.699,
+        "current_ratio": 1.642,
+        "beta": null,
+        "price_vs_200d": 15.5,
+        "market_cap": 29159313408.0
+      },
+      "rank": 15
     },
     {
       "ticker": "KCC",
@@ -529,7 +469,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 14.863702,
+        "pe": 14.548064,
         "roe": 12.3,
         "profit_margin": 17.4,
         "revenue_growth": 34.1,
@@ -537,10 +477,10 @@
         "debt_to_equity": 91.878,
         "current_ratio": 2.389,
         "beta": 0.17,
-        "price_vs_200d": 27.4,
-        "market_cap": 6145331712.0
+        "price_vs_200d": 24.0,
+        "market_cap": 6014832640.0
       },
-      "rank": 18
+      "rank": 16
     },
     {
       "ticker": "SEA1",
@@ -559,7 +499,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 3.882759,
+        "pe": 3.786207,
         "roe": 27.18,
         "profit_margin": 41.89,
         "revenue_growth": -0.3,
@@ -567,10 +507,10 @@
         "debt_to_equity": 69.505,
         "current_ratio": 1.504,
         "beta": 0.229,
-        "price_vs_200d": 12.2,
-        "market_cap": 4310995968.0
+        "price_vs_200d": 9.4,
+        "market_cap": 4214775552.0
       },
-      "rank": 19
+      "rank": 17
     },
     {
       "ticker": "SNTIA",
@@ -589,7 +529,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 14.315789,
+        "pe": 13.754387,
         "roe": 32.65,
         "profit_margin": 4.76,
         "revenue_growth": 21.4,
@@ -597,10 +537,10 @@
         "debt_to_equity": 11.616,
         "current_ratio": 1.076,
         "beta": null,
-        "price_vs_200d": 23.3,
-        "market_cap": 8194871296.0
+        "price_vs_200d": 18.1,
+        "market_cap": 7873503744.0
       },
-      "rank": 20
+      "rank": 18
     },
     {
       "ticker": "KIT",
@@ -619,7 +559,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 35.918365,
+        "pe": 36.271187,
         "roe": 20.13,
         "profit_margin": 6.64,
         "revenue_growth": 65.7,
@@ -627,70 +567,40 @@
         "debt_to_equity": 35.71,
         "current_ratio": 1.488,
         "beta": 0.987,
-        "price_vs_200d": 38.4,
-        "market_cap": 23094980608.0
+        "price_vs_200d": 39.0,
+        "market_cap": 23401162752.0
       },
-      "rank": 21
+      "rank": 19
     },
     {
-      "ticker": "VEI",
-      "name": "VEIDEKKE",
+      "ticker": "WWIB",
+      "name": "WILH. WILHELMSEN B",
       "score": 73,
       "scores": {
         "momentum": 8,
         "golden_cross": 10,
-        "pe": 6,
-        "roe": 10,
-        "debt": 8,
-        "dividend": 8,
-        "revenue_growth": 4,
-        "profit_margin": 1,
-        "low_beta": 8,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 16.295652,
-        "roe": 45.72,
-        "profit_margin": 3.6,
-        "revenue_growth": 5.5,
-        "earnings_growth": 48.1,
-        "debt_to_equity": 33.945,
-        "current_ratio": 0.837,
-        "beta": 0.777,
-        "price_vs_200d": 8.1,
-        "market_cap": 25290805248.0
-      },
-      "rank": 22
-    },
-    {
-      "ticker": "SB1NO",
-      "name": "SPAREBANK 1 S\u00d8R-N",
-      "score": 73,
-      "scores": {
-        "momentum": 6,
-        "golden_cross": 10,
-        "pe": 8,
-        "roe": 4,
-        "debt": 5,
+        "pe": 10,
+        "roe": 8,
+        "debt": 10,
         "dividend": 10,
-        "revenue_growth": 4,
+        "revenue_growth": 2,
         "profit_margin": 10,
-        "low_beta": 8,
-        "eps_growth": 8
+        "low_beta": 5,
+        "eps_growth": 0
       },
       "metrics": {
-        "pe": 11.578328,
-        "roe": 12.38,
-        "profit_margin": 48.9,
-        "revenue_growth": 6.6,
-        "earnings_growth": 16.7,
-        "debt_to_equity": null,
-        "current_ratio": null,
-        "beta": 0.544,
-        "price_vs_200d": 3.6,
-        "market_cap": 73071763456.0
+        "pe": 4.394664,
+        "roe": 20.62,
+        "profit_margin": 50.8,
+        "revenue_growth": 3.4,
+        "earnings_growth": -14.4,
+        "debt_to_equity": 12.699,
+        "current_ratio": 1.642,
+        "beta": null,
+        "price_vs_200d": 12.6,
+        "market_cap": 25844801536.0
       },
-      "rank": 23
+      "rank": 20
     },
     {
       "ticker": "BIEN",
@@ -709,7 +619,7 @@
         "eps_growth": 8
       },
       "metrics": {
-        "pe": 14.787431,
+        "pe": 14.68144,
         "roe": 8.77,
         "profit_margin": 38.72,
         "revenue_growth": 14.2,
@@ -717,40 +627,10 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": -0.561,
-        "price_vs_200d": 9.5,
-        "market_cap": 908831680.0
+        "price_vs_200d": 8.7,
+        "market_cap": 903151488.0
       },
-      "rank": 24
-    },
-    {
-      "ticker": "ODL",
-      "name": "ODFJELL DRILLING",
-      "score": 73,
-      "scores": {
-        "momentum": 10,
-        "golden_cross": 10,
-        "pe": 6,
-        "roe": 4,
-        "debt": 6,
-        "dividend": 1,
-        "revenue_growth": 10,
-        "profit_margin": 6,
-        "low_beta": 10,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 15.787831,
-        "roe": 11.82,
-        "profit_margin": 18.53,
-        "revenue_growth": 20.1,
-        "earnings_growth": 166.4,
-        "debt_to_equity": 74.633,
-        "current_ratio": 1.002,
-        "beta": 0.329,
-        "price_vs_200d": 15.5,
-        "market_cap": 24268476416.0
-      },
-      "rank": 25
+      "rank": 21
     },
     {
       "ticker": "2020",
@@ -769,7 +649,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 0.269058,
+        "pe": 0.4375,
         "roe": 19.58,
         "profit_margin": 45.45,
         "revenue_growth": 52.7,
@@ -777,40 +657,10 @@
         "debt_to_equity": 74.596,
         "current_ratio": 2.218,
         "beta": -0.052,
-        "price_vs_200d": -97.6,
-        "market_cap": 64970816.0
+        "price_vs_200d": -96.0,
+        "market_cap": 105733656.0
       },
-      "rank": 26
-    },
-    {
-      "ticker": "AKSO",
-      "name": "AKER SOLUTIONS",
-      "score": 72,
-      "scores": {
-        "momentum": 10,
-        "golden_cross": 10,
-        "pe": 10,
-        "roe": 8,
-        "debt": 8,
-        "dividend": 10,
-        "revenue_growth": 0,
-        "profit_margin": 1,
-        "low_beta": 5,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 8.253788,
-        "roe": 24.91,
-        "profit_margin": 4.73,
-        "revenue_growth": -5.4,
-        "earnings_growth": 51.4,
-        "debt_to_equity": 24.144,
-        "current_ratio": 1.003,
-        "beta": null,
-        "price_vs_200d": 27.9,
-        "market_cap": 21165148160.0
-      },
-      "rank": 27
+      "rank": 22
     },
     {
       "ticker": "PSE",
@@ -829,7 +679,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 7.02381,
+        "pe": 7.083334,
         "roe": 11.21,
         "profit_margin": 8.97,
         "revenue_growth": 17.3,
@@ -837,10 +687,10 @@
         "debt_to_equity": 30.623,
         "current_ratio": 2.567,
         "beta": -0.389,
-        "price_vs_200d": 20.6,
-        "market_cap": 348299328.0
+        "price_vs_200d": 20.9,
+        "market_cap": 351251008.0
       },
-      "rank": 28
+      "rank": 23
     },
     {
       "ticker": "HAFNI",
@@ -859,7 +709,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 13.569133,
+        "pe": 13.12199,
         "roe": 14.79,
         "profit_margin": 14.89,
         "revenue_growth": 11.3,
@@ -867,10 +717,10 @@
         "debt_to_equity": 48.205,
         "current_ratio": 1.476,
         "beta": -0.155,
-        "price_vs_200d": 33.2,
-        "market_cap": 42181541888.0
+        "price_vs_200d": 28.2,
+        "market_cap": 40857120768.0
       },
-      "rank": 29
+      "rank": 24
     },
     {
       "ticker": "VVL",
@@ -889,7 +739,7 @@
         "eps_growth": 4
       },
       "metrics": {
-        "pe": 12.882954,
+        "pe": 12.401883,
         "roe": 11.04,
         "profit_margin": 45.36,
         "revenue_growth": 4.7,
@@ -897,10 +747,70 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.314,
-        "price_vs_200d": 22.5,
-        "market_cap": 1084228224.0
+        "price_vs_200d": 17.7,
+        "market_cap": 1044561408.0
       },
-      "rank": 30
+      "rank": 25
+    },
+    {
+      "ticker": "VEI",
+      "name": "VEIDEKKE",
+      "score": 71,
+      "scores": {
+        "momentum": 4,
+        "golden_cross": 10,
+        "pe": 6,
+        "roe": 10,
+        "debt": 8,
+        "dividend": 10,
+        "revenue_growth": 4,
+        "profit_margin": 1,
+        "low_beta": 8,
+        "eps_growth": 10
+      },
+      "metrics": {
+        "pe": 15.016949,
+        "roe": 45.72,
+        "profit_margin": 3.6,
+        "revenue_growth": 5.5,
+        "earnings_growth": 48.1,
+        "debt_to_equity": 33.945,
+        "current_ratio": 0.837,
+        "beta": 0.777,
+        "price_vs_200d": 2.1,
+        "market_cap": 23914250240.0
+      },
+      "rank": 26
+    },
+    {
+      "ticker": "ODL",
+      "name": "ODFJELL DRILLING",
+      "score": 71,
+      "scores": {
+        "momentum": 8,
+        "golden_cross": 10,
+        "pe": 6,
+        "roe": 4,
+        "debt": 6,
+        "dividend": 1,
+        "revenue_growth": 10,
+        "profit_margin": 6,
+        "low_beta": 10,
+        "eps_growth": 10
+      },
+      "metrics": {
+        "pe": 15.507021,
+        "roe": 11.82,
+        "profit_margin": 18.53,
+        "revenue_growth": 20.1,
+        "earnings_growth": 166.4,
+        "debt_to_equity": 74.633,
+        "current_ratio": 1.002,
+        "beta": 0.329,
+        "price_vs_200d": 12.9,
+        "market_cap": 23836825600.0
+      },
+      "rank": 27
     },
     {
       "ticker": "HUNT",
@@ -919,7 +829,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 7.419355,
+        "pe": 6.72043,
         "roe": 89.32,
         "profit_margin": 160.42,
         "revenue_growth": null,
@@ -927,40 +837,40 @@
         "debt_to_equity": 0.607,
         "current_ratio": 60.57,
         "beta": 2.167,
-        "price_vs_200d": 163.7,
-        "market_cap": 930160064.0
+        "price_vs_200d": 131.7,
+        "market_cap": 842536320.0
       },
-      "rank": 31
+      "rank": 28
     },
     {
-      "ticker": "KOG",
-      "name": "KONGSBERG GRUPPEN",
+      "ticker": "SKUE",
+      "name": "SKUE SPAREBANK",
       "score": 70,
       "scores": {
-        "momentum": 6,
+        "momentum": 4,
         "golden_cross": 10,
-        "pe": 0,
-        "roe": 6,
-        "debt": 8,
-        "dividend": 10,
-        "revenue_growth": 0,
+        "pe": 8,
+        "roe": 2,
+        "debt": 5,
+        "dividend": 1,
+        "revenue_growth": 10,
         "profit_margin": 10,
         "low_beta": 10,
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 69.7463,
-        "roe": 19.5,
-        "profit_margin": 25.2,
-        "revenue_growth": -31.0,
-        "earnings_growth": 62.0,
-        "debt_to_equity": 23.393,
-        "current_ratio": 1.187,
-        "beta": 0.204,
-        "price_vs_200d": 4.6,
-        "market_cap": 290183086080.0
+        "pe": 14.997754,
+        "roe": 8.49,
+        "profit_margin": 43.35,
+        "revenue_growth": 26.1,
+        "earnings_growth": 307.4,
+        "debt_to_equity": null,
+        "current_ratio": null,
+        "beta": 0.198,
+        "price_vs_200d": 0.6,
+        "market_cap": 1930092160.0
       },
-      "rank": 32
+      "rank": 29
     },
     {
       "ticker": "YAR",
@@ -979,7 +889,7 @@
         "eps_growth": 6
       },
       "metrics": {
-        "pe": 10.279678,
+        "pe": 10.34011,
         "roe": 16.86,
         "profit_margin": 8.63,
         "revenue_growth": 16.6,
@@ -987,40 +897,40 @@
         "debt_to_equity": 46.846,
         "current_ratio": 1.793,
         "beta": 0.233,
-        "price_vs_200d": 23.6,
-        "market_cap": 133883789312.0
+        "price_vs_200d": 23.8,
+        "market_cap": 134749855744.0
       },
-      "rank": 33
+      "rank": 30
     },
     {
-      "ticker": "HAUTO",
-      "name": "H\u00d6EGH AUTOLINERS",
-      "score": 69,
+      "ticker": "KOG",
+      "name": "KONGSBERG GRUPPEN",
+      "score": 68,
       "scores": {
-        "momentum": 10,
+        "momentum": 2,
         "golden_cross": 10,
-        "pe": 10,
-        "roe": 10,
-        "debt": 6,
-        "dividend": 1,
-        "revenue_growth": 2,
-        "profit_margin": 10,
+        "pe": 0,
+        "roe": 8,
+        "debt": 10,
+        "dividend": 10,
+        "revenue_growth": 10,
+        "profit_margin": 8,
         "low_beta": 10,
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 5.2,
-        "roe": 41.88,
-        "profit_margin": 36.02,
-        "revenue_growth": 1.7,
-        "earnings_growth": -24.0,
-        "debt_to_equity": 72.914,
-        "current_ratio": 2.505,
-        "beta": 0.24,
-        "price_vs_200d": 18.3,
-        "market_cap": 24800006144.0
+        "pe": 55.522938,
+        "roe": 20.78,
+        "profit_margin": 21.99,
+        "revenue_growth": 27.1,
+        "earnings_growth": -26.3,
+        "debt_to_equity": 17.906,
+        "current_ratio": 1.202,
+        "beta": 0.204,
+        "price_vs_200d": -4.1,
+        "market_cap": 266169761792.0
       },
-      "rank": 34
+      "rank": 31
     },
     {
       "ticker": "BONHR",
@@ -1039,18 +949,18 @@
         "eps_growth": 8
       },
       "metrics": {
-        "pe": 8.036516,
+        "pe": 7.916791,
         "roe": 18.45,
         "profit_margin": 11.39,
-        "revenue_growth": -6.1,
-        "earnings_growth": 23.8,
-        "debt_to_equity": 78.444,
-        "current_ratio": 1.766,
+        "revenue_growth": -6.3,
+        "earnings_growth": 24.6,
+        "debt_to_equity": 77.289,
+        "current_ratio": 1.743,
         "beta": 0.564,
-        "price_vs_200d": 13.1,
-        "market_cap": 11419812864.0
+        "price_vs_200d": 11.2,
+        "market_cap": 11249685504.0
       },
-      "rank": 35
+      "rank": 32
     },
     {
       "ticker": "DELIA",
@@ -1069,7 +979,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 33.975483,
+        "pe": 34.3832,
         "roe": 22.58,
         "profit_margin": 7.71,
         "revenue_growth": 90.8,
@@ -1077,40 +987,10 @@
         "debt_to_equity": 30.343,
         "current_ratio": 2.896,
         "beta": null,
-        "price_vs_200d": 16.3,
-        "market_cap": 2088644736.0
+        "price_vs_200d": 17.4,
+        "market_cap": 2115560320.0
       },
-      "rank": 36
-    },
-    {
-      "ticker": "SKUE",
-      "name": "SKUE SPAREBANK",
-      "score": 68,
-      "scores": {
-        "momentum": 4,
-        "golden_cross": 10,
-        "pe": 6,
-        "roe": 2,
-        "debt": 5,
-        "dividend": 1,
-        "revenue_growth": 10,
-        "profit_margin": 10,
-        "low_beta": 10,
-        "eps_growth": 10
-      },
-      "metrics": {
-        "pe": 15.13022,
-        "roe": 8.49,
-        "profit_margin": 43.35,
-        "revenue_growth": 26.1,
-        "earnings_growth": 307.4,
-        "debt_to_equity": null,
-        "current_ratio": null,
-        "beta": 0.198,
-        "price_vs_200d": 1.5,
-        "market_cap": 1947139456.0
-      },
-      "rank": 37
+      "rank": 33
     },
     {
       "ticker": "MPCC",
@@ -1129,7 +1009,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 4.853658,
+        "pe": 4.864098,
         "roe": 27.1,
         "profit_margin": 45.8,
         "revenue_growth": -2.3,
@@ -1137,10 +1017,70 @@
         "debt_to_equity": 53.945,
         "current_ratio": 3.27,
         "beta": 0.192,
-        "price_vs_200d": 25.1,
-        "market_cap": 10595562496.0
+        "price_vs_200d": 25.2,
+        "market_cap": 10639932416.0
       },
-      "rank": 38
+      "rank": 34
+    },
+    {
+      "ticker": "EAM",
+      "name": "EAM SOLAR",
+      "score": 67,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 10,
+        "roe": 10,
+        "debt": 6,
+        "dividend": 1,
+        "revenue_growth": 0,
+        "profit_margin": 10,
+        "low_beta": 10,
+        "eps_growth": 0
+      },
+      "metrics": {
+        "pe": 3.545454,
+        "roe": 64.31,
+        "profit_margin": 111.64,
+        "revenue_growth": -6.3,
+        "earnings_growth": null,
+        "debt_to_equity": 73.139,
+        "current_ratio": 6.249,
+        "beta": 0.062,
+        "price_vs_200d": 30.8,
+        "market_cap": 39625912.0
+      },
+      "rank": 35
+    },
+    {
+      "ticker": "SMOP",
+      "name": "SMARTOPTICS GROUP",
+      "score": 67,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 0,
+        "roe": 6,
+        "debt": 10,
+        "dividend": 1,
+        "revenue_growth": 10,
+        "profit_margin": 2,
+        "low_beta": 10,
+        "eps_growth": 8
+      },
+      "metrics": {
+        "pe": 113.333336,
+        "roe": 15.95,
+        "profit_margin": 6.22,
+        "revenue_growth": 38.5,
+        "earnings_growth": 24.5,
+        "debt_to_equity": 3.215,
+        "current_ratio": 2.354,
+        "beta": 0.229,
+        "price_vs_200d": 69.5,
+        "market_cap": 5000321536.0
+      },
+      "rank": 36
     },
     {
       "ticker": "SOFF",
@@ -1159,7 +1099,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 3.9338,
+        "pe": 4.128499,
         "roe": 39.63,
         "profit_margin": 48.06,
         "revenue_growth": null,
@@ -1167,10 +1107,10 @@
         "debt_to_equity": 88.481,
         "current_ratio": 1.106,
         "beta": 0.772,
-        "price_vs_200d": 18.6,
-        "market_cap": 6711789056.0
+        "price_vs_200d": 24.1,
+        "market_cap": 7048464896.0
       },
-      "rank": 39
+      "rank": 37
     },
     {
       "ticker": "AFG",
@@ -1189,7 +1129,7 @@
         "eps_growth": 6
       },
       "metrics": {
-        "pe": 18.046324,
+        "pe": 17.505032,
         "roe": 34.67,
         "profit_margin": 3.42,
         "revenue_growth": 7.8,
@@ -1197,10 +1137,10 @@
         "debt_to_equity": 38.171,
         "current_ratio": 0.729,
         "beta": 0.575,
-        "price_vs_200d": 2.5,
-        "market_cap": 20364984320.0
+        "price_vs_200d": -0.6,
+        "market_cap": 19774035968.0
       },
-      "rank": 40
+      "rank": 38
     },
     {
       "ticker": "SNOR",
@@ -1219,7 +1159,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 10.540838,
+        "pe": 10.518764,
         "roe": 11.53,
         "profit_margin": 46.53,
         "revenue_growth": 4.3,
@@ -1227,40 +1167,10 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.169,
-        "price_vs_200d": 8.6,
-        "market_cap": 1725978752.0
+        "price_vs_200d": 8.1,
+        "market_cap": 1722364160.0
       },
-      "rank": 41
-    },
-    {
-      "ticker": "EAM",
-      "name": "EAM SOLAR",
-      "score": 66,
-      "scores": {
-        "momentum": 10,
-        "golden_cross": 10,
-        "pe": 10,
-        "roe": 10,
-        "debt": 6,
-        "dividend": 0,
-        "revenue_growth": 0,
-        "profit_margin": 10,
-        "low_beta": 10,
-        "eps_growth": 0
-      },
-      "metrics": {
-        "pe": 3.638889,
-        "roe": 64.31,
-        "profit_margin": 111.64,
-        "revenue_growth": -6.3,
-        "earnings_growth": null,
-        "debt_to_equity": 73.139,
-        "current_ratio": 6.249,
-        "beta": 0.062,
-        "price_vs_200d": 31.8,
-        "market_cap": 39930728.0
-      },
-      "rank": 42
+      "rank": 39
     },
     {
       "ticker": "ROMER",
@@ -1279,7 +1189,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 1.964129,
+        "pe": 2.006522,
         "roe": 9.49,
         "profit_margin": 45.67,
         "revenue_growth": 22.0,
@@ -1287,10 +1197,40 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": 0.042,
-        "price_vs_200d": 8.5,
-        "market_cap": 444159904.0
+        "price_vs_200d": 10.6,
+        "market_cap": 453746464.0
       },
-      "rank": 43
+      "rank": 40
+    },
+    {
+      "ticker": "HAUTO",
+      "name": "H\u00d6EGH AUTOLINERS",
+      "score": 66,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 10,
+        "roe": 10,
+        "debt": 6,
+        "dividend": 1,
+        "revenue_growth": 4,
+        "profit_margin": 10,
+        "low_beta": 5,
+        "eps_growth": 0
+      },
+      "metrics": {
+        "pe": 6.001777,
+        "roe": 36.6,
+        "profit_margin": 31.69,
+        "revenue_growth": 9.3,
+        "earnings_growth": -33.3,
+        "debt_to_equity": 75.777,
+        "current_ratio": 2.298,
+        "beta": null,
+        "price_vs_200d": 22.5,
+        "market_cap": 25772931072.0
+      },
+      "rank": 41
     },
     {
       "ticker": "MEDI",
@@ -1309,7 +1249,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 26.291618,
+        "pe": 26.580797,
         "roe": 35.18,
         "profit_margin": 22.75,
         "revenue_growth": 20.6,
@@ -1317,10 +1257,10 @@
         "debt_to_equity": 10.519,
         "current_ratio": 3.336,
         "beta": 1.013,
-        "price_vs_200d": -3.0,
-        "market_cap": 4186772224.0
+        "price_vs_200d": -3.9,
+        "market_cap": 4150206464.0
       },
-      "rank": 44
+      "rank": 42
     },
     {
       "ticker": "NORAM",
@@ -1339,7 +1279,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 15.189873,
+        "pe": 15.348101,
         "roe": 27.03,
         "profit_margin": 14.65,
         "revenue_growth": -0.5,
@@ -1347,10 +1287,40 @@
         "debt_to_equity": null,
         "current_ratio": 1.411,
         "beta": -0.194,
-        "price_vs_200d": 43.9,
-        "market_cap": 2079261952.0
+        "price_vs_200d": 43.8,
+        "market_cap": 2100920832.0
       },
-      "rank": 45
+      "rank": 43
+    },
+    {
+      "ticker": "NOD",
+      "name": "NORDIC SEMICONDUC",
+      "score": 65,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 0,
+        "roe": 2,
+        "debt": 8,
+        "dividend": 10,
+        "revenue_growth": 10,
+        "profit_margin": 1,
+        "low_beta": 4,
+        "eps_growth": 10
+      },
+      "metrics": {
+        "pe": 169.06781,
+        "roe": 4.17,
+        "profit_margin": 3.67,
+        "revenue_growth": 24.1,
+        "earnings_growth": 784.8,
+        "debt_to_equity": 24.484,
+        "current_ratio": 3.623,
+        "beta": 1.005,
+        "price_vs_200d": 33.2,
+        "market_cap": 39393394688.0
+      },
+      "rank": 44
     },
     {
       "ticker": "PLSV",
@@ -1369,18 +1339,18 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 11.850117,
+        "pe": 11.845794,
         "roe": 36.26,
         "profit_margin": 48.83,
         "revenue_growth": -29.0,
-        "earnings_growth": 873.8,
+        "earnings_growth": 897.3,
         "debt_to_equity": 440.013,
         "current_ratio": 1.581,
         "beta": null,
-        "price_vs_200d": 15.7,
-        "market_cap": 8234393600.0
+        "price_vs_200d": 15.5,
+        "market_cap": 8250667520.0
       },
-      "rank": 46
+      "rank": 45
     },
     {
       "ticker": "MORG",
@@ -1399,7 +1369,7 @@
         "eps_growth": 10
       },
       "metrics": {
-        "pe": 5.865911,
+        "pe": 5.912326,
         "roe": null,
         "profit_margin": 43.53,
         "revenue_growth": -4.7,
@@ -1407,10 +1377,10 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": null,
-        "price_vs_200d": 4.4,
-        "market_cap": 5637632000.0
+        "price_vs_200d": 5.1,
+        "market_cap": 5682060288.0
       },
-      "rank": 47
+      "rank": 46
     },
     {
       "ticker": "VTURA",
@@ -1429,48 +1399,18 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 3.808948,
+        "pe": 3.780193,
         "roe": 29.28,
-        "profit_margin": 25.75,
-        "revenue_growth": -36.9,
-        "earnings_growth": -21.7,
+        "profit_margin": 31.19,
+        "revenue_growth": -34.9,
+        "earnings_growth": -19.4,
         "debt_to_equity": 40.528,
-        "current_ratio": 0.867,
+        "current_ratio": 0.995,
         "beta": null,
-        "price_vs_200d": 33.6,
-        "market_cap": 3336951808.0
+        "price_vs_200d": 32.0,
+        "market_cap": 3315764736.0
       },
-      "rank": 48
-    },
-    {
-      "ticker": "ROGS",
-      "name": "ROGALAND SPAREBANK",
-      "score": 63,
-      "scores": {
-        "momentum": 6,
-        "golden_cross": 10,
-        "pe": 8,
-        "roe": 4,
-        "debt": 5,
-        "dividend": 10,
-        "revenue_growth": 0,
-        "profit_margin": 10,
-        "low_beta": 10,
-        "eps_growth": 0
-      },
-      "metrics": {
-        "pe": 11.916801,
-        "roe": 10.86,
-        "profit_margin": 47.78,
-        "revenue_growth": -4.1,
-        "earnings_growth": -13.6,
-        "debt_to_equity": null,
-        "current_ratio": null,
-        "beta": 0.12,
-        "price_vs_200d": 3.5,
-        "market_cap": 3437709824.0
-      },
-      "rank": 49
+      "rank": 47
     },
     {
       "ticker": "SBNOR",
@@ -1489,7 +1429,7 @@
         "eps_growth": 0
       },
       "metrics": {
-        "pe": 11.776834,
+        "pe": 11.704919,
         "roe": 18.76,
         "profit_margin": 55.41,
         "revenue_growth": 60.3,
@@ -1497,8 +1437,68 @@
         "debt_to_equity": null,
         "current_ratio": null,
         "beta": null,
-        "price_vs_200d": 5.7,
-        "market_cap": 33640478720.0
+        "price_vs_200d": 4.6,
+        "market_cap": 33394499584.0
+      },
+      "rank": 48
+    },
+    {
+      "ticker": "GJF",
+      "name": "GJENSIDIGE FORSIKR",
+      "score": 62,
+      "scores": {
+        "momentum": 0,
+        "golden_cross": 0,
+        "pe": 6,
+        "roe": 10,
+        "debt": 8,
+        "dividend": 10,
+        "revenue_growth": 4,
+        "profit_margin": 4,
+        "low_beta": 10,
+        "eps_growth": 10
+      },
+      "metrics": {
+        "pe": 19.095093,
+        "roe": 30.26,
+        "profit_margin": 14.82,
+        "revenue_growth": 5.9,
+        "earnings_growth": 29.2,
+        "debt_to_equity": 24.415,
+        "current_ratio": 9.996,
+        "beta": 0.194,
+        "price_vs_200d": -9.8,
+        "market_cap": 124491071488.0
+      },
+      "rank": 49
+    },
+    {
+      "ticker": "SOMA",
+      "name": "SOLSTAD MARITIME",
+      "score": 62,
+      "scores": {
+        "momentum": 10,
+        "golden_cross": 10,
+        "pe": 10,
+        "roe": 10,
+        "debt": 6,
+        "dividend": 1,
+        "revenue_growth": 0,
+        "profit_margin": 10,
+        "low_beta": 5,
+        "eps_growth": 0
+      },
+      "metrics": {
+        "pe": 6.095745,
+        "roe": 25.66,
+        "profit_margin": 36.7,
+        "revenue_growth": -1.1,
+        "earnings_growth": -22.0,
+        "debt_to_equity": 69.096,
+        "current_ratio": 1.077,
+        "beta": null,
+        "price_vs_200d": 26.2,
+        "market_cap": 13332523008.0
       },
       "rank": 50
     }
