@@ -26,12 +26,31 @@ export interface ScoreBreakdown {
   momentum:     number | null;
 }
 
+export interface Position {
+  ticker:          string;
+  entry_date:      string;
+  entry_price:     number;
+  entry_score:     number;
+  current_price:   number;
+  current_score:   number;
+  unrealized_pct:  number;
+  weeks_held:      number;
+  take_profit_at:  number | null;
+  stop_loss_at:    number | null;
+}
+
+export interface ExitSignal {
+  reason:       string;
+  prev_ticker:  string;
+  return_pct:   number;
+}
+
 export interface AiRecommendation {
+  action:           string;
   ticker:           string;
   name:             string;
-  action:           string;
-  hold_period:      string;
   confidence:       'HIGH' | 'MEDIUM' | 'LOW';
+  hold_period:      string;
   estimated_upside: string;
   summary:          string;
   reasoning:        AiPickReasoning;
@@ -39,47 +58,66 @@ export interface AiRecommendation {
   score_breakdown:  ScoreBreakdown;
   total_score:      number;
   max_score:        number;
+  position:         Position | null;
+  exit_signal:      ExitSignal | null;
   data_as_of:       string;
 }
 
-export interface BacktestPick {
-  year:                    string;
-  ticker:                  string;
-  name:                    string;
-  model_score:             number;
-  consistency_pct:         number;
-  streak:                  number;
-  yield_at_pick_pct:       number | null;
-  entry_price:             number | null;
-  exit_price:              number | null;
-  div_received:            number | null;
-  price_return_pct:        number | null;
-  div_yield_realized_pct:  number | null;
-  total_return_pct:        number | null;
-  outcome:                 'WIN' | 'LOSS' | 'NO_DATA';
+export interface EquityCurvePoint {
+  date:   string;
+  value:  number;
+  ticker: string | null;
+}
+
+export interface Trade {
+  action:       'BUY' | 'SELL';
+  ticker:       string;
+  name:         string;
+  date:         string;
+  price:        number;
+  score?:       number;
+  entry_price?: number;
+  entry_date?:  string;
+  return_pct?:  number;
+  exit_reason?: string;
 }
 
 export interface BacktestSummary {
-  years_tested:          number;
-  wins:                  number;
+  years_tested?:         number;
+  wins?:                 number;
   win_rate_pct:          number;
-  avg_total_return_pct:  number;
+  avg_total_return_pct:  number | null;
   best_return_pct:       number | null;
   worst_return_pct:      number | null;
+  total_trades?:         number;
+  start_date?:           string | null;
+  end_date?:             string | null;
+  final_value?:          number;
+  total_return_pct?:     number;
+  max_drawdown_pct?:     number | null;
+}
+
+export interface ExitRules {
+  take_profit_pct: number;
+  stop_loss_pct:   number;
+  rotation_gap:    number;
+  min_hold_weeks:  number;
 }
 
 export interface AiPickData {
-  generated_at:       string;
-  week:               string;
-  model_type:         string;
-  model_version:      string;
-  recommendation:     AiRecommendation;
-  candidates_scored:  number;
-  top5_scores:        { ticker: string; name: string; score: number }[];
+  generated_at:      string;
+  week:              string;
+  model_type:        string;
+  model_version:     string;
+  recommendation:    AiRecommendation;
+  candidates_scored: number;
+  top5_scores:       { ticker: string; name: string; score: number }[];
+  exit_rules:        ExitRules;
   backtest: {
-    summary: BacktestSummary;
-    picks:   BacktestPick[];
-    note:    string;
+    summary:      BacktestSummary;
+    equity_curve: EquityCurvePoint[];
+    trades:       Trade[];
+    note:         string;
   };
 }
 
