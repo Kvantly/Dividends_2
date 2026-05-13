@@ -146,7 +146,7 @@ def score_stock(ticker, div_data, fin_data,
         if a is not None and b is not None and a > 0:
             yield_growths.append(b - a)
     s_ytnd = round(sum(1 for g in yield_growths if g > 0) / len(yield_growths) * 10, 1) \
-             if yield_growths else 5.0
+             if yield_growths else 0.0
 
     div_total = s_cons + s_streak + s_yield + s_ytnd   # max 40
 
@@ -474,6 +474,9 @@ def main():
         if s and s['total_score'] > 0:
             scored.append(s)
     scored.sort(key=lambda x: x['total_score'], reverse=True)
+    if not scored:
+        print('  No stocks passed scoring filters — aborting.')
+        return
     print(f'  {len(scored)} stocks scored — top pick: {scored[0]["ticker"]} ({scored[0]["total_score"]}/70)')
 
     # ── Load previous position from last week's output ────────────────────────
@@ -534,8 +537,8 @@ def main():
                     'current_score': cur_score,
                     'unrealized_pct': round(pct, 1),
                     'weeks_held':    weeks_held + 1,
-                    'take_profit_at': round(entry_price * (1 + TAKE_PROFIT_PCT / 100), 2),
-                    'stop_loss_at':   round(entry_price * (1 - STOP_LOSS_PCT / 100), 2),
+                    'take_profit_at': round(entry_price * (1 + TAKE_PROFIT_PCT / 100), 2) if entry_price else None,
+                    'stop_loss_at':   round(entry_price * (1 - STOP_LOSS_PCT / 100), 2) if entry_price else None,
                 }
                 print(f'  HOLD {held_ticker}  {pct:+.1f}%  ({weeks_held+1} weeks)')
         else:
@@ -630,7 +633,7 @@ def main():
     today = datetime.now()
     output = {
         'generated_at':       today.strftime('%Y-%m-%d %H:%M:%S'),
-        'week':               today.strftime('%Y-W%V'),
+        'week':               today.strftime('%G-W%V'),
         'model_type':         'static',
         'model_version':      '2.0',
         'recommendation':     recommendation,

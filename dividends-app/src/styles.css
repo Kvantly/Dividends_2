@@ -854,6 +854,11 @@ body {
   gap: 32px;
 }
 
+.ai-hold-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .ai-hold-label {
   font-size: 11px;
   color: var(--text-tertiary);

@@ -83,18 +83,18 @@ export interface Trade {
 }
 
 export interface BacktestSummary {
-  years_tested?:         number;
-  wins?:                 number;
-  win_rate_pct:          number;
-  avg_total_return_pct:  number | null;
-  best_return_pct:       number | null;
-  worst_return_pct:      number | null;
-  total_trades?:         number;
-  start_date?:           string | null;
-  end_date?:             string | null;
-  final_value?:          number;
-  total_return_pct?:     number;
-  max_drawdown_pct?:     number | null;
+  wins?:                  number;
+  win_rate_pct?:          number;
+  avg_trade_return_pct?:  number | null;
+  best_trade_pct?:        number | null;
+  worst_trade_pct?:       number | null;
+  total_trades?:          number;
+  avg_hold_weeks?:        number;
+  start_date?:            string | null;
+  end_date?:              string | null;
+  final_value?:           number;
+  total_return_pct?:      number;
+  max_drawdown_pct?:      number | null;
 }
 
 export interface ExitRules {

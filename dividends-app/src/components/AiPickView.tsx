@@ -285,7 +285,7 @@ export function AiPickView({ onSelectStock }: Props) {
   const isHold = r.action === 'HOLD';
   const isBuy  = r.action === 'BUY';
 
-  const actionColor = isHold ? 'var(--accent)' : isBuy ? 'var(--green)' : 'var(--red)';
+  const actionColor = isHold ? 'var(--accent)' : isBuy ? 'var(--green)' : 'var(--accent)';
 
   const metrics = [
     { label: 'Dividend Yield',    value: fmt(m.dividend_yield_pct, '%'),    highlight: (m.dividend_yield_pct ?? 0) >= 4 },
@@ -318,7 +318,7 @@ export function AiPickView({ onSelectStock }: Props) {
           </div>
           <div className="rank-pill">
             <div className="rank-pill-label">Win rate</div>
-            <div className="rank-pill-value up">{bs.win_rate_pct?.toFixed(0) ?? '—'}%</div>
+            <div className="rank-pill-value up">{bs.win_rate_pct != null ? `${bs.win_rate_pct.toFixed(0)}%` : '—'}</div>
           </div>
           <div className="rank-pill">
             <div className="rank-pill-label">Generated</div>
@@ -457,7 +457,7 @@ export function AiPickView({ onSelectStock }: Props) {
           </div>
           <div className="ai-bt-pill">
             <div className="ai-bt-pill-label">Win rate</div>
-            <div className="ai-bt-pill-value up">{bs.win_rate_pct?.toFixed(0) ?? '—'}%</div>
+            <div className="ai-bt-pill-value up">{bs.win_rate_pct != null ? `${bs.win_rate_pct.toFixed(0)}%` : '—'}</div>
           </div>
           <div className="ai-bt-pill">
             <div className="ai-bt-pill-label">Total trades</div>
